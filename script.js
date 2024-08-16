@@ -797,7 +797,7 @@ const images = [
 const categories = {
     Colors: ["red", "blue", "green", "yellow", "white", "black", "brown", "purple", "orange", "pink"],
     Ground: ["well-drained soil", "moist soil", "any ground type"],
-    Season: ["winter", "sumer", "autumn", "spring"],
+    Season: ["winter", "summer", "autumn", "spring"],
     Height: ["0.2m", "0.5m", "1m", "1.5m", "2m", "3m", "5m", "8m", "10m", "15m", "20m"],
     Sunlight: ["full sunlight", "half shade", "shade"],
     Type: ["perennial", "biennial", "bush", "tree", "ground cover", "hedge"],

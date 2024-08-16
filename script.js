@@ -27,7 +27,7 @@ const images = [
     {
         name: "Aronia melanocarpa",
         src: "images/Aronia melanocarpa.jpg",
-        tags: ["white", "black", "autumn", "1.5m", "2m", "full sunlight", "half shade", "any ground type", "bush", "berries", "edible"]
+        tags: ["white", "autumn", "1.5m", "2m", "full sunlight", "half shade", "any ground type", "bush", "berries", "edible"]
     },
     {
         name: "Amelanchier ovalis",
@@ -622,7 +622,7 @@ const images = [
     {
         name: "Brunnera macrophylla 'Jack Frost'",
         src: "images/Brunnera macrophylla 'Jack Frost'.jpg",
-        tags: ["blue", "white", "spring", "0.2m", "shade", "moist soil", "perennial", "large leaves"]
+        tags: ["blue", "white", "spring", "0.2m", "shade", "moist soil", "perennial"]
     },
     {
         name: "Calamintha nepeta subsp. nepeta",

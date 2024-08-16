@@ -1114,6 +1114,16 @@ const images = [
         src: "images/Ferula communis.jpg",
         tags: ["yellow", "summer", "2m", "5m", "full sunlight", "well-drained soil", "perennial"]
     },
+    {
+        name: "Verbascum thapsus",
+        src: "images/Verbascum thapsus.jpg",
+        tags: ["yellow", "summer", "2m", "full sunlight", "well-drained soil", "biennial"]
+    },
+    {
+        name: "Verbascum densiflorum",
+        src: "images/Verbascum densiflorum.jpg",
+        tags: ["yellow", "summer", "3m", "full sunlight", "well-drained soil", "biennial"]
+    },
 
     // Add more images here following the same format
 ];

@@ -742,12 +742,12 @@ const images = [
     {
         name: "Fragaria vesca",
         src: "images/Fragaria vesca.jpg",
-        tags: ["white", "spring", "0.2m", "full sunlight", "well-drained soil", "edible", "fruit"]
+        tags: ["white", "spring", "0.2m", "full sunlight", "well-drained soil", "edible", "fruit", "native"]
     },
     {
         name: "Galium odoratum",
         src: "images/Galium odoratum.jpg",
-        tags: ["white", "spring", "0.2m", "0.5m", "shade", "well-drained soil", "perennial", "fragrant"]
+        tags: ["white", "spring", "0.2m", "0.5m", "shade", "well-drained soil", "perennial", "fragrant", "native"]
     },
     {
         name: "Gaura lindheimeri 'Whirling Butterflies'",
@@ -788,6 +788,331 @@ const images = [
         name: "Geranium sanguineum",
         src: "images/Geranium sanguineum.jpg",
         tags: ["red", "pink", "summer", "0.2m", "0.5m", "full sunlight", "half shade", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Geum rivale",
+        src: "images/Geum rivale.jpg",
+        tags: ["pink", "spring", "summer", "0.5m", "half shade", "moist soil", "perennial", "native"]
+    },
+    {
+        name: "Gunnera manicata",
+        src: "images/Gunnera manicata.jpg",
+        tags: ["green", "summer", "3m", "full sunlight", "moist soil", "perennial", "large leaves"]
+    },
+    {
+        name: "Helenium 'Moerheim Beauty'",
+        src: "images/Helenium 'Moerheim Beauty'.jpg",
+        tags: ["red", "orange", "summer", "1m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Helianthus 'Lemon Queen'",
+        src: "images/Helianthus 'Lemon Queen'.jpg",
+        tags: ["yellow", "summer", "autumn", "2m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Helleborus argutifolius",
+        src: "images/Helleborus argutifolius.jpg",
+        tags: ["green", "winter", "spring", "0.5m", "half shade", "well-drained soil", "perennial", "evergreen"]
+    },
+    {
+        name: "Helleborus foetidus",
+        src: "images/Helleborus foetidus.jpg",
+        tags: ["green", "winter", "spring", "0.5m", "half shade", "well-drained soil", "perennial", "evergreen"]
+    },
+    {
+        name: "Helleborus orientalis",
+        src: "images/Helleborus orientalis.jpg",
+        tags: ["varied", "winter", "spring", "0.5m", "half shade", "well-drained soil", "perennial", "evergreen"]
+    },
+    {
+        name: "Heuchera micrantha 'Palace Purple'",
+        src: "images/Heuchera micrantha 'Palace Purple'.jpg",
+        tags: ["purple", "spring", "0.5m", "half shade", "well-drained soil", "perennial", "evergreen"]
+    },
+    {
+        name: "Hosta 'Elegans'",
+        src: "images/Hosta 'Elegans'.jpg",
+        tags: ["blue", "summer", "1m", "shade", "moist soil", "perennial", "large leaves"]
+    },
+    {
+        name: "Iberis sempervirens",
+        src: "images/Iberis sempervirens.jpg",
+        tags: ["white", "spring", "0.5m", "0.2m", "full sunlight", "well-drained soil", "perennial", "evergreen"]
+    },
+    {
+        name: "Iris sibirica 'Blue King'",
+        src: "images/Iris sibirica 'Blue King'.jpg",
+        tags: ["blue", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Kalimeris incisa 'Madiva'",
+        src: "images/Kalimeris incisa 'Madiva'.jpg",
+        tags: ["white", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Kirengeshoma palmata",
+        src: "images/Kirengeshoma palmata.jpg",
+        tags: ["yellow", "summer", "1m", "half shade", "moist soil", "perennial"]
+    },
+    {
+        name: "Knautia macedonica",
+        src: "images/Knautia macedonica.jpg",
+        tags: ["red", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Lamiastrum galeobdolon",
+        src: "images/Lamiastrum galeobdolon.jpg",
+        tags: ["yellow", "spring", "0.5m", "shade", "moist soil", "perennial", "evergreen"]
+    },
+    {
+        name: "Lamium maculatum 'White Nancy'",
+        src: "images/Lamium maculatum 'White Nancy'.jpg",
+        tags: ["white", "spring", "0.5m", "shade", "moist soil", "perennial", "evergreen"]
+    },
+    {
+        name: "Lamium orvala",
+        src: "images/Lamium orvala.jpg",
+        tags: ["pink", "spring", "0.5m", "shade", "moist soil", "perennial", "evergreen"]
+    },
+    {
+        name: "Lavandula angustifolia",
+        src: "images/Lavandula angustifolia.jpg",
+        tags: ["purple", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Liatris spicata",
+        src: "images/Liatris spicata.jpg",
+        tags: ["purple", "summer", "1m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Ligularia dentata 'Othello'",
+        src: "images/Ligularia dentata 'Othello'.jpg",
+        tags: ["yellow", "summer", "1m", "half shade", "moist soil", "perennial"]
+    },
+    {
+        name: "Ligularia przewalskii",
+        src: "images/Ligularia przewalskii.jpg",
+        tags: ["yellow", "summer", "1.5m", "half shade", "moist soil", "perennial"]
+    },
+    {
+        name: "Liriope muscari",
+        src: "images/Liriope muscari.jpg",
+        tags: ["purple", "summer", "0.5m", "shade", "well-drained soil", "perennial", "evergreen"]
+    },
+    {
+        name: "Lupinus 'The Chatelaine'",
+        src: "images/Lupinus 'The Chatelaine'.jpg",
+        tags: ["pink", "summer", "1m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Lysimachia clethroides",
+        src: "images/Lysimachia clethroides.jpg",
+        tags: ["white", "summer", "1m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Lysimachia nummularia",
+        src: "images/Lysimachia nummularia.jpg",
+        tags: ["yellow", "summer", "0.2m", "full sunlight", "moist soil", "perennial", "ground cover"]
+    },
+    {
+        name: "Lysimachia punctata",
+        src: "images/Lysimachia punctata.jpg",
+        tags: ["yellow", "summer", "1m", "full sunlight", "moist soil", "perennial"]
+    },
+    {
+        name: "Macleaya microcarpa 'Kelway's Coral Plume'",
+        src: "images/Macleaya microcarpa 'Kelway's Coral Plume'.jpg",
+        tags: ["coral", "summer", "2m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Malva moschata",
+        src: "images/Malva moschata.jpg",
+        tags: ["pink", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Monarda 'Squaw'",
+        src: "images/Monarda 'Squaw'.jpg",
+        tags: ["red", "summer", "1m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Nepeta 'Walker's Low'",
+        src: "images/Nepeta 'Walker's Low'.jpg",
+        tags: ["blue", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Perovskia atriplicifolia 'Little Spire'",
+        src: "images/Perovskia atriplicifolia 'Little Spire'.jpg",
+        tags: ["blue", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Persicaria amplexicaulis",
+        src: "images/Persicaria amplexicaulis.jpg",
+        tags: ["red", "summer", "1m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Persicaria bistorta 'Superba'",
+        src: "images/Persicaria bistorta 'Superba'.jpg",
+        tags: ["pink", "summer", "0.5m", "full sunlight", "moist soil", "perennial"]
+    },
+    {
+        name: "Phlomis russeliana",
+        src: "images/Phlomis russeliana.jpeg",
+        tags: ["yellow", "summer", "1m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Phlox paniculata",
+        src: "images/Phlox paniculata.jpg",
+        tags: ["pink", "summer", "1m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Polygonatum multiflorum",
+        src: "images/Polygonatum multiflorum.jpg",
+        tags: ["white", "spring", "0.5m", "shade", "moist soil", "perennial", "evergreen", "native"]
+    },
+    {
+        name: "Pulmonaria officinalis 'Sissinghurst White'",
+        src: "images/Pulmonaria officinalis 'Sissinghurst White'.jpg",
+        tags: ["white", "spring", "0.2m", "0.5m", "shade", "moist soil", "perennial", "evergreen", "native"]
+    },
+    {
+        name: "Rheum palmatum var. tanguticum",
+        src: "images/Rheum palmatum var. tanguticum.jpg",
+        tags: ["red", "summer", "1.5m", "full sunlight", "well-drained soil", "perennial", "large leaves"]
+    },
+    {
+        name: "Rodgersia aesculifolia",
+        src: "images/Rodgersia aesculifolia.jpg",
+        tags: ["white", "summer", "1.5m", "shade", "moist soil", "perennial", "large leaves"]
+    },
+    {
+        name: "Rudbeckia fulgida 'Goldsturm'",
+        src: "images/Rudbeckia fulgida 'Goldsturm'.jpg",
+        tags: ["yellow", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Salvia nemorosa 'Ostfriesland'",
+        src: "images/Salvia nemorosa 'Ostfriesland'.jpg",
+        tags: ["purple", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Sanguisorba officinalis",
+        src: "images/Sanguisorba officinalis.jpg",
+        tags: ["red", "summer", "1m", "full sunlight", "well-drained soil", "perennial", "native"]
+    },
+    {
+        name: "Santolina chamaecyparissus",
+        src: "images/Santolina chamaecyparissus.jpg",
+        tags: ["yellow", "white", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial", "evergreen"]
+    },
+    {
+        name: "Sedum 'Matrona'",
+        src: "images/Sedum 'Matrona'.jpg",
+        tags: ["pink", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Sisyrinchium striatum",
+        src: "images/Sisyrinchium striatum.jpg",
+        tags: ["yellow", "spring", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Solidago rugosa 'Fireworks'",
+        src: "images/Solidago rugosa 'Fireworks'.jpg",
+        tags: ["yellow", "summer", "1m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Stachys byzantina",
+        src: "images/Stachys byzantina.jpg",
+        tags: ["purple", "white", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Stachys monieri 'Hummelo'",
+        src: "images/Stachys monieri 'Hummelo'.jpg",
+        tags: ["purple", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Symphytum azureum",
+        src: "images/Symphytum azureum.jpg",
+        tags: ["blue", "spring", "0.5m", "shade", "moist soil", "perennial", "native"]
+    },
+    {
+        name: "Symphytum grandiflorum",
+        src: "images/Symphytum grandiflorum.jpg",
+        tags: ["blue", "spring", "0.5m", "shade", "moist soil", "perennial", "native"]
+    },
+    {
+        name: "Telekia speciosa",
+        src: "images/Telekia speciosa.jpg",
+        tags: ["yellow", "summer", "1.5m", "full sunlight", "well-drained soil", "perennial", "large leaves"]
+    },
+    {
+        name: "Tellima grandiflora",
+        src: "images/Tellima grandiflora.jpg",
+        tags: ["white", "spring", "0.5m", "shade", "moist soil", "perennial"]
+    },
+    {
+        name: "Teucrium × lucidrys",
+        src: "images/Teucrium × lucidrys.jpg",
+        tags: ["purple", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial", "native"]
+    },
+    {
+        name: "Thalictrum delavayi",
+        src: "images/Thalictrum delavayi.jpg",
+        tags: ["purple", "summer", "1m", "half shade", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Tiarella cordifolia",
+        src: "images/Tiarella cordifolia.jpg",
+        tags: ["white", "spring", "0.2m", "shade", "moist soil", "perennial", "native"]
+    },
+    {
+        name: "Tradescantia 'Osprey'",
+        src: "images/Tradescantia 'Osprey'.jpg",
+        tags: ["blue", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Tricyrtis formosana",
+        src: "images/Tricyrtis formosana.jpeg",
+        tags: ["white", "purple", "summer", "0.5m", "shade", "moist soil", "perennial"]
+    },
+    {
+        name: "Verbascum nigrum var. album",
+        src: "images/Verbascum nigrum var. album.jpg",
+        tags: ["white", "summer", "1m", "full sunlight", "well-drained soil", "biennial"]
+    },
+    {
+        name: "Verbascum nigrum",
+        src: "images/Verbascum nigrum.jpg",
+        tags: ["yellow", "summer", "1m", "full sunlight", "well-drained soil", "biennial"]
+    },
+    {
+        name: "Verbena bonariensis",
+        src: "images/Verbena bonariensis.jpg",
+        tags: ["purple", "summer", "1.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Veronicastrum virginicum",
+        src: "images/Veronicastrum virginicum.jpg",
+        tags: ["white", "purple", "summer", "1.5m", "full sunlight", "well-drained soil", "perennial"]
+    },
+    {
+        name: "Vinca major",
+        src: "images/Vinca major.jpg",
+        tags: ["blue", "spring", "0.5m", "shade", "moist soil", "perennial", "evergreen"]
+    },
+    {
+        name: "Vinca minor",
+        src: "images/Vinca minor.jpg",
+        tags: ["blue", "spring", "0.2m", "shade", "moist soil", "perennial", "evergreen"]
+    },
+    {
+        name: "Waldsteinia ternata",
+        src: "images/Waldsteinia ternata.jpg",
+        tags: ["yellow", "spring", "0.2m", "shade", "moist soil", "perennial", "native"]
+    },
+    {
+        name: "Ferula communis",
+        src: "images/Ferula communis.jpg",
+        tags: ["yellow", "summer", "2m", "5m", "full sunlight", "well-drained soil", "perennial"]
     },
 
     // Add more images here following the same format

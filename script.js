@@ -10,8 +10,8 @@ const images = [
         tags: ["yellow", "winter", "2m", "3m", "full sunlight", "half shade", "any ground type", "bush"]
     },
     {
-        name: "Chaenomeles × superba",
-        src: "images/Chaenomeles × superba.jpg",
+        name: "Chaenomeles x superba",
+        src: "images/Chaenomeles x superba.jpg",
         tags: ["red", "orange", "spring", "1.5m", "full sunlight", "any ground type", "bush", "edible", "fruit"]
     },
     {
@@ -35,8 +35,8 @@ const images = [
         tags: ["white", "spring", "2m", "5m", "full sunlight", "half shade", "any ground type", "tree", "berries", "edible"]
     },
     {
-        name: "Abelia × grandiflora",
-        src: "images/Abelia × grandiflora.jpg",
+        name: "Abelia x grandiflora",
+        src: "images/Abelia x grandiflora.jpg",
         tags: ["pink", "white", "summer", "autumn", "1.5m", "2m", "full sunlight", "half shade", "well-drained soil", "bush"]
     },
     {
@@ -55,8 +55,8 @@ const images = [
         tags: ["pink", "purple", "summer", "3m", "5m", "full sunlight", "half shade", "any ground type", "bush"]
     },
     {
-        name: "Daphne × burkwoodii",
-        src: "images/Daphne × burkwoodii.jpg",
+        name: "Daphne x burkwoodii",
+        src: "images/Daphne x burkwoodii.jpg",
         tags: ["pink", "spring", "1m", "1.5m", "full sunlight", "half shade", "well-drained soil", "bush"]
     },
     {
@@ -75,13 +75,13 @@ const images = [
         tags: ["white", "spring", "1.5m", "2m", "full sunlight", "half shade", "any ground type", "bush"]
     },
     {
-        name: "Forsythia × intermedia",
-        src: "images/Forsythia × intermedia.webp",
+        name: "Forsythia x intermedia",
+        src: "images/Forsythia x intermedia.webp",
         tags: ["yellow", "spring", "2m", "3m", "full sunlight", "half shade", "any ground type", "bush"]
     },
     {
-        name: "Hamamelis × intermedia",
-        src: "images/Hamamelis × intermedia.jpg",
+        name: "Hamamelis x intermedia",
+        src: "images/Hamamelis x intermedia.jpg",
         tags: ["yellow", "orange", "red", "winter", "2m", "3m", "full sunlight", "half shade", "any ground type", "bush"]
     },
     {
@@ -155,8 +155,8 @@ const images = [
         tags: ["white", "spring", "2m", "3m", "full sunlight", "half shade", "well-drained soil", "tree"]
     },
     {
-        name: "Osmanthus × burkwoodii",
-        src: "images/Osmanthus × burkwoodii.jpg",
+        name: "Osmanthus x burkwoodii",
+        src: "images/Osmanthus x burkwoodii.jpg",
         tags: ["white", "spring", "2m", "3m", "full sunlight", "half shade", "well-drained soil", "bush"]
     },
     {
@@ -205,8 +205,8 @@ const images = [
         tags: ["white", "spring", "1m", "2m", "shade", "half shade", "well-drained soil", "bush", "berries"]
     },
     {
-        name: "Spiraea × vanhouttei",
-        src: "images/Spiraea × vanhouttei.jpeg",
+        name: "Spiraea x vanhouttei",
+        src: "images/Spiraea x vanhouttei.jpeg",
         tags: ["white", "spring", "1.5m", "2m", "full sunlight", "half shade", "any ground type", "bush"]
     },
     {
@@ -235,8 +235,8 @@ const images = [
         tags: ["purple", "white", "pink", "spring", "3m", "5m", "full sunlight", "half shade", "well-drained soil", "bush"]
     },
     {
-        name: "Viburnum × bodnantense",
-        src: "images/Viburnum × bodnantense.jpg",
+        name: "Viburnum x bodnantense",
+        src: "images/Viburnum x bodnantense.jpg",
         tags: ["pink", "winter", "2m", "3m", "full sunlight", "half shade", "well-drained soil", "bush", "berries"]
     },
     {
@@ -375,8 +375,8 @@ const images = [
         tags: ["white", "pink", "spring", "3m", "5m", "full sunlight", "well-drained soil", "tree", "fruit", "edible", "native"]
     },
     {
-        name: "Populus × canescens",
-        src: "images/Populus × canescens.jpg",
+        name: "Populus x canescens",
+        src: "images/Populus x canescens.jpg",
         tags: ["yellow", "spring", "15m", "20m", "full sunlight", "well-drained soil", "tree", "native"]
     },
     {
@@ -545,8 +545,8 @@ const images = [
         tags: ["white", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial"]
     },
     {
-        name: "Anemone × hybrida 'Honorine Jobert'",
-        src: "images/Anemone × hybrida 'Honorine Jobert'.jpg",
+        name: "Anemone x hybrida 'Honorine Jobert'",
+        src: "images/Anemone x hybrida 'Honorine Jobert'.jpg",
         tags: ["white", "autumn", "1m", "shade", "moist soil", "perennial"]
     },
     {
@@ -580,8 +580,8 @@ const images = [
         tags: ["white", "autumn", "0.5m", "shade", "moist soil", "perennial"]
     },
     {
-        name: "Aster × frikartii 'Mönch'",
-        src: "images/Aster × frikartii 'Mönch'.jpg",
+        name: "Aster x frikartii 'Mönch'",
+        src: "images/Aster x frikartii 'Mönch'.jpg",
         tags: ["blue", "autumn", "0.5m", "full sunlight", "well-drained soil", "perennial"]
     },
     {
@@ -710,13 +710,13 @@ const images = [
         tags: ["blue", "summer", "1m", "full sunlight", "well-drained soil", "perennial"]
     },
     {
-        name: "Epimedium × perralchicum 'Frohnleiten'",
-        src: "images/Epimedium × perralchicum 'Frohnleiten'.jpeg",
+        name: "Epimedium x perralchicum 'Frohnleiten'",
+        src: "images/Epimedium x perralchicum 'Frohnleiten'.jpeg",
         tags: ["yellow", "spring", "0.5m", "shade", "well-drained soil", "perennial"]
     },
     {
-        name: "Eryngium × zabelii 'Big Blue'",
-        src: "images/Eryngium × zabelii 'Big Blue'.jpeg",
+        name: "Eryngium x zabelii 'Big Blue'",
+        src: "images/Eryngium x zabelii 'Big Blue'.jpeg",
         tags: ["blue", "summer", "0.5m", "1m", "full sunlight", "well-drained soil", "perennial"]
     },
     {
@@ -760,8 +760,8 @@ const images = [
         tags: ["purple", "yellow", "summer", "0.5m", "1m", "full sunlight", "well-drained soil", "perennial"]
     },
     {
-        name: "Geranium × cantabrigiense 'Biokovo'",
-        src: "images/Geranium × cantabrigiense 'Biokovo'.jpg",
+        name: "Geranium x cantabrigiense 'Biokovo'",
+        src: "images/Geranium x cantabrigiense 'Biokovo'.jpg",
         tags: ["white", "summer", "0.5m", "1m", "full sunlight", "half shade", "well-drained soil", "perennial"]
     },
     {
@@ -1050,8 +1050,8 @@ const images = [
         tags: ["white", "spring", "0.5m", "shade", "moist soil", "perennial"]
     },
     {
-        name: "Teucrium × lucidrys",
-        src: "images/Teucrium × lucidrys.jpg",
+        name: "Teucrium x lucidrys",
+        src: "images/Teucrium x lucidrys.jpg",
         tags: ["purple", "summer", "0.5m", "full sunlight", "well-drained soil", "perennial", "native"]
     },
     {

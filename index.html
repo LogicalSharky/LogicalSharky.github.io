@@ -8,14 +8,14 @@
 </head>
 <body>
 <div class="search-container">
-    <input type="text" id="searchInput" placeholder="Search by tags or name...">
+    <input type="text" id="searchInput" placeholder="example: white, shade, -tree / purple, shade, -tree">
     <button onclick="searchImages()">Search</button>
     <button class="side-menu-toggle" onclick="toggleSideMenu()">☰ Tags</button>
 </div>
 <p class="instructions">
-    search for images with multiple tags: use a , <br>
-    search additional images with different tags: use a / <br>
-    exclude a tag: use a ,- <br>
+    , = multiple Tags <br>
+    / = additional images with different tags <br>
+    - = exclude tags 
 </p>
 <div id="sideMenu" class="side-menu">
     <div id="sideMenuContent" class="side-menu-content"></div>
@@ -33,7 +33,9 @@
     </div>
 </div>
 
+<!-- Include the new images.js file first -->
+<script src="images.js"></script>
+<!-- Main JavaScript file -->
 <script src="script.js"></script>
 </body>
 </html>
-

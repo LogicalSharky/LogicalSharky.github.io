@@ -31,6 +31,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Add event listener for input changes to update checkboxes
+    document.getElementById('searchInput').addEventListener('input', () => {
+        updateCheckboxesFromSearch();
+    });
+
     // Close the side menu when clicking outside of it
     document.addEventListener('click', (event) => {
         const sideMenu = document.getElementById('sideMenu');
@@ -74,12 +79,7 @@ function populateSideMenu() {
 
             // Event listener for checkbox toggle
             tagCheckbox.addEventListener('change', () => {
-                if (tagCheckbox.checked) {
-                    selectedTags.push(tag);
-                } else {
-                    selectedTags = selectedTags.filter(t => t !== tag);
-                }
-                searchImages(); // Trigger search immediately after a tag is selected/deselected
+                toggleTag(tag, tagCheckbox.checked);
             });
 
             const tagLabel = document.createElement('label');
@@ -106,29 +106,81 @@ function closeSideMenu() {
     sideMenu.classList.remove('show');
 }
 
-// Search for images based on selected tags
+// Handle tag checkbox changes
+function toggleTag(tag, isChecked) {
+    if (isChecked) {
+        if (!selectedTags.includes(tag)) {
+            selectedTags.push(tag);
+        }
+    } else {
+        selectedTags = selectedTags.filter(t => t !== tag);
+    }
+    // Update search input and perform search
+    document.getElementById('searchInput').value = selectedTags.join(', ');
+    searchImages();
+}
+
+// Update checkboxes based on search bar input
+function updateCheckboxesFromSearch() {
+    const searchInput = document.getElementById('searchInput').value.toLowerCase();
+    const tags = searchInput.split(',').map(tag => tag.trim());
+    const allCheckboxes = document.querySelectorAll('#sideMenuContent input[type="checkbox"]');
+
+    allCheckboxes.forEach(checkbox => {
+        const tag = checkbox.value.toLowerCase();
+        if (tags.includes(tag)) {
+            checkbox.checked = true;
+            if (!selectedTags.includes(tag)) {
+                selectedTags.push(tag);
+            }
+        } else {
+            checkbox.checked = false;
+            selectedTags = selectedTags.filter(t => t !== tag);
+        }
+    });
+
+    // Perform search based on updated tags
+    searchImages();
+}
+
 function searchImages() {
     const searchInput = document.getElementById('searchInput').value.toLowerCase();
     const imageGrid = document.getElementById('imageGrid');
     imageGrid.innerHTML = '';
 
-    let filteredImages = images;
+    // Split the search input into groups using '/'
+    const searchGroups = searchInput.split('/').map(group => group.trim());
+    const matchingImages = [];
 
-    // Filter images based on the selected tags
-    if (selectedTags.length > 0) {
-        filteredImages = images.filter(image => 
-            selectedTags.every(tag => image.tags.includes(tag))
-        );
-    }
+    searchGroups.forEach(group => {
+        const tags = group.split(',').map(tag => tag.trim());
+        const includeTags = [];
+        const excludeTags = [];
 
-    // Filter by name from search input
-    if (searchInput !== '') {
-        filteredImages = filteredImages.filter(image =>
-            image.name.toLowerCase().includes(searchInput)
-        );
-    }
+        // Separate include and exclude tags
+        tags.forEach(tag => {
+            if (tag.startsWith('-')) {
+                excludeTags.push(tag.substring(1).trim());
+            } else {
+                includeTags.push(tag.trim());
+            }
+        });
 
-    const sortedImages = filteredImages.sort((a, b) => a.name.localeCompare(b.name));
+        const groupImages = images.filter(image => {
+            const tagsMatch = includeTags.every(tag => image.tags.includes(tag));
+            const noExcludedTags = excludeTags.every(tag => !image.tags.includes(tag));
+            const nameMatch = image.name.toLowerCase().includes(includeTags.join(' '));
+            return (tagsMatch || nameMatch) && noExcludedTags;
+        });
+
+        matchingImages.push(...groupImages);
+    });
+
+    // Remove duplicates and sort
+    const uniqueImages = Array.from(new Set(matchingImages.map(image => image.src)))
+        .map(src => matchingImages.find(image => image.src === src));
+
+    const sortedImages = uniqueImages.sort((a, b) => a.name.localeCompare(b.name));
 
     displayImages(sortedImages);
 
@@ -137,7 +189,6 @@ function searchImages() {
     }
 }
 
-// Display the images in the grid
 function displayImages(imagesToDisplay) {
     const imageGrid = document.getElementById('imageGrid');
     imageGrid.innerHTML = '';
@@ -161,7 +212,6 @@ function displayImages(imagesToDisplay) {
     });
 }
 
-// Open the popup with the image details
 function openPopup(image) {
     const popup = document.getElementById('popup');
     const popupImage = document.getElementById('popupImage');
@@ -172,8 +222,10 @@ function openPopup(image) {
     popupImage.src = image.src;
     popupImage.alt = image.name;
     popupImageName.textContent = image.name;
-    popupImageTags.textContent = 'Tags: ' + image.tags.join(', ');
-    popupImageLink.href = `https://www.google.com/search?q=${encodeURIComponent(image.name)}`;
+
+    popupImageTags.innerHTML = image.tags.map(tag => `<span class="tag-box">${tag}</span>`).join(' '); 
+
+    popupImageLink.href = `https://www.google.com/search?hl=en&tbm=isch&q=${encodeURIComponent(image.name)}`;
 
     popup.style.display = 'flex';
 }

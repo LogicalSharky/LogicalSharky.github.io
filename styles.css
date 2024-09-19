@@ -123,6 +123,8 @@ button {
 .image-name {
     padding: 10px;
     text-align: center;
+    font-weight: bold; /* Make the name stand out more */
+    font-size: 18px; /* Larger font size for the name */
 }
 
 .popup {
@@ -150,22 +152,55 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .popup-content img {
-    max-width: 600px; /* Constrain the image size */
-    max-height: 600px; /* Constrain the image size */
-    min-width: 300px; /* Set a minimum width */
-    min-height: 300px; /* Set a minimum height */
+    max-width: 100%; /* Make image responsive */
+    max-height: 400px; /* Constrain the image size */
     height: auto;
     width: auto;
     border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.popup-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.popup-content #popupImageTags {
+    margin: 10px 0;
+}
+
+.popup-content .tag-box {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #333;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.popup-content a {
+    margin-top: 20px;
+    color: #9aba58; /* Change link color to match theme */
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.popup-content a:hover {
+    text-decoration: underline;
 }
 
 .close-btn {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 20px;
+    font-size: 24px;
     cursor: pointer;
+    color: #333;
 }

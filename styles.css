@@ -204,3 +204,9 @@ button {
     cursor: pointer;
     color: #333;
 }
+
+.dutch-name {
+    font-size: 14px; /* Smaller font size */
+    color: #666; /* Optional: different color for distinction */
+    margin-top: 5px; /* Space between names */
+}

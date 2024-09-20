@@ -1,13 +1,13 @@
 // Define categories and tags
 const categories = {
-    Colors: ["red", "blue", "green", "yellow", "white", "black", "brown", "purple", "orange", "pink"],
-    Ground: ["well-drained soil", "moist soil", "any ground type"],
-    Season: ["winter", "summer", "autumn", "spring"],
-    Height: ["0.2m", "0.5m", "1m", "1.5m", "2m", "3m", "5m", "8m", "10m", "15m", "20m"],
-    Sunlight: ["full sunlight", "half shade", "shade"],
-    Type: ["perennial", "biennial", "bush", "tree", "ground cover", "hedge"],
-    Food: ["fruit", "edible", "nuts", "berries"],
-    Other: ["large leaves", "toxic", "native", "evergreen"]
+    "Plant species": ["perennial", "biennial", "bush", "tree", "ground cover", "hedge"],
+    "Flower color": ["blue", "brown", "green", "orange", "pink", "purple", "red", "white", "yellow"],
+    "Flowering period": ["spring", "summer", "autumn", "winter"],
+    "Sunlight": ["full sunlight", "half shade", "shade"],
+    "Ground type": ["well-drained soil", "moist soil"],
+    "Height": ["<20cm", "20-50cm", "50-100cm", "100-150cm", "150-200cm", "2-3m", "3-5m", "5-10m", ">10m"],
+    "Fruits": ["edible (partly)", "berries", "fruit", "nuts"],
+    "Other": ["evergreen", "native", "aromatic", "large leaves", "toxic"]
 };
 
 // Track selected tags
@@ -65,10 +65,10 @@ function populateSideMenu() {
         categoryTitle.textContent = category;
         sideMenuContent.appendChild(categoryTitle);
 
-        // Sort tags alphabetically
-        const sortedTags = categories[category].sort();
+        // Use original order of tags without sorting
+        const tags = categories[category];
 
-        sortedTags.forEach(tag => {
+        tags.forEach(tag => {
             const tagContainer = document.createElement('div');
             tagContainer.classList.add('tag-container');
 
@@ -148,7 +148,6 @@ function searchImages() {
     const imageGrid = document.getElementById('imageGrid');
     imageGrid.innerHTML = '';
 
-    // Split the search input into groups using '/'
     const searchGroups = searchInput.split('/').map(group => group.trim());
     const matchingImages = [];
 
@@ -157,7 +156,6 @@ function searchImages() {
         const includeTags = [];
         const excludeTags = [];
 
-        // Separate include and exclude tags
         tags.forEach(tag => {
             if (tag.startsWith('-')) {
                 excludeTags.push(tag.substring(1).trim());
@@ -167,16 +165,17 @@ function searchImages() {
         });
 
         const groupImages = images.filter(image => {
-            const tagsMatch = includeTags.every(tag => image.tags.includes(tag));
+            const tagsMatch = includeTags.every(tag => image.tags.includes(tag)) || 
+                              includeTags.every(tag => image.dutch_name.toLowerCase().includes(tag)); // Check Dutch names
             const noExcludedTags = excludeTags.every(tag => !image.tags.includes(tag));
-            const nameMatch = image.name.toLowerCase().includes(includeTags.join(' '));
+            const nameMatch = image.name.toLowerCase().includes(includeTags.join(' ')) ||
+                              image.dutch_name.toLowerCase().includes(includeTags.join(' ')); // Check Dutch names
             return (tagsMatch || nameMatch) && noExcludedTags;
         });
 
         matchingImages.push(...groupImages);
     });
 
-    // Remove duplicates and sort
     const uniqueImages = Array.from(new Set(matchingImages.map(image => image.src)))
         .map(src => matchingImages.find(image => image.src === src));
 
@@ -223,12 +222,28 @@ function openPopup(image) {
     popupImage.alt = image.name;
     popupImageName.textContent = image.name;
 
+    // Clear previous Dutch name
+    const existingDutchName = document.querySelector('.dutch-name');
+    if (existingDutchName) {
+        existingDutchName.remove();
+    }
+
+    // Create and display the Dutch name
+    const dutchNameElement = document.createElement('div');
+    dutchNameElement.classList.add('dutch-name');
+    dutchNameElement.textContent = image.dutch_name; // Add Dutch name
+
     popupImageTags.innerHTML = image.tags.map(tag => `<span class="tag-box">${tag}</span>`).join(' '); 
 
     popupImageLink.href = `https://www.google.com/search?hl=en&tbm=isch&q=${encodeURIComponent(image.name)}`;
 
+    // Append the Dutch name below the Latin name and above the tags
+    const popupContent = document.querySelector('.popup-content');
+    popupContent.insertBefore(dutchNameElement, popupImageTags); // Insert Dutch name before tags
+
     popup.style.display = 'flex';
 }
+
 
 // Close the popup
 function closePopup() {

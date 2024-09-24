@@ -7,6 +7,7 @@ const categories = {
     "Ground type": ["well-drained soil", "moist soil"],
     "Height": ["<20cm", "20-50cm", "50-100cm", "100-150cm", "150-200cm", "2-3m", "3-5m", "5-10m", ">10m"],
     "Fruits": ["edible (partly)", "berries", "fruit", "nuts"],
+    "Climbing plants": ["adhesive", "epiphytes"],
     "Other": ["evergreen", "native", "aromatic", "large leaves", "toxic"]
 };
 

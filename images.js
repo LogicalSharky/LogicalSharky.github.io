@@ -55,7 +55,7 @@ const images = [
     },
     {
         name: "Actinidia kolomikta",
-        src: "images/Actinidia kolomikta.jpg",
+        src: "images/Actinidia kolomikta.jpeg",
         tags: ["white", "summer", "5-10m", "full sunlight", "well-drained soil", "climbing plant", "fruit", "edible (partly)"],
         dutch_name: "Kolomikta kiwi"
     },
@@ -655,7 +655,7 @@ const images = [
     },
     {
         name: "Hedera hibernica",
-        src: "images/hedera hibernica.jpg",
+        src: "images/hedera hibernica.jpeg",
         tags: ["green", "autumn", "winter", ">10m", "full sunlight", "half shade", "shade", "well-drained soil", "moist soil", "climbing plant", "ground cover", "berries", "evergreen", "native"],
         dutch_name: "Ierse Klimop"
     },    

@@ -57,7 +57,7 @@ const images = [
         name: "Actinidia kolomikta",
         src: "images/Actinidia kolomikta.jpg",
         tags: ["white", "summer", "5-10m", "full sunlight", "well-drained soil", "climbing plant", "fruit", "edible (partly)"],
-        dutch_name: "Kolomiktakiwi"
+        dutch_name: "Kolomikta kiwi"
     },
     {
         name: "Agastache 'Blue Fortune'",

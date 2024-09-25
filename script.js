@@ -1,6 +1,6 @@
 // Define categories and tags
 const categories = {
-    "Plant species": ["perennial", "biennial", "bush", "tree", "ground cover", "hedge"],
+    "Plant species": ["perennial", "biennial", "bush", "tree", "ground cover", "hedge", "climbing plant"],
     "Flower color": ["blue", "brown", "green", "orange", "pink", "purple", "red", "white", "yellow"],
     "Flowering period": ["spring", "summer", "autumn", "winter"],
     "Sunlight": ["full sunlight", "half shade", "shade"],

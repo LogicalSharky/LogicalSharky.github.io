@@ -54,6 +54,12 @@ const images = [
         dutch_name: "Zilverkaars"
     },
     {
+        name: "Actinidia kolomikta",
+        src: "images/Actinidia kolomikta.jpg",
+        tags: ["white", "summer", "5-10m", "full sunlight", "well-drained soil", "climbing plant", "fruit", "edible (partly)"],
+        dutch_name: "Kolomiktakiwi"
+    },
+    {
         name: "Agastache 'Blue Fortune'",
         src: "images/Agastache 'Blue Fortune'.jpg",
         tags: ["blue", "summer", "50-100cm", "full sunlight", "well-drained soil", "perennial", "edible (partly)", "aromatic"],
@@ -63,6 +69,12 @@ const images = [
         name: "Ajuga reptans 'Atropurpurea'",
         src: "images/Ajuga reptans 'Atropurpurea'.jpg",
         tags: ["purple", "spring", "<20cm", "shade", "moist soil", "ground cover", "evergreen"],
+        dutch_name: "Kruipend zenegroen"
+    },
+    {
+        name: "Akebia quinata",
+        src: "images/Akebia quinata.jpg",
+        tags: ["purple", "spring", "5-10m", "full-sunlight", "half shade", "well-drained soil", "climbing plant", "aromatic", "fruit", "edible (partly)"],
         dutch_name: "Kruipend zenegroen"
     },
     {
@@ -96,6 +108,12 @@ const images = [
         dutch_name: "Europees krentenboompje"
     },
     {
+        name: "Ampelopsis glandulosa 'Elegans'",
+        src: "images/Ampelopsis glandulosa 'Elegans'.jpg",
+        tags: ["green", "summer", "2-3m", "full sunlight", "half shade", "well-drained soil", "climbing plant", "berries"],
+        dutch_name: "Bonte wingerd"
+    },
+    {
         name: "Anaphalis triplinervis",
         src: "images/Anaphalis triplinervis.jpg",
         tags: ["white", "summer", "50-100cm", "full sunlight", "well-drained soil", "perennial"],
@@ -112,6 +130,12 @@ const images = [
         src: "images/Aquilegia vulgaris.jpg",
         tags: ["blue", "purple", "red", "pink", "spring", "50-100cm", "full sunlight", "well-drained soil", "perennial"],
         dutch_name: "Gewone akelei"
+    },
+    {
+        name: "Aristolochia macrophylla",
+        src: "images/Aristolochia macrophylla.jpg",
+        tags: ["yellow", "spring", "5-10m", "half shade", "well-drained soil", "climbing plant"],
+        dutch_name: "Duitse pijp(bloem)"
     },
     {
         name: "Aronia melanocarpa",
@@ -240,6 +264,12 @@ const images = [
         dutch_name: "Klokje"
     },
     {
+        name: "Campsis radicans",
+        src: "images/Campsis radicans.jpg",
+        tags: ["yellow", "orange", "autumn", "summer", "5-10m", "full sunlight", "well-drained soil", "climbing plant", "voedsel"],
+        dutch_name: "Amerikaanse trompetklimmer"
+    },
+    {
         name: "Carpinus betulus",
         src: "images/Carpinus betulus.jpg",
         tags: ["catkins", "spring", ">10m", "full sunlight", "half shade", "well-drained soil", "tree", "hedge", "native"],
@@ -286,6 +316,30 @@ const images = [
         src: "images/Clethra alnifolia.jpg",
         tags: ["white", "summer", "150-200cm", "full sunlight", "half shade", "moist soil", "bush"],
         dutch_name: "Schijnels"
+    },
+    {
+        name: "Clematis alpina",
+        src: "images/Clematis alpina.jpg",
+        tags: ["purple", "spring", "2-3m", "full sunlight", "half shade", "well-drained soil", "climbing plant"],
+        dutch_name: "Alpenbosrank"
+    },
+    {
+        name: "Clematis montana",
+        src: "images/Clematis montana.jpg",
+        tags: ["white", "pink", "spring", "5-10m", "full sunlight", "half shade", "well-drained soil", "climbing plant"],
+        dutch_name: "Bergbosrank"
+    },
+    {
+        name: "Clematis tibetana subsp. tangutica",
+        src: "images/Clematis tibetana subsp. tangutica.jpg",
+        tags: ["yellow", "summer", "3-5m", "full sunlight", "half shade", "well-drained soil", "climbing plant"],
+        dutch_name: "Goudbosrank"
+    },
+    {
+        name: "Clematis vitalba",
+        src: "images/Clematis vitalba.jpg",
+        tags: ["white", "summer", "3-5m", "5-10m", ">10m", "full sunlight", "half shade", "well-drained soil", "climbing plant", "native"],
+        dutch_name: "(Wilde) Bosrank"
     },
     {
         name: "Cornus mas",
@@ -438,6 +492,12 @@ const images = [
         dutch_name: "Wilde kardinaalsmuts"
     },
     {
+        name: "Euonymus fortunei",
+        src: "images/Euonymus fortunei.jpg",
+        tags: ["green", "pink", "red", "summer", "50-100cm", "100-150cm", "150-200cm", "full sunlight", "half shade", "well-drained soil", "climbing plant", "hedge", "ground cover", "evergreen"],
+        dutch_name: "(Japanse) kardinaalsmuts"
+    },
+    {
         name: "Eupatorium maculatum 'Atropurpureum'",
         src: "images/Eupatorium maculatum 'Atropurpureum'.jpg",
         tags: ["purple", "summer", "150-200cm", "full sunlight", "moist soil", "perennial"],
@@ -472,6 +532,12 @@ const images = [
         src: "images/Fagus sylvatica.jpg",
         tags: ["green", "spring", ">10m", "full sunlight", "half shade", "well-drained soil", "tree", "native"],
         dutch_name: "Beuk"
+    },
+    {
+        name: "Fallopia baldschuanica",
+        src: "images/Fallopia baldschuanica.jpg",
+        tags: ["white", "summer", "autumn", ">10m", "full sunlight", "half shade", "well-drained soil", "moist soil", "climbing plant", "nuts"],
+        dutch_name: "Bruidssluier"
     },
     {
         name: "Ferula communis",
@@ -582,6 +648,18 @@ const images = [
         dutch_name: "Toverhazelaar"
     },  
     {
+        name: "Hedera helix",
+        src: "images/Hedera helix.jpeg",
+        tags: ["green", "autumn", "winter", ">10m", "full sunlight", "half shade", "shade", "well-drained soil", "moist soil", "climbing plant", "ground cover", "berries", "evergreen", "native"],
+        dutch_name: "Klimop"
+    },
+    {
+        name: "Hedera hibernica",
+        src: "images/hedera hibernica.jpg",
+        tags: ["green", "autumn", "winter", ">10m", "full sunlight", "half shade", "shade", "well-drained soil", "moist soil", "climbing plant", "ground cover", "berries", "evergreen", "native"],
+        dutch_name: "Ierse Klimop"
+    },    
+    {
         name: "Helenium 'Moerheim Beauty'",
         src: "images/Helenium 'Moerheim Beauty'.jpg",
         tags: ["red", "orange", "summer", "50-100cm", "full sunlight", "well-drained soil", "perennial"],
@@ -642,6 +720,18 @@ const images = [
         dutch_name: "Hartlelie"
     },    
     {
+        name: "Humulus lupulus",
+        src: "images/Humulus lupulus.jpg",
+        tags: ["green", "summer", "hooghte", "full sunlight", "half shade", "shade", "well-drained soil", "moist soil", "climbing plant", "edible (partly)", "native"],
+        dutch_name: "Wilde hop"
+    },
+    {
+        name: "Hydrangea anomala subsp. petiolaris",
+        src: "images/Hydrangea anomala subsp. petiolaris.jpg",
+        tags: ["white", "spring", "summer", ">10m", "full sunlight", "half shade", "shade", "well-drained soil", "climbing plant", "ground cover"],
+        dutch_name: "Klimhortensia"
+    },
+    {
         name: "Hydrangea aspera",
         src: "images/Hydrangea aspera.jpg",
         tags: ["blue", "purple", "summer", "2-3m", "full sunlight", "half shade", "well-drained soil", "bush"],
@@ -694,6 +784,12 @@ const images = [
         src: "images/Iris sibirica 'Blue King'.jpg",
         tags: ["blue", "summer", "50-100cm", "full sunlight", "well-drained soil", "perennial"],
         dutch_name: "Siberische iris"
+    },
+    {
+        name: "Jasminum nudiflorum",
+        src: "images/Jasminum nudiflorum.jpeg",
+        tags: ["yellow", "winter", "2-3m", "3-5m", "full sunlight", "half shade", "shade", "moist soil", "well-drained soil", "climbing plant"],
+        dutch_name: "Winterjasmijn"
     },
     {
         name: "Kalimeris incisa 'Madiva'",
@@ -792,6 +888,24 @@ const images = [
         dutch_name: "Winterkamperfoelie"
     },
     {
+        name: "Lonicera caprifolium",
+        src: "images/Lonicera caprifolium.jpg",
+        tags: ["white", "spring", "summer", "3-5m", "full sunlight", "half shade", "well-drained soil", "moist soil", "climbing plant", "aromatic", "berries"],
+        dutch_name: "Wilde Kamperfoelie"
+    },
+    {
+        name: "Lonicera japonica",
+        src: "images/Lonicera japonica.jpg",
+        tags: ["white", "yellow", "summer", "5-10m", "full sunlight", "half shade", "well-drained soil", "climbing plant", "berries", "evergreen", "aromatic"],
+        dutch_name: ""
+    },
+    {
+        name: "Lonicera periclymenum",
+        src: "images/Lonicera periclymenum.png",
+        tags: ["red", "pink", "summer", "3-5m", "full sunlight", "half shade", "well-drained soil", "moist soil", "climbing plant", "berries", "native"],
+        dutch_name: "Wilde kamperfoelie"
+    },
+    {
         name: "Lonicera xylosteum",
         src: "images/Lonicera xylosteum.jpg",
         tags: ["white", "spring", "2-3m", "full sunlight", "half shade", "well-drained soil", "bush", "berries"],
@@ -863,6 +977,24 @@ const images = [
         tags: ["white", "spring", "2-3m", "full sunlight", "half shade", "well-drained soil", "bush", "aromatic"],
         dutch_name: "Schijnhulst"
     },    
+    {
+        name: "Parthenocissus quinquefolia",
+        src: "images/Parthenocissus quinquefolia.jpg",
+        tags: ["green", "summer", ">10m", "full sunlight", "half shade", "shade", "well-drained soil", "moist soil", "climbing plant", "berries"],
+        dutch_name: "Vijfbladige wingerd"
+    },
+    {
+        name: "Parthenocissus tricuspidata",
+        src: "images/Parthenocissus tricuspidata.jpg",
+        tags: ["green", "summer", ">10m", "full sunlight", "half shade", "shade", "well-drained soil", "moist soil", "climbing plant", "berries"],
+        dutch_name: "Driebladige wingerd"
+    },
+    {
+        name: "Passiflora caerulea",
+        src: "images/Passiflora caerulea.jpg",
+        tags: ["white", "purple", "blue", "summer", "autumn", "5-10m", "full sunlight", "half shade", "well-drained soil", "climbing plant", "fruit", "evergreen", "edible (partly)"],
+        dutch_name: "Blauwe passiebloem"
+    },
     {
         name: "Perovskia atriplicifolia 'Little Spire'",
         src: "images/Perovskia atriplicifolia 'Little Spire'.jpg",
@@ -1008,10 +1140,28 @@ const images = [
         dutch_name: "Kijkblad / Schout-bij-nacht"
     },
     {
+        name: "Rosa 'Albertine'",
+        src: "images/Rosa 'Albertine'.jpg",
+        tags: ["pink", "summer", "3-5m", "full sunlight", "half shade", "well-drained soil", "climbing plant", "aromatic"],
+        dutch_name: "Klimroos"
+    },    
+    {
         name: "Rosa canina",
         src: "images/Rosa canina.jpg",
         tags: ["pink", "spring", "2-3m", "full sunlight", "half shade", "well-drained soil", "bush", "fruit", "edible (partly)", "native", "aromatic"],
         dutch_name: "Hondsroos"
+    },
+    {
+        name: "Rosa filipes 'Kiftsgate'",
+        src: "images/Rosa filipes 'Kiftsgate'.jpg",
+        tags: ["white", "summer", ">10m", "full sunlight", "half shade", "well-drained soil", "climbing plant", "aromatic", "berries", "edible (partly)"],
+        dutch_name: "Ramblerroos"
+    }, 
+    {
+        name: "Rosa 'Gloire de Dijon'",
+        src: "images/Rosa 'Gloire de Dijon'.jpg",
+        tags: ["yellow", "pink", "spring", "summer", "3-5m", "full sunlight", "half shade", "well-drained soil", "climbing plant", "aromatic", "edible (partly)"],
+        dutch_name: "Klimroos"
     },
     {
         name: "Rosa pimpinellifolia",
@@ -1102,6 +1252,12 @@ const images = [
         src: "images/Sedum 'Matrona'.jpg",
         tags: ["pink", "summer", "50-100cm", "full sunlight", "well-drained soil", "perennial"],
         dutch_name: "Hemelsleutel"
+    },
+    {
+        name: "Schizophragma hydrangeoides",
+        src: "images/Schizophragma hydrangeoides.jpg",
+        tags: ["white", "summer", ">10m", "half shade", "moist soil", "climbing plant", "ground cover"],
+        dutch_name: "Pluimklimhortensia"
     },
     {
         name: "Sisyrinchium striatum",
@@ -1344,6 +1500,12 @@ const images = [
         dutch_name: "Kleine maagdenpalm"
     },
     {
+        name: "Vitis coignetiae",
+        src: "images/Vitis coignetiae.jpg",
+        tags: ["yellow", "summer", ">10m", "full sunlight", "half shade", "well-drained soil", "climbing plant", "berries", "edible (partly)"],
+        dutch_name: "Rode wijnstok"
+    },
+    {
         name: "Waldsteinia ternata",
         src: "images/Waldsteinia ternata.jpg",
         tags: ["yellow", "spring", "20-50cm", "shade", "moist soil", "perennial", "native", "edible (partly)"],
@@ -1354,7 +1516,19 @@ const images = [
         src: "images/Weigela florida.jpg",
         tags: ["pink", "red", "spring", "2-3m", "full sunlight", "half shade", "well-drained soil", "bush"],
         dutch_name: "Weigelia"
-    }       
+    },    
+    {
+        name: "Wisteria floribunda",
+        src: "images/Wisteria floribunda.jpg",
+        tags: ["blue", "purple", "spring", ">10m", "full sunlight", "half shade", "well-drained soil", "climbing plant", "fruit", "aromatic"],
+        dutch_name: "Japanse blauweregen"
+    },  
+    {
+        name: "Wisteria sinensis",
+        src: "images/Wisteria sinensis.jpg",
+        tags: ["blue", "purple", "spring", ">10m", "full sunlight", "half shade", "well-drained soil", "climbing plant", "fruit", "aromatic"],
+        dutch_name: "Chinese blauweregen"
+    }
 
     // Add more images here following the same format
 ];

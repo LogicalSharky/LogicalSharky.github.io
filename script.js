@@ -1,13 +1,11 @@
-// Define categories and tags
 const categories = {
-    "Plant species": ["perennial", "biennial", "bush", "tree", "ground cover", "hedge", "climbing plant"],
+    "Plant species": ["perennial", "biennial", "bush", "tree", "climbing plant", "ground cover", "hedge"],
     "Flower color": ["blue", "brown", "green", "orange", "pink", "purple", "red", "white", "yellow"],
     "Flowering period": ["spring", "summer", "autumn", "winter"],
     "Sunlight": ["full sunlight", "half shade", "shade"],
     "Ground type": ["well-drained soil", "moist soil"],
     "Height": ["<20cm", "20-50cm", "50-100cm", "100-150cm", "150-200cm", "2-3m", "3-5m", "5-10m", ">10m"],
     "Fruits": ["edible (partly)", "berries", "fruit", "nuts"],
-    "Climbing plants": ["adhesive", "epiphytes"],
     "Other": ["evergreen", "native", "aromatic", "large leaves", "toxic"]
 };
 
@@ -65,119 +63,116 @@ function populateSideMenu() {
         const categoryTitle = document.createElement('h3');
         categoryTitle.textContent = category;
         sideMenuContent.appendChild(categoryTitle);
+// Use original order of tags without sorting
+const tags = categories[category];
+tags.forEach(tag => {
+    const tagContainer = document.createElement('div');
+    tagContainer.classList.add('tag-container');
 
-        // Use original order of tags without sorting
-        const tags = categories[category];
+    const tagCheckbox = document.createElement('input');
+    tagCheckbox.type = 'checkbox';
+    tagCheckbox.id = `tag-${tag}`;
+    tagCheckbox.value = tag;
 
-        tags.forEach(tag => {
-            const tagContainer = document.createElement('div');
-            tagContainer.classList.add('tag-container');
-
-            const tagCheckbox = document.createElement('input');
-            tagCheckbox.type = 'checkbox';
-            tagCheckbox.id = `tag-${tag}`;
-            tagCheckbox.value = tag;
-
-            // Event listener for checkbox toggle
-            tagCheckbox.addEventListener('change', () => {
-                toggleTag(tag, tagCheckbox.checked);
-            });
-
-            const tagLabel = document.createElement('label');
-            tagLabel.htmlFor = `tag-${tag}`;
-            tagLabel.textContent = tag;
-
-            tagContainer.appendChild(tagCheckbox);
-            tagContainer.appendChild(tagLabel);
-
-            sideMenuContent.appendChild(tagContainer);
-        });
+    // Event listener for checkbox toggle
+    tagCheckbox.addEventListener('change', () => {
+        toggleTag(tag, tagCheckbox.checked);
     });
+
+    const tagLabel = document.createElement('label');
+    tagLabel.htmlFor = `tag-${tag}`;
+    tagLabel.textContent = tag;
+
+    tagContainer.appendChild(tagCheckbox);
+    tagContainer.appendChild(tagLabel);
+
+    sideMenuContent.appendChild(tagContainer);
+});
+});
 }
 
 // Toggle the visibility of the side menu
 function toggleSideMenu() {
-    const sideMenu = document.getElementById('sideMenu');
-    sideMenu.classList.toggle('show');
+const sideMenu = document.getElementById('sideMenu');
+sideMenu.classList.toggle('show');
 }
 
 // Close the side menu
 function closeSideMenu() {
-    const sideMenu = document.getElementById('sideMenu');
-    sideMenu.classList.remove('show');
+const sideMenu = document.getElementById('sideMenu');
+sideMenu.classList.remove('show');
 }
 
 // Handle tag checkbox changes
 function toggleTag(tag, isChecked) {
-    if (isChecked) {
-        if (!selectedTags.includes(tag)) {
-            selectedTags.push(tag);
-        }
-    } else {
-        selectedTags = selectedTags.filter(t => t !== tag);
-    }
-    // Update search input and perform search
-    document.getElementById('searchInput').value = selectedTags.join(', ');
-    searchImages();
+if (isChecked) {
+if (!selectedTags.includes(tag)) {
+    selectedTags.push(tag);
+}
+} else {
+selectedTags = selectedTags.filter(t => t !== tag);
+}
+// Update search input and perform search
+document.getElementById('searchInput').value = selectedTags.join(', ');
+searchImages();
 }
 
 // Update checkboxes based on search bar input
 function updateCheckboxesFromSearch() {
-    const searchInput = document.getElementById('searchInput').value.toLowerCase();
-    const tags = searchInput.split(',').map(tag => tag.trim());
-    const allCheckboxes = document.querySelectorAll('#sideMenuContent input[type="checkbox"]');
+const searchInput = document.getElementById('searchInput').value.toLowerCase();
+const tags = searchInput.split(',').map(tag => tag.trim());
+const allCheckboxes = document.querySelectorAll('#sideMenuContent input[type="checkbox"]');
 
-    allCheckboxes.forEach(checkbox => {
-        const tag = checkbox.value.toLowerCase();
-        if (tags.includes(tag)) {
-            checkbox.checked = true;
-            if (!selectedTags.includes(tag)) {
-                selectedTags.push(tag);
-            }
-        } else {
-            checkbox.checked = false;
-            selectedTags = selectedTags.filter(t => t !== tag);
-        }
-    });
+allCheckboxes.forEach(checkbox => {
+const tag = checkbox.value.toLowerCase();
+if (tags.includes(tag)) {
+    checkbox.checked = true;
+    if (!selectedTags.includes(tag)) {
+        selectedTags.push(tag);
+    }
+} else {
+    checkbox.checked = false;
+    selectedTags = selectedTags.filter(t => t !== tag);
+}
+});
 
-    // Perform search based on updated tags
-    searchImages();
+// Perform search based on updated tags
+searchImages();
 }
 
 function searchImages() {
-    const searchInput = document.getElementById('searchInput').value.toLowerCase();
-    const imageGrid = document.getElementById('imageGrid');
-    imageGrid.innerHTML = '';
+const searchInput = document.getElementById('searchInput').value.toLowerCase();
+const imageGrid = document.getElementById('imageGrid');
+imageGrid.innerHTML = '';
+const searchGroups = searchInput.split('/').map(group => group.trim());
+const matchingImages = [];
 
-    const searchGroups = searchInput.split('/').map(group => group.trim());
-    const matchingImages = [];
+searchGroups.forEach(group => {
+    const tags = group.split(',').map(tag => tag.trim());
+    const includeTags = [];
+    const excludeTags = [];
 
-    searchGroups.forEach(group => {
-        const tags = group.split(',').map(tag => tag.trim());
-        const includeTags = [];
-        const excludeTags = [];
-
-        tags.forEach(tag => {
-            if (tag.startsWith('-')) {
-                excludeTags.push(tag.substring(1).trim());
-            } else {
-                includeTags.push(tag.trim());
-            }
-        });
-
-        const groupImages = images.filter(image => {
-            const tagsMatch = includeTags.every(tag => image.tags.includes(tag)) || 
-                              includeTags.every(tag => image.dutch_name.toLowerCase().includes(tag)); // Check Dutch names
-            const noExcludedTags = excludeTags.every(tag => !image.tags.includes(tag));
-            const nameMatch = image.name.toLowerCase().includes(includeTags.join(' ')) ||
-                              image.dutch_name.toLowerCase().includes(includeTags.join(' ')); // Check Dutch names
-            return (tagsMatch || nameMatch) && noExcludedTags;
-        });
-
-        matchingImages.push(...groupImages);
+    // Separate include and exclude tags
+    tags.forEach(tag => {
+        if (tag.startsWith('-')) {
+            excludeTags.push(tag.substring(1).trim());
+        } else {
+            includeTags.push(tag.trim());
+        }
     });
 
-    const uniqueImages = Array.from(new Set(matchingImages.map(image => image.src)))
+    const groupImages = images.filter(image => {
+        const tagsMatch = includeTags.every(tag => image.tags.includes(tag)) || 
+        includeTags.every(tag => image.dutch_name.toLowerCase().includes(tag)); // Check Dutch names
+const noExcludedTags = excludeTags.every(tag => !image.tags.includes(tag));
+const nameMatch = image.name.toLowerCase().includes(includeTags.join(' ')) ||
+image.dutch_name.toLowerCase().includes(includeTags.join(' ')); // Check Dutch names
+return (tagsMatch || nameMatch) && noExcludedTags;
+});
+
+matchingImages.push(...groupImages);
+});
+const uniqueImages = Array.from(new Set(matchingImages.map(image => image.src)))
         .map(src => matchingImages.find(image => image.src === src));
 
     const sortedImages = uniqueImages.sort((a, b) => a.name.localeCompare(b.name));

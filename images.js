@@ -75,7 +75,7 @@ const images = [
         name: "Akebia quinata",
         src: "images/Akebia quinata.jpg",
         tags: ["purple", "spring", "5-10m", "full-sunlight", "half shade", "well-drained soil", "climbing plant", "aromatic", "fruit", "edible (partly)"],
-        dutch_name: "Kruipend zenegroen"
+        dutch_name: "Klimaugurk / Chocoladewingerd"
     },
     {
         name: "Alcea rosea",
@@ -547,7 +547,7 @@ const images = [
     },
     {
         name: "Forsythia x intermedia",
-        src: "images/Forsythia x intermedia.webp",
+        src: "images/Forsythia x intermedia.jpg",
         tags: ["yellow", "spring", "2-3m", "full sunlight", "half shade", "well-drained soil", "bush"],
         dutch_name: "Chinees klokje"
     },
@@ -882,7 +882,7 @@ const images = [
         dutch_name: "Leliegras"
     },
     {
-        name: "Lonicera fragrantissima",
+        name: "Lonicera fragra jantissima",
         src: "images/Lonicera fragrantissima.jpg",
         tags: ["white", "winter", "2-3m", "full sunlight", "half shade", "well-drained soil", "bush", "edible (partly)", "berries", "aromatic"],
         dutch_name: "Winterkamperfoelie"
@@ -897,7 +897,7 @@ const images = [
         name: "Lonicera japonica",
         src: "images/Lonicera japonica.jpg",
         tags: ["white", "yellow", "summer", "5-10m", "full sunlight", "half shade", "well-drained soil", "climbing plant", "berries", "evergreen", "aromatic"],
-        dutch_name: ""
+        dutch_name: "Japanse kamperfoelie"
     },
     {
         name: "Lonicera periclymenum",

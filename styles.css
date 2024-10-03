@@ -210,3 +210,17 @@ button {
     color: #666; /* Optional: different color for distinction */
     margin-top: 5px; /* Space between names */
 }
+
+.nav-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+}
+
+.popup-content {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+}

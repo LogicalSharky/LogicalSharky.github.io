@@ -72,7 +72,7 @@ const plants = [
 {
     'Latin name': "Adromischus cooperi",
     'Dutch name': "",
-    'Main image': "houseplants/Adromischus cooperi/Adromischus cooperi 1.JPG",
+    'Main image': "houseplants/Adromischus cooperi/Adromischus cooperi 1.JPEG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {

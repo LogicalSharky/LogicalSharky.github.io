@@ -1,40 +1,61 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Search by Tags</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plantpicker</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #d4fc79, #96e6a1);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0;
+    }
+
+    h1 {
+      color: #2e4e1e;
+      margin-bottom: 40px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .button-container {
+      display: flex;
+      gap: 20px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 12px;
+      font-size: 18px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    .button:hover {
+      background-color: #45a049;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+    }
+
+  </style>
 </head>
 <body>
-<div class="search-container">
-    <input type="text" id="searchInput" placeholder="example: white, shade, -tree / purple, shade, -tree">
-    <button onclick="searchImages()">Search</button>
-    <button class="side-menu-toggle" onclick="toggleSideMenu()">☰ Tags</button>
-</div>
-<p class="instructions">
-    , = multiple Tags <br>
-    / = additional images with different tags <br>
-    - = exclude tags 
-</p>
-<div id="sideMenu" class="side-menu">
-    <div id="sideMenuContent" class="side-menu-content"></div>
-</div>
-<div id="imageGrid" class="image-grid"></div>
+  <h1>Welcome to Plantpicker by Mats Pinket</h1>
 
-<!-- Popup container for enlarged image -->
-<div id="popup" class="popup">
-    <div class="popup-content">
-        <span class="close-btn" onclick="closePopup()">&times;</span>
-        <img id="popupImage" src="" alt="">
-        <h2 id="popupImageName"></h2> 
-        <div id="popupImageTags"></div>
-        <a id="popupImageLink" href="" target="_blank">Search on Google</a>
-    </div>
-</div>
+  <div class="button-container">
+    <a href="plantpicker old/index.html" class="button">Visit the old working version of Plantpicker</a>
+    <a href="plantpicker/index.html" class="button">Visit the new unfinished version of Plantpicker</a>
+  </div>
 
-<!-- Include the new images.js file first -->
-<script src="images.js"></script>
-<!-- Main JavaScript file -->
-<script src="script.js"></script>
 </body>
 </html>

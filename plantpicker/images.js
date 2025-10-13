@@ -72,7 +72,7 @@ const plants = [
 {
     'Latin name': "Adromischus cooperi",
     'Dutch name': "",
-    'Main image': "houseplants/Adromischus cooperi/Adromischus cooperi 1.JPEG",
+    'Main image': "houseplants/Adromischus cooperi/Adromischus cooperi 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -372,13 +372,13 @@ const plants = [
 {
     'Latin name': "Dracaena marginata",
     'Dutch name': "",
-    'Main image': "houseplants/Dracaena marginata/Dracaena marginata 1.jpg",
+    'Main image': "houseplants/Dracaena marginata/Dracaena marginata 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Dracaena sanderiana",
     'Dutch name': "",
-    'Main image': "houseplants/Dracaena sanderiana/Dracaena sanderiana 1.JPG",
+    'Main image': "houseplants/Dracaena sanderiana/Dracaena sanderiana 1.jpg",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {

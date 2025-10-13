@@ -51,7 +51,7 @@ let currentPlantIndex = 0;
 let currentImageIndex = 0;
 
 const allTags = {
-"TYPE OF PLANT": ["Aquatic plant","Bamboo","Biennial","Bush","Climbing plant","Flower bulb","Ground cover","Ornamental grass","Perennial","Pine tree","Shrub","Tree","Water plant","Weeds"],
+"TYPE OF PLANT": ["Aquatic plant","Bamboo","Biennial","Bush","Climbing plant","Flower bulb","Ground cover","Ornamental grass","Perennial","Pine tree","Shrub","Tree","Weeds"],
 "USE": ["Coastal area","Drought tolerant","Fragrant","Hardening tolerant","Hedge","Monkey proof","Pioneer species","Species for birds","Species for insects","Thickets","Vertical green & Roof garden","Wadi"],
 "--------------COLOUR---------------":[],
 "FLOWER COLOUR": ["Black flowers","Blue flowers","Brown flowers","Green flowers","Orange flowers","Pink flowers","Purple flowers","Red flowers","White flowers","Yellow flowers"],

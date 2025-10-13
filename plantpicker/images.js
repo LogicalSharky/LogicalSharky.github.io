@@ -5,8 +5,8 @@ const plants = [
     {
         'Latin name': "Ammophila arenaria",
         'Dutch name': "Helmgras",
-        'Main image': "images/Ammophila arenaria/Ammophila arenaria 1.jpg",
-        'Sub images':["images/Ammophila arenaria/Ammophila arenaria 2.jpg","images/Ammophila arenaria/Ammophila arenaria 3.jpg","images/Ammophila arenaria/Ammophila arenaria 4.jpg","images/Ammophila arenaria/Ammophila arenaria 5.jpg",],
+        'Main image': "images/Ammophila arenaria/Ammophila arenaria 1.JPG",
+        'Sub images':["images/Ammophila arenaria/Ammophila arenaria 2.JPG","images/Ammophila arenaria/Ammophila arenaria 3.JPG","images/Ammophila arenaria/Ammophila arenaria 4.JPG","images/Ammophila arenaria/Ammophila arenaria 5.JPG",],
         "TYPE OF PLANT": [],
         "USE": [],
         "FLOWER COLOUR": [],
@@ -33,32 +33,32 @@ const plants = [
     {
         'Latin name': "Impatiens glandulifera",
         'Dutch name': "Reuzenbalsemien",
-        'Main image': "images/Impatiens glandulifera/Impatiens glandulifera 1.jpg",
-        'Sub images':["images/Impatiens glandulifera/Impatiens glandulifera 2.jpg","images/Impatiens glandulifera/Impatiens glandulifera 3.jpg","images/Impatiens glandulifera/Impatiens glandulifera 4.jpg","images/Impatiens glandulifera/Impatiens glandulifera 5.jpg","images/Impatiens glandulifera/Impatiens glandulifera 6.jpg","images/Impatiens glandulifera/Impatiens glandulifera 7.jpg"],
+        'Main image': "images/Impatiens glandulifera/Impatiens glandulifera 1.JPG",
+        'Sub images':["images/Impatiens glandulifera/Impatiens glandulifera 2.JPG","images/Impatiens glandulifera/Impatiens glandulifera 3.JPG","images/Impatiens glandulifera/Impatiens glandulifera 4.JPG","images/Impatiens glandulifera/Impatiens glandulifera 5.JPG","images/Impatiens glandulifera/Impatiens glandulifera 6.JPG","images/Impatiens glandulifera/Impatiens glandulifera 7.JPG"],
     },
     {
         'Latin name': "Iris pseudacorus",
         'Dutch name': "Gele lis",
-        'Main image': "images/Iris pseudacorus/Iris pseudacorus 1.jpg",
-        'Sub images':["images/Iris pseudacorus/Iris pseudacorus 2.jpg"],
+        'Main image': "images/Iris pseudacorus/Iris pseudacorus 1.JPG",
+        'Sub images':["images/Iris pseudacorus/Iris pseudacorus 2.JPG"],
     },
     {
         'Latin name': "Nuphar lutea",
         'Dutch name': "Gele plomp",
-        'Main image': "images/Nuphar lutea/Nuphar lutea 1.jpg",
-        'Sub images':["images/Nuphar lutea/Nuphar lutea 2.jpg","images/Nuphar lutea/Nuphar lutea 3.jpg","images/Nuphar lutea/Nuphar lutea 4.jpg","images/Nuphar lutea/Nuphar lutea 5.jpg"],
+        'Main image': "images/Nuphar lutea/Nuphar lutea 1.JPG",
+        'Sub images':["images/Nuphar lutea/Nuphar lutea 2.JPG","images/Nuphar lutea/Nuphar lutea 3.JPG","images/Nuphar lutea/Nuphar lutea 4.JPG","images/Nuphar lutea/Nuphar lutea 5.JPG"],
     },
     {
         'Latin name': "Populus x canescens",
         'Dutch name': "Grauwe abeel",
-        'Main image': "images/Populus x canescens/Populus x canescens 1.jpg",
-        'Sub images':["images/Populus x canescens/Populus x canescens 2.jpg","images/Populus x canescens/Populus x canescens 3.jpg","images/Populus x canescens/Populus x canescens 4.jpg","images/Populus x canescens/Populus x canescens 5.jpg","images/Populus x canescens/Populus x canescens 6.jpg","images/Populus x canescens/Populus x canescens 7.jpg","images/Populus x canescens/Populus x canescens 8.jpg"],
+        'Main image': "images/Populus x canescens/Populus x canescens 1.JPG",
+        'Sub images':["images/Populus x canescens/Populus x canescens 2.JPG","images/Populus x canescens/Populus x canescens 3.JPG","images/Populus x canescens/Populus x canescens 4.JPG","images/Populus x canescens/Populus x canescens 5.JPG","images/Populus x canescens/Populus x canescens 6.JPG","images/Populus x canescens/Populus x canescens 7.JPG","images/Populus x canescens/Populus x canescens 8.JPG"],
     },
     {
         'Latin name': "Taxodium distichum",
         'Dutch name': "Moerascipres",
-        'Main image': "images/Taxodium distichum/Taxodium distichum 1.jpg",
-        'Sub images':["images/Taxodium distichum/Taxodium distichum 2.jpg","images/Taxodium distichum/Taxodium distichum 3.jpg","images/Taxodium distichum/Taxodium distichum 4.jpg"],
+        'Main image': "images/Taxodium distichum/Taxodium distichum 1.JPG",
+        'Sub images':["images/Taxodium distichum/Taxodium distichum 2.JPG","images/Taxodium distichum/Taxodium distichum 3.JPG","images/Taxodium distichum/Taxodium distichum 4.JPG"],
     },
 
 // HOUSEPLANTS
@@ -72,13 +72,13 @@ const plants = [
 {
     'Latin name': "Adromischus cooperi",
     'Dutch name': "",
-    'Main image': "houseplants/Adromischus cooperi/Adromischus cooperi 1.jpg",
+    'Main image': "houseplants/Adromischus cooperi/Adromischus cooperi 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Aechmea fasciata",
     'Dutch name': "",
-    'Main image': "houseplants/Aechmea fasciata/Aechmea fasciata 1.jpg",
+    'Main image': "houseplants/Aechmea fasciata/Aechmea fasciata 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -90,7 +90,7 @@ const plants = [
 {
     'Latin name': "Alocasia baginda",
     'Dutch name': "",
-    'Main image': "houseplants/Alocasia baginda/Alocasia baginda 1.jpg",
+    'Main image': "houseplants/Alocasia baginda/Alocasia baginda 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -102,13 +102,13 @@ const plants = [
 {
     'Latin name': "Alocasia cuprea",
     'Dutch name': "",
-    'Main image': "houseplants/Alocasia cuprea/Alocasia cuprea 1.jpg",
+    'Main image': "houseplants/Alocasia cuprea/Alocasia cuprea 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Alocasia 'Jacklyn'",
     'Dutch name': "",
-    'Main image': "houseplants/Alocasia 'Jacklyn'/Alocasia 'Jacklyn' 1.jpg",
+    'Main image': "houseplants/Alocasia 'Jacklyn'/Alocasia 'Jacklyn' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -138,19 +138,19 @@ const plants = [
 {
     'Latin name': "Alocasia macrorrhizos variegata aurea",
     'Dutch name': "",
-    'Main image': "houseplants/Alocasia macrorrhizos variegata aurea/Alocasia macrorrhizos variegata aurea 1.jpg",
+    'Main image': "houseplants/Alocasia macrorrhizos variegata aurea/Alocasia macrorrhizos variegata aurea 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Alocasia micholitziana 'Frydek'",
     'Dutch name': "",
-    'Main image': "houseplants/Alocasia micholitziana 'Frydek'/Alocasia micholitziana 'Frydek' 1.jpg",
+    'Main image': "houseplants/Alocasia micholitziana 'Frydek'/Alocasia micholitziana 'Frydek' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Alocasia micholitziana 'Frydek Variegata'",
     'Dutch name': "",
-    'Main image': "houseplants/Alocasia micholitziana 'Frydek Variegata'/Alocasia micholitziana 'Frydek Variegata' 1.jpg",
+    'Main image': "houseplants/Alocasia micholitziana 'Frydek Variegata'/Alocasia micholitziana 'Frydek Variegata' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -168,7 +168,7 @@ const plants = [
 {
     'Latin name': "Alocasia reginula 'Ninja'",
     'Dutch name': "",
-    'Main image': "houseplants/Alocasia reginula 'Ninja'/Alocasia reginula 'Ninja' 1.jpg",
+    'Main image': "houseplants/Alocasia reginula 'Ninja'/Alocasia reginula 'Ninja' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -180,13 +180,13 @@ const plants = [
 {
     'Latin name': "Alocasia reginula 'Ninja tricolor'",
     'Dutch name': "",
-    'Main image': "houseplants/Alocasia reginula 'Ninja tricolor'/Alocasia reginula 'Ninja tricolor' 1.jpg",
+    'Main image': "houseplants/Alocasia reginula 'Ninja tricolor'/Alocasia reginula 'Ninja tricolor' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Alocasia x amazonica",
     'Dutch name': "",
-    'Main image': "houseplants/Alocasia x amazonica/Alocasia x amazonica 1.jpg",
+    'Main image': "houseplants/Alocasia x amazonica/Alocasia x amazonica 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -198,19 +198,19 @@ const plants = [
 {
     'Latin name': "Alocasia zebrina",
     'Dutch name': "",
-    'Main image': "houseplants/Alocasia zebrina/Alocasia zebrina 1.jpg",
+    'Main image': "houseplants/Alocasia zebrina/Alocasia zebrina 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Ananas comosus",
     'Dutch name': "",
-    'Main image': "houseplants/Ananas comosus/Ananas comosus 1.jpg",
+    'Main image': "houseplants/Ananas comosus/Ananas comosus 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Anthurium crystallinum",
     'Dutch name': "",
-    'Main image': "houseplants/Anthurium crystallinum/Anthurium crystallinum 1.jpg",
+    'Main image': "houseplants/Anthurium crystallinum/Anthurium crystallinum 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -228,7 +228,7 @@ const plants = [
 {
     'Latin name': "Anthurium forgetii",
     'Dutch name': "",
-    'Main image': "houseplants/Anthurium forgetii/Anthurium forgetii 1.jpg",
+    'Main image': "houseplants/Anthurium forgetii/Anthurium forgetii 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -258,13 +258,13 @@ const plants = [
 {
     'Latin name': "Anthurium veitchii",
     'Dutch name': "",
-    'Main image': "houseplants/Anthurium veitchii/Anthurium veitchii 1.jpg",
+    'Main image': "houseplants/Anthurium veitchii/Anthurium veitchii 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Anthurium vittarifolium",
     'Dutch name': "",
-    'Main image': "houseplants/Anthurium vittarifolium/Anthurium vittarifolium 1.jpg",
+    'Main image': "houseplants/Anthurium vittarifolium/Anthurium vittarifolium 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -276,7 +276,7 @@ const plants = [
 {
     'Latin name': "Anthurium warocqueanum",
     'Dutch name': "",
-    'Main image': "houseplants/Anthurium warocqueanum/Anthurium warocqueanum 1.jpg",
+    'Main image': "houseplants/Anthurium warocqueanum/Anthurium warocqueanum 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -288,25 +288,25 @@ const plants = [
 {
     'Latin name': "Asparagus setaceus",
     'Dutch name': "",
-    'Main image': "houseplants/Asparagus setaceus/Asparagus setaceus 1.jpg",
+    'Main image': "houseplants/Asparagus setaceus/Asparagus setaceus 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Begonia 'Autumn Ember'",
     'Dutch name': "",
-    'Main image': "houseplants/Begonia 'Autumn Ember'/Begonia 'Autumn Ember' 1.jpg",
+    'Main image': "houseplants/Begonia 'Autumn Ember'/Begonia 'Autumn Ember' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Begonia ferox",
     'Dutch name': "",
-    'Main image': "houseplants/Begonia ferox/Begonia ferox 1.jpg",
+    'Main image': "houseplants/Begonia ferox/Begonia ferox 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Begonia maculata 'Black Forest'",
     'Dutch name': "",
-    'Main image': "houseplants/Begonia maculata 'Black Forest'/Begonia maculata 'Black Forest' 1.jpg",
+    'Main image': "houseplants/Begonia maculata 'Black Forest'/Begonia maculata 'Black Forest' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -318,43 +318,43 @@ const plants = [
 {
     'Latin name': "Caladium bicolor 'White Christmas'",
     'Dutch name': "",
-    'Main image': "houseplants/Caladium bicolor 'White Christmas'/Caladium bicolor 'White Christmas' 1.jpg",
+    'Main image': "houseplants/Caladium bicolor 'White Christmas'/Caladium bicolor 'White Christmas' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Chlorophytum comosum 'Variegatum'",
     'Dutch name': "",
-    'Main image': "houseplants/Chlorophytum comosum 'Variegatum'/Chlorophytum comosum 'Variegatum' 1.jpg",
+    'Main image': "houseplants/Chlorophytum comosum 'Variegatum'/Chlorophytum comosum 'Variegatum' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Cleistocactus colademononis",
     'Dutch name': "",
-    'Main image': "houseplants/Cleistocactus colademononis/Cleistocactus colademononis 1.jpg",
+    'Main image': "houseplants/Cleistocactus colademononis/Cleistocactus colademononis 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Cleistocactus strausii",
     'Dutch name': "",
-    'Main image': "houseplants/Cleistocactus strausii/Cleistocactus strausii 1.jpg",
+    'Main image': "houseplants/Cleistocactus strausii/Cleistocactus strausii 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Crassula marnieriana",
     'Dutch name': "",
-    'Main image': "houseplants/Crassula marnieriana/Crassula marnieriana 1.jpg",
+    'Main image': "houseplants/Crassula marnieriana/Crassula marnieriana 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Crassula mesembryanthemoides 'tenelli'",
     'Dutch name': "",
-    'Main image': "houseplants/Crassula mesembryanthemoides 'tenelli'/Crassula mesembryanthemoides 'tenelli' 1.jpg",
+    'Main image': "houseplants/Crassula mesembryanthemoides 'tenelli'/Crassula mesembryanthemoides 'tenelli' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Crassula ovata 'Gollum'",
     'Dutch name': "",
-    'Main image': "houseplants/Crassula ovata 'Gollum'/Crassula ovata 'Gollum' 1.jpg",
+    'Main image': "houseplants/Crassula ovata 'Gollum'/Crassula ovata 'Gollum' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -366,7 +366,7 @@ const plants = [
 {
     'Latin name': "Dionaea muscipula",
     'Dutch name': "",
-    'Main image': "houseplants/Dionaea muscipula/Dionaea muscipula 1.jpg",
+    'Main image': "houseplants/Dionaea muscipula/Dionaea muscipula 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -378,91 +378,91 @@ const plants = [
 {
     'Latin name': "Dracaena sanderiana",
     'Dutch name': "",
-    'Main image': "houseplants/Dracaena sanderiana/Dracaena sanderiana 1.jpg",
+    'Main image': "houseplants/Dracaena sanderiana/Dracaena sanderiana 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Dracaena trifasciata 'Laurentii'",
     'Dutch name': "",
-    'Main image': "houseplants/Dracaena trifasciata 'Laurentii'/Dracaena trifasciata 'Laurentii' 1.jpg",
+    'Main image': "houseplants/Dracaena trifasciata 'Laurentii'/Dracaena trifasciata 'Laurentii' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Epipremnum aureum",
     'Dutch name': "",
-    'Main image': "houseplants/Epipremnum aureum/Epipremnum aureum 1.jpg",
+    'Main image': "houseplants/Epipremnum aureum/Epipremnum aureum 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Epipremnum aureum 'Manjula'",
     'Dutch name': "",
-    'Main image': "houseplants/Epipremnum aureum 'Manjula'/Epipremnum aureum 'Manjula' 1.jpg",
+    'Main image': "houseplants/Epipremnum aureum 'Manjula'/Epipremnum aureum 'Manjula' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Epipremnum aureum 'Marble Queen'",
     'Dutch name': "",
-    'Main image': "houseplants/Epipremnum aureum 'Marble Queen'/Epipremnum aureum 'Marble Queen' 1.jpg",
+    'Main image': "houseplants/Epipremnum aureum 'Marble Queen'/Epipremnum aureum 'Marble Queen' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Epipremnum aureum 'Neon'",
     'Dutch name': "",
-    'Main image': "houseplants/Epipremnum aureum 'Neon'/Epipremnum aureum 'Neon' 1.jpg",
+    'Main image': "houseplants/Epipremnum aureum 'Neon'/Epipremnum aureum 'Neon' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Epipremnum pinnatum 'Albo-Variegata'",
     'Dutch name': "",
-    'Main image': "houseplants/Epipremnum pinnatum 'Albo-Variegata'/Epipremnum pinnatum 'Albo-Variegata' 1.jpg",
+    'Main image': "houseplants/Epipremnum pinnatum 'Albo-Variegata'/Epipremnum pinnatum 'Albo-Variegata' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Euphorbia trigona",
     'Dutch name': "",
-    'Main image': "houseplants/Euphorbia trigona/Euphorbia trigona 1.jpg",
+    'Main image': "houseplants/Euphorbia trigona/Euphorbia trigona 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Ficus macrocarpa",
     'Dutch name': "",
-    'Main image': "houseplants/Ficus macrocarpa/Ficus macrocarpa 1.jpg",
+    'Main image': "houseplants/Ficus macrocarpa/Ficus macrocarpa 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Gasteria pillansii Kensit",
     'Dutch name': "",
-    'Main image': "houseplants/Gasteria pillansii Kensit/Gasteria pillansii Kensit 1.jpg",
+    'Main image': "houseplants/Gasteria pillansii Kensit/Gasteria pillansii Kensit 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Goeppertia kegeljanii",
     'Dutch name': "",
-    'Main image': "houseplants/Goeppertia kegeljanii/Goeppertia kegeljanii 1.jpg",
+    'Main image': "houseplants/Goeppertia kegeljanii/Goeppertia kegeljanii 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Gymnocalycium mihanovichii var. friedrichii",
     'Dutch name': "",
-    'Main image': "houseplants/Gymnocalycium mihanovichii var. friedrichii/Gymnocalycium mihanovichii var. friedrichii 1.jpg",
+    'Main image': "houseplants/Gymnocalycium mihanovichii var. friedrichii/Gymnocalycium mihanovichii var. friedrichii 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Haworthia cooperi",
     'Dutch name': "",
-    'Main image': "houseplants/Haworthia cooperi/Haworthia cooperi 1.jpg",
+    'Main image': "houseplants/Haworthia cooperi/Haworthia cooperi 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Haworthia 'Universe'",
     'Dutch name': "",
-    'Main image': "houseplants/Haworthia 'Universe'/Haworthia 'Universe' 1.jpg",
+    'Main image': "houseplants/Haworthia 'Universe'/Haworthia 'Universe' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Heptapleurum arboricola 'Variegata'",
     'Dutch name': "",
-    'Main image': "houseplants/Heptapleurum arboricola 'Variegata'/Heptapleurum arboricola 'Variegata' 1.jpg",
+    'Main image': "houseplants/Heptapleurum arboricola 'Variegata'/Heptapleurum arboricola 'Variegata' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -474,21 +474,21 @@ const plants = [
 {
     'Latin name': "Hoya kerrii",
     'Dutch name': "",
-    'Main image': "houseplants/Hoya kerrii/Hoya kerrii 1.jpg",
-    'Sub images':["houseplants/Hoya kerrii/Hoya kerrii 2.jpg", "houseplants/Hoya kerrii/Hoya kerrii 3.jpg", "houseplants/Hoya kerrii/Hoya kerrii 4.jpg", "houseplants/Hoya kerrii/Hoya kerrii 5.jpg", "houseplants/Hoya kerrii/Hoya kerrii 6.jpg", "houseplants/Hoya kerrii/Hoya kerrii 7.jpg", "houseplants/Hoya kerrii/Hoya kerrii 8.jpg", ],
+    'Main image': "houseplants/Hoya kerrii/Hoya kerrii 1.JPG",
+    'Sub images':["houseplants/Hoya kerrii/Hoya kerrii 2.JPG", "houseplants/Hoya kerrii/Hoya kerrii 3.JPG", "houseplants/Hoya kerrii/Hoya kerrii 4.JPG", "houseplants/Hoya kerrii/Hoya kerrii 5.JPG", "houseplants/Hoya kerrii/Hoya kerrii 6.JPG", "houseplants/Hoya kerrii/Hoya kerrii 7.JPG", "houseplants/Hoya kerrii/Hoya kerrii 8.JPG", ],
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Hylocereus undatus",
     'Dutch name': "",
-    'Main image': "houseplants/Hylocereus undatus/Hylocereus undatus 1.jpg",
+    'Main image': "houseplants/Hylocereus undatus/Hylocereus undatus 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Hypoestes phyllostachya",
     'Dutch name': "",
-    'Main image': "houseplants/Hypoestes phyllostachya/Hypoestes phyllostachya 1.jpg",
-    'Sub images':["images/Hypoestes phyllostachya/Hypoestes phyllostachya 2.jpg"],
+    'Main image': "houseplants/Hypoestes phyllostachya/Hypoestes phyllostachya 1.JPG",
+    'Sub images':["images/Hypoestes phyllostachya/Hypoestes phyllostachya 2.JPG"],
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -506,74 +506,74 @@ const plants = [
 {
     'Latin name': "Lithops green",
     'Dutch name': "",
-    'Main image': "houseplants/Lithops green/Lithops green 1.jpg",
+    'Main image': "houseplants/Lithops green/Lithops green 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Lithops grey",
     'Dutch name': "",
-    'Main image': "houseplants/Lithops grey/Lithops grey 1.jpg",
+    'Main image': "houseplants/Lithops grey/Lithops grey 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Lithops hallii cv green",
     'Dutch name': "",
-    'Main image': "houseplants/Lithops hallii cv green/Lithops hallii cv green 1.jpg",
+    'Main image': "houseplants/Lithops hallii cv green/Lithops hallii cv green 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Lithops hookeri var. marginata",
     'Dutch name': "",
-    'Main image': "houseplants/Lithops hookeri var. marginata/Lithops hookeri var. marginata 1.jpg",
+    'Main image': "houseplants/Lithops hookeri var. marginata/Lithops hookeri var. marginata 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Lithops red",
     'Dutch name': "",
-    'Main image': "houseplants/Lithops red/Lithops red 1.jpg",
+    'Main image': "houseplants/Lithops red/Lithops red 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Lophophora williamsii",
     'Dutch name': "",
-    'Main image': "houseplants/Lophophora williamsii/Lophophora williamsii 1.jpg",
+    'Main image': "houseplants/Lophophora williamsii/Lophophora williamsii 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Mammillaria prolifera",
     'Dutch name': "",
-    'Main image': "houseplants/Mammillaria prolifera/Mammillaria prolifera 1.jpg",
+    'Main image': "houseplants/Mammillaria prolifera/Mammillaria prolifera 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Maranta leuconeura var. kerchoveana",
     'Dutch name': "",
-    'Main image': "houseplants/Maranta leuconeura var. kerchoveana/Maranta leuconeura var. kerchoveana 1.jpg",
+    'Main image': "houseplants/Maranta leuconeura var. kerchoveana/Maranta leuconeura var. kerchoveana 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Maranta leuconeura var. kerchoveana variegata",
     'Dutch name': "",
-    'Main image': "houseplants/Maranta leuconeura var. kerchoveana variegata/Maranta leuconeura var. kerchoveana variegata 1.jpg",
+    'Main image': "houseplants/Maranta leuconeura var. kerchoveana variegata/Maranta leuconeura var. kerchoveana variegata 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Monstera adansonii",
     'Dutch name': "",
-    'Main image': "houseplants/Monstera adansonii/Monstera adansonii 1.jpg",
-    'Sub images':["images/Monstera adansonii/Monstera adansonii 2.jpg"],
+    'Main image': "houseplants/Monstera adansonii/Monstera adansonii 1.JPG",
+    'Sub images':["images/Monstera adansonii/Monstera adansonii 2.JPG"],
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Monstera deliciosa",
     'Dutch name': "",
-    'Main image': "houseplants/Monstera deliciosa/Monstera deliciosa 1.jpg",
+    'Main image': "houseplants/Monstera deliciosa/Monstera deliciosa 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Monstera deliciosa 'Albo Borsigiana'",
     'Dutch name': "",
-    'Main image': "houseplants/Monstera deliciosa 'Albo Borsigiana'/Monstera deliciosa 'Albo Borsigiana' 1.jpg",
+    'Main image': "houseplants/Monstera deliciosa 'Albo Borsigiana'/Monstera deliciosa 'Albo Borsigiana' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -592,13 +592,13 @@ const plants = [
 {
     'Latin name': "Monstera deliciosa 'Thai Constellation'",
     'Dutch name': "",
-    'Main image': "houseplants/Monstera deliciosa 'Thai Constellation'/Monstera deliciosa 'Thai Constellation' 1.jpg",
+    'Main image': "houseplants/Monstera deliciosa 'Thai Constellation'/Monstera deliciosa 'Thai Constellation' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Monstera dubia",
     'Dutch name': "",
-    'Main image': "houseplants/Monstera dubia/Monstera dubia 1.jpg",
+    'Main image': "houseplants/Monstera dubia/Monstera dubia 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -610,7 +610,7 @@ const plants = [
 {
     'Latin name': "Monstera obliqua",
     'Dutch name': "",
-    'Main image': "houseplants/Monstera obliqua/Monstera obliqua 1.jpg",
+    'Main image': "houseplants/Monstera obliqua/Monstera obliqua 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -628,13 +628,13 @@ const plants = [
 {
     'Latin name': "Nepenthes albomarginata",
     'Dutch name': "",
-    'Main image': "houseplants/Nepenthes albomarginata/Nepenthes albomarginata 1.jpg",
+    'Main image': "houseplants/Nepenthes albomarginata/Nepenthes albomarginata 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Nepenthes albomarginata 'Penang'",
     'Dutch name': "",
-    'Main image': "houseplants/Nepenthes albomarginata 'Penang'/Nepenthes albomarginata 'Penang' 1.jpg",
+    'Main image': "houseplants/Nepenthes albomarginata 'Penang'/Nepenthes albomarginata 'Penang' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -646,13 +646,13 @@ const plants = [
 {
     'Latin name': "Nepenthes 'Gaya'",
     'Dutch name': "",
-    'Main image': "houseplants/Nepenthes 'Gaya'/Nepenthes 'Gaya' 1.jpg",
+    'Main image': "houseplants/Nepenthes 'Gaya'/Nepenthes 'Gaya' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Nepenthes 'Rokko x Gentle'",
     'Dutch name': "",
-    'Main image': "houseplants/Nepenthes 'Rokko x Gentle'/Nepenthes 'Rokko x Gentle' 1.jpg",
+    'Main image': "houseplants/Nepenthes 'Rokko x Gentle'/Nepenthes 'Rokko x Gentle' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -664,67 +664,67 @@ const plants = [
 {
     'Latin name': "Nepenthes x ventrata",
     'Dutch name': "",
-    'Main image': "houseplants/Nepenthes x ventrata/Nepenthes x ventrata 1.jpg",
+    'Main image': "houseplants/Nepenthes x ventrata/Nepenthes x ventrata 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Nephrolepis exaltata",
     'Dutch name': "",
-    'Main image': "houseplants/Nephrolepis exaltata/Nephrolepis exaltata 1.jpg",
+    'Main image': "houseplants/Nephrolepis exaltata/Nephrolepis exaltata 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Oncidium",
     'Dutch name': "",
-    'Main image': "houseplants/Oncidium/Oncidium 1.jpg",
+    'Main image': "houseplants/Oncidium/Oncidium 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Oncidium 'Yellow'",
     'Dutch name': "",
-    'Main image': "houseplants/Oncidium 'Yellow'/Oncidium 'Yellow' 1.jpg",
+    'Main image': "houseplants/Oncidium 'Yellow'/Oncidium 'Yellow' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Opuntia microdasys var. albispina",
     'Dutch name': "",
-    'Main image': "houseplants/Opuntia microdasys var. albispina/Opuntia microdasys var. albispina 1.jpg",
+    'Main image': "houseplants/Opuntia microdasys var. albispina/Opuntia microdasys var. albispina 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Opuntia monacantha f. monstruosa variegata",
     'Dutch name': "",
-    'Main image': "houseplants/Opuntia monacantha f. monstruosa variegata/Opuntia monacantha f. monstruosa variegata 1.jpg",
+    'Main image': "houseplants/Opuntia monacantha f. monstruosa variegata/Opuntia monacantha f. monstruosa variegata 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Oxalis triangularis",
     'Dutch name': "",
-    'Main image': "houseplants/Oxalis triangularis/Oxalis triangularis 1.jpg",
+    'Main image': "houseplants/Oxalis triangularis/Oxalis triangularis 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Pachycereus pringlei",
     'Dutch name': "",
-    'Main image': "houseplants/Pachycereus pringlei/Pachycereus pringlei 1.jpg",
+    'Main image': "houseplants/Pachycereus pringlei/Pachycereus pringlei 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Peperomia albovittata 'Rana Verde'",
     'Dutch name': "",
-    'Main image': "houseplants/Peperomia albovittata 'Rana Verde'/Peperomia albovittata 'Rana Verde' 1.jpg",
+    'Main image': "houseplants/Peperomia albovittata 'Rana Verde'/Peperomia albovittata 'Rana Verde' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Phalaenopsis",
     'Dutch name': "",
-    'Main image': "houseplants/Phalaenopsis/Phalaenopsis 1.jpg",
+    'Main image': "houseplants/Phalaenopsis/Phalaenopsis 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Philodendron billietiae",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron billietiae/Philodendron billietiae 1.jpg",
+    'Main image': "houseplants/Philodendron billietiae/Philodendron billietiae 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -737,7 +737,7 @@ const plants = [
 {
     'Latin name': "Philodendron bipinnatifidum 'Choco Empress'",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron bipinnatifidum 'Choco Empress'/Philodendron bipinnatifidum 'Choco Empress' 1.jpg",
+    'Main image': "houseplants/Philodendron bipinnatifidum 'Choco Empress'/Philodendron bipinnatifidum 'Choco Empress' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -749,19 +749,19 @@ const plants = [
 {
     'Latin name': "Philodendron campii",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron campii/Philodendron campii 1.jpg",
+    'Main image': "houseplants/Philodendron campii/Philodendron campii 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Philodendron elegans",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron elegans/Philodendron elegans 1.jpg",
+    'Main image': "houseplants/Philodendron elegans/Philodendron elegans 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Philodendron erubescens 'Pink Princess'",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron erubescens 'Pink Princess'/Philodendron erubescens 'Pink Princess' 1.jpg",
+    'Main image': "houseplants/Philodendron erubescens 'Pink Princess'/Philodendron erubescens 'Pink Princess' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -791,13 +791,13 @@ const plants = [
 {
     'Latin name': "Philodendron 'Florida Bronze'",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron 'Florida Bronze'/Philodendron 'Florida Bronze' 1.jpg",
+    'Main image': "houseplants/Philodendron 'Florida Bronze'/Philodendron 'Florida Bronze' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Philodendron gloriosum",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron gloriosum/Philodendron gloriosum 1.jpg",
+    'Main image': "houseplants/Philodendron gloriosum/Philodendron gloriosum 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -815,7 +815,7 @@ const plants = [
 {
     'Latin name': "Philodendron hastatum 'Silver Queen'",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron hastatum 'Silver Queen'/Philodendron hastatum 'Silver Queen' 1.jpg",
+    'Main image': "houseplants/Philodendron hastatum 'Silver Queen'/Philodendron hastatum 'Silver Queen' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -828,6 +828,12 @@ const plants = [
     'Latin name': "Philodendron hederaceum 'Micans f. pink variegatum'",
     'Dutch name': "",
     'Main image': "houseplants/Philodendron hederaceum 'Micans f. pink variegatum'/Philodendron hederaceum 'Micans f. pink variegatum' 1.jpg",
+    'HOUSEPLANTS': ["Houseplant", "Wishlist"],
+},
+{
+    'Latin name': "Philodendron hederaceum var. hederaceum",
+    'Dutch name': "",
+    'Main image': "houseplants/Philodendron hederaceum var. hederaceum/Philodendron hederaceum var. hederaceum 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "Wishlist"],
 },
 {
@@ -845,13 +851,13 @@ const plants = [
 {
     'Latin name': "Philodendron mayoi",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron mayoi/Philodendron mayoi 1.jpg",
+    'Main image': "houseplants/Philodendron mayoi/Philodendron mayoi 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Philodendron melanochrysum",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron melanochrysum/Philodendron melanochrysum 1.jpg",
+    'Main image': "houseplants/Philodendron melanochrysum/Philodendron melanochrysum 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -869,13 +875,13 @@ const plants = [
 {
     'Latin name': "Philodendron 'Ring of Fire'",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron 'Ring of Fire'/Philodendron 'Ring of Fire' 1.jpg",
+    'Main image': "houseplants/Philodendron 'Ring of Fire'/Philodendron 'Ring of Fire' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Philodendron rubrijuvenile 'El Choco Red'",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron rubrijuvenile 'El Choco Red'/Philodendron rubrijuvenile 'El Choco Red' 1.jpg",
+    'Main image': "houseplants/Philodendron rubrijuvenile 'El Choco Red'/Philodendron rubrijuvenile 'El Choco Red' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -887,25 +893,25 @@ const plants = [
 {
     'Latin name': "Philodendron squamiferum x pedatum",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron squamiferum x pedatum/Philodendron squamiferum x pedatum 1.jpg",
+    'Main image': "houseplants/Philodendron squamiferum x pedatum/Philodendron squamiferum x pedatum 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Philodendron squamiferum x pedatum 'Florida Ghost'",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron squamiferum x pedatum 'Florida Ghost'/Philodendron squamiferum x pedatum 'Florida Ghost' 1.jpg",
+    'Main image': "houseplants/Philodendron squamiferum x pedatum 'Florida Ghost'/Philodendron squamiferum x pedatum 'Florida Ghost' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Philodendron tortum",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron tortum/Philodendron tortum 1.jpg",
+    'Main image': "houseplants/Philodendron tortum/Philodendron tortum 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Philodendron verrucosum",
     'Dutch name': "",
-    'Main image': "houseplants/Philodendron verrucosum/Philodendron verrucosum 1.jpg",
+    'Main image': "houseplants/Philodendron verrucosum/Philodendron verrucosum 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -917,25 +923,25 @@ const plants = [
 {
     'Latin name': "Pilea peperomioides",
     'Dutch name': "",
-    'Main image': "houseplants/Pilea peperomioides/Pilea peperomioides 1.jpg",
+    'Main image': "houseplants/Pilea peperomioides/Pilea peperomioides 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Pilosocereus pachycladus",
     'Dutch name': "",
-    'Main image': "houseplants/Pilosocereus pachycladus/Pilosocereus pachycladus 1.jpg",
+    'Main image': "houseplants/Pilosocereus pachycladus/Pilosocereus pachycladus 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Platycerium bifurcatum",
     'Dutch name': "",
-    'Main image': "houseplants/Platycerium bifurcatum/Platycerium bifurcatum 1.jpg",
+    'Main image': "houseplants/Platycerium bifurcatum/Platycerium bifurcatum 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Pleiospilos nelii",
     'Dutch name': "",
-    'Main image': "houseplants/Pleiospilos nelii/Pleiospilos nelii 1.jpg",
+    'Main image': "houseplants/Pleiospilos nelii/Pleiospilos nelii 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -947,61 +953,61 @@ const plants = [
 {
     'Latin name': "Rhaphidophora tetrasperma",
     'Dutch name': "",
-    'Main image': "houseplants/Rhaphidophora tetrasperma/Rhaphidophora tetrasperma 1.jpg",
+    'Main image': "houseplants/Rhaphidophora tetrasperma/Rhaphidophora tetrasperma 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Rhipsalis paradoxa",
     'Dutch name': "",
-    'Main image': "houseplants/Rhipsalis paradoxa/Rhipsalis paradoxa 1.jpg",
+    'Main image': "houseplants/Rhipsalis paradoxa/Rhipsalis paradoxa 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Salvinia minima",
     'Dutch name': "",
-    'Main image': "houseplants/Salvinia minima/Salvinia minima 1.jpg",
+    'Main image': "houseplants/Salvinia minima/Salvinia minima 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Sarracenia flava",
     'Dutch name': "",
-    'Main image': "houseplants/Sarracenia flava/Sarracenia flava 1.jpg",
+    'Main image': "houseplants/Sarracenia flava/Sarracenia flava 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Sarracenia purpurea var. heterophylla",
     'Dutch name': "",
-    'Main image': "houseplants/Sarracenia purpurea var. heterophylla/Sarracenia purpurea var. heterophylla 1.jpg",
+    'Main image': "houseplants/Sarracenia purpurea var. heterophylla/Sarracenia purpurea var. heterophylla 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Scindapsus pictus",
     'Dutch name': "",
-    'Main image': "houseplants/Scindapsus pictus/Scindapsus pictus 1.jpg",
+    'Main image': "houseplants/Scindapsus pictus/Scindapsus pictus 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Sedum morganianum 'Burrito'",
     'Dutch name': "",
-    'Main image': "houseplants/Sedum morganianum 'Burrito'/Sedum morganianum 'Burrito' 1.jpg",
+    'Main image': "houseplants/Sedum morganianum 'Burrito'/Sedum morganianum 'Burrito' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Sempervivum calcareum 'Grigg's Surprise'",
     'Dutch name': "",
-    'Main image': "houseplants/Sempervivum calcareum 'Grigg's Surprise'/Sempervivum calcareum 'Grigg's Surprise' 1.jpg",
+    'Main image': "houseplants/Sempervivum calcareum 'Grigg's Surprise'/Sempervivum calcareum 'Grigg's Surprise' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Sinningia speciosa",
     'Dutch name': "",
-    'Main image': "houseplants/Sinningia speciosa/Sinningia speciosa 1.jpg",
+    'Main image': "houseplants/Sinningia speciosa/Sinningia speciosa 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Soleirolia soleirolii",
     'Dutch name': "",
-    'Main image': "houseplants/Soleirolia soleirolii/Soleirolia soleirolii 1.jpg",
+    'Main image': "houseplants/Soleirolia soleirolii/Soleirolia soleirolii 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -1031,31 +1037,31 @@ const plants = [
 {
     'Latin name': "Thaumatophyllum bipinnatifidum 'Shangri-La'",
     'Dutch name': "",
-    'Main image': "houseplants/Thaumatophyllum bipinnatifidum 'Shangri-La'/Thaumatophyllum bipinnatifidum 'Shangri-La' 1.jpg",
+    'Main image': "houseplants/Thaumatophyllum bipinnatifidum 'Shangri-La'/Thaumatophyllum bipinnatifidum 'Shangri-La' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Tillandsia ionantha",
     'Dutch name': "",
-    'Main image': "houseplants/Tillandsia ionantha/Tillandsia ionantha 1.jpg",
+    'Main image': "houseplants/Tillandsia ionantha/Tillandsia ionantha 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Tillandsia streptophylla",
     'Dutch name': "",
-    'Main image': "houseplants/Tillandsia streptophylla/Tillandsia streptophylla 1.jpg",
+    'Main image': "houseplants/Tillandsia streptophylla/Tillandsia streptophylla 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Tillandsia usneoides",
     'Dutch name': "",
-    'Main image': "houseplants/Tillandsia usneoides/Tillandsia usneoides 1.jpg",
+    'Main image': "houseplants/Tillandsia usneoides/Tillandsia usneoides 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
     'Latin name': "Tradescantia fluminensis 'Nanouk'",
     'Dutch name': "",
-    'Main image': "houseplants/Tradescantia fluminensis 'Nanouk'/Tradescantia fluminensis 'Nanouk' 1.jpg",
+    'Main image': "houseplants/Tradescantia fluminensis 'Nanouk'/Tradescantia fluminensis 'Nanouk' 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 {
@@ -1067,7 +1073,7 @@ const plants = [
 {
     'Latin name': "Xanthosoma albo variegata",
     'Dutch name': "",
-    'Main image': "houseplants/Xanthosoma albo variegata/Xanthosoma albo variegata 1.jpg",
+    'Main image': "houseplants/Xanthosoma albo variegata/Xanthosoma albo variegata 1.JPG",
     'HOUSEPLANTS': ["Houseplant", "My houseplants"],
 },
 
@@ -1076,6 +1082,6 @@ const plants = [
     {
         'Latin name': "Placeholder",
         'Dutch name': "text",
-        'Main image': "images/text/text 1.jpg",
+        'Main image': "images/text/text 1.JPG",
     },
 ];

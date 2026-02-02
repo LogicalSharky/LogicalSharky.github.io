@@ -257,81 +257,48 @@ function closeOverlay() {
 }
 
 function renderOverlayContent(plant) {
-  const requestId = ++overlayRequestId;
+  const images = [
+    plant["Image path"],
+    ...(plant["Sub images"] || [])
+  ];
 
-  // Use cached images if available
-  if (imageCache.has(plant["Image path"])) {
-    renderWithImages(imageCache.get(plant["Image path"]));
-    return;
+  currentImageIndex = Math.min(currentImageIndex, images.length - 1);
+  overlayImg.src = images[currentImageIndex];
+  overlayImg.alt = plant["Latin name"];
+
+  overlayDetails.innerHTML = `
+    <p class="latin-name">${plant["Latin name"]}</p>
+    <p class="dutch-name">${plant["Dutch name"]}</p>
+  `;
+
+  for (const key in plant) {
+    if (["Latin name","Dutch name","Image path","Sub images","SCHOOL SUBJECT"].includes(key)) continue;
+    const value = plant[key];
+    if (!value || (Array.isArray(value) && value.length === 0)) continue;
+
+    overlayDetails.insertAdjacentHTML(
+      "beforeend",
+      `<div class="tag"><strong>${key}:</strong> ${
+        Array.isArray(value) ? value.join(", ") : value
+      }</div>`
+    );
   }
 
-  const candidates = getAllImagesFromSameFolder(plant["Image path"]);
-  const images = [];
-  let checked = 0;
-
-  candidates.forEach(src => {
-    const img = new Image();
-    img.onload = () => {
-      if (requestId !== overlayRequestId) return;
-      images.push(src);
-      checked++;
-      if (checked === candidates.length) finish();
-    };
-    img.onerror = () => {
-      if (requestId !== overlayRequestId) return;
-      checked++;
-      if (checked === candidates.length) finish();
-    };
-    img.src = src;
-  });
-
-  function finish() {
-    if (requestId !== overlayRequestId) return;
-    imageCache.set(plant["Image path"], images);
-    renderWithImages(images);
-  }
-
-  function renderWithImages(images) {
-    if (!images.length) return;
-
-    currentImageIndex = Math.min(currentImageIndex, images.length - 1);
-    overlayImg.src = images[currentImageIndex];
-    overlayImg.alt = plant["Latin name"];
-
-    overlayDetails.innerHTML = `
-      <p class="latin-name">${plant["Latin name"]}</p>
-      <p class="dutch-name">${plant["Dutch name"]}</p>
-    `;
-
-    for (const key in plant) {
-      if (["Latin name","Dutch name","Image path","SCHOOL SUBJECT"].includes(key)) continue;
-      const value = plant[key];
-      if (!value || (Array.isArray(value) && value.length === 0)) continue;
-
-      overlayDetails.insertAdjacentHTML(
-        "beforeend",
-        `<div class="tag"><strong>${key}:</strong> ${
-          Array.isArray(value) ? value.join(", ") : value
-        }</div>`
-      );
-    }
-
-    thumbnailRow.innerHTML = "";
-    images.forEach((src, idx) => {
-      const thumb = document.createElement("img");
-      thumb.src = src;
-      thumb.classList.toggle("selected", idx === currentImageIndex);
-      thumb.addEventListener("click", () => {
-        currentImageIndex = idx;
-        overlayImg.src = src;
-        document
-          .querySelectorAll(".thumbnail-row img")
-          .forEach(t => t.classList.remove("selected"));
-        thumb.classList.add("selected");
-      });
-      thumbnailRow.appendChild(thumb);
+  thumbnailRow.innerHTML = "";
+  images.forEach((src, idx) => {
+    const thumb = document.createElement("img");
+    thumb.src = src;
+    thumb.classList.toggle("selected", idx === currentImageIndex);
+    thumb.addEventListener("click", () => {
+      currentImageIndex = idx;
+      overlayImg.src = src;
+      document
+        .querySelectorAll(".thumbnail-row img")
+        .forEach(t => t.classList.remove("selected"));
+      thumb.classList.add("selected");
     });
-  }
+    thumbnailRow.appendChild(thumb);
+  });
 }
 
 /* =====================================================

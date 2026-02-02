@@ -65,23 +65,15 @@ let currentImageIndex = 0;
 function getAllImagesFromSameFolder(mainImagePath, maxImages = 8) {
   const images = [];
 
-  const lastSlash = mainImagePath.lastIndexOf("/");
-  const folder = lastSlash !== -1 ? mainImagePath.slice(0, lastSlash + 1) : "";
-  const file = lastSlash !== -1 ? mainImagePath.slice(lastSlash + 1) : mainImagePath;
+  // Split path
+  const parts = mainImagePath.split("/");
+  const folder = parts.slice(0, -1).join("/") + "/";
+  const folderName = parts[parts.length - 2]; // ← THIS is the key
 
-  const match = file.match(/^(.*)\.(jpg|JPG|jpeg|JPEG|png|PNG|webp|WEBP)$/);
-  if (!match) return [];
-
-  const baseName = match[1];
-  const ext = match[2];
-
-  // numbered images first: "plant 1.jpg", "plant 2.jpg", ...
+  // Try numbered images: "Foldername 1.jpg", "Foldername 2.jpg", ...
   for (let i = 1; i <= maxImages; i++) {
-    images.push(`${folder}${baseName} ${i}.${ext}`);
+    images.push(`${folder}${folderName} ${i}.jpg`);
   }
-
-  // optional unnumbered version
-  images.push(`${folder}${baseName}.${ext}`);
 
   return images;
 }
@@ -121,7 +113,7 @@ const allTags = {
 };
 
 /* =====================================================
-   TAG SIDEBAR GENERATION (RESTORED)
+   TAG SIDEBAR GENERATION
 ===================================================== */
 
 for (const group in allTags) {
@@ -163,7 +155,7 @@ function updateSearchBarFromCheckboxes() {
 }
 
 /* =====================================================
-   SEARCH & FILTER (UNCHANGED)
+   SEARCH & FILTER
 ===================================================== */
 
 function filterPlantsBySearch() {
@@ -212,7 +204,7 @@ searchBar.addEventListener("input", () => {
 });
 
 /* =====================================================
-   GALLERY (FIXED IMAGE HANDLING)
+   GALLERY
 ===================================================== */
 
 function renderPlants() {

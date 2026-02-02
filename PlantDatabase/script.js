@@ -62,19 +62,15 @@ let currentImageIndex = 0;
    IMAGE HELPER (FINAL, WORKING)
 ===================================================== */
 
-function getAllImagesFromSameFolder(mainImagePath, maxImages = 8) {
-  const images = [];
-
-  // Split path
+function getAllImagesFromSameFolder(mainImagePath, maxImages = 20) {
   const parts = mainImagePath.split("/");
   const folder = parts.slice(0, -1).join("/") + "/";
-  const folderName = parts[parts.length - 2]; // ← THIS is the key
+  const folderName = parts[parts.length - 2];
 
-  // Try numbered images: "Foldername 1.jpg", "Foldername 2.jpg", ...
+  const images = [];
   for (let i = 1; i <= maxImages; i++) {
     images.push(`${folder}${folderName} ${i}.jpg`);
   }
-
   return images;
 }
 
@@ -259,53 +255,60 @@ function closeOverlay() {
 }
 
 function renderOverlayContent(plant) {
-  const images = getAllImagesFromSameFolder(plant["Image path"]);
+  const candidates = getAllImagesFromSameFolder(plant["Image path"]);
+  const images = [];
 
-  overlayImg.src = images[currentImageIndex] || "";
-  overlayImg.onerror = () => {
-    currentImageIndex++;
-    if (images[currentImageIndex]) {
-      overlayImg.src = images[currentImageIndex];
-    }
-  };
+  let checked = 0;
 
-  overlayImg.alt = plant["Latin name"];
-
-  overlayDetails.innerHTML = `
-    <p class="latin-name">${plant["Latin name"]}</p>
-    <p class="dutch-name">${plant["Dutch name"]}</p>
-  `;
-
-  for (const key in plant) {
-    if (["Latin name","Dutch name","Image path","Sub images","SCHOOL SUBJECT"].includes(key)) continue;
-    const value = plant[key];
-    if (!value || (Array.isArray(value) && value.length === 0)) continue;
-
-    overlayDetails.insertAdjacentHTML(
-      "beforeend",
-      `<div class="tag"><strong>${key}:</strong> ${Array.isArray(value) ? value.join(", ") : value}</div>`
-    );
-  }
-
-  const googleLink = document.createElement("a");
-  googleLink.href = `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(plant["Latin name"])}`;
-  googleLink.target = "_blank";
-  googleLink.textContent = "More images";
-  googleLink.classList.add("more-images");
-  overlayDetails.appendChild(googleLink);
-
-  thumbnailRow.innerHTML = "";
-  images.forEach((src, idx) => {
-    const thumb = document.createElement("img");
-    thumb.src = src;
-    thumb.onerror = () => thumb.remove();
-    thumb.classList.toggle("selected", idx === currentImageIndex);
-    thumb.addEventListener("click", () => {
-      currentImageIndex = idx;
-      renderOverlayContent(plant);
-    });
-    thumbnailRow.appendChild(thumb);
+  candidates.forEach(src => {
+    const img = new Image();
+    img.onload = () => {
+      images.push(src);
+      checked++;
+      if (checked === candidates.length) finish();
+    };
+    img.onerror = () => {
+      checked++;
+      if (checked === candidates.length) finish();
+    };
+    img.src = src;
   });
+
+  function finish() {
+    if (!images.length) return;
+
+    currentImageIndex = Math.min(currentImageIndex, images.length - 1);
+    overlayImg.src = images[currentImageIndex];
+    overlayImg.alt = plant["Latin name"];
+
+    overlayDetails.innerHTML = `
+      <p class="latin-name">${plant["Latin name"]}</p>
+      <p class="dutch-name">${plant["Dutch name"]}</p>
+    `;
+
+    for (const key in plant) {
+      if (["Latin name","Dutch name","Image path","SCHOOL SUBJECT"].includes(key)) continue;
+      const value = plant[key];
+      if (!value || (Array.isArray(value) && value.length === 0)) continue;
+
+      overlayDetails.insertAdjacentHTML(
+        "beforeend",
+        `<div class="tag"><strong>${key}:</strong> ${Array.isArray(value) ? value.join(", ") : value}</div>`
+      );
+    }
+
+    thumbnailRow.innerHTML = "";
+    images.forEach((src, idx) => {
+      const thumb = document.createElement("img");
+      thumb.src = src;
+      thumb.classList.toggle("selected", idx === currentImageIndex);
+      thumb.addEventListener("click", () => {
+        currentImageIndex = idx;
+        overlayImg.src = src;
+      });
+      thumbnailRow.appendChild(thumb);
+    });
+  }
 }
 
 /* =====================================================

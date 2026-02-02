@@ -1,3 +1,5 @@
+const imageCache = new Map();
+let overlayRequestId = 0;
 const gallery = document.getElementById("gallery");
 const searchBar = document.getElementById("searchBar");
 const tagFiltersDiv = document.getElementById("tagFilters");
@@ -255,19 +257,28 @@ function closeOverlay() {
 }
 
 function renderOverlayContent(plant) {
+  const requestId = ++overlayRequestId;
+
+  // Use cached images if available
+  if (imageCache.has(plant["Image path"])) {
+    renderWithImages(imageCache.get(plant["Image path"]));
+    return;
+  }
+
   const candidates = getAllImagesFromSameFolder(plant["Image path"]);
   const images = [];
-
   let checked = 0;
 
   candidates.forEach(src => {
     const img = new Image();
     img.onload = () => {
+      if (requestId !== overlayRequestId) return;
       images.push(src);
       checked++;
       if (checked === candidates.length) finish();
     };
     img.onerror = () => {
+      if (requestId !== overlayRequestId) return;
       checked++;
       if (checked === candidates.length) finish();
     };
@@ -275,6 +286,12 @@ function renderOverlayContent(plant) {
   });
 
   function finish() {
+    if (requestId !== overlayRequestId) return;
+    imageCache.set(plant["Image path"], images);
+    renderWithImages(images);
+  }
+
+  function renderWithImages(images) {
     if (!images.length) return;
 
     currentImageIndex = Math.min(currentImageIndex, images.length - 1);
@@ -293,7 +310,9 @@ function renderOverlayContent(plant) {
 
       overlayDetails.insertAdjacentHTML(
         "beforeend",
-        `<div class="tag"><strong>${key}:</strong> ${Array.isArray(value) ? value.join(", ") : value}</div>`
+        `<div class="tag"><strong>${key}:</strong> ${
+          Array.isArray(value) ? value.join(", ") : value
+        }</div>`
       );
     }
 
@@ -305,6 +324,10 @@ function renderOverlayContent(plant) {
       thumb.addEventListener("click", () => {
         currentImageIndex = idx;
         overlayImg.src = src;
+        document
+          .querySelectorAll(".thumbnail-row img")
+          .forEach(t => t.classList.remove("selected"));
+        thumb.classList.add("selected");
       });
       thumbnailRow.appendChild(thumb);
     });

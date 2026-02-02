@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenscape by Mats Pinket</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="search-container">
+    <input type="text" id="searchInput" placeholder="example: white, shade, -tree / purple, shade, -tree">
+    <button onclick="searchImages()">Search</button>
+    <button class="side-menu-toggle" onclick="toggleSideMenu()">☰ Tags</button>
+</div>
+<p class="instructions">
+    , = multiple Tags <br>
+    / = additional images with different tags <br>
+    - = exclude tags 
+</p>
+<div id="sideMenu" class="side-menu">
+    <div id="sideMenuContent" class="side-menu-content"></div>
+</div>
+<div id="imageGrid" class="image-grid"></div>
+
+<!-- Popup container for enlarged image -->
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closePopup()">&times;</span>
+        <img id="popupImage" src="" alt="">
+        <h2 id="popupImageName"></h2> 
+        <div id="popupImageTags"></div>
+        <a id="popupImageLink" href="" target="_blank">Search on Google</a>
+    </div>
+</div>
+
+<!-- Include the new images.js file first -->
+<script src="images.js"></script>
+<!-- Main JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>

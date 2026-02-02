@@ -3255,6 +3255,7 @@ const plants = [
             "images/PLACEHOLDER/PLACEHOLDER 5.jpg",
             "images/PLACEHOLDER/PLACEHOLDER 6.jpg",
         ]},
+        // Tot hier
     {
         'Latin name': "Macleaya microcarpa ' Kelway's Coral Plume'",
         'Dutch name': "Pluimpapaver",

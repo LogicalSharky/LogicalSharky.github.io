@@ -6,6 +6,7 @@ const overlay = document.getElementById("overlay");
 const overlayImg = document.getElementById("overlayImg");
 const overlayDetails = document.querySelector(".overlay-details");
 const thumbnailRow = document.getElementById("thumbnailRow");
+
 const closeBtn = document.querySelector(".close-btn");
 const prevArrow = document.getElementById("prevArrow");
 const nextArrow = document.getElementById("nextArrow");
@@ -13,14 +14,11 @@ const nextArrow = document.getElementById("nextArrow");
 const menuToggle = document.getElementById("menuToggle");
 const sidebar = document.querySelector(".sidebar");
 
-/* =====================================================
-   MOBILE MENU
-===================================================== */
-
 function updateMenuButtonVisibility() {
   if (window.innerWidth <= 800) {
     menuToggle.style.display =
-      overlay.classList.contains("hidden") && !sidebar.classList.contains("show")
+      overlay.classList.contains("hidden") &&
+      !sidebar.classList.contains("show")
         ? "block"
         : "none";
   } else {
@@ -50,43 +48,9 @@ overlay.addEventListener("transitionend", updateMenuButtonVisibility);
 overlay.addEventListener("click", updateMenuButtonVisibility);
 document.addEventListener("DOMContentLoaded", updateMenuButtonVisibility);
 
-/* =====================================================
-   STATE
-===================================================== */
-
 let filteredPlants = [];
 let currentPlantIndex = 0;
 let currentImageIndex = 0;
-
-/* =====================================================
-   IMAGE HELPER (FOLDER-BASED, WORKING VERSION)
-===================================================== */
-
-function getAllImagesFromSameFolder(imagePath, maxImages = 8) {
-  const images = [];
-
-  const lastSlash = imagePath.lastIndexOf("/");
-  const folder = imagePath.slice(0, lastSlash + 1);
-  const file = imagePath.slice(lastSlash + 1);
-
-  const match = file.match(/^(.*)\.(jpg|jpeg|png|webp|JPG|JPEG|PNG|WEBP)$/);
-  if (!match) return [];
-
-  const baseName = match[1];
-  const ext = match[2];
-
-  for (let i = 1; i <= maxImages; i++) {
-    images.push(`${folder}${baseName} ${i}.${ext}`);
-  }
-
-  images.push(`${folder}${baseName}.${ext}`);
-
-  return images;
-}
-
-/* =====================================================
-   TAG SIDEBAR (UNCHANGED)
-===================================================== */
 
 const allTags = {
   "PLANT GROUPS": ["Air plants", "Aquatic plants", "Aroids", "Cacti", "Carnivorous plants", "Dry climate ornamentals", "Ferns", "Palms", "Subtropical / Tropical ornamentals", "Succulents"],
@@ -128,6 +92,7 @@ for (const group in allTags) {
   const title = document.createElement("p");
   title.textContent = group;
   title.classList.add("tag-group-title");
+
   groupDiv.appendChild(title);
 
   allTags[group]
@@ -147,7 +112,7 @@ for (const group in allTags) {
 
       checkbox.addEventListener("change", () => {
         updateSearchBarFromCheckboxes();
-        renderPlants();
+        renderPlants(filterPlantsBySearch());
       });
     });
 
@@ -155,96 +120,80 @@ for (const group in allTags) {
 }
 
 function updateSearchBarFromCheckboxes() {
-  const checked = [...document.querySelectorAll(".tag-checkbox:checked")].map(cb => cb.value);
-  searchBar.value = checked.join(", ");
-}
+  const checkedTags = [
+    ...document.querySelectorAll(".tag-checkbox:checked")
+  ].map(cb => cb.value);
 
-/* =====================================================
-   FILTERING
-===================================================== */
+  searchBar.value = checkedTags.join(", ");
+}
 
 function filterPlantsBySearch() {
   const rawInput = searchBar.value.toLowerCase();
   if (!rawInput) return plants;
 
-  const orGroups = rawInput.split("/").map(g =>
-    g.split(",").map(t => t.trim()).filter(Boolean)
-  );
+  const orGroups = rawInput.split("/")
+    .map(g =>
+      g
+        .trim()
+        .split(",")
+        .map(t => t.trim())
+        .filter(Boolean)
+    );
 
   return plants.filter(plant =>
     orGroups.some(group =>
       group.every(tag => {
-        const isExclusion = tag.startsWith("-");
-        const tagLower = tag.replace("-", "").toLowerCase();
+        let isExclusion = false;
 
-        const matches =
-          Object.values(plant).some(val =>
-            Array.isArray(val)
-              ? val.some(v => v.toLowerCase() === tagLower)
-              : typeof val === "string" && val.toLowerCase() === tagLower
-          ) ||
+        if (tag.startsWith("-")) {
+          tag = tag.slice(1).trim();
+          isExclusion = true;
+        }
+
+        const tagLower = tag.toLowerCase();
+
+        const matchesPlant =
+          Object.keys(plant).some(key => {
+            if (key === "Other") return false;
+            const value = plant[key];
+            if (!value) return false;
+
+            if (Array.isArray(value)) {
+              return value.some(v => v.toLowerCase() === tagLower);
+            }
+            return value.toLowerCase() === tagLower;
+          }) ||
           plant["Latin name"].toLowerCase().includes(tagLower) ||
           plant["Dutch name"].toLowerCase().includes(tagLower);
 
-        return isExclusion ? !matches : matches;
+        return isExclusion ? !matchesPlant : matchesPlant;
       })
     )
   );
 }
 
 searchBar.addEventListener("input", () => {
-  const tags = searchBar.value.toLowerCase().split(/[,\/]/).map(t => t.trim());
-  document.querySelectorAll(".tag-checkbox").forEach(
-    cb => (cb.checked = tags.includes(cb.value.toLowerCase()))
-  );
-  renderPlants();
-});
+  const tags = searchBar.value
+    .toLowerCase()
+    .split(/[,\/]/)
+    .map(t => t.trim());
 
-/* =====================================================
-   GALLERY
-===================================================== */
-
-function renderPlants() {
-  gallery.innerHTML = "";
-  filteredPlants = filterPlantsBySearch();
-
-  filteredPlants.forEach((plant, index) => {
-    const plantDiv = document.createElement("div");
-    plantDiv.classList.add("plant");
-
-    const img = document.createElement("img");
-    const images = getAllImagesFromSameFolder(plant["Image path"]);
-
-    let imgIndex = 0;
-    img.src = images[imgIndex] || "";
-
-    img.onerror = () => {
-      imgIndex++;
-      if (images[imgIndex]) img.src = images[imgIndex];
-    };
-
-    img.alt = plant["Latin name"];
-    img.addEventListener("click", () => openOverlayByIndex(index));
-
-    const info = document.createElement("div");
-    info.classList.add("plant-info");
-    info.innerHTML = `<p><strong>${plant["Latin name"]}</strong></p><p>${plant["Dutch name"]}</p>`;
-
-    plantDiv.appendChild(img);
-    plantDiv.appendChild(info);
-    gallery.appendChild(plantDiv);
+  document.querySelectorAll(".tag-checkbox").forEach(cb => {
+    cb.checked = tags.includes(cb.value.toLowerCase());
   });
-}
 
-/* =====================================================
-   OVERLAY
-===================================================== */
+  renderPlants(filterPlantsBySearch());
+});
 
 function openOverlayByIndex(index) {
   currentPlantIndex = index;
   currentImageIndex = 0;
+  openOverlay(filteredPlants[currentPlantIndex]);
+}
+
+function openOverlay(plant) {
   overlay.classList.remove("hidden");
-  renderOverlayContent(filteredPlants[index]);
+  renderOverlayContent(plant);
   updateMenuButtonVisibility();
 }
 
@@ -257,13 +206,13 @@ function closeOverlay() {
 }
 
 function renderOverlayContent(plant) {
-  const images = getAllImagesFromSameFolder(plant["Image path"]);
+  const images = [
+    plant["Main image"],
+    ...(plant["Sub images"] || [])
+  ];
 
-  overlayImg.src = images[currentImageIndex] || "";
-  overlayImg.onerror = () => {
-    currentImageIndex++;
-    if (images[currentImageIndex]) overlayImg.src = images[currentImageIndex];
-  };
+  overlayImg.src = images[currentImageIndex];
+  overlayImg.alt = plant["Latin name"];
 
   overlayDetails.innerHTML = `
     <p class="latin-name">${plant["Latin name"]}</p>
@@ -271,53 +220,98 @@ function renderOverlayContent(plant) {
   `;
 
   for (const key in plant) {
-    if (["Latin name", "Dutch name", "Image path"].includes(key)) continue;
+    if (
+      ["Latin name", "Dutch name", "Main image", "Sub images", "SCHOOLYEAR"].includes(key)
+    ) continue;
+
     const value = plant[key];
     if (!value || (Array.isArray(value) && value.length === 0)) continue;
+
     const valueStr = Array.isArray(value) ? value.join(", ") : value;
+
     overlayDetails.insertAdjacentHTML(
       "beforeend",
       `<div class="tag"><strong>${key}:</strong> <span>${valueStr}</span></div>`
     );
   }
 
+  const googleLink = document.createElement("a");
+  googleLink.href = `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(
+    plant["Latin name"]
+  )}`;
+  googleLink.target = "_blank";
+  googleLink.textContent = "More images";
+  googleLink.classList.add("more-images");
+
+  overlayDetails.appendChild(googleLink);
+
   thumbnailRow.innerHTML = "";
-  images.forEach((src, idx) => {
+
+  images.forEach((imgSrc, idx) => {
     const thumb = document.createElement("img");
-    thumb.src = src;
-    thumb.onerror = () => thumb.remove();
+    thumb.src = imgSrc;
     thumb.classList.toggle("selected", idx === currentImageIndex);
+
     thumb.addEventListener("click", () => {
       currentImageIndex = idx;
       renderOverlayContent(plant);
     });
+
     thumbnailRow.appendChild(thumb);
   });
 }
 
-/* =====================================================
-   NAVIGATION
-===================================================== */
+function navigatePlant(direction) {
+  if (filteredPlants.length === 0) return;
 
-function navigatePlant(dir) {
   currentPlantIndex =
-    (currentPlantIndex + dir + filteredPlants.length) % filteredPlants.length;
+    (currentPlantIndex + direction + filteredPlants.length) %
+    filteredPlants.length;
+
   currentImageIndex = 0;
   renderOverlayContent(filteredPlants[currentPlantIndex]);
 }
 
-overlay.addEventListener("click", e => {
+function renderPlants() {
+  gallery.innerHTML = "";
+  filteredPlants = filterPlantsBySearch();
+
+  filteredPlants.forEach((plant, index) => {
+    const plantDiv = document.createElement("div");
+    plantDiv.classList.add("plant");
+
+    const img = document.createElement("img");
+    img.src = plant["Main image"];
+    img.alt = plant["Latin name"];
+    img.addEventListener("click", () => openOverlayByIndex(index));
+
+    const info = document.createElement("div");
+    info.classList.add("plant-info");
+    info.innerHTML = `
+      <p><strong>${plant["Latin name"]}</strong></p>
+      <p>${plant["Dutch name"]}</p>
+    `;
+
+    plantDiv.appendChild(img);
+    plantDiv.appendChild(info);
+    gallery.appendChild(plantDiv);
+  });
+}
+
+overlay.addEventListener("click", (e) => {
   if (e.target === overlay) closeOverlay();
 });
+
 closeBtn.addEventListener("click", closeOverlay);
 prevArrow.addEventListener("click", () => navigatePlant(-1));
 nextArrow.addEventListener("click", () => navigatePlant(1));
 
-document.addEventListener("keydown", e => {
+document.addEventListener("keydown", (e) => {
   if (overlay.classList.contains("hidden")) return;
-  if (e.key === "Escape") closeOverlay();
+
   if (e.key === "ArrowLeft") navigatePlant(-1);
   if (e.key === "ArrowRight") navigatePlant(1);
+  if (e.key === "Escape") closeOverlay();
 });
 
 renderPlants();

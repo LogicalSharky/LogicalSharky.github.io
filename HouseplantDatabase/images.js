@@ -3,6 +3,6 @@ const plants = [
 
     {
         'Latin name': "Placeholder",
-        'Image path': "images/text/text 1.JPG",
+        'Main image': "images/text/text 1.JPG",
     },
 ];

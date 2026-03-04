@@ -427,7 +427,7 @@ const plants = [
         'Latin name': "Aquilegia vulgaris",
         'Dutch name': "Wilde akelei",
         'Main image': "images/Aquilegia vulgaris/Aquilegia vulgaris 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Aquilegia vulgaris/Aquilegia vulgaris 2.jpg",
             "images/Aquilegia vulgaris/Aquilegia vulgaris 3.jpg",
@@ -502,7 +502,7 @@ const plants = [
         'Latin name': "Artemisia lactiflora 'Elfenbein'",
         'Dutch name': "Alsem",
         'Main image': "images/Artemisia lactiflora 'Elfenbein'/Artemisia lactiflora 'Elfenbein' 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Artemisia lactiflora 'Elfenbein'/Artemisia lactiflora 'Elfenbein' 2.jpg",
         ]},
@@ -535,7 +535,7 @@ const plants = [
         'Latin name': "Asarum europaeum",
         'Dutch name': "Mansoor",
         'Main image': "images/Asarum europaeum/Asarum europaeum 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Asarum europaeum/Asarum europaeum 2.jpg",
         ]},
@@ -548,19 +548,19 @@ const plants = [
             "images/Asplenium scolopendrium/Asplenium scolopendrium 2.jpg",
         ]},
     {
-        'Latin name': "Aster amellus ' Veilchenkönigin'",
+        'Latin name': "Aster amellus 'Veilchenkönigin'",
         'Dutch name': "Bergaster",
-        'Main image': "images/Aster amellus ' Veilchenkönigin'/Aster amellus ' Veilchenkönigin' 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'Main image': "images/Aster amellus 'Veilchenkönigin'/Aster amellus 'Veilchenkönigin' 1.jpg",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
-            "images/Aster amellus ' Veilchenkönigin'/Aster amellus ' Veilchenkönigin' 2.jpg",
-            "images/Aster amellus ' Veilchenkönigin'/Aster amellus ' Veilchenkönigin' 3.jpg",
+            "images/Aster amellus 'Veilchenkönigin'/Aster amellus 'Veilchenkönigin' 2.jpg",
+            "images/Aster amellus 'Veilchenkönigin'/Aster amellus 'Veilchenkönigin' 3.jpg",
         ]},
     {
         'Latin name': "Aster divaricatus",
         'Dutch name': "Bosaster",
         'Main image': "images/Aster divaricatus/Aster divaricatus 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Aster divaricatus/Aster divaricatus 2.jpg",
             "images/Aster divaricatus/Aster divaricatus 3.jpg",
@@ -569,7 +569,7 @@ const plants = [
         'Latin name': "Aster lateriflorus 'Horizontalis'",
         'Dutch name': "Kleinbloemige aster",
         'Main image': "images/Aster lateriflorus 'Horizontalis'/Aster lateriflorus 'Horizontalis' 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Aster lateriflorus 'Horizontalis'/Aster lateriflorus 'Horizontalis' 2.jpg",
         ]},
@@ -577,7 +577,7 @@ const plants = [
         'Latin name': "Aster novae-angliae 'Andenken an Alma Pötschke'",
         'Dutch name': "Nieuw-Engelse aster",
         'Main image': "images/Aster novae-angliae 'Andenken an Alma Pötschke'/Aster novae-angliae 'Andenken an Alma Pötschke' 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Aster novae-angliae 'Andenken an Alma Pötschke'/Aster novae-angliae 'Andenken an Alma Pötschke' 2.jpg",
             "images/Aster novae-angliae 'Andenken an Alma Pötschke'/Aster novae-angliae 'Andenken an Alma Pötschke' 3.jpg",
@@ -586,7 +586,7 @@ const plants = [
         'Latin name': "Aster 'Prof. Anton Kippenberg'",
         'Dutch name': "Kussenaster",
         'Main image': "images/Aster 'Prof. Anton Kippenberg'/Aster 'Prof. Anton Kippenberg' 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Aster 'Prof. Anton Kippenberg'/Aster 'Prof. Anton Kippenberg' 2.jpg",
         ]},
@@ -594,7 +594,7 @@ const plants = [
         'Latin name': "Aster x frikartii 'Mönch'",
         'Dutch name': "Herfstaster",
         'Main image': "images/Aster x frikartii 'Mönch'/Aster x frikartii 'Mönch' 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Aster x frikartii 'Mönch'/Aster x frikartii 'Mönch' 2.jpg",
         ]},
@@ -602,14 +602,14 @@ const plants = [
         'Latin name': "Astilbe chinensis 'Pumila'",
         'Dutch name': "Pluimspirea",
         'Main image': "images/Astilbe chinensis 'Pumila'/Astilbe chinensis 'Pumila' 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
         ]},
     {
         'Latin name': "Astilboides tabularis",
         'Dutch name': "Tafelblad",
         'Main image': "images/Astilboides tabularis/Astilboides tabularis 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Astilboides tabularis/Astilboides tabularis 2.jpg",
         ]},
@@ -617,7 +617,7 @@ const plants = [
         'Latin name': "Astrantia major",
         'Dutch name': "Zeeuws knoopje",
         'Main image': "images/Astrantia major/Astrantia major 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Astrantia major/Astrantia major 2.jpg",
         ]},
@@ -642,7 +642,7 @@ const plants = [
         'Latin name': "Bergenia 'Bressingham Ruby'",
         'Dutch name': "Schoenlappersplant",
         'Main image': "images/Bergenia 'Bressingham Ruby'/Bergenia 'Bressingham Ruby' 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Bergenia 'Bressingham Ruby'/Bergenia 'Bressingham Ruby' 2.jpg",
         ]},
@@ -690,7 +690,7 @@ const plants = [
         'Latin name': "Brunnera macrophylla 'Jack Frost'",
         'Dutch name': "Kaukasisch vergeet-mij-nietje",
         'Main image': "images/Brunnera macrophylla 'Jack Frost'/Brunnera macrophylla 'Jack Frost' 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Brunnera macrophylla 'Jack Frost'/Brunnera macrophylla 'Jack Frost' 2.jpg",
             "images/Brunnera macrophylla 'Jack Frost'/Brunnera macrophylla 'Jack Frost' 3.jpg",
@@ -737,7 +737,7 @@ const plants = [
         'Latin name': "Calamintha nepeta subsp. nepeta",
         'Dutch name': "Bergsteentijm",
         'Main image': "images/Calamintha nepeta subsp. nepeta/Calamintha nepeta subsp. nepeta 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Calamintha nepeta subsp. nepeta/Calamintha nepeta subsp. nepeta 2.jpg",
         ]},
@@ -779,7 +779,7 @@ const plants = [
         'Latin name': "Campanula lactiflora 'Loddon Anna'",
         'Dutch name': "Klokjesbloem",
         'Main image': "images/Campanula lactiflora 'Loddon Anna'/Campanula lactiflora 'Loddon Anna' 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Campanula lactiflora 'Loddon Anna'/Campanula lactiflora 'Loddon Anna' 2.jpg",
         ]},
@@ -915,7 +915,7 @@ const plants = [
         'Latin name': "Centranthus ruber 'Coccineus'",
         'Dutch name': "Rode valeriaan",
         'Main image': "images/Centranthus ruber 'Coccineus'/Centranthus ruber 'Coccineus' 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Centranthus ruber 'Coccineus'/Centranthus ruber 'Coccineus' 2.jpg",
             "images/Centranthus ruber 'Coccineus'/Centranthus ruber 'Coccineus' 3.jpg",
@@ -934,7 +934,7 @@ const plants = [
         'Latin name': "Ceratostigma plumbaginoides",
         'Dutch name': "Loodkruid",
         'Main image': "images/Ceratostigma plumbaginoides/Ceratostigma plumbaginoides 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Ceratostigma plumbaginoides/Ceratostigma plumbaginoides 2.jpg",
         ]},
@@ -981,7 +981,7 @@ const plants = [
         'Latin name': "Chelone obliqua",
         'Dutch name': "Schildpadbloem",
         'Main image': "images/Chelone obliqua/Chelone obliqua 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Chelone obliqua/Chelone obliqua 2.jpg",
         ]},
@@ -1122,7 +1122,7 @@ const plants = [
         'Latin name': "Corydalis flexuosa",
         'Dutch name': "Helmbloem",
         'Main image': "images/Corydalis flexuosa/Corydalis flexuosa 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Corydalis flexuosa/Corydalis flexuosa 2.jpg",
         ]},
@@ -1208,7 +1208,7 @@ const plants = [
         'Latin name': "Crambe cordifolia",
         'Dutch name': "Zeekool",
         'Main image': "images/Crambe cordifolia/Crambe cordifolia 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Crambe cordifolia/Crambe cordifolia 2.jpg",
             "images/Crambe cordifolia/Crambe cordifolia 3.jpg",
@@ -1235,7 +1235,7 @@ const plants = [
         'Latin name': "Crocosmia 'Lucifer'",
         'Dutch name': "Montbretia",
         'Main image': "images/Crocosmia 'Lucifer'/Crocosmia 'Lucifer' 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Crocosmia 'Lucifer'/Crocosmia 'Lucifer' 2.jpg",
         ]},
@@ -1332,7 +1332,7 @@ const plants = [
         'Latin name': "Darmera peltata",
         'Dutch name': "Schildblad",
         'Main image': "images/Darmera peltata/Darmera peltata 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Darmera peltata/Darmera peltata 2.jpg",
             "images/Darmera peltata/Darmera peltata 3.jpg",
@@ -1351,7 +1351,7 @@ const plants = [
         'Latin name': "Delphinium belladonna 'Völkerfrieden'",
         'Dutch name': "Ridderspoor",
         'Main image': "images/Delphinium belladonna 'Völkerfrieden'/Delphinium belladonna 'Völkerfrieden' 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Delphinium belladonna 'Völkerfrieden'/Delphinium belladonna 'Völkerfrieden' 2.jpg",
         ]},
@@ -1404,7 +1404,7 @@ const plants = [
         'Latin name': "Dicentra formosa",
         'Dutch name': "Gebroken hartje",
         'Main image': "images/Dicentra formosa/Dicentra formosa 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Dicentra formosa/Dicentra formosa 2.jpg",
             "images/Dicentra formosa/Dicentra formosa 3.jpg",
@@ -1413,7 +1413,7 @@ const plants = [
         'Latin name': "Dicentra spectabilis",
         'Dutch name': "Gebroken hartje",
         'Main image': "images/Dicentra spectabilis/Dicentra spectabilis 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Dicentra spectabilis/Dicentra spectabilis 2.jpg",
         ]},
@@ -1421,7 +1421,7 @@ const plants = [
         'Latin name': "Dictamnus albus",
         'Dutch name': "Vuurwerkplant",
         'Main image': "images/Dictamnus albus/Dictamnus albus 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
             "images/Dictamnus albus/Dictamnus albus 2.jpg",
         ]},
@@ -1445,7 +1445,7 @@ const plants = [
         'Latin name': "Digitalis purpurea",
         'Dutch name': "Vingerhoedskruid",
         'Main image': "images/Digitalis purpurea/Digitalis purpurea 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
         ]},
     {
@@ -1461,7 +1461,7 @@ const plants = [
         'Latin name': "Doronicum orientale",
         'Dutch name': "Voorjaarszonnebloem",
         'Main image': "images/Doronicum orientale/Doronicum orientale 1.jpg",
-        'SCHOOL SUBJECT':"Plantecologie",
+        'SCHOOL SUBJECT':"Plantenkennis 1",
         'Sub images': [
         ]},
     {

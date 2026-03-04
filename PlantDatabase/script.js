@@ -1,6 +1,7 @@
 const gallery = document.getElementById("gallery");
 const searchBar = document.getElementById("searchBar");
 const tagFiltersDiv = document.getElementById("tagFilters");
+const resultsCounter = document.getElementById("resultsCounter");
 
 const overlay = document.getElementById("overlay");
 const overlayImg = document.getElementById("overlayImg");
@@ -26,9 +27,10 @@ function updateMenuButtonVisibility() {
   }
 }
 
-menuToggle.addEventListener("click", () => {
+menuToggle.addEventListener("click", (e) => {
   sidebar.classList.toggle("show");
   updateMenuButtonVisibility();
+  e.stopPropagation();
 });
 
 document.addEventListener("click", (e) => {
@@ -40,6 +42,7 @@ document.addEventListener("click", (e) => {
   ) {
     sidebar.classList.remove("show");
     updateMenuButtonVisibility();
+    e.stopPropagation();
   }
 });
 
@@ -75,15 +78,16 @@ const allTags = {
   "EDIBLE": ["Berries","Flowers","Fruits","Leaves","Nuts","Stem","after processing"],
   "ORIGIN": ["Introduced","Invasive","Native"],
   "SPECIAL FEATURES": ["Large leaves","Luminescent","Thorns","Toxic","Tropical look"],
-  "---------------OTHER----------------":[],
+  "---------------OTHER-----------------":[],
   "PLANTING DENSITY": ["1/m²","2/m²","3/m²","4/m²","5/m²","6/m²","7/m²","8/m²","9/m²","10/m²","11/m²","12/m²","13/m²","14/m²","15/m²"],
-  "AVERAGE PRICE P9 OR 10/12": ["€5","€10","€15","€20","€25","€30","€40","€50","€75","€100","€150","€200","€300","€500","€750","€1000","+€1000"],
-  "SCHOOL SUBJECT": ["Plantenkennis 1","Plantecologie","Plantenkennis 2"],
-  "NOTE": ["text"]
+  "ACCESIBILITY": ["Accesible","Semi-rare","Hard to find"],
+  "SCHOOL SUBJECT": ["Plantecologie","Plantenkennis 1","Plantenkennis 2"],
+  "NOTE": ["text"],
+  "FAMILY": ["text"]
 };
 
 for (const group in allTags) {
-  if (group === "NOTE") continue;
+  if (group === "NOTE" || group === "FAMILY") continue;
 
   const groupDiv = document.createElement("div");
   groupDiv.classList.add("tag-group");
@@ -220,7 +224,7 @@ function renderOverlayContent(plant) {
 
   for (const key in plant) {
     if (
-      ["Latin name", "Dutch name", "Main image", "Sub images", "SCHOOLYEAR"].includes(key)
+      ["Latin name", "Dutch name", "Main image", "Sub images", "SCHOOLYEAR", "SCHOOL SUBJECT"].includes(key)
     ) continue;
 
     const value = plant[key];
@@ -279,10 +283,18 @@ function renderPlants() {
     const plantDiv = document.createElement("div");
     plantDiv.classList.add("plant");
 
+    if (plant["ORIGIN"] && plant["ORIGIN"].includes("Invasive")) {
+      plantDiv.classList.add("invasive");
+    }
+
     const img = document.createElement("img");
     img.src = plant["Main image"];
     img.alt = plant["Latin name"];
-    img.addEventListener("click", () => openOverlayByIndex(index));
+
+    img.addEventListener("click", (e) => {
+      if (window.innerWidth <= 800 && sidebar.classList.contains("show")) return;
+      openOverlayByIndex(index);
+    });
 
     const info = document.createElement("div");
     info.classList.add("plant-info");
@@ -295,6 +307,8 @@ function renderPlants() {
     plantDiv.appendChild(info);
     gallery.appendChild(plantDiv);
   });
+
+  resultsCounter.textContent = `Showing ${filteredPlants.length} plant${filteredPlants.length !== 1 ? "s" : ""}`;
 }
 
 overlay.addEventListener("click", (e) => {

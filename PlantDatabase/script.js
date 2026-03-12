@@ -18,10 +18,8 @@ const sidebar = document.querySelector(".sidebar");
 let plants = [];
 let filteredPlants = [];
 let plantCache = {};
-
 let renderedCount = 0;
 const batchSize = 30;
-
 let currentPlantIndex = 0;
 let currentImageIndex = 0;
 
@@ -57,7 +55,7 @@ document.addEventListener("click", (e) => {
   const plantDiv = e.target.closest(".plant");
   if (plantDiv) {
     const index = Array.from(gallery.children).indexOf(plantDiv);
-    if (index !== -1) openOverlayByIndex(filteredPlants[index].globalIndex);
+    if (index !== -1) openOverlayByIndex(index);
   }
 });
 
@@ -68,39 +66,40 @@ document.addEventListener("DOMContentLoaded", updateMenuButtonVisibility);
 
 // ----- TAGS -----
 const tagGroups = [
-  { name: "TRAITS", tags: ["TYPE OF PLANT","FLOWER COLOUR","FLOWER SHAPE","FLOWERING PERIOD","POLLINATORS","FRUITS","FRUITING PERIOD","EDIBLE","LEAF COLOUR","AUTUMN COLOURS","WINTER ASPECT","SPECIAL FEATURES","PLANT WARNINGS"] },
+  { name: "TRAITS", tags: ["TYPE OF PLANT","USE","FLOWER COLOUR","FLOWER SHAPE","FLOWERING PERIOD","POLLINATORS","FRUITS","FRUITING PERIOD","EDIBLE","LEAF COLOUR","AUTUMN COLOURS","WINTER ASPECT","SPECIAL FEATURES","PLANT WARNINGS"] },
+  { name: "ENVIRONMENT", tags: ["HABITAT","ORIGIN TO BELGIUM","HARDINESS ZONE (BE 7-8)","SUNLIGHT","GROUND TYPE","SOIL DRAINAGE","SOIL MOISTURE","SOIL PH"] },
   { name: "GROWTH", tags: ["HEIGHT","WIDTH","GROWTH RATE"] },
-  { name: "ENVIRONMENT", tags: ["USE","HABITAT","ORIGIN","HARDINESS ZONE (BE 7-8)","SUNLIGHT","GROUND TYPE","SOIL DRAINAGE","SOIL MOISTURE","SOIL PH"] },
   { name: "OTHER", tags: ["ACCESSIBILITY","PLANTING DENSITY","SCHOOL SUBJECT"] }
+
 ];
 
 const allTags = {
   "FAMILY": "text",
   "TYPE OF PLANT": ["Aquatic plant","Bamboo","Biennial","Climbing plant","Conifer","Fern","Flower bulb","Ground cover","Ornamental grass","Palm","Perennial","Shrub","Succulent","Tree","Weeds"],
+  "USE": ["Climate adaptive","Coastal area","Decorative flowers","Drought tolerant","Fragrant","Hedge","Playing pressure resistant","Pioneer species","Species for birds","Species for insects","Street / paving plant","Thickets","Vertical green & Roof garden","Wadi"],
   "FLOWER COLOUR": ["Black flowers","Blue flowers","Brown flowers","Green flowers","Orange flowers","Pink flowers","Purple flowers","Red flowers","White flowers","Yellow flowers"],
   "FLOWER SHAPE": ["Bell-shaped","Cup-shaped","Daisy-like","Funnel-shaped","Cone-shaped","Spike","Panicle","Umbel","Corymb","Other flower shape","Star-shaped","Tubular"],
   "FLOWERING PERIOD": ["Flowers Early Spring","Flowers Spring","Flowers Summer","Flowers Late Summer","Flowers Autumn","Flowers Winter"],
   "POLLINATORS": ["Bees","Butterflies","Hoverflies","Moths"],
-  "FRUITS": ["Berries","Catkins","Fruit","Nuts","Pine cones","Seed pods"],
+  "FRUITS": ["Achene","Berries","Catkins","Fruit","Nuts","Pine cones","Seed pods"],
   "FRUITING PERIOD": ["Fruits Early Spring","Fruits Spring","Fruits Summer","Fruits Late Summer","Fruits Autumn","Fruits Winter"],
-  "EDIBLE": ["Edible after processing","Edible berries","Edible flowers","Edible fruit","Edible leaves","Edible nuts","Edible stem"],
+  "EDIBLE": ["Edible after processing","Edible berries","Edible flowers","Edible fruit","Edible leaves","Edible nuts","Edible sap","Edible stem"],
   "LEAF COLOUR": ["Black leaves","Blue leaves","Brown leaves","Green leaves","Grey leaves","Pink leaves","Purple leaves","Red leaves","White leaves","Yellow leaves"],
   "AUTUMN COLOURS": ["Orange autumn leaves","Red autumn leaves","Yellow autumn leaves"],
   "WINTER ASPECT": ["Decorative winter structure","Evergreen","No winter presence"],
   "SPECIAL FEATURES": ["Large leaves","Luminescent","Thorns","Tropical look"],
   "PLANT WARNINGS": ["Allergenic","Invasive roots","Needs wind shelter","Toxic","Susceptible to frost","Toxic to pets"],
-  "HEIGHT": ["0-0.2 m","0.2-0.5 m","0.5-1 m","1-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20-30 m","30+ m"],
-  "WIDTH": ["0-0.2 m","0.2-0.5 m","0.5-1 m","1-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20+ m"],
-  "GROWTH RATE": ["Fast growing","Moderate growth","Slow growing"],
-  "USE": ["Climate adaptive","Coastal area","Decorative flowers","Drought tolerant","Fragrant","Hedge","Playing pressure resistant","Pioneer species","Species for birds","Species for insects","Street / paving plant","Thickets","Vertical green & Roof garden","Wadi"],
   "HABITAT": ["Dune habitat","Forest edge","Grassland","Riverbank","Rock garden","Wetland","Woodland"],
-  "ORIGIN":["Introduced","Invasive","Native"],
+  "ORIGIN TO BELGIUM":["Introduced","Invasive","Native"],
   "HARDINESS ZONE (BE 7-8)": ["Zone 3","Zone 4","Zone 5","Zone 6","Zone 7","Zone 8","Zone 9","Zone 10"],
   "SUNLIGHT": ["Full sunlight","Half shade","Shade"],
   "GROUND TYPE": ["Clay","Loam","Rocks","Sandy soil"],
   "SOIL DRAINAGE": ["Fast draining","Moderately drained","Poorly drained","Well drained"],
   "SOIL MOISTURE": ["Arid","Dry","Moderately moist","Damp","Waterlogged"],
   "SOIL PH": ["Acid","Lime","Neutral"],
+  "HEIGHT": ["0-0.2 m","0.2-0.5 m","0.5-1 m","1-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20-30 m","30+ m"],
+  "WIDTH": ["0-0.2 m","0.2-0.5 m","0.5-1 m","1-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20+ m"],
+  "GROWTH RATE": ["Fast growing","Moderate growth","Slow growing"],
   "ACCESSIBILITY": ["Accessible","Semi-rare","Hard to find"],
   "PLANTING DENSITY": ["0-0.1/m²","0.1-0.5/m²","0.5-1/m²","1-2/m²","2-3/m²","3-4/m²","4-5/m²","5-6/m²","6-7/m²","7-8/m²","8-9/m²","9-10/m²","10-12/m²","12-15/m²","15+ /m²"],
   "SCHOOL SUBJECT": ["Plantecologie","Plantenkennis 1","Plantenkennis 2"],
@@ -227,22 +226,24 @@ function filterPlantsBySearch() {
     );
 }
 
-// ----- RENDER -----
 function renderNextBatch() {
   const next = filteredPlants.slice(renderedCount, renderedCount + batchSize);
-  next.forEach((plant) => {
+  next.forEach((plant, i) => {
     const plantDiv = document.createElement("div");
     plantDiv.classList.add("plant");
-    if (plant["ORIGIN"] && plant["ORIGIN"].includes("Invasive")) plantDiv.classList.add("invasive");
+
+    const origin = (plant["ORIGIN TO BELGIUM"] || "").toString().trim().toLowerCase();
+    if (origin.includes("invasive")) plantDiv.classList.add("invasive"); // ✅ always check
 
     const img = document.createElement("img");
     img.loading = "lazy";
     img.src = plant["MAIN IMAGE"];
     img.alt = plant["LATIN NAME"];
 
+    const filteredIndex = renderedCount + i;
     img.addEventListener("click", () => {
       if (window.innerWidth <= 800 && sidebar.classList.contains("show")) return;
-      openOverlayByIndex(plant.globalIndex);
+      openOverlayByIndex(filteredIndex);
     });
 
     const info = document.createElement("div");
@@ -301,12 +302,10 @@ function renderOverlayContent(plant) {
   overlayImg.src = images[currentImageIndex];
   overlayImg.alt = plant["LATIN NAME"];
 
-  // Latin, Dutch, Family
   overlayDetails.innerHTML = `<p class="latin-name">${plant["LATIN NAME"]}</p>
                               <p class="dutch-name">${plant["DUTCH NAME"]}</p>
                               ${plant["FAMILY"] ? `<p class="family-name">${plant["FAMILY"]}</p>` : ""}`;
 
-  // Major categories dividers
   tagGroups.forEach(group => {
     const groupDiv = document.createElement("div");
     const groupHeader = document.createElement("p");
@@ -315,7 +314,6 @@ function renderOverlayContent(plant) {
     groupDiv.appendChild(groupHeader);
 
     group.tags.forEach(tagGroupName => {
-      // Skip SCHOOL SUBJECT / YEAR in popup
       if (!plant[tagGroupName] || tagGroupName === "SCHOOL SUBJECT") return;
 
       const value = plant[tagGroupName];
@@ -329,15 +327,6 @@ function renderOverlayContent(plant) {
     overlayDetails.appendChild(groupDiv);
   });
 
-  // Show NOTE at the very end
-  if (plant["NOTE"]) {
-    const noteDiv = document.createElement("div");
-    noteDiv.classList.add("tag");
-    noteDiv.innerHTML = `<strong>NOTE:</strong> <span>${plant["NOTE"]}</span>`;
-    overlayDetails.appendChild(noteDiv);
-  }
-
-  // Thumbnails
   thumbnailRow.innerHTML = "";
   images.forEach((imgSrc, idx) => {
     const thumb = document.createElement("img");

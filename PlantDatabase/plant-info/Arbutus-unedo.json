@@ -12,17 +12,18 @@ Any thoughts, suggestions, etc, can be told to me at the end, without changing a
   "FLOWER SHAPE":["Bell-shaped","Cup-shaped","Daisy-like","Funnel-shaped","Cone-shaped","Spike","Panicle","Umbel","Corymb","Other flower shape","Star-shaped","Tubular"],
   "FLOWERING PERIOD":["Flowers Early Spring","Flowers Spring","Flowers Summer","Flowers Late Summer","Flowers Autumn","Flowers Winter"],
   "POLLINATORS":["Bees","Butterflies","Hoverflies","Moths"],
-  "FRUITS":["Berries","Catkins","Fruit","Nuts","Pine cones","Seed pods"],
+  "FRUITS":["Achene","Berries","Catkins","Fruit","Nuts","Pine cones","Seed pods"],
   "FRUITING PERIOD":["Fruits Early Spring","Fruits Spring","Fruits Summer","Fruits Late Summer","Fruits Autumn","Fruits Winter"],
 // Edible tag "Edible after processing" is added on top of the other edible tags if its only edible after processing.
-  "EDIBLE":["Edible after processing","Edible berries","Edible flowers","Edible fruit","Edible leaves","Edible nuts","Edible stem"],
+  "EDIBLE":["Edible after processing","Edible berries","Edible flowers","Edible fruit","Edible leaves","Edible nuts",""Edible sap",Edible stem"],
   "LEAF COLOUR":["Black leaves","Blue leaves","Brown leaves","Green leaves","Grey leaves","Pink leaves","Purple leaves","Red leaves","White leaves","Yellow leaves"],
-// If a plant can't be confidently marked evergreen, it should not be marked evergreen and in turn have autumn colours. If a plant in turn is evergeen, it should not have autumn colours.
+// If a plant can't be confidently marked evergreen, it should not be marked evergreen and in turn have autumn colours. If a plant in turn is evergeen, it should not have autumn colours. Also, a plant can only have one autumn colour so chose which fits best.
   "AUTUMN COLOURS":["Orange autumn leaves","Red autumn leaves","Yellow autumn leaves"],
 // A plant either is evergreen, has a decorative winter structure like branches or bloomed out flowers that stay up during winter or ornamental grasses in winter that become brown, or they have no winter presence. It can't be multiple! Base this on the Belgian climate.
   "WINTER ASPECT":["Evergreen","Decorative winter structure","No winter presence"],
 // For special feautures I will decide if it has tropical look, SO DONT ADD IT! Large leaves are above 50cm. Thorns is only if it has botanicly defined thorns.
   "SPECIAL FEATURES":["Large leaves","Luminescent","Thorns","Tropical look"],
+// Allergenic is only for species that cause allergies with a lot of people, so general allergies. Invasive roots is for plants that spread easely like bamboo (plants with rhizomes), not for trees that grow into or uplift concrete. Wind shelter is for plants that really need it, like a lot of fruit trees.
   "PLANT WARNINGS":["Allergenic","Invasive roots","Needs wind shelter","Toxic","Susceptible to frost","Toxic to pets"],
   "HEIGHT":["0-0.2 m","0.2-0.5 m","0.5-1 m","1-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20-30 m","30+ m"],
   "WIDTH":["0-0.2 m","0.2-0.5 m","0.5-1 m","1-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20+ m"],

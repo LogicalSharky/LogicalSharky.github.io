@@ -1,0 +1,53 @@
+Please fill this in and select all that apply. The // is info that needs to be followed, before returning me the filled in version, remove all // info. 
+Take your time filling this in to ensure the correct info is provided. Do not add anything that is not specified already. When a category should be empty, like autumn colours with a Picea abies, leave this category empty. []
+Any thoughts, suggestions, etc, can be told to me at the end, without changing anything in the filled in format. 
+
+{
+  "LATIN NAME": "Malus domestica",
+  "DUTCH NAME": "Appelboom",
+  "MAIN IMAGE": "images/Malus domestica/Malus domestica 1.jpg",
+  "FAMILY":"text",
+  "TYPE OF PLANT":["Aquatic plant","Bamboo","Biennial","Climbing plant","Conifer","Fern","Flower bulb","Ground cover","Ornamental grass","Palm","Perennial","Shrub","Succulent","Tree","Weeds"],
+  "FLOWER COLOUR":["Black flowers","Blue flowers","Brown flowers","Green flowers","Orange flowers","Pink flowers","Purple flowers","Red flowers","White flowers","Yellow flowers"],
+  "FLOWER SHAPE":["Bell-shaped","Cup-shaped","Daisy-like","Funnel-shaped","Cone-shaped","Spike","Panicle","Umbel","Corymb","Other flower shape","Star-shaped","Tubular"],
+  "FLOWERING PERIOD":["Flowers Early Spring","Flowers Spring","Flowers Summer","Flowers Late Summer","Flowers Autumn","Flowers Winter"],
+  "POLLINATORS":["Bees","Butterflies","Hoverflies","Moths"],
+  "FRUITS":["Berries","Catkins","Fruit","Nuts","Pine cones","Seed pods"],
+  "FRUITING PERIOD":["Fruits Early Spring","Fruits Spring","Fruits Summer","Fruits Late Summer","Fruits Autumn","Fruits Winter"],
+// Edible tag "Edible after processing" is added on top of the other edible tags if its only edible after processing.
+  "EDIBLE":["Edible after processing","Edible berries","Edible flowers","Edible fruit","Edible leaves","Edible nuts","Edible stem"],
+  "LEAF COLOUR":["Black leaves","Blue leaves","Brown leaves","Green leaves","Grey leaves","Pink leaves","Purple leaves","Red leaves","White leaves","Yellow leaves"],
+// If a plant can't be confidently marked evergreen, it should not be marked evergreen and in turn have autumn colours. If a plant in turn is evergeen, it should not have autumn colours.
+  "AUTUMN COLOURS":["Orange autumn leaves","Red autumn leaves","Yellow autumn leaves"],
+// A plant either is evergreen, has a decorative winter structure like branches or bloomed out flowers that stay up during winter or ornamental grasses in winter that become brown, or they have no winter presence. It can't be multiple! Base this on the Belgian climate.
+  "WINTER ASPECT":["Evergreen","Decorative winter structure","No winter presence"],
+// For special feautures I will decide if it has tropical look, SO DONT ADD IT! Large leaves are above 50cm. Thorns is only if it has botanicly defined thorns.
+  "SPECIAL FEATURES":["Large leaves","Luminescent","Thorns","Tropical look"],
+  "PLANT WARNINGS":["Allergenic","Invasive roots","Needs wind shelter","Toxic","Susceptible to frost","Toxic to pets"],
+  "HEIGHT":["0-0.2 m","0.2-0.5 m","0.5-1 m","1-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20-30 m","30+ m"],
+  "WIDTH":["0-0.2 m","0.2-0.5 m","0.5-1 m","1-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20+ m"],
+  "GROWTH RATE":["Fast growing","Moderate growth","Slow growing"],
+// Decorative flowers means if you would plant the plant specificly for its flowers. Playing pressure resistant is for plants that can be used on playgrounds. Species for birds is if its known as a plant for birds by for example producing berries, like a Sorbus aucuparia does. Thickits means large bush forming plants that can be planted to make a natural border, like crataegus monogyna for example. Vertical green & roof garden is for any plants that do okay with a small layer of substrate like you would see on roofs, this includes tree species that can be placed in containers like an Acer palmatum.
+  "USE":["Climate adaptive","Coastal area","Decorative flowers","Drought tolerant","Fragrant","Hedge","Playing pressure resistant","Pioneer species","Species for birds","Species for insects","Street / paving plant","Thickets","Vertical green & Roof garden","Wadi"],
+  "HABITAT":["Dune habitat","Forest edge","Grassland","Riverbank","Rock garden","Wetland","Woodland"],
+  "ORIGIN TO BELGIUM":["Introduced","Invasive","Native"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 3","Zone 4","Zone 5","Zone 6","Zone 7","Zone 8","Zone 9","Zone 10"],
+  "SUNLIGHT":["Full sunlight","Half shade","Shade"],
+// Select all that apply for ground type
+  "GROUND TYPE":["Clay","Loam","Rocks","Sandy soil"],
+// Select what the plant prefers for the soil drainage, soil moisture, soil ph.
+  "SOIL DRAINAGE":["Fast draining","Moderately drained","Poorly drained","Well drained"],
+  "SOIL MOISTURE":["Arid","Dry","Moderately moist","Damp","Waterlogged"],
+  "SOIL PH":["Acidic","Lime","Neutral"],
+// Accessibility based on Belgium.
+  "ACCESSIBILITY":["Accessible","Semi-rare","Hard to find"],
+// Density for TREES based on grown specimens. Planting density for other plants (not trees) based on regular planting density.
+  "PLANTING DENSITY":["0-0.1/m²","0.1-0.5/m²","0.5-1/m²","1-2/m²","2-3/m²","3-4/m²","4-5/m²","5-6/m²","6-7/m²","7-8/m²","8-9/m²","9-10/m²","10-12/m²","12-15/m²","15+ /m²"],
+  "SCHOOL SUBJECT":["Plantenkennis 2"],
+// Only add something to Note if it could not be said with all the tags. For example how a hydrangea changes colour based on ph levels. THIS MEANS NO TEXT DISCRIBING THE PLANT!!!
+  "NOTE":"text",
+  "SUB IMAGES":[
+    "images/Malus domestica/Malus domestica 2.jpg",
+    "images/Malus domestica/Malus domestica 3.jpg"
+]
+}

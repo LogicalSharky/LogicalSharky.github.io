@@ -216,7 +216,7 @@ body {
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(255, 255, 255, 0.63);
+  background: rgba(255, 255, 255, 0.25);
   z-index: 0;
 }
 
@@ -401,3 +401,104 @@ body {
 }
 
 .thumbnail-row img.selected { filter: brightness(100%); }
+
+/* ===== SIDEBAR CATEGORY DIVIDERS ===== */
+
+/* Major group dividers (TRAITS, GROWTH, etc.) */
+.sidebar .tag-group-divider {
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #fff; /* white for sidebar */
+  border-bottom: 2px solid rgba(255, 255, 255, 0.35);
+  padding: 5px 0;
+  margin: 15px 0 5px 0;
+}
+
+/* Subgroup titles */
+.sidebar .tag-group-title {
+  font-weight: 600;
+  font-size: 0.95em;
+  color: #ddd; /* light gray for sidebar */
+  margin-top: 8px;
+  margin-bottom: 4px;
+  border-bottom: 1px dashed rgba(255,255,255,0.2);
+  padding-bottom: 2px;
+}
+
+/* first group shouldn't have top space */
+.sidebar .tag-group:first-child .tag-group-title {
+  margin-top: 0;
+}
+
+/* ===== POPUP DIVIDERS & CATEGORY HEADERS ===== */
+
+/* Popup category container */
+.overlay-details .popup-category {
+  margin-top: 15px;
+  border-top: 1px solid rgba(0,0,0,0.15);
+  padding-top: 8px;
+}
+
+/* Popup category titles - stronger contrast */
+.overlay-details .popup-category h3 {
+  font-size: 18px;         /* slightly larger */
+  font-weight: 700;        /* bolder */
+  margin-bottom: 6px;
+  color: #000;             /* black for popup */
+  text-shadow: 0 1px 1px rgba(255,255,255,0.4); /* subtle shadow to stand out */
+}
+
+/* Overlay tag groups in popup */
+.overlay-details .tag-group-divider {
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #000; /* black for popup */
+  border-bottom: 2px solid rgba(0,0,0,0.15);
+  padding: 5px 0;
+  margin: 15px 0 5px 0;
+}
+
+.overlay-details .tag-group-title {
+  font-weight: 600;
+  font-size: 0.95em;
+  color: #000; /* black for popup */
+  margin-top: 8px;
+  margin-bottom: 4px;
+  border-bottom: 1px dashed rgba(0,0,0,0.08);
+  padding-bottom: 2px;
+}
+
+/* Overlay tags - align label and value in columns */
+.overlay-details .tag {
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;          /* space between label and value */
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+/* Remove border from last tag */
+.overlay-details .tag:last-child {
+  border-bottom: none;
+}
+
+/* Fixed width for label so values align */
+.overlay-details .tag strong {
+  flex: 0 0 180px;    /* adjust width for longest label */
+  font-weight: 600;
+  color: #111;
+}
+
+/* Values fill remaining space */
+.overlay-details .tag span {
+  flex: 1;
+  color: #333;
+}
+
+.overlay-details .family-name {
+  font-size: clamp(13px, 1.2vw, 18px);
+  font-style: italic;
+  color: #444;
+  margin-bottom: 10px;
+}
+

@@ -66,39 +66,40 @@ document.addEventListener("DOMContentLoaded", updateMenuButtonVisibility);
 
 // ----- TAGS -----
 const tagGroups = [
-  { name: "TRAITS", tags: ["TYPE OF PLANT","USE","FLOWER COLOUR","FLOWER SHAPE","FLOWERING PERIOD","FRUITS","FRUITING PERIOD","EDIBLE","LEAF COLOUR","AUTUMN COLOURS","WINTER ASPECT","VALUE FOR INSECTS","SPECIAL FEATURES","PLANT WARNINGS"] },
+  { name: "TRAITS", tags: ["TYPE OF PLANT","USE","FLOWER COLOUR","INDIVIDUAL FLOWER SHAPE","FLOWER CLUSTER SHAPE","FLOWERING PERIOD","FRUITS","FRUITING PERIOD","EDIBLE","LEAF COLOUR","AUTUMN COLOURS","WINTER ASPECT","VALUE FOR INSECTS","SPECIAL FEATURES","PLANT WARNINGS"] },
   { name: "ENVIRONMENT", tags: ["HABITAT","ORIGIN TO BELGIUM","HARDINESS ZONE (BE 7-8)","SUNLIGHT","GROUND TYPE","SOIL DRAINAGE","SOIL MOISTURE","SOIL PH"] },
-  { name: "GROWTH", tags: ["HEIGHT","WIDTH","GROWTH RATE"] },
+  { name: "GROWTH", tags: ["LIFE CYCLE","HEIGHT","WIDTH","GROWTH RATE"] },
   { name: "OTHER", tags: ["ACCESSIBILITY","PLANTING DENSITY","SCHOOL SUBJECT"] }
-
 ];
 
 const allTags = {
   "FAMILY": "text",
-  "TYPE OF PLANT": ["Aquatic plant","Bamboo","Biennial","Climbing plant","Conifer","Fern","Flower bulb","Ground cover","Ornamental grass","Palm","Perennial","Shrub","Succulent","Tree","Weeds"],
+  "TYPE OF PLANT": ["Aquatic plant","Bamboo","Climbing plant","Conifer","Fern","Flower bulb","Ground cover","Herbaceous plant","Ornamental grass","Palm","Shrub","Subshrub","Succulent","Tree"],
   "USE": ["Climate adaptive","Coastal area","Decorative flowers","Drought tolerant","Fragrant","Hedge","Playing pressure resistant","Pioneer species","Salt tolerant","Species for birds","Species for insects","Street / paving plant","Thickets","Vertical green & Roof garden","Wadi"],
   "FLOWER COLOUR": ["Black flowers","Blue flowers","Brown flowers","Green flowers","Orange flowers","Pink flowers","Purple flowers","Red flowers","White flowers","Yellow flowers"],
-  "FLOWER SHAPE": ["Bell-shaped","Cup-shaped","Daisy-like","Funnel-shaped","Cone-shaped","Spike","Panicle","Umbel","Corymb","Other flower shape","Star-shaped","Tubular"],
+  "INDIVIDUAL FLOWER SHAPE": ["Bell flowers","Cup flowers","Star flowers","Tubular flowers","Daisy flowers","Inconspicuous flowers","Other flower shapes"],
+  "FLOWER CLUSTER SHAPE": ["Ball flower clusters","Flat flower clusters","Hanging flower clusters","Panicle flower clusters","Small flower clusters","Spike flower clusters","Catkins","Other flower clusters"], 
   "FLOWERING PERIOD": ["Flowers Early Spring","Flowers Spring","Flowers Summer","Flowers Late Summer","Flowers Autumn","Flowers Winter"],
-  "FRUITS": ["Achene","Berries","Capsules","Catkins","Drupes","Fruit","Nuts","Pine cones","Samaras","Seed pods"],
+  "FRUITS":["Berries","Cones","Fleshy fruits","Nuts","Samaras","Other fruits"],
   "FRUITING PERIOD": ["Fruits Early Spring","Fruits Spring","Fruits Summer","Fruits Late Summer","Fruits Autumn","Fruits Winter"],
   "EDIBLE": ["Only edible after processing","Edible berries","Edible flowers","Edible fruit","Edible leaves","Edible nuts","Edible roots","Edible sap","Edible stem"],
   "LEAF COLOUR": ["Black leaves","Blue leaves","Brown leaves","Green leaves","Grey leaves","Pink leaves","Purple leaves","Red leaves","White leaves","Yellow leaves"],
   "AUTUMN COLOURS": ["Orange autumn leaves","Red autumn leaves","Yellow autumn leaves"],
-  "WINTER ASPECT": ["Evergreen","Winter interests","Dies back in winter"],
+  "WINTER ASPECT": ["Evergreen","Winter interests","No winter presence"],
   "VALUE FOR INSECTS": ["Bees","Butterflies","Moths"],
   "SPECIAL FEATURES": ["Large leaves","Luminescent","Thorns","Tropical look"],
   "PLANT WARNINGS": ["Allergenic","Invasive roots","Needs wind shelter","Not pet safe","Toxic","Skin irritant","Susceptible to frost"],
   "HABITAT": ["Alpine","Dune habitat","Forest edge","Grassland","Riverbank","Rock garden","Wetland","Woodland"],
   "ORIGIN TO BELGIUM":["Introduced","Invasive","Native"],
-  "HARDINESS ZONE (BE 7-8)": ["Zone 3","Zone 4","Zone 5","Zone 6","Zone 7","Zone 8","Zone 9","Zone 10"],
+  "HARDINESS ZONE BE 7-8": ["Zone 3","Zone 4","Zone 5","Zone 6","Zone 7","Zone 8","Zone 9","Zone 10"],
   "SUNLIGHT": ["Full sunlight","Half shade","Shade"],
   "GROUND TYPE": ["Clay","Loam","Rocks","Sandy soil"],
   "SOIL DRAINAGE": ["Fast draining","Well drained","Moderately drained","Poorly drained"],
   "SOIL MOISTURE": ["Arid","Dry","Moderately moist","Damp","Waterlogged"],
   "SOIL PH": ["Acid","Alkaline","Neutral"],
+  "LIFE CYCLE": ["Annual","Biennial","Perennial"],
   "HEIGHT": ["0-0.2 m","0.2-0.5 m","0.5-1 m","1-1.5 m","1.5-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20-30 m","30+ m"],
-  "WIDTH": ["0-0.2 m","0.2-0.5 m","0.5-1 m","1-1.5 m","1-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20+ m"],
+  "WIDTH": ["0-0.2 m","0.2-0.5 m","0.5-1 m","1-1.5 m","1.5-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20+ m"],
   "GROWTH RATE": ["Fast growing","Moderate growth","Slow growing"],
   "ACCESSIBILITY": ["Accessible","Semi-rare","Hard to find"],
   "PLANTING DENSITY": ["0-0.1/m²","0.1-0.5/m²","0.5-1/m²","1-2/m²","2-3/m²","3-4/m²","4-5/m²","5-6/m²","6-7/m²","7-8/m²","8-9/m²","9-10/m²","10-12/m²","12-15/m²","15+ /m²"],
@@ -216,16 +217,20 @@ function filterPlantsBySearch() {
           let isExclusion = false;
           if (tag.startsWith("-")) { tag = tag.slice(1).trim(); isExclusion = true; }
           const tagLower = tag.toLowerCase();
-          const matchesPlant =
-            (plant.tagsLower || []).some(t => t.includes(tagLower)) ||
-            plant.latinLower.includes(tagLower) ||
-            plant.dutchLower.includes(tagLower);
+
+          // Check if exact match exists in tags
+          const exactTagMatch = (plant.tagsLower || []).some(t => t === tagLower);
+
+          // If exact match, check in tags; if not, check only latin/dutch names
+          const matchesPlant = exactTagMatch || plant.latinLower.includes(tagLower) || plant.dutchLower.includes(tagLower) && !exactTagMatch;
+
           return isExclusion ? !matchesPlant : matchesPlant;
         })
       )
     );
 }
 
+// ----- RENDER BATCH -----
 function renderNextBatch() {
   const next = filteredPlants.slice(renderedCount, renderedCount + batchSize);
   next.forEach((plant, i) => {
@@ -233,7 +238,7 @@ function renderNextBatch() {
     plantDiv.classList.add("plant");
 
     const origin = (plant["ORIGIN TO BELGIUM"] || "").toString().trim().toLowerCase();
-    if (origin.includes("invasive")) plantDiv.classList.add("invasive"); // ✅ always check
+    if (origin.includes("invasive")) plantDiv.classList.add("invasive");
 
     const img = document.createElement("img");
     img.loading = "lazy";

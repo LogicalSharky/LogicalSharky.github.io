@@ -8,32 +8,34 @@ Explain why you made every decision.
   "DUTCH NAME": "Boswilg",
   "MAIN IMAGE": "images/Salix caprea/Salix caprea 1.jpg",
   "FAMILY":"text",
-  // Chose only one type of plant that fits best.  
+// Chose only one type of plant that fits best.  
   "TYPE OF PLANT":["Aquatic plant","Bamboo","Climbing plant","Conifer","Fern","Flower bulb","Ground cover","Herbaceous plant","Ornamental grass","Palm","Shrub","Subshrub","Succulent","Tree"],
-  // Decorative flowers means if you would plant the plant specificly for its flowers. Playing pressure resistant is for plants that can be used on playgrounds. Species for birds is if its known as a key species for birds by for example producing berries, like a Sorbus aucuparia does. Thickits means large bush forming plants that can be planted to make a natural border, like crataegus monogyna for example. Vertical green & roof garden is for any plants that do okay with a small layer of substrate like you would see on roofs, this includes tree species that can be placed in containers like an Acer palmatum.
+// Decorative flowers means if you would plant the plant specificly for its flowers. Playing pressure resistant is for plants that can be used on playgrounds. Species for birds is if its known as a key species for birds by for example producing berries, like a Sorbus aucuparia does. Thickits means large bush forming plants that can be planted to make a natural border, like crataegus monogyna for example. Vertical green & roof garden is for any plants that do okay with a small layer of substrate like you would see on roofs, this includes tree species that can be placed in containers like an Acer palmatum. Fragrant is for when its got a strong (pleasant) scent.
   "USE":["Climate adaptive","Coastal area","Decorative flowers","Drought tolerant","Fragrant","Hedge","Playing pressure resistant","Pioneer species","Salt tolerant","Species for birds","Species for insects","Street / paving plant","Thickets","Vertical green & Roof garden","Wadi"],
   "FLOWER COLOUR":["Black flowers","Blue flowers","Brown flowers","Green flowers","Orange flowers","Pink flowers","Purple flowers","Red flowers","White flowers","Yellow flowers"],
-  // Chose only one that fits best.
+// Chose only one that fits best.
   "INDIVIDUAL FLOWER SHAPE": ["Bell flowers","Cup flowers","Daisy flowers","Spathe-and-spadix","Star flowers","Tubular flowers","Inconspicuous flowers","Other flower shapes"],
-  // Only chose a flower cluster shape if it's made of multiple flowers. Otherwise leave empty.
+// Only chose a flower cluster shape if it's made of multiple flowers. Otherwise leave empty.
   "FLOWER CLUSTER SHAPE": ["Ball flower clusters","Flat flower clusters","Hanging flower clusters","Panicle flower clusters","Small flower clusters","Spike flower clusters","Catkins","Other flower clusters"], 
   "FLOWERING PERIOD":["Flowers Early Spring","Flowers Spring","Flowers Summer","Flowers Late Summer","Flowers Autumn","Flowers Winter"],
-  "FRUITS":["Berries","Cones","Fleshy fruits","Nuts","Samaras","Other fruits"],
+// Select out of these fruits if the plant has any of these, otherwise leave empty. 
+  "FRUITS":["Berries","Cones","Fleshy fruits","Nuts","Samaras"],
   "FRUITING PERIOD":["Fruits Early Spring","Fruits Spring","Fruits Summer","Fruits Late Summer","Fruits Autumn","Fruits Winter"],
 // Edible tag "Edible after processing" is added on top of the other edible tags if its only edible after processing.
   "EDIBLE":["Only edible after processing","Edible berries","Edible flowers","Edible fruit","Edible leaves","Edible nuts","Edible roots","Edible sap","Edible stem"],
   "LEAF COLOUR":["Black leaves","Blue leaves","Brown leaves","Green leaves","Grey leaves","Pink leaves","Purple leaves","Red leaves","White leaves","Yellow leaves"],
 // If a plant can't be confidently marked evergreen, it should not be marked evergreen and in turn have autumn colours. If a plant in turn is evergeen, it should not have autumn colours. Also, a plant can only have one autumn colour so chose which fits best.
   "AUTUMN COLOURS":["Orange autumn leaves","Red autumn leaves","Yellow autumn leaves"],
-// A plant either is evergreen, has a decorative winter structure like branches or bloomed out flowers that stay up during winter or ornamental grasses in winter that become brown, or they have no winter presence. It can't be multiple! Base this on the Belgian climate.
+// Chose deciduous structural presence if the plant has woody structures above ground during winter, that are still alive like a tree has branches, or a climbing plant might still have twines. Dies back is for when the plant retracts itself fully into the roots or dies in winter.
   "WINTER ASPECT": ["Evergreen","Deciduous structural presence","No winter presence"],
   "VALUE FOR INSECTS":["Bees","Butterflies","Moths"],
 // For special feautures I will decide if it has tropical look, SO DONT ADD IT! Large leaves are above 50cm. Thorns is only if it has botanicly defined thorns. Winter interests is when a plant has something interesting to show during winter like a dried up flower structure as with Phlomis russeliana. 
   "SPECIAL FEATURES":["Decorative bark","Large leaves","Deciduous winter interests","Luminescent","Thorns","Tropical look"],
-// Allergenic is only for species that cause allergies with a lot of people, so general allergies. Invasive roots is for plants that spread easely like bamboo (plants with rhizomes), not for trees that grow into or uplift concrete. Wind shelter is for plants that really need it, like a lot of fruit trees. Toxic is for when the plant is genuinely not safe for humans, not just when eating large amounts. The same goed for not pet friendly with general pets like cats and dogs.
-  "PLANT WARNINGS":["Allergenic","Invasive roots","Needs wind shelter","Not pet safe","Toxic","Skin irritant","Susceptible to frost"],
+// Allergenic is only for species that cause allergies with a lot of people, so general allergies. Invasive roots is for plants that spread easely like bamboo (plants with rhizomes), not for trees that grow into or uplift concrete. Wind shelter is for plants that really need it, like a lot of fruit trees. Toxic is for when the plant is genuinely not safe for humans, not just when eating large amounts. The same goed for not pet friendly with general pets like cats and dogs. Susceptible to frost is for when you need to take measures during winter for mature plants, Susceptible to frost (when small) is when new shoots or young plants can suffer under frost.
+  "PLANT WARNINGS":["Allergenic","Invasive roots","Needs wind shelter","Not pet safe","Toxic","Skin irritant","Susceptible to frost","Susceptible to frost (when small)"],
   "HABITAT":["Alpine","Dune habitat","Forest edge","Grassland","Riverbank","Rock garden","Wetland","Woodland"],
   "ORIGIN TO BELGIUM":["Introduced","Invasive","Native"],
+// Choose all that apply for the hardiness zone. 
   "HARDINESS ZONE (BE 7-8)":["Zone 3","Zone 4","Zone 5","Zone 6","Zone 7","Zone 8","Zone 9","Zone 10"],
   "SUNLIGHT":["Full sunlight","Half shade","Shade"],
 // Select all that apply for ground type
@@ -43,7 +45,7 @@ Explain why you made every decision.
   "SOIL MOISTURE":["Arid","Dry","Moderately moist","Damp","Waterlogged"],
   "SOIL PH":["Acidic","Alkaline","Neutral"],
   "LIFE CYCLE": ["Annual","Biennial","Perennial"],
-  // For both height and width chose only the most fitting tag, not multiple.  
+// For both height and width chose only the most fitting tag, not multiple.  
   "HEIGHT":["0-0.2 m","0.2-0.5 m","0.5-1 m","1-1.5 m","1.5-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20-30 m","30+ m"],
   "WIDTH":["0-0.2 m","0.2-0.5 m","0.5-1 m","1-1.5 m","1.5-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20+ m"],
   "GROWTH RATE":["Fast growing","Moderate growth","Slow growing"],

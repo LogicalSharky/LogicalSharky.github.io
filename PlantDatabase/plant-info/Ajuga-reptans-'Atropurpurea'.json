@@ -1,41 +1,11 @@
+
 {
   "LATIN NAME": "Ajuga reptans 'Atropurpurea'",
   "DUTCH NAME": "Kruipend zenegroen",
   "MAIN IMAGE": "images/Ajuga reptans ' Atropurpurea'/Ajuga reptans ' Atropurpurea' 1.jpg",
-  "FAMILY": "Lamiaceae",
-  "TYPE OF PLANT": ["Ground cover"],
-  "USE": ["Climate adaptive","Decorative flowers","Species for insects"],
-  "FLOWER COLOUR": ["Blue flowers","Purple flowers"],
-  "INDIVIDUAL FLOWER SHAPE": ["Tubular flowers"],
-  "FLOWER CLUSTER SHAPE": ["Spike flower cluster"],
-  "FLOWERING PERIOD": ["Flowers Spring"],
-  "FRUITS": [],
-  "FRUITING PERIOD": [],
-  "EDIBLE": [],
-  "LEAF COLOUR": ["Purple leaves"],
-  "AUTUMN COLOURS": [],
-  "WINTER ASPECT": ["Evergreen"],
-  "VALUE FOR INSECTS": ["Bees","Butterflies"],
-  "SPECIAL FEATURES": [],
-  "PLANT WARNINGS": ["Invasive roots"],
-  "HABITAT": ["Forest edge","Grassland","Woodland"],
-  "ORIGIN TO BELGIUM": ["Native"],
-  "HARDINESS ZONE (BE 7-8)": ["Zone 3","Zone 4","Zone 5","Zone 6","Zone 7","Zone 8","Zone 9","Zone 10"],
-  "SUNLIGHT": ["Full sunlight","Half shade","Shade"],
-  "GROUND TYPE": ["Clay","Loam","Sandy soil"],
-  "SOIL DRAINAGE": ["Well drained","Moderately drained"],
-  "SOIL MOISTURE": ["Moderately moist","Damp"],
-  "SOIL PH": ["Acidic","Neutral","Alkaline"],
-  "LIFE CYCLE": ["Perennial"],
-  "HEIGHT": ["0-0.2 m"],
-  "WIDTH": ["0.2-0.5 m"],
-  "GROWTH RATE": ["Fast growing"],
-  "ACCESSIBILITY": ["Accessible"],
-  "PLANTING DENSITY": ["7-8/m²"],
-  "SCHOOL SUBJECT": ["Plantenkennis 1"],
-  "NOTE": "",
-  "SUB IMAGES": [
+  "SCHOOL SUBJECT":["Plantenkennis 1"],
+  "SUB IMAGES":[
     "images/Ajuga reptans ' Atropurpurea'/Ajuga reptans ' Atropurpurea' 2.jpg",
     "images/Ajuga reptans ' Atropurpurea'/Ajuga reptans ' Atropurpurea' 3.jpg"
-  ]
+]
 }

@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Acer negundo",
   "DUTCH NAME": "Vederesdoorn",
   "MAIN IMAGE": "images/Acer negundo/Acer negundo 1.jpg",
-  "SCHOOL SUBJECT":["Plantenkennis 2"],
-  "SUB IMAGES":[
+  "FAMILY": "Sapindaceae",
+  "TYPE OF PLANT": ["Tree"],
+  "USE": ["Climate adaptive","Drought tolerant","Pioneer species","Street / paving plant"],
+  "FLOWER COLOUR": ["Green flowers","Yellow flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Inconspicuous flowers"],
+  "FLOWER CLUSTER SHAPE": ["Small flower clusters"],
+  "FLOWERING PERIOD": ["Flowers Early Spring","Flowers Spring"],
+  "FRUITS": ["Winged fruits"],
+  "FRUITING PERIOD": ["Fruits Summer"],
+  "EDIBLE": ["Only edible after processing","Edible sap"],
+  "LEAF COLOUR": ["Green leaves"],
+  "AUTUMN COLOURS": ["Yellow autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS": ["Bees","Butterflies","Moths"],
+  "SPECIAL FEATURES": [],
+  "PLANT WARNINGS": ["Invasive roots"],
+  "HABITAT": ["Forest edge","Grassland","Riverbank","Woodland"],
+  "ORIGIN TO BELGIUM": ["Invasive"],
+  "HARDINESS ZONE (BE 7-8)": ["Zone 3","Zone 4","Zone 5","Zone 6","Zone 7","Zone 8","Zone 9"],
+  "SUNLIGHT": ["Full sunlight","Half shade"],
+  "GROUND TYPE": ["Clay","Loam","Sandy soil"],
+  "SOIL DRAINAGE": ["Well drained","Moderately drained"],
+  "SOIL MOISTURE": ["Moderately moist","Damp"],
+  "SOIL PH": ["Neutral","Alkaline"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT": ["8-12 m"],
+  "WIDTH": ["8-12 m"],
+  "GROWTH RATE": ["Fast growing"],
+  "ACCESSIBILITY": ["Accessible"],
+  "PLANTING DENSITY": ["0.5-1/m²"],
+  "SCHOOL SUBJECT": ["Plantenkennis 2"],
+  "NOTE": "Considered invasive in some regions due to its fast growth and ability to spread via seeds and root suckers.",
+  "SUB IMAGES": [
     "images/Acer negundo/Acer negundo 2.jpg",
     "images/Acer negundo/Acer negundo 3.jpg",
     "images/Acer negundo/Acer negundo 4.jpg",
@@ -12,5 +42,5 @@
     "images/Acer negundo/Acer negundo 6.jpg",
     "images/Acer negundo/Acer negundo 7.jpg",
     "images/Acer negundo/Acer negundo 8.jpg"
-]
+  ]
 }

@@ -1,13 +1,43 @@
-
 {
   "LATIN NAME": "Araucaria araucana",
   "DUTCH NAME": "Slangenden",
   "MAIN IMAGE": "images/Araucaria araucana/Araucaria araucana 1.jpg",
-  "SCHOOL SUBJECT":["Plantenkennis 2"],
-  "SUB IMAGES":[
+  "FAMILY": "Araucariaceae",
+  "TYPE OF PLANT": ["Conifer","Tree"],
+  "USE": ["Climate adaptive", "Drought tolerant", "Fragrant", "Street / paving plant"],
+  "FLOWER COLOUR": [],
+  "INDIVIDUAL FLOWER SHAPE": [],
+  "FLOWER CLUSTER SHAPE": [],
+  "FLOWERING PERIOD": [],
+  "FRUITS": ["Cones"],
+  "FRUITING PERIOD": ["Fruits Autumn", "Fruits Winter"],
+  "EDIBLE": [],
+  "LEAF COLOUR": ["Green leaves"],
+  "AUTUMN COLOURS": [],
+  "WINTER ASPECT": ["Evergreen"],
+  "VALUE FOR INSECTS": [],
+  "SPECIAL FEATURES": [],
+  "PLANT WARNINGS": [""],
+  "HABITAT": ["Rock garden", "Woodland"],
+  "ORIGIN TO BELGIUM": ["Introduced"],
+  "HARDINESS ZONE (BE 7-8)": ["Zone 7","Zone 8","Zone 9","Zone 10"],
+  "SUNLIGHT": ["Full sunlight", "Half shade"],
+  "GROUND TYPE": ["Clay", "Loam", "Rocks", "Sandy soil"],
+  "SOIL DRAINAGE": ["Well drained", "Moderately drained"],
+  "SOIL MOISTURE": ["Moderately moist", "Damp"],
+  "SOIL PH": ["Acidic", "Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT": ["12-20 m"],
+  "WIDTH": ["8-12 m"],
+  "GROWTH RATE": ["Slow growing"],
+  "ACCESSIBILITY": ["Semi-rare"],
+  "PLANTING DENSITY": ["0.1-0.5/m²"],
+  "SCHOOL SUBJECT": ["Plantenkennis 2"],
+  "NOTE": "",
+  "SUB IMAGES": [
     "images/Araucaria araucana/Araucaria araucana 2.jpg",
     "images/Araucaria araucana/Araucaria araucana 3.jpg",
     "images/Araucaria araucana/Araucaria araucana 4.jpg",
     "images/Araucaria araucana/Araucaria araucana 5.jpg"
-]
+  ]
 }

@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Chenopodium bonus-henricus",
   "DUTCH NAME": "Brave hendrik",
   "MAIN IMAGE": "images/Chenopodium bonus-henricus/Chenopodium bonus-henricus 1.jpg",
-  "SCHOOL SUBJECT":["Plantenkennis 2"],
-  "SUB IMAGES":[
+  "FAMILY": "Amaranthaceae",
+  "TYPE OF PLANT": ["Herbaceous plant"],
+  "USE": ["Climate adaptive","Pioneer species"],
+  "FLOWER COLOUR": ["Green flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Inconspicuous flowers"],
+  "FLOWER CLUSTER SHAPE": ["Spike flower clusters"],
+  "FLOWERING PERIOD": ["Flowers Spring","Flowers Summer"],
+  "FRUITS": ["Fruits not pronounced"],
+  "FRUITING PERIOD": [],
+  "EDIBLE": ["Edible leaves","Edible stem"],
+  "LEAF COLOUR": ["Green leaves"],
+  "AUTUMN COLOURS": ["Yellow autumn leaves"],
+  "WINTER ASPECT": ["No winter presence"],
+  "VALUE FOR INSECTS": [],
+  "SPECIAL FEATURES": [],
+  "PLANT WARNINGS": [],
+  "HABITAT": ["Grassland","Rock garden"],
+  "ORIGIN TO BELGIUM": ["Native"],
+  "HARDINESS ZONE (BE 7-8)": ["Zone 4","Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT": ["Full sunlight","Half shade"],
+  "GROUND TYPE": ["Clay","Loam","Sandy soil"],
+  "SOIL DRAINAGE": ["Well drained","Moderately drained"],
+  "SOIL MOISTURE": ["Dry","Moderately moist"],
+  "SOIL PH": ["Neutral","Alkaline"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT": ["0.2-0.5 m"],
+  "WIDTH": ["0.2-0.5 m"],
+  "GROWTH RATE": ["Moderate growth"],
+  "ACCESSIBILITY": ["Semi-rare"],
+  "PLANTING DENSITY": ["7-8/m²"],
+  "SCHOOL SUBJECT": ["Plantenkennis 2"],
+  "NOTE": "The young shoots are edible.",
+  "SUB IMAGES": [
     "images/Chenopodium bonus-henricus/Chenopodium bonus-henricus 2.jpg"
-]
+  ]
 }

@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Anemone nemorosa",
   "DUTCH NAME": "Bosanemoon",
   "MAIN IMAGE": "images/Anemone nemorosa/Anemone nemorosa 1.jpg",
-  "SCHOOL SUBJECT":["Plantecologie","Plantenkennis 2"],
-  "SUB IMAGES":[
+  "FAMILY": "Ranunculaceae",
+  "TYPE OF PLANT": ["Flower bulb"],
+  "USE": ["Decorative flowers","Species for insects"],
+  "FLOWER COLOUR": ["White flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Star flowers"],
+  "FLOWER CLUSTER SHAPE": [],
+  "FLOWERING PERIOD": ["Flowers Early Spring","Flowers Spring"],
+  "FRUITS": ["Fruits not pronounced"],
+  "FRUITING PERIOD": [],
+  "EDIBLE": [],
+  "LEAF COLOUR": ["Green leaves"],
+  "AUTUMN COLOURS": [],
+  "WINTER ASPECT": ["No winter presence"],
+  "VALUE FOR INSECTS": ["Bees","Butterflies"],
+  "SPECIAL FEATURES": [],
+  "PLANT WARNINGS": [],
+  "HABITAT": ["Woodland","Forest edge","Grassland"],
+  "ORIGIN TO BELGIUM": ["Native"],
+  "HARDINESS ZONE (BE 7-8)": ["Zone 3","Zone 4","Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT": ["Full sunlight","Half shade"],
+  "GROUND TYPE": ["Loam","Clay","Sandy soil","Rocks"],
+  "SOIL DRAINAGE": ["Well drained","Moderately drained"],
+  "SOIL MOISTURE": ["Moderately moist","Damp"],
+  "SOIL PH": ["Acidic","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT": ["0.2-0.5 m"],
+  "WIDTH": ["0.2-0.5 m"],
+  "GROWTH RATE": ["Moderate growth"],
+  "ACCESSIBILITY": ["Accessible"],
+  "PLANTING DENSITY": ["15+ /m²"],
+  "SCHOOL SUBJECT": ["Plantecologie","Plantenkennis 2"],
+  "NOTE": "",
+  "SUB IMAGES": [
     "images/Anemone nemorosa/Anemone nemorosa 2.jpg"
-]
+  ]
 }

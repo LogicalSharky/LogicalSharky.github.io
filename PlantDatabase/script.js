@@ -80,14 +80,14 @@ const allTags = {
   "INDIVIDUAL FLOWER SHAPE": ["Bell flowers","Cup flowers","Daisy flowers","Spathe-and-spadix","Star flowers","Tubular flowers","Inconspicuous flowers","Other flower shapes"],
   "FLOWER CLUSTER SHAPE": ["Ball flower clusters","Flat flower clusters","Hanging flower clusters","Plume flower clusters","Small flower clusters","Spike flower clusters","Upright spray flower clusters","Catkins","Other flower clusters"], 
   "FLOWERING PERIOD": ["Flowers Early Spring","Flowers Spring","Flowers Summer","Flowers Late Summer","Flowers Autumn","Flowers Winter"],
-  "FRUITS":["Berries","Cones","Fleshy fruits","Nuts","Samaras","Seed pods","No fruits or not pronounced"],
+  "FRUITS":["Berries","Cones","Fleshy fruits","Nuts","Winged fruits","Pods","Fruits not pronounced"],
   "FRUITING PERIOD": ["Fruits Early Spring","Fruits Spring","Fruits Summer","Fruits Late Summer","Fruits Autumn","Fruits Winter"],
   "EDIBLE": ["Only edible after processing","Edible berries","Edible flowers","Edible fruit","Edible leaves","Edible nuts","Edible roots","Edible sap","Edible stem"],
   "LEAF COLOUR": ["Black leaves","Blue leaves","Brown leaves","Green leaves","Grey leaves","Pink leaves","Purple leaves","Red leaves","White leaves","Yellow leaves"],
   "AUTUMN COLOURS": ["Orange autumn leaves","Red autumn leaves","Yellow autumn leaves"],
   "WINTER ASPECT": ["Evergreen","Deciduous structural presence","No winter presence"],
   "VALUE FOR INSECTS": ["Bees","Butterflies","Moths"],
-  "SPECIAL FEATURES": ["Decorative bark","Large leaves","Dried winter interests","Luminescent","Thorns","Tropical look"],
+  "SPECIAL FEATURES": ["Decorative bark","Large leaves","Decorative winter seed heads","Luminescent","Thorns","Tropical look"],
   "PLANT WARNINGS": ["Allergenic","Invasive roots","Needs wind shelter","Not pet safe","Toxic","Skin irritant","Susceptible to frost"],
   "HABITAT": ["Alpine","Dune habitat","Forest edge","Grassland","Riverbank","Rock garden","Wetland","Woodland"],
   "ORIGIN TO BELGIUM":["Introduced","Invasive","Native"],
@@ -217,13 +217,8 @@ function filterPlantsBySearch() {
           let isExclusion = false;
           if (tag.startsWith("-")) { tag = tag.slice(1).trim(); isExclusion = true; }
           const tagLower = tag.toLowerCase();
-
-          // Check if exact match exists in tags
           const exactTagMatch = (plant.tagsLower || []).some(t => t === tagLower);
-
-          // If exact match, check in tags; if not, check only latin/dutch names
           const matchesPlant = exactTagMatch || plant.latinLower.includes(tagLower) || plant.dutchLower.includes(tagLower) && !exactTagMatch;
-
           return isExclusion ? !matchesPlant : matchesPlant;
         })
       )
@@ -311,6 +306,7 @@ function renderOverlayContent(plant) {
                               <p class="dutch-name">${plant["DUTCH NAME"]}</p>
                               ${plant["FAMILY"] ? `<p class="family-name">${plant["FAMILY"]}</p>` : ""}`;
 
+  // Render tag groups
   tagGroups.forEach(group => {
     const groupDiv = document.createElement("div");
     const groupHeader = document.createElement("p");
@@ -320,7 +316,6 @@ function renderOverlayContent(plant) {
 
     group.tags.forEach(tagGroupName => {
       if (!plant[tagGroupName] || tagGroupName === "SCHOOL SUBJECT") return;
-
       const value = plant[tagGroupName];
       const valueStr = Array.isArray(value) ? value.join(", ") : value;
       const tagDiv = document.createElement("div");
@@ -332,6 +327,20 @@ function renderOverlayContent(plant) {
     overlayDetails.appendChild(groupDiv);
   });
 
+  // Add "Search more images" button
+  let searchBtn = overlayDetails.querySelector(".search-more-btn");
+  if (!searchBtn) {
+    searchBtn = document.createElement("button");
+    searchBtn.textContent = "Search more images";
+    searchBtn.classList.add("search-more-btn");
+    searchBtn.addEventListener("click", () => {
+      const query = encodeURIComponent(plant["LATIN NAME"]);
+      window.open(`https://www.google.com/search?tbm=isch&q=${query}`, "_blank");
+    });
+    overlayDetails.appendChild(searchBtn);
+  }
+
+  // Render thumbnails
   thumbnailRow.innerHTML = "";
   images.forEach((imgSrc, idx) => {
     const thumb = document.createElement("img");

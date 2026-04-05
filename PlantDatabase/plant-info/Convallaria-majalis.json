@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Convallaria majalis",
   "DUTCH NAME": "Lelietje-van-dalen",
   "MAIN IMAGE": "images/Convallaria majalis/Convallaria majalis 1.jpg",
+  "FAMILY":"Asparagaceae",
+  "TYPE OF PLANT":["Ground cover"],
+  "USE":["Decorative flowers","Fragrant"],
+  "FLOWER COLOUR":["White flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Bell flowers"],
+  "FLOWER CLUSTER SHAPE": ["Hanging flower clusters"],
+  "FLOWERING PERIOD":["Flowers Spring"],
+  "FRUITS":["Berries"],
+  "FRUITING PERIOD":["Fruits Summer"],
+  "EDIBLE":[],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":["Yellow autumn leaves"],
+  "WINTER ASPECT": ["No winter presence"],
+  "VALUE FOR INSECTS":["Bees"],
+  "SPECIAL FEATURES":[],
+  "PLANT WARNINGS":["Toxic","Not pet safe"],
+  "HABITAT":["Woodland","Forest edge"],
+  "ORIGIN TO BELGIUM":["Native"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 3","Zone 4","Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Half shade","Shade"],
+  "GROUND TYPE":["Clay","Loam","Sandy soil"],
+  "SOIL DRAINAGE":["Well drained","Moderately drained"],
+  "SOIL MOISTURE":["Moderately moist","Damp"],
+  "SOIL PH":["Acidic","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["0.2-0.5 m"],
+  "WIDTH":["0.5-1 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["7-8/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Convallaria majalis/Convallaria majalis 2.jpg"
-]
+  ]
 }

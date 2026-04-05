@@ -1,11 +1,41 @@
-
 {
   "LATIN NAME": "Citrus trifoliata",
   "DUTCH NAME": "Driebladige citroen",
   "MAIN IMAGE": "images/Citrus trifoliata/Citrus trifoliata 1.jpg",
+  "FAMILY":"Rutaceae",
+  "TYPE OF PLANT":["Shrub","Tree"],
+  "USE":["Climate adaptive","Hedge","Thickets","Street / paving plant"],
+  "FLOWER COLOUR":["White flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Star flowers"],
+  "FLOWER CLUSTER SHAPE": [],
+  "FLOWERING PERIOD":["Flowers Spring"],
+  "FRUITS":["Fleshy fruits"],
+  "FRUITING PERIOD":["Fruits Autumn"],
+  "EDIBLE":["Only edible after processing","Edible fruit"],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":["Yellow autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS":["Bees"],
+  "SPECIAL FEATURES":["Thorns"],
+  "PLANT WARNINGS":["Needs wind shelter","Skin irritant"],
+  "HABITAT":["Forest edge"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight","Half shade"],
+  "GROUND TYPE":["Loam","Sandy soil"],
+  "SOIL DRAINAGE":["Well drained"],
+  "SOIL MOISTURE":["Moderately moist"],
+  "SOIL PH":["Acidic","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["3-5 m"],
+  "WIDTH":["2-3 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["0.5-1/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "NOTE":"Often used as rootstock for other citrus species due to its high cold hardiness.",
   "SUB IMAGES":[
     "images/Citrus trifoliata/Citrus trifoliata 2.jpg",
     "images/Citrus trifoliata/Citrus trifoliata 3.jpg"
-]
+  ]
 }

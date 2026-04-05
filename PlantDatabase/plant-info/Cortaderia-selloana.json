@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Cortaderia selloana",
   "DUTCH NAME": "Pampasgras",
   "MAIN IMAGE": "images/Cortaderia selloana/Cortaderia selloana 1.jpg",
-  "SCHOOL SUBJECT":["Plantenkennis 2"],
-  "SUB IMAGES":[
+  "FAMILY": "Poaceae",
+  "TYPE OF PLANT": ["Ornamental grass"],
+  "USE": ["Climate adaptive","Decorative flowers","Drought tolerant","Coastal area","Street / paving plant"],
+  "FLOWER COLOUR": ["White flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Other flower shapes"],
+  "FLOWER CLUSTER SHAPE": ["Plume flower clusters"],
+  "FLOWERING PERIOD": ["Flowers Late Summer"],
+  "FRUITS": ["Fruits not pronounced"],
+  "FRUITING PERIOD": [],
+  "EDIBLE": [],
+  "LEAF COLOUR": ["Green leaves"],
+  "AUTUMN COLOURS": [],
+  "WINTER ASPECT": ["Evergreen"],
+  "VALUE FOR INSECTS": [],
+  "SPECIAL FEATURES": ["Large leaves","Decorative winter seed heads"],
+  "PLANT WARNINGS": ["Invasive roots","Susceptible to frost"],
+  "HABITAT": ["Grassland","Rock garden"],
+  "ORIGIN TO BELGIUM": ["Introduced","Invasive"],
+  "HARDINESS ZONE (BE 7-8)": ["Zone 7","Zone 8","Zone 9","Zone 10"],
+  "SUNLIGHT": ["Full sunlight"],
+  "GROUND TYPE": ["Loam","Sandy soil","Rocks"],
+  "SOIL DRAINAGE": ["Fast draining","Well drained"],
+  "SOIL MOISTURE": ["Dry","Moderately moist"],
+  "SOIL PH": ["Acidic","Neutral","Alkaline"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT": ["2-3 m"],
+  "WIDTH": ["2-3 m"],
+  "GROWTH RATE": ["Fast growing"],
+  "ACCESSIBILITY": ["Accessible"],
+  "PLANTING DENSITY": ["0.5-1/m²"],
+  "SCHOOL SUBJECT": ["Plantenkennis 2"],
+  "NOTE": "",
+  "SUB IMAGES": [
     "images/Cortaderia selloana/Cortaderia selloana 2.jpg"
-]
+  ]
 }

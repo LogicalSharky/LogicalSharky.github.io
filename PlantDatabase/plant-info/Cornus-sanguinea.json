@@ -1,13 +1,43 @@
-
 {
   "LATIN NAME": "Cornus sanguinea",
   "DUTCH NAME": "Rode kornoelje",
   "MAIN IMAGE": "images/Cornus sanguinea/Cornus sanguinea 1.jpg",
-  "SCHOOL SUBJECT":["Plantenkennis 1"],
-  "SUB IMAGES":[
+  "FAMILY": "Cornaceae",
+  "TYPE OF PLANT": ["Shrub"],
+  "USE": ["Climate adaptive","Decorative flowers","Hedge","Key species for birds","Pioneer species","Thickets"],
+  "FLOWER COLOUR": ["White flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Inconspicuous flowers"],
+  "FLOWER CLUSTER SHAPE": ["Flat flower clusters"],
+  "FLOWERING PERIOD": ["Flowers Spring"],
+  "FRUITS": ["Berries"],
+  "FRUITING PERIOD": ["Fruits Autumn"],
+  "EDIBLE": ["Only edible after processing","Edible berries"],
+  "LEAF COLOUR": ["Green leaves"],
+  "AUTUMN COLOURS": ["Red autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS": ["Bees","Butterflies"],
+  "SPECIAL FEATURES": ["Decorative bark"],
+  "PLANT WARNINGS": ["Susceptible to frost"],
+  "HABITAT": ["Forest edge","Woodland"],
+  "ORIGIN TO BELGIUM": ["Native"],
+  "HARDINESS ZONE (BE 7-8)": ["Zone 4","Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT": ["Full sunlight","Half shade"],
+  "GROUND TYPE": ["Clay","Loam","Rocks","Sandy soil"],
+  "SOIL DRAINAGE": ["Well drained","Moderately drained"],
+  "SOIL MOISTURE": ["Moderately moist","Damp"],
+  "SOIL PH": ["Acidic","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT": ["2-3 m"],
+  "WIDTH": ["2-3 m"],
+  "GROWTH RATE": ["Moderate growth"],
+  "ACCESSIBILITY": ["Accessible"],
+  "PLANTING DENSITY": ["1-2/m²"],
+  "SCHOOL SUBJECT": ["Plantenkennis 1"],
+  "NOTE": "",
+  "SUB IMAGES": [
     "images/Cornus sanguinea/Cornus sanguinea 2.jpg",
     "images/Cornus sanguinea/Cornus sanguinea 3.jpg",
     "images/Cornus sanguinea/Cornus sanguinea 4.jpg",
     "images/Cornus sanguinea/Cornus sanguinea 5.jpg"
-]
+  ]
 }

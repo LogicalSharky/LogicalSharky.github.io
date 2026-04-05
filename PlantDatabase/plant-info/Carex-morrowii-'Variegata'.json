@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Carex morrowii 'Variegata'",
   "DUTCH NAME": "Japanse zegge",
   "MAIN IMAGE": "images/Carex morrowii 'Variegata'/Carex morrowii 'Variegata' 1.jpg",
+  "FAMILY":"Cyperaceae",
+  "TYPE OF PLANT":["Ornamental grass"],
+  "USE":["Street / paving plant","Vertical green & Roof garden"],
+  "FLOWER COLOUR":["Brown flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Inconspicuous flowers"],
+  "FLOWER CLUSTER SHAPE": ["Spike flower clusters"], 
+  "FLOWERING PERIOD":["Flowers Spring"],
+  "FRUITS":["Fruits not pronounced"],
+  "FRUITING PERIOD":[],
+  "EDIBLE":[],
+  "LEAF COLOUR":["Green leaves","White leaves"],
+  "AUTUMN COLOURS":[],
+  "WINTER ASPECT": ["Evergreen"],
+  "VALUE FOR INSECTS":[],
+  "SPECIAL FEATURES":[],
+  "PLANT WARNINGS":[],
+  "HABITAT":["Forest edge","Woodland"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 6","Zone 7","Zone 8","Zone 9"],
+  "SUNLIGHT":["Half shade","Shade"],
+  "GROUND TYPE":["Clay","Loam"],
+  "SOIL DRAINAGE":["Well drained","Moderately drained"],
+  "SOIL MOISTURE":["Moderately moist","Damp"],
+  "SOIL PH":["Acidic","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["0.2-0.5 m"],
+  "WIDTH":["0.2-0.5 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["7-8/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Carex morrowii 'Variegata'/Carex morrowii 'Variegata' 2.jpg"
-]
+  ]
 }

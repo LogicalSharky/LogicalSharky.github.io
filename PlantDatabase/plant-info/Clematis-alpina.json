@@ -1,11 +1,41 @@
-
 {
   "LATIN NAME": "Clematis alpina",
   "DUTCH NAME": "Alpenbosrank",
   "MAIN IMAGE": "images/Clematis alpina/Clematis alpina 1.jpg",
+  "FAMILY":"Ranunculaceae",
+  "TYPE OF PLANT":["Climbing plant"],
+  "USE":["Decorative flowers","Vertical green & Roof garden"],
+  "FLOWER COLOUR":["Blue flowers","Purple flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Bell flowers"],
+  "FLOWER CLUSTER SHAPE": [],
+  "FLOWERING PERIOD":["Flowers Spring"],
+  "FRUITS":["Fruits not pronounced"],
+  "FRUITING PERIOD":[],
+  "EDIBLE":[],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":["Yellow autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS":["Bees"],
+  "SPECIAL FEATURES":["Decorative winter seed heads"],
+  "PLANT WARNINGS":["Toxic"],
+  "HABITAT":["Alpine","Forest edge","Rock garden"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 3","Zone 4","Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight","Half shade"],
+  "GROUND TYPE":["Loam","Rocks","Sandy soil"],
+  "SOIL DRAINAGE":["Well drained"],
+  "SOIL MOISTURE":["Moderately moist"],
+  "SOIL PH":["Alkaline","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["2-3 m"],
+  "WIDTH":["1.5-2 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["1-2/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Clematis alpina/Clematis alpina 2.jpg",
     "images/Clematis alpina/Clematis alpina 3.jpg"
-]
+  ]
 }

@@ -1,12 +1,42 @@
-
 {
   "LATIN NAME": "Cephalotaxus fortunei",
   "DUTCH NAME": "Knoptaxus",
   "MAIN IMAGE": "images/Cephalotaxus fortunei/Cephalotaxus fortunei 1.jpg",
-  "SCHOOL SUBJECT":["Plantenkennis 2"],
-  "SUB IMAGES":[
+  "FAMILY": "Cephalotaxaceae",
+  "TYPE OF PLANT": ["Conifer"],
+  "USE": ["Climate adaptive","Coastal area","Drought tolerant","Hedge","Vertical green & Roof garden"],
+  "FLOWER COLOUR": ["Green flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Inconspicuous flowers"],
+  "FLOWER CLUSTER SHAPE": [],
+  "FLOWERING PERIOD": ["Flowers Spring"],
+  "FRUITS": ["Fleshy fruits"],
+  "FRUITING PERIOD": ["Fruits Autumn"],
+  "EDIBLE": [],
+  "LEAF COLOUR": ["Green leaves"],
+  "AUTUMN COLOURS": [],
+  "WINTER ASPECT": ["Evergreen"],
+  "VALUE FOR INSECTS": [],
+  "SPECIAL FEATURES": ["Decorative bark"],
+  "PLANT WARNINGS": ["Not pet safe","Toxic"],
+  "HABITAT": ["Forest edge","Woodland","Rock garden"],
+  "ORIGIN TO BELGIUM": ["Introduced"],
+  "HARDINESS ZONE (BE 7-8)": ["Zone 6","Zone 7","Zone 8","Zone 9"],
+  "SUNLIGHT": ["Half shade","Shade"],
+  "GROUND TYPE": ["Clay","Loam","Rocks","Sandy soil"],
+  "SOIL DRAINAGE": ["Well drained","Moderately drained"],
+  "SOIL MOISTURE": ["Dry","Moderately moist"],
+  "SOIL PH": ["Acidic","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT": ["2-3 m"],
+  "WIDTH": ["2-3 m"],
+  "GROWTH RATE": ["Slow growing"],
+  "ACCESSIBILITY": ["Accessible"],
+  "PLANTING DENSITY": ["0.5-1/m²"],
+  "SCHOOL SUBJECT": ["Plantenkennis 2"],
+  "NOTE": "",
+  "SUB IMAGES": [
     "images/Cephalotaxus fortunei/Cephalotaxus fortunei 2.jpg",
     "images/Cephalotaxus fortunei/Cephalotaxus fortunei 3.jpg",
     "images/Cephalotaxus fortunei/Cephalotaxus fortunei 4.jpg"
-]
+  ]
 }

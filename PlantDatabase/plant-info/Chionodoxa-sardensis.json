@@ -1,11 +1,41 @@
-
 {
   "LATIN NAME": "Chionodoxa sardensis",
   "DUTCH NAME": "Kleine sneeuwroem",
   "MAIN IMAGE": "images/Chionodoxa sardensis/Chionodoxa sardensis 1.jpg",
-  "SCHOOL SUBJECT":["Plantenkennis 2"],
-  "SUB IMAGES":[
+  "FAMILY":"Asparagaceae",
+  "TYPE OF PLANT":["Flower bulb"],
+  "USE":["Decorative flowers","Climate adaptive"],
+  "FLOWER COLOUR":["Blue flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Star flowers"],
+  "FLOWER CLUSTER SHAPE": [],
+  "FLOWERING_PERIOD":["Flowers Early Spring"],
+  "FRUITS":["Fruits not pronounced"],
+  "FRUITING_PERIOD":["Fruits Spring"],
+  "EDIBLE":[],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN_COLOURS":[],
+  "WINTER_ASPECT":["Dies back"],
+  "VALUE_FOR_INSECTS":["Bees"],
+  "SPECIAL_FEATURES":[],
+  "PLANT_WARNINGS":[],
+  "HABITAT":["Rock garden","Grassland","Woodland"],
+  "ORIGIN_TO_BELGIUM":["Introduced"],
+  "HARDINESS_ZONE (BE 7-8)":["Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight","Half shade"],
+  "GROUND_TYPE":["Loam","Rocks","Sandy soil"],
+  "SOIL_DRAINAGE":["Well drained","Moderately drained"],
+  "SOIL_MOISTURE":["Moderately moist","Damp"],
+  "SOIL_PH":["Acidic","Neutral"],
+  "LIFE_CYCLE": ["Perennial"],
+  "HEIGHT":["0.1-0.2 m"],
+  "WIDTH":["0.1-0.2 m"],
+  "GROWTH_RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING_DENSITY":["15+ /m²"],
+  "SCHOOL_SUBJECT":["Plantenkennis 2"],
+  "NOTE":"",
+  "SUB_IMAGES":[
     "images/Chionodoxa sardensis/Chionodoxa sardensis 2.jpg",
     "images/Chionodoxa sardensis/Chionodoxa sardensis 3.jpg"
-]
+  ]
 }

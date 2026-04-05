@@ -1,11 +1,41 @@
-
 {
   "LATIN NAME": "Cedrus libani subsp. atlantica",
   "DUTCH NAME": "Atlasceder",
   "MAIN IMAGE": "images/Cedrus libani subsp. atlantica/Cedrus libani subsp. atlantica 1.jpg",
+  "FAMILY":"Pinaceae",
+  "TYPE OF PLANT":["Conifer","Tree"],
+  "USE":["Climate adaptive","Street / paving plant"],
+  "FLOWER COLOUR":[],
+  "INDIVIDUAL FLOWER SHAPE": [],
+  "FLOWER CLUSTER SHAPE": [], 
+  "FLOWERING PERIOD":[],
+  "FRUITS":["Cones"],
+  "FRUITING PERIOD":["Fruits Autumn"],
+  "EDIBLE":[],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":[],
+  "WINTER ASPECT": ["Evergreen"],
+  "VALUE FOR INSECTS":[],
+  "SPECIAL FEATURES":["Decorative bark"],
+  "PLANT WARNINGS":[],
+  "HABITAT":["Forest edge","Woodland"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 6","Zone 7","Zone 8","Zone 9","Zone 10"],
+  "SUNLIGHT":["Full sunlight"],
+  "GROUND TYPE":["Clay","Loam","Rocks","Sandy soil"],
+  "SOIL DRAINAGE":["Well drained","Moderately drained"],
+  "SOIL MOISTURE":["Moderately moist"],
+  "SOIL PH":["Acidic","Neutral","Alkaline"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["20-30 m"],
+  "WIDTH":["12-20 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["0-0.1/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Cedrus libani subsp. atlantica/Cedrus libani subsp. atlantica 2.jpg",
     "images/Cedrus libani subsp. atlantica/Cedrus libani subsp. atlantica 3.jpg"
-]
+  ]
 }

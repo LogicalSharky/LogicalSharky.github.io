@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Clematis montana",
   "DUTCH NAME": "Bergbosrank",
   "MAIN IMAGE": "images/Clematis montana/Clematis montana 1.jpg",
+  "FAMILY":"Ranunculaceae",
+  "TYPE OF PLANT":["Climbing plant"],
+  "USE":["Decorative flowers","Fragrant","Vertical green & Roof garden"],
+  "FLOWER COLOUR":["White flowers","Pink flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Star flowers"],
+  "FLOWER CLUSTER SHAPE": [],
+  "FLOWERING PERIOD":["Flowers Spring"],
+  "FRUITS":["Fruits not pronounced"],
+  "FRUITING PERIOD":[],
+  "EDIBLE":[],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":["Yellow autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS":["Bees"],
+  "SPECIAL FEATURES":["Decorative winter seed heads"],
+  "PLANT WARNINGS":["Toxic","Susceptible to frost"],
+  "HABITAT":["Forest edge","Woodland"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight","Half shade"],
+  "GROUND TYPE":["Loam","Sandy soil"],
+  "SOIL DRAINAGE":["Well drained"],
+  "SOIL MOISTURE":["Moderately moist"],
+  "SOIL PH":["Neutral","Alkaline"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["8-12 m"],
+  "WIDTH":["5-8 m"],
+  "GROWTH RATE":["Fast growing"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["0.5-1/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "NOTE":"Flowers on old wood! Pruning at the wrong time reduces flowering.",
   "SUB IMAGES":[
     "images/Clematis montana/Clematis montana 2.jpg"
-]
+  ]
 }

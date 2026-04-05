@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Clematis tibetana subsp. tangutica",
   "DUTCH NAME": "Gouden bosrank",
   "MAIN IMAGE": "images/Clematis tibetana subsp. tangutica/Clematis tibetana subsp. tangutica 1.jpg",
+  "FAMILY":"Ranunculaceae",
+  "TYPE OF PLANT":["Climbing plant"],
+  "USE":["Decorative flowers","Drought tolerant","Vertical green & Roof garden"],
+  "FLOWER COLOUR":["Yellow flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Bell flowers"],
+  "FLOWER CLUSTER SHAPE": [],
+  "FLOWERING PERIOD":["Flowers Summer","Flowers Late Summer"],
+  "FRUITS":["Fruits not pronounced"],
+  "FRUITING PERIOD":[],
+  "EDIBLE":[],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":["Yellow autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS":["Bees"],
+  "SPECIAL FEATURES":["Decorative winter seed heads"],
+  "PLANT WARNINGS":["Toxic"],
+  "HABITAT":["Alpine","Rock garden","Grassland"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 4","Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight","Half shade"],
+  "GROUND TYPE":["Loam","Rocks","Sandy soil"],
+  "SOIL DRAINAGE":["Well drained"],
+  "SOIL MOISTURE":["Dry","Moderately moist"],
+  "SOIL PH":["Neutral","Alkaline"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["3-5 m"],
+  "WIDTH":["2-3 m"],
+  "GROWTH RATE":["Fast growing"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["0.5-1/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "NOTE":"Flowers on new wood, pruning needed to have flowers.",
   "SUB IMAGES":[
     "images/Clematis tibetana subsp. tangutica/Clematis tibetana subsp. tangutica 2.jpg"
-]
+  ]
 }

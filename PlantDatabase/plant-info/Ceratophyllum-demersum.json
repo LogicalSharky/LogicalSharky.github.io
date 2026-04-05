@@ -1,11 +1,41 @@
-
 {
   "LATIN NAME": "Ceratophyllum demersum",
   "DUTCH NAME": "Grof hoornblad",
   "MAIN IMAGE": "images/Ceratophyllum demersum/Ceratophyllum demersum 1.jpg",
-  "SCHOOL SUBJECT":["Plantenkennis 2"],
-  "SUB IMAGES":[
+  "FAMILY": "Ceratophyllaceae",
+  "TYPE OF PLANT": ["Aquatic plant"],
+  "USE": ["Climate adaptive","Pioneer species","Wadi","Salt tolerant"],
+  "FLOWER COLOUR": ["Green flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Inconspicuous flowers"],
+  "FLOWER CLUSTER SHAPE": [],
+  "FLOWERING PERIOD": ["Flowers Summer"],
+  "FRUITS": ["Fruits not pronounced"],
+  "FRUITING PERIOD": ["Fruits Summer"],
+  "EDIBLE": [],
+  "LEAF COLOUR": ["Green leaves"],
+  "AUTUMN COLOURS": [],
+  "WINTER ASPECT": ["No winter presence"],
+  "VALUE FOR INSECTS": [],
+  "SPECIAL FEATURES": [],
+  "PLANT WARNINGS": [],
+  "HABITAT": ["Wetland","Riverbank"],
+  "ORIGIN TO BELGIUM": ["Native"],
+  "HARDINESS ZONE (BE 7-8)": ["Zone 7","Zone 8","Zone 9"],
+  "SUNLIGHT": ["Full sunlight","Half shade"],
+  "GROUND TYPE": ["Clay","Loam","Sandy soil"],
+  "SOIL DRAINAGE": ["Poorly drained"],
+  "SOIL MOISTURE": ["Damp","Waterlogged"],
+  "SOIL PH": ["Acidic","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT": ["0.5-1 m"],
+  "WIDTH": ["0.5-1 m"],
+  "GROWTH RATE": ["Fast growing"],
+  "ACCESSIBILITY": ["Accessible"],
+  "PLANTING DENSITY": ["5-6/m²"],
+  "SCHOOL SUBJECT": ["Plantenkennis 2"],
+  "NOTE": "",
+  "SUB IMAGES": [
     "images/Ceratophyllum demersum/Ceratophyllum demersum 2.jpg",
     "images/Ceratophyllum demersum/Ceratophyllum demersum 3.jpg"
-]
+  ]
 }

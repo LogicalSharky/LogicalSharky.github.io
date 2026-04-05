@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Corydalis flexuosa",
   "DUTCH NAME": "Helmbloem",
   "MAIN IMAGE": "images/Corydalis flexuosa/Corydalis flexuosa 1.jpg",
-  "SCHOOL SUBJECT":["Plantenkennis 1"],
-  "SUB IMAGES":[
+  "FAMILY": "Papaveraceae",
+  "TYPE OF PLANT": ["Herbaceous plant"],
+  "USE": ["Decorative flowers","Climate adaptive","Pioneer species","Vertical green & Roof garden"],
+  "FLOWER COLOUR": ["Blue flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Tubular flowers"],
+  "FLOWER CLUSTER SHAPE": ["Small flower clusters"],
+  "FLOWERING PERIOD": ["Flowers Spring"],
+  "FRUITS": ["Fruits not pronounced"],
+  "FRUITING PERIOD": [],
+  "EDIBLE": [],
+  "LEAF COLOUR": ["Green leaves"],
+  "AUTUMN COLOURS": [],
+  "WINTER ASPECT": ["Dies back"],
+  "VALUE FOR INSECTS": ["Bees","Butterflies"],
+  "SPECIAL FEATURES": [],
+  "PLANT WARNINGS": ["Susceptible to frost"],
+  "HABITAT": ["Woodland","Forest edge","Rock garden"],
+  "ORIGIN TO BELGIUM": ["Introduced"],
+  "HARDINESS ZONE (BE 7-8)": ["Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT": ["Half shade","Shade"],
+  "GROUND TYPE": ["Loam","Rocks","Sandy soil"],
+  "SOIL DRAINAGE": ["Well drained","Moderately drained"],
+  "SOIL MOISTURE": ["Moderately moist","Damp"],
+  "SOIL PH": ["Acidic","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT": ["0.2-0.5 m"],
+  "WIDTH": ["0.2-0.5 m"],
+  "GROWTH RATE": ["Moderate growth"],
+  "ACCESSIBILITY": ["Accessible"],
+  "PLANTING DENSITY": ["4-5/m²"],
+  "SCHOOL SUBJECT": ["Plantenkennis 1"],
+  "NOTE": "",
+  "SUB IMAGES": [
     "images/Corydalis flexuosa/Corydalis flexuosa 2.jpg"
-]
+  ]
 }

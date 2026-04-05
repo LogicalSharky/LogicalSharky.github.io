@@ -1,11 +1,41 @@
-
 {
   "LATIN NAME": "Clematis vitalba",
   "DUTCH NAME": "Wilde bosrank",
   "MAIN IMAGE": "images/Clematis vitalba/Clematis vitalba 1.jpg",
+  "FAMILY":"Ranunculaceae",
+  "TYPE OF PLANT":["Climbing plant"],
+  "USE":["Climate adaptive","Pioneer species","Vertical green & Roof garden"],
+  "FLOWER COLOUR":["White flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Star flowers"],
+  "FLOWER CLUSTER SHAPE": ["Upright spray flower clusters"],
+  "FLOWERING PERIOD":["Flowers Summer"],
+  "FRUITS":["Fruits not pronounced"],
+  "FRUITING PERIOD":[],
+  "EDIBLE":[],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":["Yellow autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS":["Bees","Butterflies"],
+  "SPECIAL FEATURES":["Decorative winter seed heads"],
+  "PLANT WARNINGS":["Toxic","Skin irritant"],
+  "HABITAT":["Forest edge","Grassland","Woodland"],
+  "ORIGIN TO BELGIUM":["Native"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight","Half shade","Shade"],
+  "GROUND TYPE":["Clay","Loam","Sandy soil"],
+  "SOIL DRAINAGE":["Well drained","Moderately drained"],
+  "SOIL MOISTURE":["Dry","Moderately moist","Damp"],
+  "SOIL PH":["Alkaline","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["12-20 m"],
+  "WIDTH":["5-8 m"],
+  "GROWTH RATE":["Fast growing"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["0.1-0.5/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "NOTE":"Can smother other vegetation if unmanaged.",
   "SUB IMAGES":[
     "images/Clematis vitalba/Clematis vitalba 2.jpg",
     "images/Clematis vitalba/Clematis vitalba 3.jpg"
-]
+  ]
 }

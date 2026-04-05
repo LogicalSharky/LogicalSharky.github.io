@@ -1,12 +1,42 @@
-
 {
   "LATIN NAME": "Corylopsis spicata",
   "DUTCH NAME": "Schijnhazelaar",
   "MAIN IMAGE": "images/Corylopsis spicata/Corylopsis spicata 1.jpg",
-  "SCHOOL SUBJECT":["Plantenkennis 1"],
-  "SUB IMAGES":[
+  "FAMILY": "Hamamelidaceae",
+  "TYPE OF PLANT": ["Shrub"],
+  "USE": ["Decorative flowers","Fragrant","Climate adaptive","Pioneer species","Thickets","Vertical green & Roof garden"],
+  "FLOWER COLOUR": ["Yellow flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Bell flowers"],
+  "FLOWER CLUSTER SHAPE": ["Hanging flower clusters"],
+  "FLOWERING PERIOD": ["Flowers Early Spring"],
+  "FRUITS": ["Fruits not pronounced"],
+  "FRUITING PERIOD": [],
+  "EDIBLE": [],
+  "LEAF COLOUR": ["Green leaves"],
+  "AUTUMN COLOURS": ["Yellow autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS": ["Bees","Butterflies"],
+  "SPECIAL FEATURES": [],
+  "PLANT WARNINGS": [],
+  "HABITAT": ["Forest edge","Woodland","Rock garden"],
+  "ORIGIN TO BELGIUM": ["Introduced"],
+  "HARDINESS ZONE (BE 7-8)": ["Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT": ["Half shade","Full sunlight"],
+  "GROUND TYPE": ["Loam","Sandy soil","Rocks"],
+  "SOIL DRAINAGE": ["Well drained","Moderately drained"],
+  "SOIL MOISTURE": ["Moderately moist","Damp"],
+  "SOIL PH": ["Acidic","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT": ["1-1.5 m"],
+  "WIDTH": ["1-1.5 m"],
+  "GROWTH RATE": ["Moderate growth"],
+  "ACCESSIBILITY": ["Accessible"],
+  "PLANTING DENSITY": ["1-2/m²"],
+  "SCHOOL SUBJECT": ["Plantenkennis 1"],
+  "NOTE": "",
+  "SUB IMAGES": [
     "images/Corylopsis spicata/Corylopsis spicata 2.jpg",
     "images/Corylopsis spicata/Corylopsis spicata 3.jpg",
     "images/Corylopsis spicata/Corylopsis spicata 4.jpg"
-]
+  ]
 }

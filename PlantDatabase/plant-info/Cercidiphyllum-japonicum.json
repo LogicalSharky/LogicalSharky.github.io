@@ -1,11 +1,41 @@
-
 {
   "LATIN NAME": "Cercidiphyllum japonicum",
   "DUTCH NAME": "Katsuraboom",
   "MAIN IMAGE": "images/Cercidiphyllum japonicum/Cercidiphyllum japonicum 1.jpg",
+  "FAMILY":"Cercidiphyllaceae",
+  "TYPE OF PLANT":["Tree"],
+  "USE":["Climate adaptive","Street / paving plant","Fragrant"],
+  "FLOWER COLOUR":["Red flowers"],
+  "INDIVIDUAL FLOWER SHAPE":["Inconspicuous flowers"],
+  "FLOWER CLUSTER SHAPE":[],
+  "FLOWERING PERIOD":["Flowers Early Spring"],
+  "FRUITS":["Fruits not pronounced"],
+  "FRUITING PERIOD":["Fruits Summer"],
+  "EDIBLE":[],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":["Yellow autumn leaves"],
+  "WINTER ASPECT":["Deciduous structural presence"],
+  "VALUE FOR INSECTS":["Bees","Butterflies"],
+  "SPECIAL FEATURES":["Decorative bark"],
+  "PLANT WARNINGS":["Susceptible to frost"],
+  "HABITAT":["Forest edge","Woodland","Rock garden"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 5","Zone 6","Zone 7","Zone 8","Zone 9"],
+  "SUNLIGHT":["Full sunlight","Half shade"],
+  "GROUND TYPE":["Loam","Clay","Rocks","Sandy soil"],
+  "SOIL DRAINAGE":["Well drained","Moderately drained"],
+  "SOIL MOISTURE":["Moderately moist","Damp"],
+  "SOIL PH":["Acidic","Neutral"],
+  "LIFE CYCLE":["Perennial"],
+  "HEIGHT":["12-20 m"],
+  "WIDTH":["8-12 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["0-0.1/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Cercidiphyllum japonicum/Cercidiphyllum japonicum 2.jpg",
     "images/Cercidiphyllum japonicum/Cercidiphyllum japonicum 3.jpg"
-]
+  ]
 }

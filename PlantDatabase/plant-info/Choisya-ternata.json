@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Choisya ternata",
   "DUTCH NAME": "Mexicaanse oranjebloesem",
   "MAIN IMAGE": "images/Choisya ternata/Choisya ternata 1.jpg",
+  "FAMILY":"Rutaceae",
+  "TYPE OF PLANT":["Shrub"],
+  "USE":["Climate adaptive","Decorative flowers","Fragrant","Hedge","Thickets","Vertical green & Roof garden"],
+  "FLOWER COLOUR":["White flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Star flowers"],
+  "FLOWER CLUSTER SHAPE": ["Flat flower clusters"],
+  "FLOWERING PERIOD":["Flowers Spring"],
+  "FRUITS":["Fleshy fruits"],
+  "FRUITING PERIOD":["Fruits Summer"],
+  "EDIBLE":["Edible leaves"],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":[],
+  "WINTER ASPECT": ["Evergreen"],
+  "VALUE FOR INSECTS":["Bees","Butterflies"],
+  "SPECIAL FEATURES":[],
+  "PLANT WARNINGS":["Susceptible to frost"],
+  "HABITAT":["Forest edge","Rock garden","Woodland"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 7","Zone 8","Zone 9"],
+  "SUNLIGHT":["Full sunlight","Half shade"],
+  "GROUND TYPE":["Clay","Loam","Rocks","Sandy soil"],
+  "SOIL DRAINAGE":["Fast draining","Well drained","Moderately drained"],
+  "SOIL MOISTURE":["Dry","Moderately moist"],
+  "SOIL PH":["Acidic","Alkaline","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["1-1.5 m"],
+  "WIDTH":["1-1.5 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["2-3/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 1"],
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Choisya ternata/Choisya ternata 2.jpg"
-]
+  ]
 }

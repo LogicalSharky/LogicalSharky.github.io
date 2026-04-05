@@ -1,11 +1,41 @@
-
 {
   "LATIN NAME": "Castanea sativa",
   "DUTCH NAME": "Tamme kastanje",
   "MAIN IMAGE": "images/Castanea sativa/Castanea sativa 1.jpg",
+  "FAMILY":"Fagaceae",
+  "TYPE OF PLANT":["Tree"],
+  "USE":["Climate adaptive","Decorative flowers","Key species for birds"],
+  "FLOWER COLOUR":["Yellow flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Other flower shapes"],
+  "FLOWER CLUSTER SHAPE": ["Catkins"], 
+  "FLOWERING PERIOD":["Flowers Summer"],
+  "FRUITS":["Nuts"],
+  "FRUITING PERIOD":["Fruits Autumn"],
+  "EDIBLE":["Edible nuts"],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":["Yellow autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS":["Bees","Moths"],
+  "SPECIAL FEATURES":["Decorative bark"],
+  "PLANT WARNINGS":[],
+  "HABITAT":["Forest edge","Woodland"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight","Half shade"],
+  "GROUND TYPE":["Loam","Sandy soil"],
+  "SOIL DRAINAGE":["Well drained"],
+  "SOIL MOISTURE":["Moderately moist"],
+  "SOIL PH":["Acidic","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["20-30 m"],
+  "WIDTH":["12-20 m"],
+  "GROWTH RATE":["Fast growing"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["0.1-0.5/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Castanea sativa/Castanea sativa 2.jpg",
     "images/Castanea sativa/Castanea sativa 3.jpg"
-]
+  ]
 }

@@ -1,14 +1,44 @@
-
 {
   "LATIN NAME": "Chamaecyparis lawsoniana",
   "DUTCH NAME": "Californische cipres",
   "MAIN IMAGE": "images/Chamaecyparis lawsoniana/Chamaecyparis lawsoniana 1.jpg",
-  "SCHOOL SUBJECT":["Plantenkennis 2"],
-  "SUB IMAGES":[
+  "FAMILY": "Cupressaceae",
+  "TYPE OF PLANT": ["Conifer","Tree"],
+  "USE": ["Hedge"],
+  "FLOWER COLOUR": ["Green flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Inconspicuous flowers"],
+  "FLOWER CLUSTER SHAPE": [],
+  "FLOWERING PERIOD": ["Flowers Spring"],
+  "FRUITS": ["Cones"],
+  "FRUITING PERIOD": ["Fruits Autumn"],
+  "EDIBLE": [],
+  "LEAF COLOUR": ["Green leaves"],
+  "AUTUMN COLOURS": [],
+  "WINTER ASPECT": ["Evergreen"],
+  "VALUE FOR INSECTS": [],
+  "SPECIAL FEATURES": [],
+  "PLANT WARNINGS": [],
+  "HABITAT": ["Forest edge","Woodland"],
+  "ORIGIN TO BELGIUM": ["Introduced"],
+  "HARDINESS ZONE (BE 7-8)": ["Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT": ["Full sunlight","Half shade"],
+  "GROUND TYPE": ["Clay","Loam","Sandy soil"],
+  "SOIL DRAINAGE": ["Well drained","Moderately drained"],
+  "SOIL MOISTURE": ["Moderately moist","Damp"],
+  "SOIL PH": ["Acidic","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT": ["20-30 m"],
+  "WIDTH": ["5-8 m"],
+  "GROWTH RATE": ["Fast growing"],
+  "ACCESSIBILITY": ["Accessible"],
+  "PLANTING DENSITY": ["0.1-0.5/m²"],
+  "SCHOOL SUBJECT": ["Plantenkennis 2"],
+  "NOTE": "",
+  "SUB IMAGES": [
     "images/Chamaecyparis lawsoniana/Chamaecyparis lawsoniana 2.jpg",
     "images/Chamaecyparis lawsoniana/Chamaecyparis lawsoniana 3.jpg",
     "images/Chamaecyparis lawsoniana/Chamaecyparis lawsoniana 4.jpg",
     "images/Chamaecyparis lawsoniana/Chamaecyparis lawsoniana 5.jpg",
     "images/Chamaecyparis lawsoniana/Chamaecyparis lawsoniana 6.jpg"
-]
+  ]
 }

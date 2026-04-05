@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Clethra alnifolia",
   "DUTCH NAME": "Schijnels",
   "MAIN IMAGE": "images/Clethra alnifolia/Clethra alnifolia 1.jpg",
+  "FAMILY":"Clethraceae",
+  "TYPE OF PLANT":["Shrub"],
+  "USE":["Decorative flowers","Fragrant","Thickets"],
+  "FLOWER COLOUR":["White flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Cup flowers"],
+  "FLOWER CLUSTER SHAPE": ["Spike flower clusters"],
+  "FLOWERING PERIOD":["Flowers Summer","Flowers Late Summer"],
+  "FRUITS":["Fruits not pronounced"],
+  "FRUITING PERIOD":[],
+  "EDIBLE":[],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":["Yellow autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS":["Bees","Butterflies"],
+  "SPECIAL FEATURES":[],
+  "PLANT WARNINGS":[],
+  "HABITAT":["Forest edge","Wetland","Woodland"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 4","Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight","Half shade","Shade"],
+  "GROUND TYPE":["Sandy soil","Loam"],
+  "SOIL DRAINAGE":["Well drained","Moderately drained"],
+  "SOIL MOISTURE":["Moderately moist","Damp"],
+  "SOIL PH":["Acidic","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["1.5-2 m"],
+  "WIDTH":["1.5-2 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["1-2/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 1"],
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Clethra alnifolia/Clethra alnifolia 2.jpg"
-]
+  ]
 }

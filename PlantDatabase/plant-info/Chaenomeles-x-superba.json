@@ -1,12 +1,42 @@
-
 {
   "LATIN NAME": "Chaenomeles x superba",
   "DUTCH NAME": "Dwergkwee",
   "MAIN IMAGE": "images/Chaenomeles x superba/Chaenomeles x superba 1.jpg",
-  "SCHOOL SUBJECT":["Plantenkennis 1"],
-  "SUB IMAGES":[
+  "FAMILY": "Rosaceae",
+  "TYPE OF PLANT": ["Shrub"],
+  "USE": ["Climate adaptive","Decorative flowers","Hedge","Thickets"],
+  "FLOWER COLOUR": ["Red flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Cup flowers"],
+  "FLOWER CLUSTER SHAPE": ["Small flower clusters"],
+  "FLOWERING PERIOD": ["Flowers Early Spring","Flowers Spring"],
+  "FRUITS": ["Fleshy fruits"],
+  "FRUITING PERIOD": ["Fruits Autumn"],
+  "EDIBLE": ["Only edible after processing","Edible fruit"],
+  "LEAF COLOUR": ["Green leaves"],
+  "AUTUMN COLOURS": ["Yellow autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS": ["Bees"],
+  "SPECIAL FEATURES": ["Thorns"],
+  "PLANT WARNINGS": [],
+  "HABITAT": ["Forest edge","Rock garden"],
+  "ORIGIN TO BELGIUM": ["Introduced"],
+  "HARDINESS ZONE (BE 7-8)": ["Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT": ["Full sunlight","Half shade"],
+  "GROUND TYPE": ["Clay","Loam","Sandy soil"],
+  "SOIL DRAINAGE": ["Well drained","Moderately drained"],
+  "SOIL MOISTURE": ["Dry","Moderately moist"],
+  "SOIL PH": ["Acidic","Neutral","Alkaline"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT": ["1-1.5 m"],
+  "WIDTH": ["1-1.5 m"],
+  "GROWTH RATE": ["Moderate growth"],
+  "ACCESSIBILITY": ["Accessible"],
+  "PLANTING DENSITY": ["1-2/m²"],
+  "SCHOOL SUBJECT": ["Plantenkennis 1"],
+  "NOTE": "",
+  "SUB IMAGES": [
     "images/Chaenomeles x superba/Chaenomeles x superba 2.jpg",
     "images/Chaenomeles x superba/Chaenomeles x superba 3.jpg",
     "images/Chaenomeles x superba/Chaenomeles x superba 4.jpg"
-]
+  ]
 }

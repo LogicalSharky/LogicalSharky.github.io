@@ -1,11 +1,41 @@
-
 {
   "LATIN NAME": "Cydonia oblonga",
   "DUTCH NAME": "Kweeper",
   "MAIN IMAGE": "images/Cydonia oblonga/Cydonia oblonga 1.jpg",
+  "FAMILY":"Rosaceae",
+  "TYPE OF PLANT":["Tree"],
+  "USE":["Decorative flowers","Climate adaptive","Drought tolerant","Fragrant","Hedge","Pioneer species","Street / paving plant"],
+  "FLOWER COLOUR":["Pink flowers","White flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Cup flowers"],
+  "FLOWER CLUSTER SHAPE": [],
+  "FLOWERING PERIOD":["Flowers Spring"],
+  "FRUITS":["Fleshy fruits"],
+  "FRUITING PERIOD":["Fruits Autumn"],
+  "EDIBLE":["Edible fruit","Only edible after processing"],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":["Yellow autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS":["Bees","Butterflies","Moths"],
+  "SPECIAL FEATURES":["Decorative bark"],
+  "PLANT WARNINGS":[],
+  "HABITAT":["Forest edge","Woodland","Grassland","Rock garden"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight","Half shade"],
+  "GROUND TYPE":["Loam","Clay","Rocks","Sandy soil"],
+  "SOIL DRAINAGE":["Well drained","Moderately drained"],
+  "SOIL MOISTURE":["Moderately moist","Dry"],
+  "SOIL PH":["Acidic","Neutral"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["3-5 m"],
+  "WIDTH":["3-5 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["1-2/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Cydonia oblonga/Cydonia oblonga 2.jpg",
     "images/Cydonia oblonga/Cydonia oblonga 3.jpg"
-]
+  ]
 }

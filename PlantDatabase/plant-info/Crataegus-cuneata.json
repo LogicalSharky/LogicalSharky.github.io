@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Crataegus cuneata",
   "DUTCH NAME": "Chinese meidoorn",
   "MAIN IMAGE": "images/Crataegus cuneata/Crataegus cuneata 1.jpg",
+  "FAMILY":"Rosaceae",
+  "TYPE OF PLANT":["Shrub","Tree"],
+  "USE":["Decorative flowers","Hedge","Thickets"],
+  "FLOWER COLOUR":["White flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Other flower shapes"],
+  "FLOWER CLUSTER SHAPE": ["Small flower clusters"],
+  "FLOWERING PERIOD":["Flowers Spring"],
+  "FRUITS":["Fleshy fruits"],
+  "FRUITING PERIOD":["Fruits Autumn"],
+  "EDIBLE":["Edible fruit"],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":["Red autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS":["Bees"],
+  "SPECIAL FEATURES":["Thorns"],
+  "PLANT WARNINGS":["Needs wind shelter"],
+  "HABITAT":["Forest edge","Woodland"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight","Half shade"],
+  "GROUND TYPE":["Loam","Sandy soil","Clay"],
+  "SOIL DRAINAGE":["Well drained","Moderately drained"],
+  "SOIL MOISTURE":["Dry","Moderately moist"],
+  "SOIL PH":["Acidic","Neutral","Alkaline"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["2-3 m"],
+  "WIDTH":["2-3 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Semi-rare"],
+  "PLANTING DENSITY":["0.5-1/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Crataegus cuneata/Crataegus cuneata 2.jpg"
-]
+  ]
 }

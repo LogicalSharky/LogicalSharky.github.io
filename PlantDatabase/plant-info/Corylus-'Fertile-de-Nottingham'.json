@@ -11,7 +11,7 @@
   "FLOWERING PERIOD": ["Flowers Early Spring"],
   "FRUITS": ["Nuts"],
   "FRUITING PERIOD": ["Fruits Autumn"],
-  "EDIBLE": ["Only edible after processing","Edible nuts"],
+  "EDIBLE": ["Edible nuts"],
   "LEAF COLOUR": ["Green leaves"],
   "AUTUMN COLOURS": ["Yellow autumn leaves"],
   "WINTER ASPECT": ["Deciduous structural presence"],
@@ -33,7 +33,7 @@
   "ACCESSIBILITY": ["Accessible"],
   "PLANTING DENSITY": ["0.1-0.5/m²"],
   "SCHOOL SUBJECT": ["Plantenkennis 2"],
-  "NOTE": "",
+  "NOTE": "Hazelnut cultivar for producing nuts.",
   "SUB IMAGES": [
     "images/Corylus 'Fertile de Nottingham'/Corylus 'Fertile de Nottingham' 2.jpg",
     "images/Corylus 'Fertile de Nottingham'/Corylus 'Fertile de Nottingham' 3.jpg",

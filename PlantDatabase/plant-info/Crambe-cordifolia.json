@@ -1,11 +1,41 @@
-
 {
   "LATIN NAME": "Crambe cordifolia",
   "DUTCH NAME": "Zeekool",
   "MAIN IMAGE": "images/Crambe cordifolia/Crambe cordifolia 1.jpg",
+  "FAMILY":"Brassicaceae",
+  "TYPE OF PLANT":["Herbaceous plant"],
+  "USE":["Decorative flowers","Climate adaptive","Fragrant"],
+  "FLOWER COLOUR":["White flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Star flowers"],
+  "FLOWER CLUSTER SHAPE": ["Upright spray flower clusters"],
+  "FLOWERING PERIOD":["Flowers Summer"],
+  "FRUITS":["Fruits not pronounced"],
+  "FRUITING PERIOD":[],
+  "EDIBLE":[],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":[],
+  "WINTER ASPECT": ["No winter presence"],
+  "VALUE FOR INSECTS":["Bees"],
+  "SPECIAL FEATURES":["Large leaves","Decorative winter seed heads"],
+  "PLANT WARNINGS":[],
+  "HABITAT":["Grassland"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight"],
+  "GROUND TYPE":["Loam","Sandy soil"],
+  "SOIL DRAINAGE":["Well drained"],
+  "SOIL MOISTURE":["Moderately moist","Dry"],
+  "SOIL PH":["Neutral","Alkaline"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["1.5-2 m"],
+  "WIDTH":["1-1.5 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Semi-rare"],
+  "PLANTING DENSITY":["1-2/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 1"],
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Crambe cordifolia/Crambe cordifolia 2.jpg",
     "images/Crambe cordifolia/Crambe cordifolia 3.jpg"
-]
+  ]
 }

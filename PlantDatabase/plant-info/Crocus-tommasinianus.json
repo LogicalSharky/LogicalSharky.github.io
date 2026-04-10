@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Crocus tommasinianus",
   "DUTCH NAME": "Boerenkrokus",
   "MAIN IMAGE": "images/Crocus tommasinianus/Crocus tommasinianus 1.jpg",
+  "FAMILY":"Iridaceae",
+  "TYPE OF PLANT":["Flower bulb"],
+  "USE":["Decorative flowers"],
+  "FLOWER COLOUR":["Purple flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Cup flowers"],
+  "FLOWER CLUSTER SHAPE": [],
+  "FLOWERING PERIOD":["Flowers Early Spring"],
+  "FRUITS":["Fruits not pronounced"],
+  "FRUITING PERIOD":[],
+  "EDIBLE":[],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":[],
+  "WINTER ASPECT": ["No winter presence"],
+  "VALUE FOR INSECTS":["Bees"],
+  "SPECIAL FEATURES":[],
+  "PLANT WARNINGS":[],
+  "HABITAT":["Grassland","Rock garden","Forest edge","Woodland"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 3","Zone 4","Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight","Half shade"],
+  "GROUND TYPE":["Loam","Sandy soil","Rocks"],
+  "SOIL DRAINAGE":["Fast draining","Well drained"],
+  "SOIL MOISTURE":["Dry","Moderately moist"],
+  "SOIL PH":["Acidic","Neutral","Alkaline"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["0-0.2 m"],
+  "WIDTH":["0-0.2 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["10-12/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Crocus tommasinianus/Crocus tommasinianus 2.jpg"
-]
+  ]
 }

@@ -1,11 +1,41 @@
-
 {
   "LATIN NAME": "Crataegus laevigata",
   "DUTCH NAME": "Tweestijlige meidoorn",
   "MAIN IMAGE": "images/Crataegus laevigata/Crataegus laevigata 1.jpg",
+  "FAMILY":"Rosaceae",
+  "TYPE OF PLANT":["Tree"],
+  "USE":["Decorative flowers","Hedge","Thickets","Key species for birds"],
+  "FLOWER COLOUR":["White flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Other flower shapes"],
+  "FLOWER CLUSTER SHAPE": ["Small flower clusters"],
+  "FLOWERING PERIOD":["Flowers Spring"],
+  "FRUITS":["Fleshy fruits"],
+  "FRUITING PERIOD":["Fruits Autumn"],
+  "EDIBLE":["Edible fruit"],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":["Yellow autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS":["Bees","Butterflies"],
+  "SPECIAL FEATURES":["Thorns"],
+  "PLANT WARNINGS":[],
+  "HABITAT":["Forest edge","Woodland"],
+  "ORIGIN TO BELGIUM":["Native"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight","Half shade"],
+  "GROUND TYPE":["Clay","Loam","Sandy soil"],
+  "SOIL DRAINAGE":["Well drained","Moderately drained"],
+  "SOIL MOISTURE":["Moderately moist","Damp"],
+  "SOIL PH":["Acidic","Neutral","Alkaline"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["5-8 m"],
+  "WIDTH":["3-5 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["0.1-0.5/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 1"],
+  "NOTE":"Seeds in berries should not be eaten in large quantities",
   "SUB IMAGES":[
     "images/Crataegus laevigata/Crataegus laevigata 2.jpg",
     "images/Crataegus laevigata/Crataegus laevigata 3.jpg"
-]
+  ]
 }

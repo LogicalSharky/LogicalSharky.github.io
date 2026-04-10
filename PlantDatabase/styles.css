@@ -90,13 +90,14 @@ body {
 }
 
 .tag-label {
-  display: block;
-  margin-left: 5px;
-  margin-bottom: 3px;
-  color: #ffffff;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  color: #eee;
   cursor: pointer;
-  font-weight: 100;
-  font-size: 14px;
+  padding: 3px 6px;
+  border-radius: 4px;
+  transition: background 0.15s ease, color 0.15s ease;
 }
 
 .tag-label input {
@@ -125,6 +126,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   padding: 5px;
+  position: relative;
 }
 
 .plant img {
@@ -162,10 +164,6 @@ body {
 .plant.invasive img {
   border: 3px solid red;
   border-radius: 4px;
-}
-
-.plant.invasive {
-  position: relative;
 }
 
 .plant.invasive::after {
@@ -280,84 +278,33 @@ body {
 }
 
 .tag {
-  border: none;
-  background: none;
-  padding: 0;
-  margin-bottom: 6px;
-  display: block;
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 4px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 
-.tag strong { font-weight: 600; margin-right: 5px; color: #111; }
-.tag span { color: #333; }
-
-.overlay-details .more-images {
-  display: inline-block;
-  margin-top: 10px;
-  font-weight: 500;
-  font-size: clamp(12px, 1vw, 14px);
-  color: #4da6ff;
-  text-decoration: underline;
-  cursor: pointer;
-  transition: color 0.2s ease;
+.tag:last-child {
+  border-bottom: none;
 }
 
-.overlay-details .more-images:hover { color: #1a8cff; }
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: max-content;
-  background-color: rgb(148, 148, 148);
-  color: #d1d1d1;
-  text-align: center;
-  padding: 5px 10px;
-  border-radius: 6px;
-  position: absolute;
-  z-index: 10;
-  top: 125%;
-  left: 50%;
-  transform: translateX(-50%);
-  opacity: 0;
-  transition: opacity 0.3s;
-  font-size: 0.9em;
-  white-space: nowrap;
+.tag strong {
+  flex: 0 0 180px;
+  font-weight: 600;
+  color: #111;
 }
 
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
+.tag span {
+  flex: 1;
+  color: #333;
 }
 
-@media (max-width: 1300px) {
-  .gallery { grid-template-columns: repeat(2, 1fr); }
-
-  .overlay-content { 
-    flex-direction: column; 
-    align-items: center; 
-    padding: 5px; 
-    gap: 5px; 
-  }
-  .overlay-image { 
-    width: 90%; 
-    max-width: 400px; 
-    aspect-ratio: 1/1; 
-    flex: 0 0 auto; 
-  }
-  .overlay-box { width: 90%; margin-top: 10px; }
-}
-
-@media (max-width: 800px) {
-  .gallery { grid-template-columns: 1fr; padding: 10px; }
-
-  .overlay-content { flex-direction: column; align-items: center; padding: 5px; gap: 5px; }
-  .overlay-image { width: 90%; max-width: 400px; aspect-ratio: 1/1; }
-  .overlay-box { width: 90%; margin-top: 10px; }
-
-  .sidebar { left: -310px; transition: left 0.3s ease; }
-  .sidebar.show { left: 0; }
-
-  .menu-toggle { display: block; z-index: 200; transition: left 0.3s ease; }
-
-  .main-content { margin-left: 0; width: 100%; }
+.overlay-details .family-name {
+  font-size: clamp(13px, 1.2vw, 18px);
+  font-style: italic;
+  color: #444;
+  margin-bottom: 10px;
 }
 
 .thumbnail-row-wrapper {
@@ -403,31 +350,128 @@ body {
 .thumbnail-row img.selected { filter: brightness(100%); }
 
 /* ===== SIDEBAR CATEGORY DIVIDERS ===== */
-
-/* Major group dividers (TRAITS, GROWTH, etc.) */
 .sidebar .tag-group-divider {
   font-weight: 700;
   font-size: 1.1em;
-  color: #fff; /* white for sidebar */
+  color: #fff;
   border-bottom: 2px solid rgba(255, 255, 255, 0.35);
   padding: 5px 0;
   margin: 15px 0 5px 0;
 }
 
-/* Subgroup titles */
 .sidebar .tag-group-title {
   font-weight: 600;
   font-size: 0.95em;
-  color: #ddd; /* light gray for sidebar */
+  color: #ddd;
   margin-top: 8px;
   margin-bottom: 4px;
   border-bottom: 1px dashed rgba(255,255,255,0.2);
   padding-bottom: 2px;
 }
 
-/* first group shouldn't have top space */
-.sidebar .tag-group:first-child .tag-group-title {
-  margin-top: 0;
+.sidebar .tag-group:first-child .tag-group-title { margin-top: 0; }
+
+/* ===== LIST BUTTON (OVER PLANT IMAGES) ===== */
+.list-btn {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 26px;
+  height: 26px;
+  background: rgba(255, 255, 255, 0.171);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 5;
+  transition: all 0.15s ease;
+}
+
+.list-btn::after {
+  content: "";
+  width: 10px;
+  height: 6px;
+  border: solid white;
+  border-width: 0 0 2px 2px;
+  transform: rotate(-45deg);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.list-btn.active {
+  background: rgba(255,255,255,0.9);
+  border-color: rgba(0,0,0,0.2);
+}
+
+.list-btn.active::after {
+  opacity: 1;
+  border-color: #111;
+}
+
+.list-btn:hover { background: rgba(255, 255, 255, 0.75); }
+.list-btn.active:hover { background: rgba(255,255,255,1); }
+
+/* ===== TAG CHECKBOXES ===== */
+.tag-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border: 1.5px solid #888;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-right: 6px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.tag-checkbox:checked {
+  background-color: #548b69;
+}
+
+.tag-checkbox:checked::after {
+  content: "";
+  position: absolute;
+  left: 3px;
+  top: 0px;
+  width: 4px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 1.5px 1.5px 0;
+  transform: rotate(45deg);
+}
+
+.tag-checkbox:checked + * {
+  font-weight: 500;
+  color: #111;
+}
+
+/* ===== SEARCH BAR TOOLTIP ===== */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: max-content;
+  background-color: rgb(148, 148, 148);
+  color: #d1d1d1;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 10;
+  top: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* ===== POPUP DIVIDERS & CATEGORY HEADERS ===== */
@@ -500,5 +544,31 @@ body {
   font-style: italic;
   color: #444;
   margin-bottom: 10px;
+}
+
+/* ===== POPUP OVERLAY CHECKBOX PADDING ===== */
+.overlay .list-btn {
+  top: 10px;       /* adds a bit of spacing from the top */
+  left: 10px;      /* adds a bit of spacing from the left */
+}
+
+/* ===== MEDIA QUERIES ===== */
+@media (max-width: 1300px) {
+  .gallery { grid-template-columns: repeat(2, 1fr); }
+  .overlay-content { flex-direction: column; align-items: center; padding: 5px; gap: 5px; }
+  .overlay-image { width: 90%; max-width: 400px; aspect-ratio: 1/1; flex: 0 0 auto; }
+  .overlay-box { width: 90%; margin-top: 10px; }
+}
+
+@media (max-width: 800px) {
+  .gallery { grid-template-columns: 1fr; padding: 10px; }
+  .overlay-content { flex-direction: column; align-items: center; padding: 5px; gap: 5px; }
+  .overlay-image { width: 90%; max-width: 400px; aspect-ratio: 1/1; }
+  .overlay-box { width: 90%; margin-top: 10px; }
+
+  .sidebar { left: -310px; transition: left 0.3s ease; }
+  .sidebar.show { left: 0; }
+  .menu-toggle { display: block; z-index: 200; transition: left 0.3s ease; }
+  .main-content { margin-left: 0; width: 100%; }
 }
 

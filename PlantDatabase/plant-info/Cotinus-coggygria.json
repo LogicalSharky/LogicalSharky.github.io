@@ -1,10 +1,40 @@
-
 {
   "LATIN NAME": "Cotinus coggygria",
   "DUTCH NAME": "Pruikenboom",
   "MAIN IMAGE": "images/Cotinus coggygria/Cotinus coggygria 1.jpg",
+  "FAMILY":"Anacardiaceae",
+  "TYPE OF PLANT":["Shrub"],
+  "USE":["Climate adaptive","Decorative flowers","Drought tolerant"],
+  "FLOWER COLOUR":["Pink flowers"],
+  "INDIVIDUAL FLOWER SHAPE": ["Inconspicuous flowers"],
+  "FLOWER CLUSTER SHAPE": ["Plume flower clusters"],
+  "FLOWERING PERIOD":["Flowers Summer"],
+  "FRUITS":["Fruits not pronounced"],
+  "FRUITING PERIOD":[],
+  "EDIBLE":[],
+  "LEAF COLOUR":["Green leaves"],
+  "AUTUMN COLOURS":["Red autumn leaves"],
+  "WINTER ASPECT": ["Deciduous structural presence"],
+  "VALUE FOR INSECTS":["Bees"],
+  "SPECIAL FEATURES":["Decorative winter seed heads"],
+  "PLANT WARNINGS":["Skin irritant"],
+  "HABITAT":["Forest edge","Grassland"],
+  "ORIGIN TO BELGIUM":["Introduced"],
+  "HARDINESS ZONE (BE 7-8)":["Zone 5","Zone 6","Zone 7","Zone 8"],
+  "SUNLIGHT":["Full sunlight"],
+  "GROUND TYPE":["Loam","Sandy soil","Rocks"],
+  "SOIL DRAINAGE":["Fast draining","Well drained"],
+  "SOIL MOISTURE":["Dry","Moderately moist"],
+  "SOIL PH":["Neutral","Alkaline"],
+  "LIFE CYCLE": ["Perennial"],
+  "HEIGHT":["3-5 m"],
+  "WIDTH":["3-5 m"],
+  "GROWTH RATE":["Moderate growth"],
+  "ACCESSIBILITY":["Accessible"],
+  "PLANTING DENSITY":["1-2/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 1"],
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Cotinus coggygria/Cotinus coggygria 2.jpg"
-]
+  ]
 }

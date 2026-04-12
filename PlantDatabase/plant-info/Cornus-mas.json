@@ -7,7 +7,7 @@
   "USE":["Decorative flowers","Hedge","Key species for birds","Pioneer species","Thickets"],
   "FLOWER COLOUR":["Yellow flowers"],
   "INDIVIDUAL FLOWER SHAPE": ["Star flowers"],
-  "FLOWER CLUSTER SHAPE": ["Small flower clusters"],
+  "FLOWER CLUSTER SHAPE": ["Other flower clusters"],
   "FLOWERING PERIOD":["Flowers Early Spring"],
   "FRUITS":["Berries"],
   "FRUITING PERIOD":["Fruits Late Summer"],
@@ -33,7 +33,7 @@
   "ACCESSIBILITY":["Accessible"],
   "PLANTING DENSITY":["1-2/m²"],
   "SCHOOL SUBJECT":["Plantenkennis 1"],
-  "NOTE":"text",
+  "NOTE":"",
   "SUB IMAGES":[
     "images/Cornus mas/Cornus mas 2.jpg",
     "images/Cornus mas/Cornus mas 3.jpg",

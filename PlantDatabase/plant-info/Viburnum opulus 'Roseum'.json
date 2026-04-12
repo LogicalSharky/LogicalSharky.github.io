@@ -4,9 +4,9 @@ Any thoughts, suggestions, etc, can be told to me at the end, without changing a
 Explain why you made every decision. 
 
 {
-  "LATIN NAME": "Pterocarya fraxinifolia",
-  "DUTCH NAME": "Kaukasische vleugelnoot",
-  "MAIN IMAGE": "images/Pterocarya fraxinifolia/Pterocarya fraxinifolia 1.jpg",
+  "LATIN NAME": "Viburnum opulus 'Roseum'",
+  "DUTCH NAME": "Gelderse roos",
+  "MAIN IMAGE": "images/Viburnum opulus 'Roseum'/Viburnum opulus 'Roseum' 1.jpg",
   "FAMILY":"text",
 // Chose only one type of plant that fits best.  
   "TYPE OF PLANT":["Aquatic plant","Bamboo","Climbing plant","Conifer","Fern","Flower bulb","Ground cover","Herbaceous plant","Ornamental grass","Palm tree","Shrub","Subshrub","Succulent","Tree"],
@@ -51,12 +51,12 @@ Explain why you made every decision.
   "ACCESSIBILITY":["Accessible","Semi-rare","Hard to find"],
 // Density for TREES based on grown specimens. Planting density for other plants (not trees) based on regular planting density.
   "PLANTING DENSITY":["0-0.1/m²","0.1-0.5/m²","0.5-1/m²","1-2/m²","2-3/m²","3-4/m²","4-5/m²","5-6/m²","6-7/m²","7-8/m²","8-9/m²","9-10/m²","10-12/m²","12-15/m²","15+ /m²"],
-  "SCHOOL SUBJECT":["Plantenkennis 2"],
+  "SCHOOL SUBJECT":[null],
 // Only add something to Note if it could not be said with all the tags. For example how a hydrangea changes colour based on ph levels. THIS MEANS NO TEXT DISCRIBING THE PLANT!!!
   "NOTE":"text",
   "SUB IMAGES":[
-    "images/Pterocarya fraxinifolia/Pterocarya fraxinifolia 2.jpg",
-    "images/Pterocarya fraxinifolia/Pterocarya fraxinifolia 3.jpg",
-    "images/Pterocarya fraxinifolia/Pterocarya fraxinifolia 4.jpg"
+    "images/Viburnum opulus 'Roseum'/Viburnum opulus 'Roseum' 2.jpg",
+    "images/Viburnum opulus 'Roseum'/Viburnum opulus 'Roseum' 3.jpg",
+    "images/Viburnum opulus 'Roseum'/Viburnum opulus 'Roseum' 4.jpg"
 ]
 }

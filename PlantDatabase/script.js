@@ -80,7 +80,7 @@
       "USE": ["Climate adaptive","Coastal area","Decorative flowers","Drought tolerant","Fragrant","Hedge","Key species for birds","Playing pressure resistant","Pioneer species","Salt tolerant","Street / paving plant","Thickets","Vertical green & Roof garden","Wadi"],
       "FLOWER COLOUR": ["Black flowers","Blue flowers","Brown flowers","Green flowers","Orange flowers","Pink flowers","Purple flowers","Red flowers","White flowers","Yellow flowers"],
       "INDIVIDUAL FLOWER SHAPE": ["Bell flowers","Cup flowers","Daisy flowers","Spathe-and-spadix","Star flowers","Tubular flowers","Inconspicuous flowers","Other flower shapes"],
-      "FLOWER CLUSTER SHAPE": ["Ball flower clusters","Flat flower clusters","Hanging flower clusters","Plume flower clusters","Small flower clusters","Spike flower clusters","Upright spray flower clusters","Catkins","Other flower clusters"], 
+      "FLOWER CLUSTER SHAPE": ["Ball flower clusters","Flat flower clusters","Hanging flower clusters","Plume flower clusters","Spike flower clusters","Upright spray flower clusters","Catkins","Other flower clusters"], 
       "FLOWERING PERIOD": ["Flowers Early Spring","Flowers Spring","Flowers Summer","Flowers Late Summer","Flowers Autumn","Flowers Winter"],
       "FRUITS":["Berries","Cones","Fleshy fruits","Nuts","Winged fruits","Pods","Fruits not pronounced"],
       "FRUITING PERIOD": ["Fruits Early Spring","Fruits Spring","Fruits Summer","Fruits Late Summer","Fruits Autumn","Fruits Winter"],
@@ -354,8 +354,9 @@ function filterPlantsBySearch() {
         const plantDiv = document.createElement("div");
         plantDiv.classList.add("plant");
 
-        const origin = (plant["ORIGIN TO BELGIUM"] || "").toString().trim().toLowerCase();
-        if (origin.includes("invasive")) plantDiv.classList.add("invasive");
+        if ((plant.tagsLower || []).includes("invasive")) {
+          plantDiv.classList.add("invasive");
+        }
 
         const img = document.createElement("img");
         img.loading = "lazy";
@@ -370,9 +371,9 @@ function filterPlantsBySearch() {
 
         const info = document.createElement("div");
         info.classList.add("plant-info");
-        info.innerHTML = `<p><strong>${plant["LATIN NAME"]}</strong></p>
-                          <p>${plant["DUTCH NAME"]}</p>
-                          ${plant["FAMILY"] ? `<p class="family-name">${plant["FAMILY"]}</p>` : ""}`;
+        info.innerHTML = `<p class="latin-name"><strong>${plant["LATIN NAME"]}</strong></p>
+                  <p class="dutch-name">${plant["DUTCH NAME"]}</p>
+                  ${plant["FAMILY"] ? `<p class="family-name">${plant["FAMILY"]}</p>` : ""}`;
 
         const listBtn = createListButton(plant);
 

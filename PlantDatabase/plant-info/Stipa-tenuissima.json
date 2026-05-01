@@ -44,8 +44,8 @@ Explain why you made every decision.
   "SOIL PH":["Acidic","Alkaline","Neutral"],
   "LIFE CYCLE": ["Annual","Biennial","Perennial"],
 // For both height and width chose only the most fitting tag, not multiple.  
-  "HEIGHT":["0-0.2 m","0.2-0.5 m","0.5-1 m","1-1.5 m","1.5-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20-30 m","30+ m"],
-  "WIDTH":["0-0.2 m","0.2-0.5 m","0.5-1 m","1-1.5 m","1.5-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20+ m"],
+  "HEIGHT":["0-0.2 m high","0.2-0.5 m high","0.5-1 m high","1-1.5 m high","1.5-2 m high","2-3 m high","3-5 m high","5-8 m high","8-12 m high","12-20 m high","20-30 m high","30+ m high"],
+  "WIDTH":["0-0.2 m wide","0.2-0.5 m wide","0.5-1 m wide","1-1.5 m wide","1.5-2 m wide","2-3 m wide","3-5 m wide","5-8 m wide","8-12 m wide","12-20 m wide","20+ m wide"],
   "GROWTH RATE":["Fast growing","Moderate growth","Slow growing"],
 // Accessibility based on Belgium.
   "ACCESSIBILITY":["Accessible","Semi-rare","Hard to find"],

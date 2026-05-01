@@ -100,8 +100,8 @@
       "SOIL MOISTURE": ["Arid","Dry","Moderately moist","Damp","Waterlogged"],
       "SOIL PH": ["Acid","Alkaline","Neutral"],
       "LIFE CYCLE": ["Annual","Biennial","Perennial"],
-      "HEIGHT": ["0-0.2 m","0.2-0.5 m","0.5-1 m","1-1.5 m","1.5-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20-30 m","30+ m"],
-      "WIDTH": ["0-0.2 m","0.2-0.5 m","0.5-1 m","1-1.5 m","1.5-2 m","2-3 m","3-5 m","5-8 m","8-12 m","12-20 m","20+ m"],
+      "HEIGHT":["0-0.2 m high","0.2-0.5 m high","0.5-1 m high","1-1.5 m high","1.5-2 m high","2-3 m high","3-5 m high","5-8 m high","8-12 m high","12-20 m high","20-30 m high","30+ m high"],
+      "WIDTH":["0-0.2 m wide","0.2-0.5 m wide","0.5-1 m wide","1-1.5 m wide","1.5-2 m wide","2-3 m wide","3-5 m wide","5-8 m wide","8-12 m wide","12-20 m wide","20+ m wide"],
       "GROWTH RATE": ["Fast growing","Moderate growth","Slow growing"],
       "ACCESSIBILITY": ["Accessible","Semi-rare","Hard to find"],
       "PLANTING DENSITY": ["0-0.1/m²","0.1-0.5/m²","0.5-1/m²","1-2/m²","2-3/m²","3-4/m²","4-5/m²","5-6/m²","6-7/m²","7-8/m²","8-9/m²","9-10/m²","10-12/m²","12-15/m²","15+ /m²"],
@@ -302,7 +302,6 @@ function filterPlantsBySearch() {
   );
 }
 
-    // ⭐ CREATE LIST BUTTON
     function createListButton(plant) {
       const btn = document.createElement("div");
       btn.classList.add("list-btn");
@@ -339,7 +338,6 @@ function filterPlantsBySearch() {
       return btn;
     }
 
-    // ⭐ SYNC ALL BUTTONS
     function updateAllListButtons() {
       document.querySelectorAll(".list-btn").forEach(btn => {
         const index = Number(btn.dataset.index);

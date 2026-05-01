@@ -14,42 +14,72 @@ const allTagKeys = [
   "SCHOOL SUBJECT"
 ];
 
-// Read all JSON files from plant-info directory
+// Extract JSON from messy files
+function extractJSON(content) {
+  const firstBrace = content.indexOf("{");
+  const lastBrace = content.lastIndexOf("}");
+
+  if (firstBrace === -1 || lastBrace === -1) return null;
+
+  let jsonString = content.slice(firstBrace, lastBrace + 1);
+
+  // Remove // comments
+  jsonString = jsonString.replace(/\/\/.*$/gm, "");
+
+  return jsonString;
+}
+
+// Read files
 const plantFiles = fs.readdirSync(plantInfoDir).filter(f => f.endsWith(".json"));
 
 const plantIndex = [];
 
 plantFiles.forEach(file => {
   const filePath = path.join(plantInfoDir, file);
-  const rawContent = fs.readFileSync(filePath, "utf-8").trim();
+  const rawContent = fs.readFileSync(filePath, "utf-8");
 
-  // Skip files that don't start with a JSON object
-  if (!rawContent.startsWith("{")) {
-    console.log(`Skipping template file: ${file}`);
+  const cleanedJSON = extractJSON(rawContent);
+
+  if (!cleanedJSON) {
+    console.log(`Skipping invalid structure: ${file}`);
     return;
   }
 
   let data;
 
   try {
-    data = JSON.parse(rawContent);
+    data = JSON.parse(cleanedJSON);
   } catch (err) {
-    console.log(`Skipping invalid JSON file: ${file}`);
+    console.log(`Skipping invalid JSON after cleaning: ${file}`);
     return;
   }
 
-  // Collect tags
-  const tags = [];
+  const isTemplate =
+    typeof data["FAMILY"] === "string" &&
+    data["FAMILY"].trim().toLowerCase() === "text";
 
-  allTagKeys.forEach(key => {
-    if (data[key]) {
-      if (Array.isArray(data[key])) {
-        tags.push(...data[key]);
+  let tags = [];
+
+  if (!isTemplate) {
+    // ✅ REAL FILE → collect all actual tags
+    allTagKeys.forEach(key => {
+      const value = data[key];
+
+      if (!value) return;
+
+      if (Array.isArray(value)) {
+        if (value.length === 0) return;
+        tags.push(...value);
       } else {
-        tags.push(data[key]);
+        tags.push(value);
       }
+    });
+  } else {
+    // ✅ TEMPLATE → only keep school subject
+    if (Array.isArray(data["SCHOOL SUBJECT"])) {
+      tags.push(...data["SCHOOL SUBJECT"]);
     }
-  });
+  }
 
   plantIndex.push({
     "LATIN NAME": data["LATIN NAME"] || "",
@@ -61,7 +91,11 @@ plantFiles.forEach(file => {
 });
 
 // Write output
-const fileContent = "[\n" + plantIndex.map(p => "  " + JSON.stringify(p)).join(",\n") + "\n]";
+const fileContent =
+  "[\n" +
+  plantIndex.map(p => "  " + JSON.stringify(p)).join(",\n") +
+  "\n]";
+
 fs.writeFileSync(outputFile, fileContent, "utf-8");
 
 console.log(`Plant index updated with ${plantIndex.length} plants!`);

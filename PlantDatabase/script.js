@@ -376,7 +376,7 @@ function filterPlantsBySearch() {
         const listBtn = createListButton(plant);
 
         plantDiv.appendChild(img);
-        plantDiv.appendChild(listBtn); // ⭐ ADD THIS
+        plantDiv.appendChild(listBtn);
         plantDiv.appendChild(info);
         gallery.appendChild(plantDiv);
       });

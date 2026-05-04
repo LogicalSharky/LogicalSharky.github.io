@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const folderPath = "C:\\Users\\matsp\\AppData\\Roaming\\WebstormProjects\\greenscape website\\greenscape\\greenscape\\PlantDatabase\\plant-info";
+const folderPath = "C:\\Users\\matsp\\Desktop\\Libruary\\Studio Monstera website\\website code\\PlantDatabase\\plant-info";
 const outputFile = "latin_names.txt";
 
 const latinNames = [];
@@ -14,7 +14,6 @@ fs.readdirSync(folderPath).forEach(file => {
     try {
         const content = fs.readFileSync(filePath, "utf8");
 
-        // --- Extract LATIN NAME using regex ---
         const match = content.match(/"LATIN NAME"\s*:\s*"([^"]+)"/);
 
         if (match) {
@@ -28,10 +27,8 @@ fs.readdirSync(folderPath).forEach(file => {
     }
 });
 
-// --- Remove duplicates (optional but useful) ---
 const uniqueNames = [...new Set(latinNames)];
 
-// --- Write output ---
 fs.writeFileSync(outputFile, uniqueNames.join("\n"), "utf8");
 
 console.log(`Done! Saved ${uniqueNames.length} names to ${outputFile}`);

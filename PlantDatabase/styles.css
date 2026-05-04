@@ -545,13 +545,11 @@ body {
   margin-bottom: 10px;
 }
 
-/* ===== POPUP OVERLAY CHECKBOX PADDING ===== */
 .overlay .list-btn {
   top: 10px;       /* adds a bit of spacing from the top */
   left: 10px;      /* adds a bit of spacing from the left */
 }
 
-/* ===== MEDIA QUERIES ===== */
 @media (max-width: 1300px) {
   .gallery { grid-template-columns: repeat(2, 1fr); }
   .overlay-content { flex-direction: column; align-items: center; padding: 5px; gap: 5px; }

@@ -4,17 +4,15 @@ const path = require("path");
 const plantInfoDir = path.join(__dirname, "plant-info");
 const outputFile = path.join(__dirname, "data", "plant-index.json");
 
-// Keys to collect as tags
 const allTagKeys = [
   "FAMILY", "TYPE OF PLANT", "USE", "FLOWER COLOUR", "INDIVIDUAL FLOWER SHAPE","FLOWER CLUSTER SHAPE", "FLOWERING PERIOD",
   "FRUITS", "FRUITING PERIOD", "EDIBLE", "LEAF COLOUR", "AUTUMN COLOURS", "WINTER ASPECT", 
   "VALUE FOR INSECTS", "SPECIAL FEATURES", "PLANT WARNINGS", "HABITAT", "ORIGIN TO BELGIUM",
   "HARDINESS ZONE (BE 7-8)", "SUNLIGHT", "GROUND TYPE", "SOIL DRAINAGE", "SOIL MOISTURE", 
-  "SOIL PH", "LIFE CYCLE", "HEIGHT", "WIDTH", "GROWTH RATE", "ACCESSIBILITY", "PLANTING DENSITY",
-  "SCHOOL SUBJECT"
+  "SOIL PH", "NUTRIENTS","LIFE CYCLE", "HEIGHT", "WIDTH", "GROWTH RATE", "ACCESSIBILITY", 
+  "PLANTING DENSITY", "SCHOOL SUBJECT"
 ];
 
-// Extract JSON from messy files
 function extractJSON(content) {
   const firstBrace = content.indexOf("{");
   const lastBrace = content.lastIndexOf("}");
@@ -23,13 +21,11 @@ function extractJSON(content) {
 
   let jsonString = content.slice(firstBrace, lastBrace + 1);
 
-  // Remove // comments
   jsonString = jsonString.replace(/\/\/.*$/gm, "");
 
   return jsonString;
 }
 
-// Read files
 const plantFiles = fs.readdirSync(plantInfoDir).filter(f => f.endsWith(".json"));
 
 const plantIndex = [];
@@ -61,7 +57,6 @@ plantFiles.forEach(file => {
   let tags = [];
 
   if (!isTemplate) {
-    // ✅ REAL FILE → collect all actual tags
     allTagKeys.forEach(key => {
       const value = data[key];
 
@@ -75,7 +70,6 @@ plantFiles.forEach(file => {
       }
     });
   } else {
-    // ✅ TEMPLATE → only keep school subject
     if (Array.isArray(data["SCHOOL SUBJECT"])) {
       tags.push(...data["SCHOOL SUBJECT"]);
     }
@@ -90,7 +84,6 @@ plantFiles.forEach(file => {
   });
 });
 
-// Write output
 const fileContent =
   "[\n" +
   plantIndex.map(p => "  " + JSON.stringify(p)).join(",\n") +

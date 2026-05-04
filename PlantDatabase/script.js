@@ -22,10 +22,8 @@
     const batchSize = 30;
     let currentPlantIndex = 0;
     let currentImageIndex = 0;
-    // ⭐ MY LIST SYSTEM
     let myList = new Set();
 
-    // ----- MENU TOGGLE -----
     function updateMenuButtonVisibility() {
       if (window.innerWidth <= 800) {
         menuToggle.style.display =
@@ -66,10 +64,9 @@
     overlay.addEventListener("click", updateMenuButtonVisibility);
     document.addEventListener("DOMContentLoaded", updateMenuButtonVisibility);
 
-    // ----- TAGS -----
     const tagGroups = [
       { name: "TRAITS", tags: ["TYPE OF PLANT","USE","FLOWER COLOUR","INDIVIDUAL FLOWER SHAPE","FLOWER CLUSTER SHAPE","FLOWERING PERIOD","FRUITS","FRUITING PERIOD","EDIBLE","LEAF COLOUR","AUTUMN COLOURS","WINTER ASPECT","VALUE FOR INSECTS","SPECIAL FEATURES","PLANT WARNINGS"] },
-      { name: "ENVIRONMENT", tags: ["HABITAT","ORIGIN TO BELGIUM","HARDINESS ZONE (BE 7-8)","SUNLIGHT","GROUND TYPE","SOIL DRAINAGE","SOIL MOISTURE","SOIL PH"] },
+      { name: "ENVIRONMENT", tags: ["HABITAT","ORIGIN TO BELGIUM","HARDINESS ZONE (BE 7-8)","SUNLIGHT","GROUND TYPE","SOIL DRAINAGE","SOIL MOISTURE","SOIL PH","NUTRIENTS"] },
       { name: "GROWTH", tags: ["LIFE CYCLE","HEIGHT","WIDTH","GROWTH RATE"] },
       { name: "OTHER", tags: ["ACCESSIBILITY","PLANTING DENSITY","SCHOOL SUBJECT"] }
     ];
@@ -77,7 +74,7 @@
     const allTags = {
       "FAMILY": "text",
       "TYPE OF PLANT": ["Aquatic plant","Bamboo","Climbing plant","Conifer","Fern","Flower bulb","Ground cover","Herbaceous plant","Ornamental grass","Palm tree","Shrub","Subshrub","Succulent","Tree"],
-      "USE": ["Climate adaptive","Coastal area","Decorative flowers","Drought tolerant","Fragrant","Hedge","Key species for birds","Playing pressure resistant","Pioneer species","Salt tolerant","Street / paving plant","Thickets","Vertical green & Roof garden","Wadi"],
+      "USE": ["Climate adaptive","Coastal area","Decorative flowers","Drought tolerant","Fragrant","Hedge","Key species for birds","Playing pressure resistant","Pioneer species","Salt tolerant","Street / paving plant","Thickets","Vertical green & Roof garden","Wadi","Wildflower"],
       "FLOWER COLOUR": ["Black flowers","Blue flowers","Brown flowers","Green flowers","Orange flowers","Pink flowers","Purple flowers","Red flowers","White flowers","Yellow flowers"],
       "INDIVIDUAL FLOWER SHAPE": ["Bell flowers","Cup flowers","Daisy flowers","Spathe-and-spadix","Star flowers","Tubular flowers","Inconspicuous flowers","Other flower shapes"],
       "FLOWER CLUSTER SHAPE": ["Ball flower clusters","Flat flower clusters","Hanging flower clusters","Plume flower clusters","Spike flower clusters","Upright spray flower clusters","Catkins","Other flower clusters"], 
@@ -85,11 +82,11 @@
       "FRUITS":["Berries","Cones","Fleshy fruits","Nuts","Winged fruits","Pods","Fruits not pronounced"],
       "FRUITING PERIOD": ["Fruits Early Spring","Fruits Spring","Fruits Summer","Fruits Late Summer","Fruits Autumn","Fruits Winter"],
       "EDIBLE": ["Only edible after processing","Edible berries","Edible flowers","Edible fruit","Edible leaves","Edible nuts","Edible roots","Edible sap","Edible stem"],
-      "LEAF COLOUR": ["Black leaves","Blue leaves","Brown leaves","Green leaves","Grey leaves","Pink leaves","Purple leaves","Red leaves","White leaves","Yellow leaves"],
+      "LEAF COLOUR": ["Black leaves","Blue leaves","Brown leaves","Green leaves","Grey leaves","Orange leaves","Pink leaves","Purple leaves","Red leaves","White leaves","Yellow leaves"],
       "AUTUMN COLOURS": ["Orange autumn leaves","Red autumn leaves","Yellow autumn leaves"],
       "WINTER ASPECT": ["Evergreen","Deciduous structural presence","No winter presence"],
       "VALUE FOR INSECTS": ["Bees","Butterflies","Moths"],
-      "SPECIAL FEATURES": ["Decorative bark","Large leaves","Decorative winter seed heads","Luminescent","Thorns","Tropical look"],
+      "SPECIAL FEATURES": ["Columnar tree","Decorative bark","Large leaves","Decorative winter seed heads","Luminescent","Thorns","Tropical look"],
       "PLANT WARNINGS": ["Allergenic","Invasive roots","Needs wind shelter","Not pet safe","Toxic","Skin irritant","Susceptible to frost"],
       "HABITAT": ["Alpine","Dune habitat","Forest edge","Grassland","Riverbank","Rock garden","Wetland","Woodland"],
       "ORIGIN TO BELGIUM":["Introduced","Invasive","Native"],
@@ -99,26 +96,25 @@
       "SOIL DRAINAGE": ["Fast draining","Well drained","Moderately drained","Poorly drained"],
       "SOIL MOISTURE": ["Arid","Dry","Moderately moist","Damp","Waterlogged"],
       "SOIL PH": ["Acid","Alkaline","Neutral"],
+      "NUTRIENTS":["Nutrient-rich soil", "Moderately nutrient-rich soil", "Nutrient-poor soil"],
       "LIFE CYCLE": ["Annual","Biennial","Perennial"],
       "HEIGHT":["0-0.2 m high","0.2-0.5 m high","0.5-1 m high","1-1.5 m high","1.5-2 m high","2-3 m high","3-5 m high","5-8 m high","8-12 m high","12-20 m high","20-30 m high","30+ m high"],
       "WIDTH":["0-0.2 m wide","0.2-0.5 m wide","0.5-1 m wide","1-1.5 m wide","1.5-2 m wide","2-3 m wide","3-5 m wide","5-8 m wide","8-12 m wide","12-20 m wide","20+ m wide"],
-      "GROWTH RATE": ["Fast growing","Moderate growth","Slow growing"],
+      "GROWTH RATE": ["Fast growth","Moderate growth","Slow growth"],
       "ACCESSIBILITY": ["Accessible","Semi-rare","Hard to find"],
       "PLANTING DENSITY": ["0-0.1/m²","0.1-0.5/m²","0.5-1/m²","1-2/m²","2-3/m²","3-4/m²","4-5/m²","5-6/m²","6-7/m²","7-8/m²","8-9/m²","9-10/m²","10-12/m²","12-15/m²","15+ /m²"],
-      "SCHOOL SUBJECT": ["Plantecologie","Plantenkennis 1","Plantenkennis 2"],
+      "SCHOOL SUBJECT 2023-2025": ["Plantecologie","Plantenkennis 1","Plantenkennis 2"],
       "NOTE":"text"
     };
 
-    // ----- BUILD SIDEBAR -----
   function buildSidebar() {
-    // ⭐ My List button
     const myListBtn = document.createElement("label");
     myListBtn.classList.add("tag-label");
 
     const myListCheckbox = document.createElement("input");
     myListCheckbox.type = "checkbox";
     myListCheckbox.classList.add("tag-checkbox");
-    myListCheckbox.value = "Your selected list"; // ⚡ important
+    myListCheckbox.value = "Your selected list";
 
     const text = document.createTextNode("Your selected list");
 
@@ -127,26 +123,23 @@
     myListBtn.style.cursor = "pointer";
 
     myListCheckbox.addEventListener("change", () => {
-      updateSearchBarFromCheckboxes(); // ⚡ now it writes to search bar
+      updateSearchBarFromCheckboxes();
     });
 
-        // --- EXPORT BUTTON ---
     let exportBtn = document.createElement("button");
     exportBtn.textContent = "Export selected list as pdf with images";
-    exportBtn.style.display = "none"; // hidden by default
+    exportBtn.style.display = "none";
     exportBtn.classList.add("export-btn");
     exportBtn.addEventListener("click", exportMyList);
     tagFiltersDiv.appendChild(exportBtn);
 
-      // --- EXPORT TEXT BUTTON ---
   let exportTextBtn = document.createElement("button");
   exportTextBtn.textContent = "Export selected list as text file without images";
-  exportTextBtn.style.display = "none"; // hidden by default
+  exportTextBtn.style.display = "none";
   exportTextBtn.classList.add("export-btn");
   exportTextBtn.addEventListener("click", exportMyListText);
   tagFiltersDiv.appendChild(exportTextBtn);
 
-// Show/hide text export button along with PDF button
 function toggleExportButtons() {
   const yourListCheckbox = document.querySelector('.tag-checkbox[value="Your selected list"]');
   const show = yourListCheckbox && yourListCheckbox.checked;
@@ -155,21 +148,18 @@ function toggleExportButtons() {
 }
 
 myListCheckbox.addEventListener("change", toggleExportButtons);
-toggleExportButtons(); // initial
+toggleExportButtons();
 
-    // Show/hide export button when "Your selected list" is checked
     function toggleExportButton() {
       const yourListCheckbox = document.querySelector('.tag-checkbox[value="Your selected list"]');
       exportBtn.style.display = yourListCheckbox && yourListCheckbox.checked ? "block" : "none";
     }
 
-    // Call this whenever checkboxes or list change
     myListCheckbox.addEventListener("change", toggleExportButton);
-    toggleExportButton(); // initial
+    toggleExportButton();
 
     tagFiltersDiv.appendChild(myListBtn);
 
-    // Build the rest of the sidebar tags
     tagGroups.forEach(group => {
       const divider = document.createElement("div");
       divider.classList.add("tag-group-divider");
@@ -206,7 +196,6 @@ toggleExportButtons(); // initial
     });
   }
 
-    // ----- SYNC & UPDATE SEARCH -----
     function syncCheckboxesWithSearchBar() {
       const checkedTags = searchBar.value.split(",").map(t => t.trim().toLowerCase()).filter(Boolean);
       document.querySelectorAll(".tag-checkbox").forEach(cb => {
@@ -233,7 +222,6 @@ toggleExportButtons(); // initial
       updateCounter();
     });
 
-    // ----- LOAD PLANTS -----
     async function loadPlantIndex() {
       try {
         const res = await fetch("data/plant-index.json");
@@ -256,12 +244,10 @@ toggleExportButtons(); // initial
       }
     }
 
-    // ----- COUNTER -----
     function updateCounter() {
       resultsCounter.textContent = `Showing ${filteredPlants.length} plant${filteredPlants.length !== 1 ? "s" : ""}`;
     }
 
-    // ----- FILTER -----
 function filterPlantsBySearch() {
   const input = searchBar.value.toLowerCase().trim();
 
@@ -284,7 +270,6 @@ function filterPlantsBySearch() {
 
         const tagLower = tag.toLowerCase();
 
-        // ⚡ special handling for "Your selected list"
         if (tagLower === "your selected list") {
           return isExclusion ? !myList.has(plant.globalIndex) : myList.has(plant.globalIndex);
         }
@@ -345,7 +330,6 @@ function filterPlantsBySearch() {
       });
     }
 
-    // ----- RENDER BATCH -----
     function renderNextBatch() {
       const next = filteredPlants.slice(renderedCount, renderedCount + batchSize);
       next.forEach((plant, i) => {
@@ -384,12 +368,10 @@ function filterPlantsBySearch() {
       renderedCount += next.length;
     }
 
-    // ----- SCROLL LAZY LOAD -----
     gallery.addEventListener("scroll", () => {
       if (gallery.scrollTop + gallery.clientHeight >= gallery.scrollHeight - 200) renderNextBatch();
     });
 
-    // ----- OVERLAY -----
     async function loadPlantData(index) {
       const plant = filteredPlants[index];
       if (plantCache[plant.FILE]) return plantCache[plant.FILE];
@@ -420,7 +402,6 @@ function filterPlantsBySearch() {
       updateMenuButtonVisibility();
     }
 
-    // ----- RENDER OVERLAY -----
     function renderOverlayContent(plant) {
       const images = [plant["MAIN IMAGE"], ...(plant["SUB IMAGES"] || [])];
       overlayImg.src = images[currentImageIndex];
@@ -433,14 +414,11 @@ function filterPlantsBySearch() {
     let existingBtn = overlay.querySelector(".overlay-image .list-btn");
     if (existingBtn) existingBtn.remove();
 
-    // Create the button
     const listBtn = createListButton(filteredPlants[currentPlantIndex]);
 
-    // Append it INSIDE the image container so padding/position works
     const overlayImageContainer = overlay.querySelector(".overlay-image");
     overlayImageContainer.appendChild(listBtn);
 
-      // Render tag groups
       tagGroups.forEach(group => {
         const groupDiv = document.createElement("div");
         const groupHeader = document.createElement("p");
@@ -461,7 +439,6 @@ function filterPlantsBySearch() {
         overlayDetails.appendChild(groupDiv);
       });
 
-      // Add "Search more images" button
       let searchBtn = overlayDetails.querySelector(".search-more-btn");
       if (!searchBtn) {
         searchBtn = document.createElement("button");
@@ -474,7 +451,6 @@ function filterPlantsBySearch() {
         overlayDetails.appendChild(searchBtn);
       }
 
-      // Render thumbnails
       thumbnailRow.innerHTML = "";
       images.forEach((imgSrc, idx) => {
         const thumb = document.createElement("img");
@@ -506,7 +482,6 @@ function filterPlantsBySearch() {
       if (e.key === "Escape") closeOverlay();
     });
 
-    // ----- INITIAL LOAD -----
     buildSidebar();
     loadPlantIndex();
 
@@ -524,10 +499,10 @@ async function exportMyList() {
 
   const margin = 10;
   const spacingX = 5;
-  const spacingY = 12; // vertical space between rows
-  const cols = 4; // 4 images per row
+  const spacingY = 12;
+  const cols = 4;
   const availableWidth = pageWidth - margin * 2 - spacingX * (cols - 1);
-  const imgSize = availableWidth / cols; // square images
+  const imgSize = availableWidth / cols; 
   const textHeight = 8;
 
   let x = margin;
@@ -538,14 +513,12 @@ async function exportMyList() {
 
   for (let plant of selectedPlants) {
     try {
-      // Crop image to square and high-res
       const imgData = await getCroppedImageDataURL(plant["MAIN IMAGE"], imgSize);
       pdf.addImage(imgData, "JPEG", x, y, imgSize, imgSize);
     } catch (err) {
       console.warn("Failed to load image for", plant["LATIN NAME"]);
     }
 
-    // Add names below image
     pdf.setFontSize(10);
     pdf.text(`${plant["LATIN NAME"]}`, x + imgSize / 2, y + imgSize + 4, { align: "center" });
     pdf.text(`${plant["DUTCH NAME"]}`, x + imgSize / 2, y + imgSize + 8, { align: "center" });
@@ -588,26 +561,23 @@ function exportMyListText() {
   URL.revokeObjectURL(url);
 }
 
-// keep your existing getCroppedImageDataURL function as-is
 async function getCroppedImageDataURL(url, targetSize) {
   return new Promise((resolve, reject) => {
     const img = new Image();
-    img.crossOrigin = "anonymous"; // needed if images are from another domain
+    img.crossOrigin = "anonymous";
     img.onload = () => {
-      const size = Math.min(img.width, img.height); // square crop
+      const size = Math.min(img.width, img.height);
       const sx = (img.width - size) / 2;
       const sy = (img.height - size) / 2;
 
-      const scaleFactor = 3; // increase resolution for PDF
+      const scaleFactor = 3;
       const canvas = document.createElement("canvas");
       canvas.width = targetSize * scaleFactor;
       canvas.height = targetSize * scaleFactor;
       const ctx = canvas.getContext("2d");
 
-      // draw center-cropped square at higher resolution
       ctx.drawImage(img, sx, sy, size, size, 0, 0, canvas.width, canvas.height);
 
-      // export high-quality JPEG
       resolve(canvas.toDataURL("image/jpeg", 1.0));
     };
     img.onerror = reject;

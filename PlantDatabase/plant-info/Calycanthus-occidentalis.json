@@ -26,6 +26,7 @@
   "SOIL DRAINAGE":["Well drained","Moderately drained"],
   "SOIL MOISTURE":["Moderately moist","Damp"],
   "SOIL PH":["Acidic","Neutral"],
+  "NUTRIENTS": ["Moderately nutrient-rich soil"],
   "LIFE CYCLE": ["Perennial"],
   "HEIGHT":["2-3 m high"],
   "WIDTH":["2-3 m wide"],

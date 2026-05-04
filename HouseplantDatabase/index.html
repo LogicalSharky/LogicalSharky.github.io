@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Greenscape by Mats Pinket</title>
+  <title>Studio Monstera plant database</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,11 +13,10 @@
   <button id="menuToggle" class="menu-toggle">&#9776;</button>
 
   <div class="sidebar">
-    <div class="tooltip">
-      <input type="text" 
-            id="searchBar" 
-            placeholder="Search plants">
+    <div class="search-container tooltip">
+      <input type="text" id="searchBar" placeholder="Search plants">
       <span class="tooltiptext">Include = , Exclude = - Add = / </span>
+      <div id="resultsCounter">Showing 0 plants</div>
     </div>
     <div id="tagFilters" class="tag-filters"></div>
   </div>
@@ -37,15 +35,18 @@
         <div class="overlay-details"></div>
 
         <div class="thumbnail-navigation">
-          <button id="prevArrow" class="arrow-btn">&lt;</button>
-          <div class="thumbnail-row" id="thumbnailRow"></div>
-          <button id="nextArrow" class="arrow-btn">&gt;</button>
+          <div class="thumbnail-row-wrapper">
+            <button id="prevArrow" class="arrow-btn edge">&lt;</button>
+            <div class="thumbnail-row" id="thumbnailRow"></div>
+            <button id="nextArrow" class="arrow-btn edge">&gt;</button>
+          </div>
         </div>
+
       </div>
     </div>
   </div>
 
-  <script src="images.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

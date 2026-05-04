@@ -8,6 +8,36 @@
     const overlayDetails = document.querySelector(".overlay-details");
     const thumbnailRow = document.getElementById("thumbnailRow");
 
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    thumbnailRow.addEventListener("mousedown", (e) => {
+      if (e.button !== 1) return;
+
+      e.preventDefault();
+
+      isDown = true;
+      thumbnailRow.classList.add("dragging");
+
+      startX = e.clientX;
+      scrollLeft = thumbnailRow.scrollLeft;
+    });
+
+    thumbnailRow.addEventListener("mousemove", (e) => {
+      if (!isDown) return;
+
+      const walk = (e.clientX - startX) * 2;
+      thumbnailRow.scrollLeft = scrollLeft - walk;
+    });
+
+    function stopDrag() {
+      isDown = false;
+      thumbnailRow.classList.remove("dragging");
+    }
+
+    document.addEventListener("mouseup", stopDrag);
+
     const closeBtn = document.querySelector(".close-btn");
     const prevArrow = document.getElementById("prevArrow");
     const nextArrow = document.getElementById("nextArrow");

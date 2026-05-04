@@ -8,6 +8,36 @@
     const overlayDetails = document.querySelector(".overlay-details");
     const thumbnailRow = document.getElementById("thumbnailRow");
 
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    thumbnailRow.addEventListener("mousedown", (e) => {
+      if (e.button !== 1) return;
+
+      e.preventDefault();
+
+      isDown = true;
+      thumbnailRow.classList.add("dragging");
+
+      startX = e.clientX;
+      scrollLeft = thumbnailRow.scrollLeft;
+    });
+
+    thumbnailRow.addEventListener("mousemove", (e) => {
+      if (!isDown) return;
+
+      const walk = (e.clientX - startX) * 2;
+      thumbnailRow.scrollLeft = scrollLeft - walk;
+    });
+
+    function stopDrag() {
+      isDown = false;
+      thumbnailRow.classList.remove("dragging");
+    }
+
+    document.addEventListener("mouseup", stopDrag);
+
     const closeBtn = document.querySelector(".close-btn");
     const prevArrow = document.getElementById("prevArrow");
     const nextArrow = document.getElementById("nextArrow");
@@ -68,7 +98,7 @@
       { name: "TRAITS", tags: ["TYPE OF PLANT","USE","FLOWER COLOUR","INDIVIDUAL FLOWER SHAPE","FLOWER CLUSTER SHAPE","FLOWERING PERIOD","FRUITS","FRUITING PERIOD","EDIBLE","LEAF COLOUR","AUTUMN COLOURS","WINTER ASPECT","VALUE FOR INSECTS","SPECIAL FEATURES","PLANT WARNINGS"] },
       { name: "ENVIRONMENT", tags: ["HABITAT","ORIGIN TO BELGIUM","HARDINESS ZONE (BE 7-8)","SUNLIGHT","GROUND TYPE","SOIL DRAINAGE","SOIL MOISTURE","SOIL PH","NUTRIENTS"] },
       { name: "GROWTH", tags: ["LIFE CYCLE","HEIGHT","WIDTH","GROWTH RATE"] },
-      { name: "OTHER", tags: ["ACCESSIBILITY","PLANTING DENSITY","SCHOOL SUBJECT"] }
+      { name: "OTHER", tags: ["ACCESSIBILITY","PLANTING DENSITY","SCHOOL SUBJECT 2023-2025"] }
     ];
 
     const allTags = {

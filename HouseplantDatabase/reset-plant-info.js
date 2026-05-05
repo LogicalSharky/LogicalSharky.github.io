@@ -48,6 +48,7 @@ Explain why you made every decision.
 
 {
     "LATIN NAME": "${latinName}",
+    "GENERAL NAME": "Text",
     "MAIN IMAGE": "${mainImage}",
     "FAMILY": "Text",
     "TYPE OF PLANT": ["Air plants","Aquatic plants","Aroids","Cacti","Carnivorous plants","Dry climate ornamentals","Ferns","Palms","(Sub)tropical ornamentals","Succulents"],

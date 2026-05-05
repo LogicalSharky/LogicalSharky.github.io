@@ -71,6 +71,7 @@ plantFiles.forEach(file => {
   plantIndex.push({
     "LATIN NAME": data["LATIN NAME"] || "",
     "MAIN IMAGE": data["MAIN IMAGE"] || "",
+    "GENERAL NAME": data["GENERAL NAME"] || "",
     "FILE": path.join("plant-info", file).replace(/\\/g, "/"),
     "TAGS": tags
   });

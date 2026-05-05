@@ -255,14 +255,23 @@ toggleExportButtons();
         plants = await res.json();
 
         plants.forEach(p => {
-          p.tagsLower = Array.isArray(p.TAGS)
-            ? p.TAGS.map(t => (t || "").toString().trim().toLowerCase())
-            : [];
+          // Collect ALL searchable values from the plant object
+          let collectedTags = [];
 
-          p.latinLower = (p["LATIN NAME"] || "")
-            .toString()
-            .trim()
-            .toLowerCase();
+          Object.entries(p).forEach(([key, value]) => {
+            if (!value) return;
+
+            if (Array.isArray(value)) {
+              value.forEach(v => collectedTags.push(v.toString().toLowerCase()));
+            } else {
+              collectedTags.push(value.toString().toLowerCase());
+            }
+          });
+
+          p.tagsLower = collectedTags;
+
+          p.latinLower = (p["LATIN NAME"] || "").toString().trim().toLowerCase();
+          p.generalLower = (p["GENERAL NAME"] || "").toString().trim().toLowerCase();
         });
 
         filteredPlants = plants.map((p, idx) => ({ ...p, globalIndex: idx }));
@@ -305,11 +314,19 @@ function filterPlantsBySearch() {
           return isExclusion ? !myList.has(plant.globalIndex) : myList.has(plant.globalIndex);
         }
 
-        const exactTagMatch = (plant.tagsLower || []).some(t => t === tagLower);
+        const exactTagMatch =
+        (plant.tagsLower || []).some(t => t === tagLower) ||
+        Object.values(plant).some(val => {
+          if (Array.isArray(val)) {
+            return val.some(v => v.toString().toLowerCase() === tagLower);
+          }
+          return val && val.toString().toLowerCase() === tagLower;
+        });
 
         const matchesPlant =
           exactTagMatch ||
-          plant.latinLower.includes(tagLower);
+          plant.latinLower.includes(tagLower) ||
+          plant.generalLower.includes(tagLower);
 
         return isExclusion ? !matchesPlant : matchesPlant;
       })
@@ -383,10 +400,9 @@ function filterPlantsBySearch() {
 
         const info = document.createElement("div");
         info.classList.add("plant-info");
-        info.innerHTML = `
-          <p class="latin-name"><strong>${plant["LATIN NAME"]}</strong></p>
-          ${plant["FAMILY"] ? `<p class="family-name">${plant["FAMILY"]}</p>` : ""}
-        `;
+        info.innerHTML = `<p class="latin-name"><strong>${plant["LATIN NAME"]}</strong></p>
+                  <p class="general-name">${plant["GENERAL NAME"]}</p>
+                  ${plant["FAMILY"] ? `<p class="family-name">${plant["FAMILY"]}</p>` : ""}`;
 
         const listBtn = createListButton(plant);
 
@@ -434,18 +450,18 @@ function filterPlantsBySearch() {
     }
 
     function renderOverlayContent(plant) {
-            const subImages = (plant["SUB IMAGES"] || []).filter(
-        img => img && img !== plant["MAIN IMAGE"]
-      );
+      const subImages = Array.isArray(plant["SUB IMAGES"]) ? plant["SUB IMAGES"] : [];
 
-      const images = [plant["MAIN IMAGE"], ...subImages];
+      // Remove duplicates + remove main image from subs if present
+      const uniqueSubs = subImages.filter(img => img && img !== plant["MAIN IMAGE"]);
+
+      const images = [plant["MAIN IMAGE"], ...uniqueSubs];
       overlayImg.src = images[currentImageIndex];
       overlayImg.alt = plant["LATIN NAME"];
 
-      overlayDetails.innerHTML = `
-        <p class="latin-name">${plant["LATIN NAME"]}</p>
-        ${plant["FAMILY"] ? `<p class="family-name">${plant["FAMILY"]}</p>` : ""}
-      `;
+      overlayDetails.innerHTML = `<p class="latin-name">${plant["LATIN NAME"]}</p>
+                                  <p class="general-name">${plant["GENERAL NAME"]}</p>
+                                  ${plant["FAMILY"] ? `<p class="family-name">${plant["FAMILY"]}</p>` : ""}`;
       
     let existingBtn = overlay.querySelector(".overlay-image .list-btn");
     if (existingBtn) existingBtn.remove();
@@ -463,7 +479,7 @@ function filterPlantsBySearch() {
         groupDiv.appendChild(groupHeader);
 
         group.tags.forEach(tagGroupName => {
-          if (!plant[tagGroupName] || tagGroupName === "SCHOOL SUBJECT") return;
+          if (!(tagGroupName in plant)) return;
           const value = plant[tagGroupName];
           const valueStr = Array.isArray(value) ? value.join(", ") : value;
           const tagDiv = document.createElement("div");
@@ -557,6 +573,7 @@ async function exportMyList() {
 
     pdf.setFontSize(10);
     pdf.text(`${plant["LATIN NAME"]}`, x + imgSize / 2, y + imgSize + 4, { align: "center" });
+    pdf.text(`${plant["GENERAL NAME"]}`, x + imgSize / 2, y + imgSize + 8, { align: "center" });
 
     colCount++;
     if (colCount < cols) {
@@ -582,7 +599,7 @@ function exportMyListText() {
   }
 
   const selectedPlants = Array.from(myList).map(i => plants[i]);
-  let textContent = selectedPlants.map(p => `${p["LATIN NAME"]}`).join("\n");
+  let textContent = selectedPlants.map(p => `${p["LATIN NAME"]} - ${p["GENERAL NAME"]}`).join("\n");
 
   const blob = new Blob([textContent], { type: "text/plain" });
   const url = URL.createObjectURL(blob);

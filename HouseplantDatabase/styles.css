@@ -180,7 +180,7 @@ body > * {
   font-weight: 600;
 }
 
-.plant-info .dutch-name {
+.plant-info .general-name {
   font-style: italic;
 }
 
@@ -190,7 +190,7 @@ body > * {
 }
 
 .plant.invasive .latin-name,
-.plant.invasive .dutch-name {
+.plant.invasive .general-name {
   color: red;
 }
 
@@ -286,7 +286,7 @@ body > * {
   color: #111;
 }
 
-.overlay-details .dutch-name {
+.overlay-details .general-name {
   font-size: clamp(14px, 1.5vw, 20px);
   font-style: italic;
   color: #333;

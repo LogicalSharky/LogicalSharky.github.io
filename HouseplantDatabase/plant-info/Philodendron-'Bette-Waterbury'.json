@@ -1,7 +1,33 @@
 {
-  "LATIN NAME": "Philodendron 'Bette Waterbury'",
-  "MAIN IMAGE": "images/Philodendron 'Bette Waterbury'/Philodendron 'Bette Waterbury' 1.jpg",
-  "SUB IMAGES": [
+    "LATIN NAME": "Philodendron 'Bette Waterbury'",
+    "GENERAL NAME": "Philodendron 69686",
+    "MAIN IMAGE": "images/Philodendron 'Bette Waterbury'/Philodendron 'Bette Waterbury' 1.jpg",
+    "FAMILY": "Araceae",
+    "TYPE OF PLANT": ["Aroids","(Sub)tropical ornamentals"],
+    "LEAF COLOR": ["Green"],
+    "VARIEGATION COLOR": [],
+    "VARIEGATION TYPE": [],
+    "FLOWER COLOR": ["Green flowers","White flowers"],
+    "GROWTH TYPE": ["Climbing plant","Epiphyte"],
+    "HEIGHT (excl. climbing)": [],
+    "WIDTH (excl. climbing)": [],
+    "LEAF SIZE (Maximum)": ["25-50cm"],
+    "LEAF TEXTURE": ["Smooth","Glossy"],
+    "SPECIAL FEATURES": ["Air purifying","Pest sensitive"],
+    "LIGHT": ["Bright indirect light","Indirect light"],
+    "WATERING": ["Keep soil moist but don't saturate","Water when top layer of soil is dry"],
+    "SUBSTRATE": ["arid (bark)","arid soil (soil and perlite)"],
+    "NUTRIENTS": ["Moderate nutrients"],
+    "RELATIVE HUMIDITY": ["60-80% RH"],
+    "TEMPERATURE": ["18-25°C"],
+    "ORIGIN": ["South America"],
+    "HABITAT": ["Tropical rainforest"],
+    "ORIGIN STATUS": ["Cultivar"],
+    "GROWTH RATE": ["Regular growth","Increased leaf size when climbing"],
+    "RARITY": ["rarity 8-9/10"],
+    "DIFFICULTY": ["Moderate"],
+    "NOTE": "",
+    "SUB IMAGES":[
     "images/Philodendron 'Bette Waterbury'/Philodendron 'Bette Waterbury' 1.jpg"
 ]
 }

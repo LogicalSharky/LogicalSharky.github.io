@@ -95,24 +95,24 @@
     document.addEventListener("DOMContentLoaded", updateMenuButtonVisibility);
 
     const tagGroups = [
-      { name: "TRAITS", tags: ["TYPE OF PLANT","USE","FLOWER COLOUR","INDIVIDUAL FLOWER SHAPE","FLOWER CLUSTER SHAPE","FLOWERING PERIOD","FRUITS","FRUITING PERIOD","EDIBLE","LEAF COLOUR","AUTUMN COLOURS","WINTER ASPECT","VALUE FOR INSECTS","SPECIAL FEATURES","PLANT WARNINGS"] },
+      { name: "TRAITS", tags: ["TYPE OF PLANT","USE","FLOWER COLOR","INDIVIDUAL FLOWER SHAPE","FLOWER CLUSTER SHAPE","FLOWERING PERIOD","FRUITS","FRUITING PERIOD","EDIBLE","LEAF COLOR","AUTUMN COLOURS","WINTER ASPECT","VALUE FOR INSECTS","SPECIAL FEATURES","PLANT WARNINGS"] },
       { name: "ENVIRONMENT", tags: ["HABITAT","ORIGIN TO BELGIUM","HARDINESS ZONE (BE 7-8)","SUNLIGHT","GROUND TYPE","SOIL DRAINAGE","SOIL MOISTURE","SOIL PH","NUTRIENTS"] },
       { name: "GROWTH", tags: ["LIFE CYCLE","HEIGHT","WIDTH","GROWTH RATE"] },
       { name: "OTHER", tags: ["ACCESSIBILITY","PLANTING DENSITY","SCHOOL SUBJECT 2023-2025"] }
     ];
 
     const allTags = {
-      "FAMILY": "text",
+      "FAMILY": "Text",
       "TYPE OF PLANT": ["Aquatic plant","Bamboo","Climbing plant","Conifer","Fern","Flower bulb","Ground cover","Herbaceous plant","Ornamental grass","Palm tree","Shrub","Subshrub","Succulent","Tree"],
-      "USE": ["Climate adaptive","Coastal area","Decorative flowers","Drought tolerant","Fragrant","Hedge","Key species for birds","Playing pressure resistant","Pioneer species","Salt tolerant","Street / paving plant","Thickets","Vertical green & Roof garden","Wadi","Wildflower"],
-      "FLOWER COLOUR": ["Black flowers","Blue flowers","Brown flowers","Green flowers","Orange flowers","Pink flowers","Purple flowers","Red flowers","White flowers","Yellow flowers"],
+      "USE": ["Climate adaptive","Coastal area","Decorative flowers","Drought tolerant","Fragrant","Hedge","Key species for birds","Oriental garden","Playing pressure resistant","Pioneer species","Salt tolerant","Street / paving plant","Thickets","Vertical green & Roof garden","Wadi","Wildflower"],
+      "FLOWER COLOR": ["Black flowers","Blue flowers","Brown flowers","Green flowers","Orange flowers","Pink flowers","Purple flowers","Red flowers","White flowers","Yellow flowers"],
       "INDIVIDUAL FLOWER SHAPE": ["Bell flowers","Cup flowers","Daisy flowers","Spathe-and-spadix","Star flowers","Tubular flowers","Inconspicuous flowers","Other flower shapes"],
       "FLOWER CLUSTER SHAPE": ["Ball flower clusters","Flat flower clusters","Hanging flower clusters","Plume flower clusters","Spike flower clusters","Upright spray flower clusters","Catkins","Other flower clusters"], 
       "FLOWERING PERIOD": ["Flowers Early Spring","Flowers Spring","Flowers Summer","Flowers Late Summer","Flowers Autumn","Flowers Winter"],
       "FRUITS":["Berries","Cones","Fleshy fruits","Nuts","Winged fruits","Pods","Fruits not pronounced"],
       "FRUITING PERIOD": ["Fruits Early Spring","Fruits Spring","Fruits Summer","Fruits Late Summer","Fruits Autumn","Fruits Winter"],
       "EDIBLE": ["Only edible after processing","Edible berries","Edible flowers","Edible fruit","Edible leaves","Edible nuts","Edible roots","Edible sap","Edible stem"],
-      "LEAF COLOUR": ["Black leaves","Blue leaves","Brown leaves","Green leaves","Grey leaves","Orange leaves","Pink leaves","Purple leaves","Red leaves","White leaves","Yellow leaves"],
+      "LEAF COLOR": ["Black leaves","Blue leaves","Brown leaves","Green leaves","Grey leaves","Orange leaves","Pink leaves","Purple leaves","Red leaves","White leaves","Yellow leaves"],
       "AUTUMN COLOURS": ["Orange autumn leaves","Red autumn leaves","Yellow autumn leaves"],
       "WINTER ASPECT": ["Evergreen","Deciduous structural presence","No winter presence"],
       "VALUE FOR INSECTS": ["Bees","Butterflies","Moths"],
@@ -134,7 +134,7 @@
       "ACCESSIBILITY": ["Accessible","Semi-rare","Hard to find"],
       "PLANTING DENSITY": ["0-0.1/m²","0.1-0.5/m²","0.5-1/m²","1-2/m²","2-3/m²","3-4/m²","4-5/m²","5-6/m²","6-7/m²","7-8/m²","8-9/m²","9-10/m²","10-12/m²","12-15/m²","15+ /m²"],
       "SCHOOL SUBJECT 2023-2025": ["Plantecologie","Plantenkennis 1","Plantenkennis 2"],
-      "NOTE":"text"
+      "NOTE":"Text"
     };
 
   function buildSidebar() {
@@ -457,7 +457,7 @@ function filterPlantsBySearch() {
         groupDiv.appendChild(groupHeader);
 
         group.tags.forEach(tagGroupName => {
-          if (!plant[tagGroupName] || tagGroupName === "SCHOOL SUBJECT") return;
+          if (!plant[tagGroupName] || tagGroupName === "SCHOOL SUBJECT 2023-2025") return;
           const value = plant[tagGroupName];
           const valueStr = Array.isArray(value) ? value.join(", ") : value;
           const tagDiv = document.createElement("div");

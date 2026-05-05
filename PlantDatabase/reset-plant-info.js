@@ -38,12 +38,12 @@ Explain why you made every decision.
   "LATIN NAME": "${plant['LATIN NAME']}",
   "DUTCH NAME": "${plant['DUTCH NAME']}",
   "MAIN IMAGE": "${plant['MAIN IMAGE']}",
-  "FAMILY":"text",
+  "FAMILY":"Text",
 // Chose only one type of plant that fits best.  
   "TYPE OF PLANT":["Aquatic plant","Bamboo","Climbing plant","Conifer","Fern","Flower bulb","Ground cover","Herbaceous plant","Ornamental grass","Palm tree","Shrub","Subshrub","Succulent","Tree"],
 // Decorative flowers means if you would plant the plant specificly for its flowers. Playing pressure resistant is for plants that can be used on playgrounds. Key species for birds is if the plant is known to be a TRUE key species for birds, for example a Sorbus aucuparia. “key species for birds” implies a plant that is essential for bird survival or reproduction (like Sorbus aucuparia for berry-eating birds), just attracting birds like a buddleja davidi does not do it. “Thickets” refers to dense, bush-forming plants that can be used to create a natural boundary or small woodland-like area, similar to how a 'struweel' consists of tightly growing shrubs, such as Crataegus monogyna.” Vertical green & roof garden is for any plants that do okay with a small layer of substrate like you would see on roofs, this includes tree species that can be placed in containers like an Acer palmatum. Fragrant is for when its got a strong (pleasant) scent.
-  "USE":["Climate adaptive","Coastal area","Decorative flowers","Drought tolerant","Fragrant","Hedge","Key species for birds","Playing pressure resistant","Pioneer species","Salt tolerant","Street / paving plant","Thickets","Vertical green & Roof garden","Wadi","Wildflower"],
-  "FLOWER COLOUR":["Black flowers","Blue flowers","Brown flowers","Green flowers","Orange flowers","Pink flowers","Purple flowers","Red flowers","White flowers","Yellow flowers"],
+  "USE":["Climate adaptive","Coastal area","Decorative flowers","Drought tolerant","Fragrant","Hedge","Key species for birds","Oriental garden","Playing pressure resistant","Pioneer species","Salt tolerant","Street / paving plant","Thickets","Vertical green & Roof garden","Wadi","Wildflower"],
+  "FLOWER COLOR":["Black flowers","Blue flowers","Brown flowers","Green flowers","Orange flowers","Pink flowers","Purple flowers","Red flowers","White flowers","Yellow flowers"],
 // Chose only one that fits best.
   "INDIVIDUAL FLOWER SHAPE": ["Bell flowers","Cup flowers","Daisy flowers","Spathe-and-spadix","Star flowers","Tubular flowers","Inconspicuous flowers","Other flower shapes"],
 // Only chose a flower cluster shape if it's made of multiple flowers. Otherwise leave empty. This is by looking at it from an articstic viewpoint, not a botanical viewpoint! If the cluster shape does not fit any put in "Other flower clusters"
@@ -52,7 +52,7 @@ Explain why you made every decision.
   "FRUITS":["Berries","Cones","Fleshy fruits","Nuts","Winged fruits","Pods","Fruits not pronounced"],
   "FRUITING PERIOD":["Fruits Early Spring","Fruits Spring","Fruits Summer","Fruits Late Summer","Fruits Autumn","Fruits Winter"],
   "EDIBLE":["Only edible after processing","Edible berries","Edible flowers","Edible fruit","Edible leaves","Edible nuts","Edible roots","Edible sap","Edible stem"],
-  "LEAF COLOUR":["Black leaves","Blue leaves","Brown leaves","Green leaves","Grey leaves","Pink leaves","Purple leaves","Red leaves","White leaves","Yellow leaves"],
+  "LEAF COLOR":["Black leaves","Blue leaves","Brown leaves","Green leaves","Grey leaves","Pink leaves","Purple leaves","Red leaves","White leaves","Yellow leaves"],
 // If a plant can't be confidently marked evergreen, it should not be marked evergreen and in turn have autumn colours. If a plant in turn is evergeen, it should not have autumn colours. Also, a plant can only have one autumn colour so chose which fits best.
   "AUTUMN COLOURS":["Orange autumn leaves","Red autumn leaves","Yellow autumn leaves"],
 // Chose deciduous structural presence if the plant has woody structures above ground during winter, that are still alive like a tree has branches, or a climbing plant might still have twines. Dies back is for when the plant retracts itself fully into the roots or dies in winter.
@@ -85,7 +85,7 @@ Explain why you made every decision.
   "PLANTING DENSITY":["0-0.1/m²","0.1-0.5/m²","0.5-1/m²","1-2/m²","2-3/m²","3-4/m²","4-5/m²","5-6/m²","6-7/m²","7-8/m²","8-9/m²","9-10/m²","10-12/m²","12-15/m²","15+ /m²"],
   "SCHOOL SUBJECT":${JSON.stringify(schoolSubjects)},
 // Only add something to Note if it could not be said with all the tags. For example how a hydrangea changes colour based on ph levels. THIS MEANS NO TEXT DISCRIBING THE PLANT!!!
-  "NOTE":"text",
+  "NOTE":"Text",
   "SUB IMAGES":${JSON.stringify(subImages, null, 4)}
 }`;
 

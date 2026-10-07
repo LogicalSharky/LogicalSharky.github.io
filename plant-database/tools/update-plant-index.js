@@ -21,6 +21,14 @@ function fixImagePath(imagePath) {
         .replace(/^\/+/, "");
 }
 
+function getArray(value) {
+    return Array.isArray(value) ? value : [];
+}
+
+function getValue(value, fallback = null) {
+    return value !== undefined ? value : fallback;
+}
+
 for (const file of files) {
     const filePath = path.join(plantsInfoDirectory, file);
 
@@ -28,39 +36,111 @@ for (const file of files) {
         const content = fs.readFileSync(filePath, "utf8");
         const plant = JSON.parse(content);
 
-        if (!plant.id) {
-            plant.id = path.basename(file, ".json");
-        }
+        // ------------------------------------------------------------
+        // Basic values
+        // ------------------------------------------------------------
 
-        if (!plant.base) {
-            plant.base = {};
-        }
+        const id = plant.id || path.basename(file, ".json");
 
-        if (!plant.base.scientificName) {
-            plant.base.scientificName = plant.id;
-        }
+        const base = plant.base || {};
+        const siteConditions = plant.siteConditions || {};
+        const size = plant.size || {};
+        const flowers = plant.flowers || {};
+        const leaves = plant.leaves || {};
+        const stemAndBark = plant.stemAndBark || {};
+        const fruit = plant.fruit || {};
+        const variegation = plant.variegation || {};
+        const ecology = plant.ecology || {};
+        const practical = plant.practical || {};
 
-        if (!plant.base.commonName) {
-            plant.base.commonName = "";
-        }
+        // ------------------------------------------------------------
+        // Create ONLY the fields needed by the index/sorting/filtering
+        // ------------------------------------------------------------
 
-        if (!plant.base.commonNameNl) {
-            plant.base.commonNameNl = "";
-        }
+        const indexPlant = {
+            id: id,
 
-        if (!plant.base.family) {
-            plant.base.family = "";
-        }
+            mainImage: fixImagePath(plant.mainImage),
 
-        if (!Array.isArray(plant.hardinessZones)) {
-            plant.hardinessZones = [];
-        }
+            hardinessZones: getArray(plant.hardinessZones),
 
-        plant.mainImage = fixImagePath(plant.mainImage);
+            base: {
+                scientificName: base.scientificName || id,
+                commonName: base.commonName || "",
+                commonNameNl: base.commonNameNl || "",
+                family: base.family || "",
+                type: getArray(base.type),
+                application: getArray(base.application)
+            },
 
-        delete plant.images;
+            siteConditions: {
+                sunlight: getArray(siteConditions.sunlight),
+                soil: getArray(siteConditions.soil),
+                moisture: getArray(siteConditions.moisture),
+                ph: getArray(siteConditions.ph),
+                nutrients: getArray(siteConditions.nutrients),
+                extremes: getArray(siteConditions.extremes)
+            },
 
-        plants.push(plant);
+            size: {
+                heightExclFlowers: getValue(size.heightExclFlowers),
+                heightInclFlowers: getValue(size.heightInclFlowers),
+                climbingHeight: getValue(size.climbingHeight),
+                width: getValue(size.width),
+                largeLeaves: getArray(size.largeLeaves)
+            },
+
+            flowers: {
+                floweringMonths: getArray(flowers.floweringMonths),
+                floweringColour: getArray(flowers.floweringColour),
+                shape: getArray(flowers.shape),
+                orientation: getArray(flowers.orientation),
+                other: getArray(flowers.other)
+            },
+
+            leaves: {
+                leafColour: getArray(leaves.leafColour),
+                autumnColour: getArray(leaves.autumnColour),
+                evergreen: getArray(leaves.evergreen),
+                texture: getArray(leaves.texture),
+                structure: getArray(leaves.structure)
+            },
+
+            stemAndBark: {
+                barkColour: getArray(stemAndBark.barkColour),
+                barkTexture: getArray(stemAndBark.barkTexture)
+            },
+
+            fruit: {
+                fruitingMonths: getArray(fruit.fruitingMonths),
+                fruitColour: getArray(fruit.fruitColour),
+                fruitType: getArray(fruit.fruitType),
+                edible: getArray(fruit.edible),
+                ediblePartsRaw: getArray(fruit.ediblePartsRaw)
+            },
+
+            variegation: {
+                variegated: getArray(variegation.variegated),
+                variegationColour: getArray(variegation.variegationColour),
+                variegationType: getArray(variegation.variegationType)
+            },
+
+            warnings: getArray(plant.warnings),
+
+            ecology: {
+                habitat: getArray(ecology.habitat),
+                nativeRange: getArray(ecology.nativeRange),
+                successionalStage: getArray(ecology.successionalStage),
+                valueToAnimals: getArray(ecology.valueToAnimals)
+            },
+
+            practical: {
+                rarity: getArray(practical.rarity),
+                obtainability: getArray(practical.obtainability)
+            }
+        };
+
+        plants.push(indexPlant);
 
         console.log("Added: " + file);
 
@@ -70,11 +150,19 @@ for (const file of files) {
     }
 }
 
+// ------------------------------------------------------------
+// Sort by scientific name
+// ------------------------------------------------------------
+
 plants.sort((a, b) =>
     String(a.base.scientificName || "").localeCompare(
         String(b.base.scientificName || "")
     )
 );
+
+// ------------------------------------------------------------
+// Write master index
+// ------------------------------------------------------------
 
 const output =
     "[\n" +
@@ -88,6 +176,6 @@ console.log("========================================");
 console.log("Plant index updated successfully!");
 console.log("========================================");
 console.log("Plants indexed: " + plants.length);
-console.log("Only mainImage is included.");
+console.log("Only sorting/filtering fields are included.");
 console.log("Image paths have no leading /.");
 console.log("========================================");

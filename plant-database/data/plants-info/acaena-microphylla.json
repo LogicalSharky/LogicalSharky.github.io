@@ -1,0 +1,163 @@
+{
+  "id": "acaena-microphylla",
+  "mainImage": "/images/plants/acaena-microphylla/Acaena microphylla 1.jpg",
+  "images": [
+    "/images/plants/acaena-microphylla/Acaena microphylla 1.jpg",
+    "/images/plants/acaena-microphylla/Acaena microphylla 2.jpg"
+  ],
+  "hardinessZones": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "base": {
+    "scientificName": "Acaena microphylla",
+    "commonName": "New Zealand burr",
+    "commonNameNl": "Kleine stekelnoot",
+    "family": "Rosaceae",
+    "type": [
+      "ground cover",
+      "herbaceous perennial"
+    ],
+    "application": [
+      "pet safe"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "loam",
+      "sandy loam",
+      "sand"
+    ],
+    "moisture": [
+      "moist but well drained",
+      "well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient poor",
+      "nutrient rich"
+    ],
+    "extremes": [
+      "coastal area",
+      "crevice and wall",
+      "tolerates wind exposure"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 10,
+    "heightInclFlowers": 15,
+    "climbingHeight": null,
+    "width": null,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      6,
+      7
+    ],
+    "floweringColour": [
+      "red"
+    ],
+    "shape": [
+      "umbel, pseudanthium (incl. globose)"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "leafColour": [
+      "green",
+      "grey"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [
+      "evergreen"
+    ],
+    "texture": [
+      "delicate"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "open"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitColour": [],
+    "fruitType": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge",
+      "grassland",
+      "rocky slopes"
+    ],
+    "nativeTo": "New Zealand",
+    "nativeRange": [
+      "native species"
+    ],
+    "successionalStage": [
+      "pioneer species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)",
+      "value to birds (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "30-50 cm",
+    "plantDensity": "4-9/m²",
+    "rarity": [
+      "rare (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "A low, spreading evergreen ground cover with finely divided foliage, often developing attractive bronze tones. It is useful for rock gardens, gravel gardens, edging and planting between stones where a low mat-forming plant is desired. Small greenish flowers are followed by distinctive red burr-like seed heads that can add ornamental interest into summer. It prefers a sunny to lightly shaded, well-drained position and can spread gradually to form a dense carpet.",
+    "noteNL": "Een lage, spreidend groeiende groenblijvende bodembedekker met fijn gedeeld blad, dat vaak aantrekkelijke bronstinten ontwikkelt. Hij is geschikt voor rotstuinen, grindtuinen, randen en beplanting tussen stenen waar een lage, matvormende plant gewenst is. Kleine groenachtige bloemen worden gevolgd door opvallende rode, stekelige zaadhoofdjes die tot in de zomer sierwaarde bieden. Hij verkiest een zonnige tot licht beschaduwde, goed doorlatende standplaats en kan zich geleidelijk uitbreiden tot een dicht tapijt."
+  }
+}

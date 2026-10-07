@@ -1,0 +1,179 @@
+{
+  "id": "aesculus-hippocastanum",
+  "mainImage": "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum 1.jpg",
+  "images": [
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum 1.jpg",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum 3.jpg",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum 4.jpg",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum bark.JPG",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum canopy.JPG",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum flowers 2.JPG",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum flowers 3.JPG",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum flowers 4.JPG",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum flowers.JPG",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum leaves detail.JPG",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum leaves.JPG",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum new leaves.JPG",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum thrunk.JPG",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum winter canopy.JPG",
+    "/images/plants/aesculus-hippocastanum/Aesculus hippocastanum winter.JPG"
+  ],
+  "hardinessZones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Aesculus hippocastanum",
+    "commonName": "Horse chestnut",
+    "commonNameNl": "Witte paardenkastanje",
+    "family": "Sapindaceae",
+    "type": [
+      "tree"
+    ],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 2500,
+    "heightInclFlowers": 2500,
+    "climbingHeight": null,
+    "width": 2000,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      5
+    ],
+    "floweringColour": [
+      "white"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [
+      10
+    ],
+    "autumnColour": [
+      "yellow",
+      "orange"
+    ],
+    "evergreen": [],
+    "texture": [
+      "corrugated"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey",
+      "brown"
+    ],
+    "barkTexture": [
+      "plated",
+      "fissured"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      9,
+      10
+    ],
+    "fruitColour": [
+      "green",
+      "brown"
+    ],
+    "fruitType": [
+      "nuts"
+    ],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "toxic",
+    "pest sensitive (outdoor)"
+  ],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge"
+    ],
+    "nativeTo": "Southeastern Europe (Balkans)",
+    "nativeRange": [
+      "native species",
+      "naturalized (BE)"
+    ],
+    "successionalStage": [],
+    "valueToAnimals": [
+      "value to bees (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Majestic, broad-crowned shade tree with large, palmately compound leaves of five to seven leaflets and upright, candle-like panicles of white flowers with a pink-yellow blotch in May. The glossy brown conkers ripen in September to October in spiky green husks. Thrives in full sun to half shade on deep, moist, nutrient-rich soil. Widely planted in parks, avenues and estates, but needs a lot of space. Often affected by horse chestnut leaf miner (leaves turn brown in summer), bleeding canker and leaf blotch, which makes it less reliable than it once was. The seeds are toxic to people, dogs and livestock if eaten. Sensitive to de-icing salt and drought, so unsuitable for harsh street conditions.",
+    "noteNL": "Majestueuze schaduwboom met brede kroon, grote, handvormig samengestelde bladeren van vijf tot zeven deelblaadjes en rechtopstaande, kaarsvormige pluimen van witte bloemen met een roze-gele vlek in mei. De glanzend bruine kastanjes rijpen in september-oktober in stekelige groene bolsters. Gedijt in volle zon tot halfschaduw op diepe, vochtige, voedselrijke grond. Veel aangeplant in parken, lanen en op landgoederen, maar heeft veel ruimte nodig. Vaak aangetast door de paardenkastanjemineermot (bladeren worden in de zomer bruin), bloedingsziekte en bladvlekkenziekte, waardoor hij minder betrouwbaar is dan vroeger. De zaden zijn giftig voor mensen, honden en vee bij inname. Gevoelig voor strooizout en droogte, dus ongeschikt voor harde straatomstandigheden."
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "id": "acer-palmatum-'dissectum'",
+  "mainImage": "/images/plants/acer-palmatum-'dissectum'/Acer palmatum 'Dissectum' 1.jpg",
+  "images": [
+    "/images/plants/acer-palmatum-'dissectum'/Acer palmatum 'Dissectum' 1.jpg",
+    "/images/plants/acer-palmatum-'dissectum'/Acer palmatum 'Dissectum' 2.jpg",
+    "/images/plants/acer-palmatum-'dissectum'/Acer palmatum 'Dissectum' 3.jpg",
+    "/images/plants/acer-palmatum-'dissectum'/Acer palmatum 'Dissectum' 4.jpg"
+  ],
+  "hardinessZones": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Acer palmatum 'Dissectum'",
+    "commonName": "Laceleaf Japanese maple",
+    "commonNameNl": "Snijbladige Japanse esdoorn",
+    "family": "Sapindaceae",
+    "type": [
+      "large shrub",
+      "arborescent shrub"
+    ],
+    "application": [
+      "bonsai",
+      "oriental garden",
+      "pet safe"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "half shade"
+    ],
+    "soil": [
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "needs to be windsheltered"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 250,
+    "heightInclFlowers": 250,
+    "climbingHeight": null,
+    "width": 300,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      4,
+      5
+    ],
+    "floweringColour": [
+      "red"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle"
+    ],
+    "orientation": [
+      "pendant"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [
+      10,
+      11
+    ],
+    "autumnColour": [
+      "orange"
+    ],
+    "evergreen": [],
+    "texture": [
+      "delicate"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "open"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey",
+      "brown"
+    ],
+    "barkTexture": [
+      "smooth"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      8,
+      9,
+      10
+    ],
+    "fruitColour": [
+      "red",
+      "brown"
+    ],
+    "fruitType": [
+      "samara"
+    ],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge"
+    ],
+    "nativeTo": "Japan",
+    "nativeRange": [
+      "cultivar or hybrid"
+    ],
+    "successionalStage": [],
+    "valueToAnimals": [
+      "value to bees (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": "Cultivar of Acer palmatum"
+  },
+  "discription": {
+    "note": "Slow-growing, mounding to cascading form with finely cut, lace-like green leaves that turn gold to orange-red in autumn. Often wider than it is tall. Best in a sheltered spot with dappled shade, as the delicate foliage scorches easily in hot sun, drought and wind. Can suffer from Verticillium wilt.",
+    "noteNL": "Langzaam groeiende, brede tot overhangende struik met fijn ingesneden, kantachtig groen blad dat in de herfst goud tot oranjerood kleurt. Vaak breder dan hoog. Houdt van een beschutte plek in lichte schaduw, want het fijne blad verbrandt snel bij felle zon, droogte en wind. Gevoelig voor verticillium."
+  }
+}

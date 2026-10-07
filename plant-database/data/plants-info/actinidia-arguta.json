@@ -1,0 +1,166 @@
+{
+  "id": "actinidia-arguta",
+  "mainImage": "/images/plants/actinidia-arguta/Actinidia arguta 1.jpg",
+  "images": [
+    "/images/plants/actinidia-arguta/Actinidia arguta 1.jpg"
+  ],
+  "hardinessZones": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Actinidia arguta",
+    "commonName": "Hardy kiwi",
+    "commonNameNl": "Kiwibes",
+    "family": "Actinidiaceae",
+    "type": [
+      "climbing plant"
+    ],
+    "application": [
+      "pet safe"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "needs to be windsheltered",
+      "vertical green & roof garden",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": null,
+    "heightInclFlowers": null,
+    "climbingHeight": 1000,
+    "width": null,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      5,
+      6
+    ],
+    "floweringColour": [
+      "white"
+    ],
+    "shape": [
+      "campanulate, calyx, trumpet, cup"
+    ],
+    "orientation": [
+      "pendant"
+    ],
+    "other": [
+      "fragrant flowers"
+    ]
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [
+      10
+    ],
+    "autumnColour": [
+      "yellow"
+    ],
+    "evergreen": [],
+    "texture": [
+      "smooth"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "brown"
+    ],
+    "barkTexture": [
+      "fibrous"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      9,
+      10
+    ],
+    "fruitColour": [
+      "green"
+    ],
+    "fruitType": [
+      "berries"
+    ],
+    "edible": [
+      "edible raw"
+    ],
+    "ediblePartsRaw": [
+      "edible fruit"
+    ]
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge"
+    ],
+    "nativeTo": "Eastern Asia (Japan, Korea, China, Russian Far East)",
+    "nativeRange": [
+      "native species"
+    ],
+    "successionalStage": [],
+    "valueToAnimals": [
+      "value to bees (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Vigorous, twining deciduous climber with glossy, dark green leaves and small, fragrant white flowers in May and June. Produces smooth-skinned, grape-sized kiwi fruits that are eaten whole, from September onwards. Needs a sturdy support such as a pergola or wires, and a sheltered, sunny spot with moist, humus-rich, well-drained soil. Plants are usually male or female, so a male is needed nearby for fruit, unless a self-fertile cultivar is chosen.",
+    "noteNL": "Krachtige, windende bladverliezende klimmer met glanzend donkergroen blad en kleine, geurende witte bloemen in mei en juni. Draagt gladde, druifgrote kiwivruchtjes die met schil gegeten worden, vanaf september. Heeft een stevige steun nodig, zoals een pergola of draden, en een beschutte, zonnige plek met vochtige, humusrijke, goed gedraineerde grond. De planten zijn meestal mannelijk of vrouwelijk, dus voor vruchten is een mannelijke plant in de buurt nodig, tenzij een zelfbestuivende cultivar wordt gekozen."
+  }
+}

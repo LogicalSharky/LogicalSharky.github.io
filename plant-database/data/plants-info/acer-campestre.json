@@ -1,0 +1,189 @@
+{
+  "id": "acer-campestre",
+  "mainImage": "/images/plants/acer-campestre/Acer campestre 1.jpg",
+  "images": [
+    "/images/plants/acer-campestre/Acer campestre 1.jpg",
+    "/images/plants/acer-campestre/Acer campestre 3.jpg",
+    "/images/plants/acer-campestre/Acer campestre 4.jpg",
+    "/images/plants/acer-campestre/Acer campestre canopy 2.JPG",
+    "/images/plants/acer-campestre/Acer campestre canopy.JPG",
+    "/images/plants/acer-campestre/Acer campestre flowers.JPG",
+    "/images/plants/acer-campestre/Acer campestre fruit.JPG",
+    "/images/plants/acer-campestre/Acer campestre leaves.JPG",
+    "/images/plants/acer-campestre/Acer campestre retake.JPG"
+  ],
+  "hardinessZones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Acer campestre",
+    "commonName": "Field maple",
+    "commonNameNl": "Veldesdoorn",
+    "family": "Sapindaceae",
+    "type": [
+      "tree"
+    ],
+    "application": [
+      "bonsai",
+      "hedge plant",
+      "oriental garden",
+      "pollard",
+      "topiary tree"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam",
+      "sand"
+    ],
+    "moisture": [
+      "moist but well drained",
+      "well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient rich",
+      "nutrient poor"
+    ],
+    "extremes": [
+      "coastal area",
+      "tolerates wind exposure"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 1500,
+    "heightInclFlowers": 1500,
+    "climbingHeight": null,
+    "width": 800,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      4,
+      5
+    ],
+    "floweringColour": [
+      "green"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [
+      10,
+      11
+    ],
+    "autumnColour": [
+      "yellow",
+      "orange",
+      "red"
+    ],
+    "evergreen": [],
+    "texture": [
+      "smooth"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey",
+      "brown"
+    ],
+    "barkTexture": [
+      "fissured"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      9,
+      10
+    ],
+    "fruitColour": [
+      "green",
+      "brown"
+    ],
+    "fruitType": [
+      "samara"
+    ],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge",
+      "shrubland"
+    ],
+    "nativeTo": "Europe and western Asia",
+    "nativeRange": [
+      "native species",
+      "native (BE)"
+    ],
+    "successionalStage": [
+      "intermediate species",
+      "climax species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)",
+      "value to butterflies (BE)",
+      "value to birds (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "50-75 cm for hedges",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "A hardy European maple that is particularly useful as a hedge plant, small tree or pollarded tree. It develops a dense, compact crown and responds well to pruning, making it suitable for both formal and informal hedges. Small green flowers appear in spring, followed by pairs of winged samaras that add seasonal visual interest. The foliage develops attractive yellow to orange-red autumn colour. It is adaptable to clay, loam and sandy soils and performs well in both sunny and lightly shaded positions.",
+    "noteNL": "Een winterharde Europese esdoorn die bijzonder geschikt is als haagplant, kleine boom of knotboom. Hij vormt een dichte, compacte kroon en verdraagt snoei goed, waardoor hij geschikt is voor zowel formele als losse hagen. Kleine groene bloemen verschijnen in het voorjaar, gevolgd door paren gevleugelde samara's die voor extra seizoensgebonden sierwaarde zorgen. Het blad krijgt in de herfst aantrekkelijke gele tot oranjerode kleuren. Hij verdraagt klei-, leem- en zandgronden en groeit zowel in de zon als in lichte schaduw goed."
+  }
+}

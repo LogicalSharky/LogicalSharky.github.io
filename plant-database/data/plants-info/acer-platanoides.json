@@ -1,0 +1,178 @@
+{
+  "id": "acer-platanoides",
+  "mainImage": "/images/plants/acer-platanoides/Acer platanoides 1.jpg",
+  "images": [
+    "/images/plants/acer-platanoides/Acer platanoides 1.jpg",
+    "/images/plants/acer-platanoides/Acer platanoides 2.jpg",
+    "/images/plants/acer-platanoides/Acer platanoides 3.jpg",
+    "/images/plants/acer-platanoides/Acer platanoides 4.jpg",
+    "/images/plants/acer-platanoides/Acer platanoides 5.jpg"
+  ],
+  "hardinessZones": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Acer platanoides",
+    "commonName": "Norway maple",
+    "commonNameNl": "Noorse esdoorn",
+    "family": "Sapindaceae",
+    "type": [
+      "tree"
+    ],
+    "application": [
+      "pet safe"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained",
+      "well drained"
+    ],
+    "ph": [
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "street/paving",
+      "tolerates wind exposure",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 2500,
+    "heightInclFlowers": 2500,
+    "climbingHeight": null,
+    "width": 1800,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      4,
+      5
+    ],
+    "floweringColour": [
+      "yellow",
+      "green"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [
+      10,
+      11
+    ],
+    "autumnColour": [
+      "yellow",
+      "orange"
+    ],
+    "evergreen": [],
+    "texture": [
+      "smooth"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey"
+    ],
+    "barkTexture": [
+      "fissured"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      8,
+      9,
+      10
+    ],
+    "fruitColour": [
+      "green",
+      "brown"
+    ],
+    "fruitType": [
+      "samara"
+    ],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "allergenic"
+  ],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge"
+    ],
+    "nativeTo": "Europe and western Asia",
+    "nativeRange": [
+      "native species",
+      "naturalized (BE)"
+    ],
+    "successionalStage": [
+      "intermediate species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)",
+      "value to birds (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Large, fast-growing shade tree with a broad rounded crown and bright green, sharply lobed leaves that turn yellow to orange in autumn. Yellow-green flowers appear in April, before the leaves, and are an early nectar source for bees. Tolerates city conditions and wind, but its dense shade and shallow roots make it hard to grow anything underneath. Needs plenty of space.",
+    "noteNL": "Grote, snelgroeiende schaduwboom met een brede, ronde kroon en felgroen, scherp gelobd blad dat in de herfst geel tot oranje kleurt. De geelgroene bloemen verschijnen in april vóór het blad en zijn een vroege nectarbron voor bijen. Verdraagt stadsomstandigheden en wind, maar de dichte schaduw en ondiepe wortels maken onderbeplanting moeilijk. Heeft veel ruimte nodig."
+  }
+}

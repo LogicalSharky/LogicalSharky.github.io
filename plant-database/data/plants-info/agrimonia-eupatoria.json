@@ -1,0 +1,156 @@
+{
+  "id": "agrimonia-eupatoria",
+  "mainImage": "/images/plants/agrimonia-eupatoria/Agrimonia eupatoria 1.jpg",
+  "images": [
+    "/images/plants/agrimonia-eupatoria/Agrimonia eupatoria 1.jpg",
+    "/images/plants/agrimonia-eupatoria/Agrimonia eupatoria 2.jpg",
+    "/images/plants/agrimonia-eupatoria/Agrimonia eupatoria 3.jpg",
+    "/images/plants/agrimonia-eupatoria/Agrimonia eupatoria 4.jpg"
+  ],
+  "hardinessZones": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "base": {
+    "scientificName": "Agrimonia eupatoria",
+    "commonName": "Common agrimony",
+    "commonNameNl": "Gewone agrimonie",
+    "family": "Rosaceae",
+    "type": [
+      "herbaceous perennial"
+    ],
+    "application": [
+      "pet safe"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "well drained",
+      "moist but well drained"
+    ],
+    "ph": [
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient poor"
+    ],
+    "extremes": [
+      "tolerates wind exposure",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 40,
+    "heightInclFlowers": 100,
+    "climbingHeight": null,
+    "width": 40,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      6,
+      7,
+      8
+    ],
+    "floweringColour": [
+      "yellow"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": [
+      "fragrant flowers"
+    ]
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "texture": [
+      "velvet"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "open"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitColour": [],
+    "fruitType": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "grassland",
+      "forest edge"
+    ],
+    "nativeTo": "Europe and western Asia",
+    "nativeRange": [
+      "native species",
+      "native (BE)"
+    ],
+    "successionalStage": [
+      "intermediate species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "30-40 cm",
+    "plantDensity": "6-8/m²",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Slender native perennial with a basal rosette of hairy, pinnate leaves and tall, upright spikes of small yellow flowers from June to August. Thrives in full sun to half shade on dry to moderately moist, lean, calcareous soil and tolerates drought. Typical of rough grassland, road verges and hedge banks, so it suits flower meadows and wild borders. The burr-like fruits cling to clothing and fur. Visited by bees and hoverflies. Traditionally used as a medicinal and tea herb.",
+    "noteNL": "Slanke inheemse vaste plant met een bladrozet van behaarde, geveerde bladeren en hoge, rechtopstaande aren van kleine gele bloemen van juni tot augustus. Gedijt in volle zon tot halfschaduw op droge tot matig vochtige, schrale, kalkrijke grond en verdraagt droogte. Typisch voor ruige graslanden, bermen en heggenkanten en dus geschikt voor bloemenweiden en wilde borders. De klitachtige vruchten blijven aan kleding en vacht hangen. Bezocht door bijen en zweefvliegen. Van oudsher gebruikt als geneeskrachtig kruid en voor thee."
+  }
+}

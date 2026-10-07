@@ -1,0 +1,168 @@
+{
+  "id": "aesculus-x-carnea",
+  "mainImage": "/images/plants/aesculus-x-carnea/Aesculus x carnea 1.jpg",
+  "images": [
+    "/images/plants/aesculus-x-carnea/Aesculus x carnea 1.jpg",
+    "/images/plants/aesculus-x-carnea/Aesculus x carnea 2.jpg",
+    "/images/plants/aesculus-x-carnea/Aesculus x carnea early canopy 2.JPG",
+    "/images/plants/aesculus-x-carnea/Aesculus x carnea early canopy.JPG",
+    "/images/plants/aesculus-x-carnea/Aesculus x carnea flowers 2.JPG",
+    "/images/plants/aesculus-x-carnea/Aesculus x carnea flowers.JPG"
+  ],
+  "hardinessZones": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Aesculus × carnea",
+    "commonName": "Red horse chestnut",
+    "commonNameNl": "Rode paardenkastanje",
+    "family": "Sapindaceae",
+    "type": [
+      "tree"
+    ],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 1500,
+    "heightInclFlowers": 1500,
+    "climbingHeight": null,
+    "width": 1200,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      5
+    ],
+    "floweringColour": [
+      "red",
+      "pink"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [
+      10
+    ],
+    "autumnColour": [
+      "yellow",
+      "orange"
+    ],
+    "evergreen": [],
+    "texture": [
+      "corrugated"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey",
+      "brown"
+    ],
+    "barkTexture": [
+      "plated",
+      "fissured"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      9,
+      10
+    ],
+    "fruitColour": [
+      "brown",
+      "green"
+    ],
+    "fruitType": [
+      "nuts"
+    ],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "toxic"
+  ],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge"
+    ],
+    "nativeTo": "",
+    "nativeRange": [
+      "cultivar or hybrid"
+    ],
+    "successionalStage": [],
+    "valueToAnimals": [
+      "value to bees (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": "Aesculus hippocastanum × Aesculus pavia"
+  },
+  "discription": {
+    "note": "Medium-sized, broad-crowned tree with dark green, palmately compound leaves and upright panicles of rose-red to pink flowers in May. Smaller and more compact than the white horse chestnut, so it suits smaller gardens and parks better. The nuts are mostly smooth and hardly spiny, and are toxic if eaten. Thrives in full sun to half shade on deep, moist, nutrient-rich soil. Much less affected by horse chestnut leaf miner and bleeding canker than the white horse chestnut, but can suffer from leaf scorch in dry summers. Sensitive to de-icing salt and drought.",
+    "noteNL": "Middelgrote boom met brede kroon, donkergroen, handvormig samengesteld blad en rechtopstaande pluimen van roodroze bloemen in mei. Kleiner en compacter dan de witte paardenkastanje en daarom beter geschikt voor kleinere tuinen en parken. De noten zijn grotendeels glad en nauwelijks stekelig en zijn giftig bij inname. Gedijt in volle zon tot halfschaduw op diepe, vochtige, voedselrijke grond. Veel minder gevoelig voor de paardenkastanjemineermot en bloedingsziekte dan de witte paardenkastanje, maar kan bladverbranding krijgen in droge zomers. Gevoelig voor strooizout en droogte."
+  }
+}

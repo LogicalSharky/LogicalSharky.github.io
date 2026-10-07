@@ -1,0 +1,185 @@
+{
+  "id": "acer-negundo",
+  "mainImage": "/images/plants/acer-negundo/Acer negundo 1.jpg",
+  "images": [
+    "/images/plants/acer-negundo/Acer negundo 1.jpg",
+    "/images/plants/acer-negundo/Acer negundo 6.jpg",
+    "/images/plants/acer-negundo/Acer negundo 7.jpg",
+    "/images/plants/acer-negundo/Acer negundo 8.jpg",
+    "/images/plants/acer-negundo/Acer negundo retake 2.JPG",
+    "/images/plants/acer-negundo/Acer negundo retake.JPG",
+    "/images/plants/acer-negundo/Acer negundo stems.JPG"
+  ],
+  "hardinessZones": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Acer negundo",
+    "commonName": "Box elder",
+    "commonNameNl": "Vederesdoorn",
+    "family": "Sapindaceae",
+    "type": [
+      "tree"
+    ],
+    "application": [
+      "bonsai",
+      "pollard"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam",
+      "sand"
+    ],
+    "moisture": [
+      "moist but well drained",
+      "well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "tolerates brief flooding",
+      "needs to be windsheltered"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 1500,
+    "heightInclFlowers": 1500,
+    "climbingHeight": null,
+    "width": 1000,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      4,
+      5
+    ],
+    "floweringColour": [
+      "green",
+      "yellow"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle"
+    ],
+    "orientation": [
+      "pendant"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [
+      10,
+      11
+    ],
+    "autumnColour": [
+      "yellow"
+    ],
+    "evergreen": [],
+    "texture": [
+      "delicate"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "open"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey",
+      "brown",
+      "green"
+    ],
+    "barkTexture": [
+      "fissured"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      9,
+      10,
+      11
+    ],
+    "fruitColour": [
+      "green",
+      "brown"
+    ],
+    "fruitType": [
+      "samara"
+    ],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "pest sensitive (outdoor)"
+  ],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge",
+      "wetland",
+      "riverbank"
+    ],
+    "nativeTo": "North America",
+    "nativeRange": [
+      "native species",
+      "invasive (BE)"
+    ],
+    "successionalStage": [
+      "pioneer species",
+      "intermediate species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)",
+      "value to birds (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "A fast-growing North American maple with distinctive pinnate leaves that give it a somewhat unusual appearance compared with most maples. It is adaptable to a range of soils and grows particularly well where moisture is available, including along rivers and other periodically wet sites. Small greenish-yellow flowers appear in spring, followed by paired winged samaras that remain visually interesting into autumn. The tree can develop a broad, open crown and should be given plenty of space. In Belgium it is an invasive non-native species, with established populations and increasing spread reported particularly in Flanders. It is especially associated with riparian and other moist habitats.",
+    "noteNL": "Een snelgroeiende Noord-Amerikaanse esdoorn met opvallende geveerde bladeren, die er anders uitziet dan de meeste andere esdoorns. Hij verdraagt verschillende grondsoorten en groeit bijzonder goed op plaatsen waar voldoende vocht beschikbaar is, waaronder langs rivieren en op andere periodiek natte standplaatsen. Kleine groengele bloemen verschijnen in het voorjaar, gevolgd door paren gevleugelde samara's die tot in de herfst voor visuele sierwaarde zorgen. De boom kan een brede, open kroon vormen en moet daarom voldoende ruimte krijgen. In België is hij een invasieve uitheemse soort, met gevestigde populaties en een toenemende verspreiding, vooral in Vlaanderen. Hij komt vooral voor in oevergebieden en andere vochtige habitats."
+  }
+}

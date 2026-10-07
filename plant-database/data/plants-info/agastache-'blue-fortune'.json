@@ -1,0 +1,157 @@
+{
+  "id": "agastache-'blue-fortune'",
+  "mainImage": "/images/plants/agastache-'blue-fortune'/Agastache 'Blue Fortune' 1.jpg",
+  "images": [
+    "/images/plants/agastache-'blue-fortune'/Agastache 'Blue Fortune' 1.jpg",
+    "/images/plants/agastache-'blue-fortune'/Agastache 'Blue Fortune' 2.jpg",
+    "/images/plants/agastache-'blue-fortune'/Agastache 'Blue Fortune' 3.jpg"
+  ],
+  "hardinessZones": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "base": {
+    "scientificName": "Agastache 'Blue Fortune'",
+    "commonName": "Giant hyssop",
+    "commonNameNl": "Dropplant",
+    "family": "Lamiaceae",
+    "type": [
+      "herbaceous perennial"
+    ],
+    "application": [
+      "pet safe"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun"
+    ],
+    "soil": [
+      "loam",
+      "sandy loam",
+      "sand"
+    ],
+    "moisture": [
+      "well drained",
+      "moist but well drained"
+    ],
+    "ph": [
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient poor"
+    ],
+    "extremes": [
+      "tolerates wind exposure",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 60,
+    "heightInclFlowers": 100,
+    "climbingHeight": null,
+    "width": 50,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "floweringColour": [
+      "blue",
+      "purple"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": [
+      "cut flowers",
+      "fragrant flowers"
+    ]
+  },
+  "leaves": {
+    "leafMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "texture": [
+      "velvet"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitColour": [],
+    "fruitType": [],
+    "edible": [
+      "edible raw"
+    ],
+    "ediblePartsRaw": [
+      "edible leaves",
+      "edible flowers"
+    ]
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "grassland"
+    ],
+    "nativeTo": "",
+    "nativeRange": [
+      "cultivar or hybrid"
+    ],
+    "successionalStage": [],
+    "valueToAnimals": [
+      "value to bees (BE)",
+      "value to butterflies (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "40-50 cm",
+    "plantDensity": "4-5/m²",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": "Agastache rugosa × Agastache foeniculum"
+  },
+  "discription": {
+    "note": "Upright, long-flowering perennial with dense spikes of lavender-blue flowers from July to October above aromatic, liquorice-scented, grey-green leaves. Thrives in full sun on well-drained, lean soil and tolerates drought once established, but dislikes wet soil in winter. Sterile hybrid, so it flowers for a very long time and does not self-seed. A top plant for bees, bumblebees and butterflies. Leave the seed heads standing over winter and cut back in spring. The leaves and flowers can be used for tea or as a garnish.",
+    "noteNL": "Rechtopstaande, lang bloeiende vaste plant met dichte aren van lavendelblauwe bloemen van juli tot oktober boven aromatisch, naar drop geurend, grijsgroen blad. Gedijt in volle zon op goed gedraineerde, schrale grond en verdraagt droogte eenmaal gevestigd, maar houdt niet van natte grond in de winter. Steriele hybride, dus bloeit zeer lang en zaait zich niet uit. Een topplant voor bijen, hommels en vlinders. Laat de zaadhoofdjes in de winter staan en snoei in het voorjaar. De bladeren en bloemen zijn bruikbaar voor thee of als garnering."
+  }
+}

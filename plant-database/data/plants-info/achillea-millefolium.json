@@ -1,0 +1,165 @@
+{
+  "id": "achillea-millefolium",
+  "mainImage": "/images/plants/achillea-millefolium/Achillea millefolium 1.jpg",
+  "images": [
+    "/images/plants/achillea-millefolium/Achillea millefolium 1.jpg",
+    "/images/plants/achillea-millefolium/Achillea millefolium 2.jpg",
+    "/images/plants/achillea-millefolium/Achillea millefolium 3.jpg",
+    "/images/plants/achillea-millefolium/Achillea millefolium retake.JPG"
+  ],
+  "hardinessZones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "base": {
+    "scientificName": "Achillea millefolium",
+    "commonName": "Common yarrow",
+    "commonNameNl": "Duizendblad",
+    "family": "Asteraceae",
+    "type": [
+      "herbaceous perennial"
+    ],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun"
+    ],
+    "soil": [
+      "loam",
+      "sandy loam",
+      "sand"
+    ],
+    "moisture": [
+      "well drained",
+      "moist but well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient poor"
+    ],
+    "extremes": [
+      "coastal area",
+      "tolerates foot traffic and play",
+      "tolerates wind exposure",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 30,
+    "heightInclFlowers": 70,
+    "climbingHeight": null,
+    "width": 50,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "floweringColour": [
+      "white"
+    ],
+    "shape": [
+      "umbel, pseudanthium (incl. globose)"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": [
+      "cut flowers"
+    ]
+  },
+  "leaves": {
+    "leafMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [
+      "semi-evergreen"
+    ],
+    "texture": [
+      "delicate"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "open"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitColour": [],
+    "fruitType": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "skin irritant"
+  ],
+  "ecology": {
+    "habitat": [
+      "grassland",
+      "forest edge"
+    ],
+    "nativeTo": "Europe and western Asia",
+    "nativeRange": [
+      "native species",
+      "native (BE)"
+    ],
+    "successionalStage": [
+      "pioneer species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)",
+      "value to butterflies (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "30-40 cm",
+    "plantDensity": "6-8/m²",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Tough native perennial with finely feathered, aromatic dark green leaves and flat heads of small white flowers from June to September. Thrives in sun and dry to moderately moist, lean soil, and spreads by underground runners to form a dense carpet. Tolerates drought, wind, coastal conditions and mowing or trampling, so it also works in flower lawns and meadows. Rich soil makes it floppy. A very good nectar plant for bees, hoverflies and butterflies.",
+    "noteNL": "Taaie inheemse vaste plant met fijn geveerd, aromatisch donkergroen blad en platte schermen van kleine witte bloemen van juni tot september. Gedijt in volle zon en droge tot matig vochtige, schrale grond en vormt via ondergrondse uitlopers een dichte mat. Verdraagt droogte, wind, kustomstandigheden en maaien of betreding, en is daarom ook geschikt voor bloemrijke gazons en weides. Rijke grond maakt de plant slap. Zeer goede nectarplant voor bijen, zweefvliegen en vlinders."
+  }
+}

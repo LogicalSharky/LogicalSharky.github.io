@@ -1,0 +1,178 @@
+{
+  "id": "acer-pseudoplatanus",
+  "mainImage": "/images/plants/acer-pseudoplatanus/Acer pseudoplatanus 1.jpg",
+  "images": [
+    "/images/plants/acer-pseudoplatanus/Acer pseudoplatanus 1.jpg",
+    "/images/plants/acer-pseudoplatanus/Acer pseudoplatanus 2.jpg",
+    "/images/plants/acer-pseudoplatanus/Acer pseudoplatanus 3.jpg",
+    "/images/plants/acer-pseudoplatanus/Acer pseudoplatanus 4.jpg",
+    "/images/plants/acer-pseudoplatanus/Acer pseudoplatanus 5.jpg",
+    "/images/plants/acer-pseudoplatanus/Acer pseudoplatanus 6.jpg"
+  ],
+  "hardinessZones": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Acer pseudoplatanus",
+    "commonName": "Sycamore maple",
+    "commonNameNl": "Gewone esdoorn",
+    "family": "Sapindaceae",
+    "type": [
+      "tree"
+    ],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "coastal area",
+      "tolerates wind exposure",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 3000,
+    "heightInclFlowers": 3000,
+    "climbingHeight": null,
+    "width": 2000,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      4,
+      5
+    ],
+    "floweringColour": [
+      "yellow",
+      "green"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle"
+    ],
+    "orientation": [
+      "pendant"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [
+      10,
+      11
+    ],
+    "autumnColour": [
+      "yellow",
+      "orange"
+    ],
+    "evergreen": [],
+    "texture": [
+      "smooth"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey",
+      "brown"
+    ],
+    "barkTexture": [
+      "plated"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      8,
+      9,
+      10
+    ],
+    "fruitColour": [
+      "green",
+      "brown"
+    ],
+    "fruitType": [
+      "samara"
+    ],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "allergenic",
+    "toxic"
+  ],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge"
+    ],
+    "nativeTo": "Central and southern Europe and western Asia",
+    "nativeRange": [
+      "native species",
+      "naturalized (BE)"
+    ],
+    "successionalStage": [
+      "intermediate species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)",
+      "value to birds (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Large, fast-growing tree with a broad, domed crown and dark green, five-lobed leaves that turn yellow to orange in autumn. Hanging yellow-green flower panicles appear in April to May, together with the leaves, and are an important nectar and pollen source for bees. Very tolerant of wind and coastal conditions, and self-seeds freely. The seeds and young seedlings are toxic to horses. Needs plenty of space.",
+    "noteNL": "Grote, snelgroeiende boom met een brede, gewelfde kroon en donkergroen, vijflobbig blad dat in de herfst geel tot oranje kleurt. De hangende geelgroene bloemtrossen verschijnen in april-mei samen met het blad en zijn een belangrijke nectar- en stuifmeelbron voor bijen. Zeer goed bestand tegen wind en kustomstandigheden en zaait zich gemakkelijk uit. De zaden en jonge zaailingen zijn giftig voor paarden. Heeft veel ruimte nodig."
+  }
+}

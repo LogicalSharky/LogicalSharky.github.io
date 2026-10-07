@@ -1,0 +1,168 @@
+{
+  "id": "abies-concolor",
+  "mainImage": "/images/plants/abies-concolor/Abies concolor 1.jpg",
+  "images": [
+    "/images/plants/abies-concolor/Abies concolor 1.jpg",
+    "/images/plants/abies-concolor/Abies concolor 2.jpg",
+    "/images/plants/abies-concolor/Abies concolor 3.jpg"
+  ],
+  "hardinessZones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Abies concolor",
+    "commonName": "White fir",
+    "commonNameNl": "Colorado-zilverspar",
+    "family": "Pinaceae",
+    "type": [
+      "tree",
+      "conifer"
+    ],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sand"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "needs to be windsheltered"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 3000,
+    "heightInclFlowers": 3000,
+    "climbingHeight": null,
+    "width": 750,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [],
+    "floweringColour": [],
+    "shape": [],
+    "orientation": [],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "leafColour": [
+      "blue",
+      "grey",
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [
+      "evergreen"
+    ],
+    "texture": [
+      "smooth",
+      "delicate"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey"
+    ],
+    "barkTexture": [
+      "smooth",
+      "fissured"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      8,
+      9,
+      10
+    ],
+    "fruitColour": [
+      "green",
+      "purple",
+      "brown"
+    ],
+    "fruitType": [
+      "cones"
+    ],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "pest sensitive (outdoor)"
+  ],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge",
+      "riverbank",
+      "alpine"
+    ],
+    "nativeTo": "Western United States and northern Mexico",
+    "nativeRange": [
+      "native species"
+    ],
+    "successionalStage": [
+      "intermediate species"
+    ],
+    "valueToAnimals": [
+      "value to birds (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Large evergreen conifer. Best planted as a specimen tree in a spacious site with moist, well-drained, acidic to neutral soil. Mature trees can exceed 30 m. Upright seed cones develop in spring and mature in late summer/autumn.",
+    "noteNL": "Grote, groenblijvende naaldboom. Komt het best tot zijn recht als solitair op een ruime standplaats met vochtige, goed doorlatende en zuur tot neutraal reagerende grond. Volgroeide bomen kunnen meer dan 30 meter hoog worden. In het voorjaar verschijnen rechtopstaande kegels, die in de late zomer of herfst rijpen."
+  }
+}

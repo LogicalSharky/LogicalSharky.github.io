@@ -1,0 +1,149 @@
+{
+  "id": "actaea-simplex-'white-pearl'",
+  "mainImage": "/images/plants/actaea-simplex-'white-pearl'/Actaea simplex 'White Pearl' 1.jpg",
+  "images": [
+    "/images/plants/actaea-simplex-'white-pearl'/Actaea simplex 'White Pearl' 1.jpg",
+    "/images/plants/actaea-simplex-'white-pearl'/Actaea simplex 'White Pearl' 2.jpg"
+  ],
+  "hardinessZones": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Actaea simplex 'White Pearl'",
+    "commonName": "Bugbane 'White Pearl'",
+    "commonNameNl": "Zilverkaars",
+    "family": "Ranunculaceae",
+    "type": [
+      "herbaceous perennial"
+    ],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": [
+      "half shade",
+      "shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "needs to be windsheltered",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 80,
+    "heightInclFlowers": 150,
+    "climbingHeight": null,
+    "width": 60,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      8,
+      9,
+      10
+    ],
+    "floweringColour": [
+      "white"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": [
+      "cut flowers",
+      "fragrant flowers"
+    ]
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "texture": [
+      "delicate"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "open"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitColour": [],
+    "fruitType": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge"
+    ],
+    "nativeTo": "Eastern Asia (Siberia, China, Japan)",
+    "nativeRange": [
+      "cultivar or hybrid"
+    ],
+    "successionalStage": [],
+    "valueToAnimals": [
+      "value to bees (BE)",
+      "value to butterflies (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "50-60 cm",
+    "plantDensity": "3-4/m²",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": "Cultivar of Actaea simplex"
+  },
+  "discription": {
+    "note": "Elegant late-flowering perennial with tall, upright, slightly arching spikes of fragrant, creamy white bottlebrush flowers from August to October above finely divided, fresh green leaves. Prefers moist, humus-rich soil in half shade to shade and does not like drying out. Sheltered spots keep the tall stems upright. A good late nectar source for bees and butterflies. Long-lived and best left undisturbed once established.",
+    "noteNL": "Elegante laatbloeiende vaste plant met hoge, rechtopstaande, licht overhangende aren van geurende, roomwitte flesseborstelbloemen van augustus tot oktober boven fijn verdeeld, fris groen blad. Houdt van vochtige, humusrijke grond in halfschaduw tot schaduw en verdraagt uitdroging slecht. Een beschutte plek houdt de hoge stelen rechtop. Een goede late nectarbron voor bijen en vlinders. Langlevend en staat het best ongemoeid eenmaal gevestigd."
+  }
+}

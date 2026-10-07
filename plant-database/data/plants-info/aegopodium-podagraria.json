@@ -1,0 +1,167 @@
+{
+  "id": "aegopodium-podagraria",
+  "mainImage": "/images/plants/aegopodium-podagraria/_Aegopodium podagraria leaves.JPG",
+  "images": [
+    "/images/plants/aegopodium-podagraria/_Aegopodium podagraria leaves.JPG",
+    "/images/plants/aegopodium-podagraria/Aegopodium podagraria 1.jpg",
+    "/images/plants/aegopodium-podagraria/Aegopodium podagraria 2.jpg",
+    "/images/plants/aegopodium-podagraria/Aegopodium podagraria 3.jpg",
+    "/images/plants/aegopodium-podagraria/Aegopodium podagraria 5.jpg",
+    "/images/plants/aegopodium-podagraria/Aegopodium podagraria leaves detail.JPG",
+    "/images/plants/aegopodium-podagraria/Aegopodium podagraria plant 2.JPG",
+    "/images/plants/aegopodium-podagraria/Aegopodium podagraria plant.JPG"
+  ],
+  "hardinessZones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "base": {
+    "scientificName": "Aegopodium podagraria",
+    "commonName": "Ground elder",
+    "commonNameNl": "Zevenblad",
+    "family": "Apiaceae",
+    "type": [
+      "ground cover",
+      "herbaceous perennial"
+    ],
+    "application": [
+      "pet safe"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "half shade",
+      "shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "tolerates wind exposure",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 30,
+    "heightInclFlowers": 80,
+    "climbingHeight": null,
+    "width": null,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      6,
+      7,
+      8
+    ],
+    "floweringColour": [
+      "white"
+    ],
+    "shape": [
+      "umbel, pseudanthium (incl. globose)"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "texture": [
+      "smooth"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitColour": [],
+    "fruitType": [],
+    "edible": [
+      "edible raw"
+    ],
+    "ediblePartsRaw": [
+      "edible leaves",
+      "edible young shoots"
+    ]
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "invasive roots (macho)"
+  ],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge"
+    ],
+    "nativeTo": "Europe and western Asia",
+    "nativeRange": [
+      "native species",
+      "native (BE)"
+    ],
+    "successionalStage": [
+      "intermediate species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "30-40 cm",
+    "plantDensity": "6-8/m²",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Vigorous, spreading ground cover with bright green, three-lobed leaves and flat umbels of small white flowers from June to August. Thrives in half shade to shade on moist, nutrient-rich soil and quickly forms a dense carpet under trees and shrubs. Spreads very aggressively by underground rhizomes and is extremely hard to remove once established, so use it only where it can be contained, for example between solid edges. Young leaves and shoots are edible and taste somewhat like parsley or carrot. Visited by bees, hoverflies and other insects.",
+    "noteNL": "Krachtige, uitlopende bodembedekker met helder groen, driedelig blad en platte schermen van kleine witte bloemen van juni tot augustus. Gedijt in halfschaduw tot schaduw op vochtige, voedselrijke grond en vormt snel een dicht tapijt onder bomen en struiken. Verspreidt zich zeer agressief via ondergrondse wortelstokken en is eenmaal gevestigd extreem moeilijk te verwijderen, gebruik hem dus alleen waar hij kan worden ingeperkt, bijvoorbeeld tussen vaste randen. Jonge bladeren en scheuten zijn eetbaar en smaken ongeveer naar peterselie of wortel. Bezocht door bijen, zweefvliegen en andere insecten."
+  }
+}

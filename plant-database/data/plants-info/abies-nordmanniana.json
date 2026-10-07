@@ -1,0 +1,170 @@
+{
+  "id": "abies-nordmanniana",
+  "mainImage": "/images/plants/abies-nordmanniana/Abies nordmanniana 1.jpg",
+  "images": [
+    "/images/plants/abies-nordmanniana/Abies nordmanniana 1.jpg",
+    "/images/plants/abies-nordmanniana/Abies nordmanniana 2.jpg",
+    "/images/plants/abies-nordmanniana/Abies nordmanniana 3.jpg",
+    "/images/plants/abies-nordmanniana/Abies nordmanniana leaves 2.JPG",
+    "/images/plants/abies-nordmanniana/Abies nordmanniana leaves.JPG"
+  ],
+  "hardinessZones": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Abies nordmanniana",
+    "commonName": "Nordmann fir",
+    "commonNameNl": "Nordmannspar",
+    "family": "Pinaceae",
+    "type": [
+      "tree",
+      "conifer"
+    ],
+    "application": [
+      "bonsai",
+      "hedge plant",
+      "oriental garden"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained",
+      "well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "tolerates wind exposure"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 5000,
+    "heightInclFlowers": 5000,
+    "climbingHeight": null,
+    "width": 1500,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [],
+    "floweringColour": [],
+    "shape": [],
+    "orientation": [],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [
+      "evergreen"
+    ],
+    "texture": [
+      "glossy",
+      "thick"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey",
+      "brown"
+    ],
+    "barkTexture": [
+      "smooth",
+      "fissured"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      9,
+      10
+    ],
+    "fruitColour": [
+      "brown"
+    ],
+    "fruitType": [
+      "cones"
+    ],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "allergenic",
+    "pest sensitive (outdoor)"
+  ],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge",
+      "alpine"
+    ],
+    "nativeTo": "Caucasus and northern Turkey",
+    "nativeRange": [
+      "native species"
+    ],
+    "successionalStage": [
+      "climax species"
+    ],
+    "valueToAnimals": [
+      "value to birds (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "A large, long-lived evergreen fir with a naturally symmetrical, dense conical crown and soft, glossy dark-green needles. It is widely grown as a Christmas tree because the needles are attractive and tend to remain on the branches well after cutting. It prefers a cool, moist but well-drained soil and performs best in full sun to light shade. Given enough space, it eventually becomes a very large tree and is therefore better suited to parks, large gardens and spacious landscapes than small gardens.",
+    "noteNL": "Een grote, langlevende groenblijvende zilverspar met een van nature symmetrische, dichte kegelvormige kroon en zachte, glanzende donkergroene naalden. Hij wordt veel gekweekt als kerstboom omdat de naalden aantrekkelijk zijn en na het kappen relatief lang aan de takken blijven. Hij verkiest een koele, vochtige maar goed doorlatende bodem en groeit het best in volle zon tot lichte schaduw. Met voldoende ruimte wordt hij uiteindelijk een zeer grote boom en is hij daarom eerder geschikt voor parken, grote tuinen en ruime landschappen dan voor kleine tuinen."
+  }
+}

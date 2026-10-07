@@ -1,0 +1,164 @@
+{
+  "id": "acanthus-mollis",
+  "mainImage": "/images/plants/acanthus-mollis/Acanthus mollis 1.jpg",
+  "images": [
+    "/images/plants/acanthus-mollis/Acanthus mollis 1.jpg",
+    "/images/plants/acanthus-mollis/Acanthus mollis 2.jpg",
+    "/images/plants/acanthus-mollis/Acanthus mollis 3.jpg"
+  ],
+  "hardinessZones": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "base": {
+    "scientificName": "Acanthus mollis",
+    "commonName": "Bear's breeches",
+    "commonNameNl": "Zachte acant",
+    "family": "Acanthaceae",
+    "type": [
+      "herbaceous perennial"
+    ],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade",
+      "shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained",
+      "well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient rich",
+      "nutrient poor"
+    ],
+    "extremes": [
+      "needs to be windsheltered"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 90,
+    "heightInclFlowers": 150,
+    "climbingHeight": null,
+    "width": 100,
+    "largeLeaves": [
+      "large leaves (+50cm)"
+    ]
+  },
+  "flowers": {
+    "floweringMonths": [
+      6,
+      7,
+      8
+    ],
+    "floweringColour": [
+      "white",
+      "purple"
+    ],
+    "shape": [
+      "campanulate, calyx, trumpet, cup"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [
+      "semi-evergreen"
+    ],
+    "texture": [
+      "glossy",
+      "thick"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitColour": [],
+    "fruitType": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "skin irritant"
+  ],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge",
+      "shrubland"
+    ],
+    "nativeTo": "Southern Europe and the Mediterranean",
+    "nativeRange": [
+      "native species"
+    ],
+    "successionalStage": [
+      "intermediate species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "60-100 cm",
+    "plantDensity": "1-3/m²",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "A bold architectural perennial valued for its large, deeply lobed leaves and tall flower spikes. The white to purple flowers appear in summer and are particularly striking in naturalistic, woodland-edge and sheltered garden plantings. It prefers fertile, reasonably moist soil but can tolerate a range of soil types once established. In mild conditions the foliage can remain partly evergreen, while colder winters may cause it to die back. Give it enough space, as the large leaves form a substantial clump over time.",
+    "noteNL": "Een opvallende, architecturale vaste plant die gewaardeerd wordt om zijn grote, diep ingesneden bladeren en hoge bloeistengels. De witte tot paarse bloemen verschijnen in de zomer en komen bijzonder mooi tot hun recht in natuurlijke beplantingen, aan bosranden en op beschutte plaatsen in de tuin. Hij verkiest een vruchtbare, redelijk vochtige bodem maar verdraagt verschillende grondsoorten zodra hij goed gevestigd is. In milde omstandigheden kan het blad gedeeltelijk wintergroen blijven, terwijl het bij koudere winters kan afsterven. Geef hem voldoende ruimte, want de grote bladeren vormen na verloop van tijd een flinke pol."
+  }
+}

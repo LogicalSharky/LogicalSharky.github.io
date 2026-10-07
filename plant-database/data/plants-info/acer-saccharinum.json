@@ -1,0 +1,179 @@
+{
+  "id": "acer-saccharinum",
+  "mainImage": "/images/plants/acer-saccharinum/Acer saccharinum 1.jpg",
+  "images": [
+    "/images/plants/acer-saccharinum/Acer saccharinum 1.jpg",
+    "/images/plants/acer-saccharinum/Acer saccharinum 2.jpg",
+    "/images/plants/acer-saccharinum/Acer saccharinum 3.jpg",
+    "/images/plants/acer-saccharinum/Acer saccharinum 4.jpg",
+    "/images/plants/acer-saccharinum/Acer saccharinum 5.jpg",
+    "/images/plants/acer-saccharinum/Acer saccharinum 6.jpg"
+  ],
+  "hardinessZones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "base": {
+    "scientificName": "Acer saccharinum",
+    "commonName": "Silver maple",
+    "commonNameNl": "Zilveresdoorn",
+    "family": "Sapindaceae",
+    "type": [
+      "tree"
+    ],
+    "application": [
+      "pet safe"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "poorly drained",
+      "moist but well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "tolerates brief flooding",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 2500,
+    "heightInclFlowers": 2500,
+    "climbingHeight": null,
+    "width": 2000,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      2,
+      3
+    ],
+    "floweringColour": [
+      "red"
+    ],
+    "shape": [
+      "umbel, pseudanthium (incl. globose)"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "leafColour": [
+      "green",
+      "grey"
+    ],
+    "autumnMonths": [
+      10,
+      11
+    ],
+    "autumnColour": [
+      "yellow"
+    ],
+    "evergreen": [],
+    "texture": [
+      "delicate"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "open"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey"
+    ],
+    "barkTexture": [
+      "plated"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      5,
+      6
+    ],
+    "fruitColour": [
+      "green",
+      "brown"
+    ],
+    "fruitType": [
+      "samara"
+    ],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "allergenic",
+    "invasive roots (macho)"
+  ],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "riverbank",
+      "wetland"
+    ],
+    "nativeTo": "Eastern North America",
+    "nativeRange": [
+      "native species"
+    ],
+    "successionalStage": [
+      "pioneer species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)",
+      "value to birds (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Very fast-growing tree with an open, airy crown and deeply cut leaves that are green above and silvery white beneath, which shimmer in the wind. Red flower clusters appear in February to March, before the leaves, and are one of the earliest nectar and pollen sources for bees. Tolerates wet and periodically flooded soil well. The wood is brittle and prone to storm damage, and the shallow, aggressive roots can damage paving, drains and foundations. Needs plenty of space.",
+    "noteNL": "Zeer snelgroeiende boom met een open, luchtige kroon en diep ingesneden blad dat boven groen en onder zilverwit is en in de wind glinstert. De rode bloemtrossen verschijnen in februari-maart vóór het blad en zijn een van de vroegste nectar- en stuifmeelbronnen voor bijen. Verdraagt natte en tijdelijk overstroomde grond goed. Het hout is broos en breekt gemakkelijk bij storm, en de ondiepe, agressieve wortels kunnen verharding, riolering en funderingen beschadigen. Heeft veel ruimte nodig."
+  }
+}

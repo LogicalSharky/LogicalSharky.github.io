@@ -1,0 +1,157 @@
+{
+  "id": "achillea-'coronation-gold'",
+  "mainImage": "/images/plants/achillea-'coronation-gold'/Achillea 'Coronation Gold' 1.jpg",
+  "images": [
+    "/images/plants/achillea-'coronation-gold'/Achillea 'Coronation Gold' 1.jpg",
+    "/images/plants/achillea-'coronation-gold'/Achillea 'Coronation Gold' 2.jpg",
+    "/images/plants/achillea-'coronation-gold'/Achillea 'Coronation Gold' 3.jpg",
+    "/images/plants/achillea-'coronation-gold'/Achillea 'Coronation Gold' 4.jpg"
+  ],
+  "hardinessZones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "base": {
+    "scientificName": "Achillea 'Coronation Gold'",
+    "commonName": "Yarrow 'Coronation Gold'",
+    "commonNameNl": "Duizendblad",
+    "family": "Asteraceae",
+    "type": [
+      "herbaceous perennial"
+    ],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun"
+    ],
+    "soil": [
+      "loam",
+      "sandy loam",
+      "sand"
+    ],
+    "moisture": [
+      "well drained"
+    ],
+    "ph": [
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient poor"
+    ],
+    "extremes": [
+      "coastal area",
+      "tolerates wind exposure",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 60,
+    "heightInclFlowers": 90,
+    "climbingHeight": null,
+    "width": 60,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "floweringColour": [
+      "yellow"
+    ],
+    "shape": [
+      "umbel, pseudanthium (incl. globose)"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": [
+      "cut flowers"
+    ]
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "leafColour": [
+      "grey",
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "texture": [
+      "delicate"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "open"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitColour": [],
+    "fruitType": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "skin irritant"
+  ],
+  "ecology": {
+    "habitat": [
+      "grassland",
+      "rocky slopes"
+    ],
+    "nativeTo": "Parent species native to the Caucasus and Western Asia",
+    "nativeRange": [
+      "cultivar or hybrid"
+    ],
+    "successionalStage": [],
+    "valueToAnimals": [
+      "value to bees (BE)",
+      "value to butterflies (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "40-50 cm",
+    "plantDensity": "4-5/m²",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": "Achillea filipendulina × Achillea clypeata"
+  },
+  "discription": {
+    "note": "Sturdy yarrow with flat, golden-yellow flower heads on stiff, upright stems above finely cut, silvery grey-green, aromatic leaves. Flowers from June to September and is excellent as a cut or dried flower. Thrives in sun and dry, lean, well-drained soil, and is drought tolerant once established. Rich or wet soil makes it floppy and prone to mildew. Very attractive to bees, hoverflies and butterflies. Cut back after flowering to encourage a second bloom.",
+    "noteNL": "Stevig duizendblad met platte, goudgele bloemschermen op stijve, rechtopstaande stelen boven fijn ingesneden, zilvergrijsgroen, aromatisch blad. Bloeit van juni tot september en is een uitstekende snij- en droogbloem. Gedijt in volle zon en droge, schrale, goed gedraineerde grond en is droogtetolerant eens gevestigd. Rijke of natte grond maakt de plant slap en gevoelig voor meeldauw. Zeer aantrekkelijk voor bijen, zweefvliegen en vlinders. Na de bloei terugsnoeien voor een tweede bloei."
+  }
+}

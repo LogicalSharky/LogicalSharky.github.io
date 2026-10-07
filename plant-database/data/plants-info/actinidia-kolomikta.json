@@ -1,0 +1,181 @@
+{
+  "id": "actinidia-kolomikta",
+  "mainImage": "/images/plants/actinidia-kolomikta/Actinidia kolomikta 1.jpg",
+  "images": [
+    "/images/plants/actinidia-kolomikta/Actinidia kolomikta 1.jpg",
+    "/images/plants/actinidia-kolomikta/Actinidia kolomikta 2.jpg",
+    "/images/plants/actinidia-kolomikta/Actinidia kolomikta 3.jpg",
+    "/images/plants/actinidia-kolomikta/Actinidia kolomikta 4.jpg",
+    "/images/plants/actinidia-kolomikta/Actinidia kolomikta 5.jpg",
+    "/images/plants/actinidia-kolomikta/Actinidia kolomikta 6.jpg"
+  ],
+  "hardinessZones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Actinidia kolomikta",
+    "commonName": "Kolomikta vine",
+    "commonNameNl": "Sierkiwi",
+    "family": "Actinidiaceae",
+    "type": [
+      "climbing plant"
+    ],
+    "application": [
+      "pet safe"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "needs to be windsheltered",
+      "vertical green & roof garden",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": null,
+    "heightInclFlowers": null,
+    "climbingHeight": 500,
+    "width": null,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      5,
+      6
+    ],
+    "floweringColour": [
+      "white"
+    ],
+    "shape": [
+      "campanulate, calyx, trumpet, cup"
+    ],
+    "orientation": [
+      "pendant"
+    ],
+    "other": [
+      "fragrant flowers"
+    ]
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "leafColour": [
+      "green",
+      "white",
+      "pink"
+    ],
+    "autumnMonths": [
+      10
+    ],
+    "autumnColour": [
+      "yellow"
+    ],
+    "evergreen": [],
+    "texture": [
+      "smooth"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "brown"
+    ],
+    "barkTexture": [
+      "fibrous"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      9,
+      10
+    ],
+    "fruitColour": [
+      "green"
+    ],
+    "fruitType": [
+      "berries"
+    ],
+    "edible": [
+      "edible raw"
+    ],
+    "ediblePartsRaw": [
+      "edible fruit"
+    ]
+  },
+  "variegation": {
+    "variegated": [
+      "variegated"
+    ],
+    "variegationColour": [
+      "pink",
+      "white"
+    ],
+    "variegationType": [
+      "sectoral"
+    ]
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge"
+    ],
+    "nativeTo": "Eastern Asia (Japan, Korea, China, Russian Far East)",
+    "nativeRange": [
+      "native species"
+    ],
+    "successionalStage": [],
+    "valueToAnimals": [
+      "value to bees (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Ornamental, twining deciduous climber with heart-shaped green leaves whose tips are splashed with white and pink, giving a painted look from late spring. Small, fragrant white flowers appear in May and June, followed on female plants by small, smooth-skinned, edible green fruits in September. The hardiest of the kiwis. Needs a sturdy support such as a pergola, wall wires or trellis, and a sheltered spot in sun to light shade with moist, humus-rich, well-drained soil. The colouring is strongest on male plants and in sunny positions, and only develops once the plant is a few years old.",
+    "noteNL": "Sierlijke, windende bladverliezende klimmer met hartvormig groen blad waarvan de toppen wit en roze gevlekt zijn, wat vanaf het late voorjaar een beschilderd effect geeft. Kleine, geurende witte bloemen in mei en juni, gevolgd door kleine, gladde, eetbare groene vruchtjes op vrouwelijke planten in september. De winterhardste van de kiwi's. Heeft een stevige steun nodig, zoals een pergola, draden tegen een muur of een latwerk, en een beschutte plek in zon tot halfschaduw met vochtige, humusrijke, goed gedraineerde grond. De kleuring is het sterkst bij mannelijke planten en op zonnige plaatsen en ontwikkelt zich pas als de plant enkele jaren oud is."
+  }
+}

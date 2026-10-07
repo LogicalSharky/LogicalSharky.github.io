@@ -1,0 +1,159 @@
+{
+  "id": "aconitum-napellus",
+  "mainImage": "/images/plants/aconitum-napellus/Aconitum napellus 1.jpg",
+  "images": [
+    "/images/plants/aconitum-napellus/Aconitum napellus 1.jpg",
+    "/images/plants/aconitum-napellus/Aconitum napellus 2.jpg",
+    "/images/plants/aconitum-napellus/Aconitum napellus 3.jpg",
+    "/images/plants/aconitum-napellus/Aconitum napellus leaves.JPG"
+  ],
+  "hardinessZones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Aconitum napellus",
+    "commonName": "Monkshood",
+    "commonNameNl": "Gewone monnikskap",
+    "family": "Ranunculaceae",
+    "type": [
+      "herbaceous perennial"
+    ],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "needs to be windsheltered",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 80,
+    "heightInclFlowers": 150,
+    "climbingHeight": null,
+    "width": 40,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      7,
+      8,
+      9
+    ],
+    "floweringColour": [
+      "blue",
+      "purple"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle",
+      "zygomorphic"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": [
+      "cut flowers"
+    ]
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "texture": [
+      "glossy"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "open"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitColour": [],
+    "fruitType": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "toxic",
+    "skin irritant"
+  ],
+  "ecology": {
+    "habitat": [
+      "forest edge",
+      "riverbank",
+      "grassland"
+    ],
+    "nativeTo": "Western and Central Europe",
+    "nativeRange": [
+      "native species",
+      "native (BE)"
+    ],
+    "successionalStage": [
+      "intermediate species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "40-50 cm",
+    "plantDensity": "4-5/m²",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Stately perennial with tall, upright spikes of hooded, deep blue-violet flowers from July to September above glossy, deeply cut dark green leaves. Prefers moist, humus-rich soil in sun or light shade and is best sheltered from wind. Long-tongued bumblebees are the main pollinators. All parts of the plant are highly poisonous, and the sap can irritate the skin, so wear gloves when handling and keep it away from children and animals.",
+    "noteNL": "Statige vaste plant met hoge, rechtopstaande aren van kapvormige, diepblauwpaarse bloemen van juli tot september boven glanzend, diep ingesneden donkergroen blad. Houdt van vochtige, humusrijke grond in zon of lichte schaduw en staat het best beschut tegen wind. Langtongige hommels zijn de belangrijkste bestuivers. Alle delen van de plant zijn zeer giftig en het sap kan de huid irriteren, draag dus handschoenen bij het werken en houd de plant uit de buurt van kinderen en dieren."
+  }
+}

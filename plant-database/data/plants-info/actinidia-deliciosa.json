@@ -1,0 +1,166 @@
+{
+  "id": "actinidia-deliciosa",
+  "mainImage": "/images/plants/actinidia-deliciosa/Actinidia deliciosa 1.jpg",
+  "images": [
+    "/images/plants/actinidia-deliciosa/Actinidia deliciosa 1.jpg",
+    "/images/plants/actinidia-deliciosa/Actinidia deliciosa 2.jpg",
+    "/images/plants/actinidia-deliciosa/Actinidia deliciosa 3.jpg"
+  ],
+  "hardinessZones": [
+    7,
+    8,
+    9
+  ],
+  "base": {
+    "scientificName": "Actinidia deliciosa",
+    "commonName": "Kiwi",
+    "commonNameNl": "Kiwi",
+    "family": "Actinidiaceae",
+    "type": [
+      "climbing plant"
+    ],
+    "application": [
+      "pet safe"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun"
+    ],
+    "soil": [
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "needs to be windsheltered",
+      "vertical green & roof garden",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": null,
+    "heightInclFlowers": null,
+    "climbingHeight": 800,
+    "width": null,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      5,
+      6
+    ],
+    "floweringColour": [
+      "white",
+      "yellow"
+    ],
+    "shape": [
+      "campanulate, calyx, trumpet, cup"
+    ],
+    "orientation": [
+      "pendant"
+    ],
+    "other": [
+      "fragrant flowers"
+    ]
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [
+      10
+    ],
+    "autumnColour": [
+      "yellow"
+    ],
+    "evergreen": [],
+    "texture": [
+      "velvet"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "brown"
+    ],
+    "barkTexture": [
+      "fibrous"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      10,
+      11
+    ],
+    "fruitColour": [
+      "brown"
+    ],
+    "fruitType": [
+      "berries"
+    ],
+    "edible": [
+      "edible raw"
+    ],
+    "ediblePartsRaw": [
+      "edible fruit"
+    ]
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge"
+    ],
+    "nativeTo": "Southern and Central China",
+    "nativeRange": [
+      "native species"
+    ],
+    "successionalStage": [],
+    "valueToAnimals": [
+      "value to bees (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Vigorous, twining deciduous climber with large, rounded, velvety dark green leaves and creamy white flowers that age to yellow in May and June. Produces the familiar brown, hairy kiwi fruits, which ripen late (October to November) and need a long, warm summer. Needs a sturdy support such as a pergola or wires and a warm, sheltered, sunny spot with moist, humus-rich, well-drained soil. Young shoots are frost sensitive, so a spot against a south-facing wall is ideal. Plants are male or female, so a male is needed nearby for fruit, unless a self-fertile cultivar is chosen.",
+    "noteNL": "Krachtige, windende bladverliezende klimmer met grote, ronde, fluweelzachte donkergroene bladeren en roomwitte bloemen die geel verkleuren in mei en juni. Draagt de bekende bruine, behaarde kiwi's, die laat rijpen (oktober tot november) en een lange, warme zomer nodig hebben. Heeft een stevige steun nodig, zoals een pergola of draden, en een warme, beschutte, zonnige plek met vochtige, humusrijke, goed gedraineerde grond. Jonge scheuten zijn vorstgevoelig, een plek tegen een zuidmuur is ideaal. De planten zijn mannelijk of vrouwelijk, dus voor vruchten is een mannelijke plant in de buurt nodig, tenzij een zelfbestuivende cultivar wordt gekozen."
+  }
+}

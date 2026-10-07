@@ -1,0 +1,171 @@
+{
+  "id": "acer-palmatum-'atropurpureum'",
+  "mainImage": "/images/plants/acer-palmatum-'atropurpureum'/Acer palmatum 'Atropurpureum' 1.jpg",
+  "images": [
+    "/images/plants/acer-palmatum-'atropurpureum'/Acer palmatum 'Atropurpureum' 1.jpg",
+    "/images/plants/acer-palmatum-'atropurpureum'/Acer palmatum 'Atropurpureum' 2.jpg",
+    "/images/plants/acer-palmatum-'atropurpureum'/Acer palmatum 'Atropurpureum' 3.jpg",
+    "/images/plants/acer-palmatum-'atropurpureum'/Acer palmatum 'Atropurpureum' 4.jpg",
+    "/images/plants/acer-palmatum-'atropurpureum'/Acer palmatum 'Atropurpureum' retake.JPG"
+  ],
+  "hardinessZones": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Acer palmatum 'Atropurpureum'",
+    "commonName": "Red Japanese maple",
+    "commonNameNl": "Japanse esdoorn",
+    "family": "Sapindaceae",
+    "type": [
+      "tree",
+      "arborescent shrub"
+    ],
+    "application": [
+      "bonsai",
+      "oriental garden",
+      "pet safe"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "needs to be windsheltered"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 600,
+    "heightInclFlowers": 600,
+    "climbingHeight": null,
+    "width": 500,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      4,
+      5
+    ],
+    "floweringColour": [
+      "red",
+      "purple"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle"
+    ],
+    "orientation": [
+      "pendant"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "leafColour": [
+      "red"
+    ],
+    "autumnMonths": [
+      10,
+      11
+    ],
+    "autumnColour": [
+      "red",
+      "orange"
+    ],
+    "evergreen": [],
+    "texture": [
+      "delicate"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "open"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey",
+      "brown"
+    ],
+    "barkTexture": [
+      "smooth"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      8,
+      9,
+      10
+    ],
+    "fruitColour": [
+      "red",
+      "brown"
+    ],
+    "fruitType": [
+      "samara"
+    ],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge"
+    ],
+    "nativeTo": "Japan",
+    "nativeRange": [
+      "cultivar or hybrid"
+    ],
+    "successionalStage": [],
+    "valueToAnimals": [
+      "value to bees (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": "Cultivar of Acer palmatum"
+  },
+  "discription": {
+    "note": "Purple-red foliage that tends to turn bronze-green in summer heat and red in autumn. Best in a sheltered spot with some afternoon shade, as it is prone to leaf scorch and drought stress. Can suffer from Verticillium wilt.",
+    "noteNL": "Paarsrood blad dat in de zomer bronsgroen kan verkleuren en in de herfst rood kleurt. Houdt van een beschutte plek met wat middagschaduw, want het blad verbrandt snel bij droogte en wind. Gevoelig voor verticillium."
+  }
+}

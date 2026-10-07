@@ -1,0 +1,167 @@
+{
+  "id": "abies-koreana",
+  "mainImage": "/images/plants/abies-koreana/Abies koreana 1.jpg",
+  "images": [
+    "/images/plants/abies-koreana/Abies koreana 1.jpg",
+    "/images/plants/abies-koreana/Abies koreana 2.jpg"
+  ],
+  "hardinessZones": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "base": {
+    "scientificName": "Abies koreana",
+    "commonName": "Korean fir",
+    "commonNameNl": "Koreaanse zilverspar",
+    "family": "Pinaceae",
+    "type": [
+      "tree",
+      "conifer"
+    ],
+    "application": [
+      "bonsai",
+      "oriental garden"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "loam",
+      "sandy loam",
+      "sand"
+    ],
+    "moisture": [
+      "moist but well drained",
+      "well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "needs to be windsheltered"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 1500,
+    "heightInclFlowers": 1500,
+    "climbingHeight": null,
+    "width": 500,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [],
+    "floweringColour": [],
+    "shape": [],
+    "orientation": [],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "leafColour": [
+      "green",
+      "grey"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [
+      "evergreen"
+    ],
+    "texture": [
+      "smooth",
+      "delicate"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey",
+      "brown"
+    ],
+    "barkTexture": [
+      "smooth",
+      "fissured"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      8,
+      9,
+      10
+    ],
+    "fruitColour": [
+      "purple",
+      "brown"
+    ],
+    "fruitType": [
+      "cones"
+    ],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "pest sensitive (outdoor)"
+  ],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "alpine",
+      "rocky slopes"
+    ],
+    "nativeTo": "South Korea, including Jeju Island",
+    "nativeRange": [
+      "native species"
+    ],
+    "successionalStage": [
+      "climax species"
+    ],
+    "valueToAnimals": [
+      "value to birds (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Compact evergreen fir with a naturally conical habit. Notable for its blue-green needles and prominent upright cones, which can appear on relatively young trees. Prefers a cool, moist, well-drained site protected from drying winds.",
+    "noteNL": "Compacte groenblijvende zilverspar met een natuurlijk kegelvormige groeiwijze. Opvallend zijn de blauwgroene naalden en de rechtopstaande kegels, die al bij relatief jonge bomen kunnen verschijnen. Geeft de voorkeur aan een koele, vochtige, goed doorlatende standplaats die beschut is tegen uitdrogende wind."
+  }
+}

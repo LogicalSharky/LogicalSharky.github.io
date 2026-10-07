@@ -1,0 +1,145 @@
+{
+  "id": "adenia-perrieri",
+  "mainImage": "/images/plants/adenia-perrieri/Adenia perrieri 1.jpg",
+  "images": [
+    "/images/plants/adenia-perrieri/Adenia perrieri 1.jpg"
+  ],
+  "hardinessZones": [
+    10,
+    11,
+    12
+  ],
+  "base": {
+    "scientificName": "Adenia perrieri",
+    "commonName": "Perrier's adenia",
+    "commonNameNl": "Adenia",
+    "family": "Passifloraceae",
+    "type": [
+      "succulent",
+      "climbing plant"
+    ],
+    "application": [
+      "house plant"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "sandy loam",
+      "sand"
+    ],
+    "moisture": [
+      "well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient poor"
+    ],
+    "extremes": [],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": null,
+    "heightInclFlowers": null,
+    "climbingHeight": 300,
+    "width": null,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      6,
+      7,
+      8
+    ],
+    "floweringColour": [
+      "green",
+      "yellow"
+    ],
+    "shape": [
+      "actinomorphic"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "texture": [
+      "smooth"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "open"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey",
+      "green"
+    ],
+    "barkTexture": [
+      "smooth"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitColour": [],
+    "fruitType": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "toxic"
+  ],
+  "ecology": {
+    "habitat": [
+      "arid land",
+      "shrubland"
+    ],
+    "nativeTo": "Madagascar",
+    "nativeRange": [
+      "native species"
+    ],
+    "successionalStage": [],
+    "valueToAnimals": []
+  },
+  "practical": {
+    "spacing": "",
+    "plantDensity": "",
+    "rarity": [
+      "rare (BE)"
+    ],
+    "obtainability": [],
+    "parentage": ""
+  },
+  "discription": {
+    "note": "Caudex-forming succulent climber from Madagascar with a swollen, grey-green base from which thin, twining stems with small, lobed green leaves grow. Keep it in a bright, warm spot in very free-draining mineral soil, and water only in the growing season. Let it dry out completely between waterings and keep it nearly dry during winter dormancy, when it may drop its leaves. Tendrils need a thin support such as wires or a small trellis. Rarely flowers in cultivation. The plant contains toxic compounds, so keep it away from children and pets.",
+    "noteNL": "Succulente klimmer uit Madagaskar die een gezwollen, grijsgroene caudex vormt waaruit dunne, windende stengels met kleine, gelobde groene bladeren groeien. Houdt van een lichte, warme plek in zeer goed doorlatende, minerale grond en wordt alleen in het groeiseizoen water gegeven. Laat de grond tussen twee gietbeurten volledig opdrogen en houd de plant tijdens de winterrust bijna droog, dan kan hij zijn bladeren laten vallen. De ranken hebben een dunne steun nodig, zoals draden of een klein latwerk. Bloeit zelden in huis. De plant bevat giftige stoffen, dus uit de buurt van kinderen en huisdieren houden."
+  }
+}

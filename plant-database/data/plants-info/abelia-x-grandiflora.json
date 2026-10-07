@@ -1,0 +1,160 @@
+{
+  "id": "abelia-x-grandiflora",
+  "mainImage": "/images/plants/abelia-x-grandiflora/Abelia x grandiflora 1.jpg",
+  "images": [
+    "/images/plants/abelia-x-grandiflora/Abelia x grandiflora 1.jpg",
+    "/images/plants/abelia-x-grandiflora/Abelia x grandiflora 2.jpg"
+  ],
+  "hardinessZones": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "base": {
+    "scientificName": "Abelia x grandiflora",
+    "commonName": "Glossy abelia",
+    "commonNameNl": "Abelia",
+    "family": "Caprifoliaceae",
+    "type": [
+      "large shrub"
+    ],
+    "application": [
+      "hedge plant",
+      "pet safe"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "loam",
+      "sandy loam",
+      "clay",
+      "sand"
+    ],
+    "moisture": [
+      "moist but well drained",
+      "well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient rich",
+      "nutrient poor"
+    ],
+    "extremes": [],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 200,
+    "heightInclFlowers": 200,
+    "climbingHeight": null,
+    "width": 200,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "floweringColour": [
+      "white",
+      "pink"
+    ],
+    "shape": [
+      "campanulate, calyx, trumpet, cup"
+    ],
+    "orientation": [],
+    "other": [
+      "fragrant flowers"
+    ]
+  },
+  "leaves": {
+    "leafMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [
+      "semi-evergreen"
+    ],
+    "texture": [
+      "glossy"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "brown"
+    ],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitColour": [],
+    "fruitType": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "shrubland",
+      "forest edge"
+    ],
+    "nativeTo": "Garden hybrid (parents native to China)",
+    "nativeRange": [
+      "cultivar or hybrid"
+    ],
+    "successionalStage": [],
+    "valueToAnimals": [
+      "value to bees (BE)",
+      "value to butterflies (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "100-150 cm",
+    "plantDensity": "0.4-1/m²",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": "Abelia chinensis × Abelia uniflora"
+  },
+  "discription": {
+    "note": "A versatile, long-flowering shrub that is especially useful for hedges and informal borders. Its fragrant flowers appear from summer into autumn and are attractive to bees and butterflies. In mild climates it remains semi-evergreen, while colder winters can cause more leaf drop. It performs best in a sunny to lightly shaded, well-drained position.",
+    "noteNL": "Een veelzijdige, langbloeiende struik die bijzonder geschikt is voor hagen en losse borders. De geurende bloemen verschijnen van de zomer tot in de herfst en zijn aantrekkelijk voor bijen en vlinders. In milde klimaten blijft hij halfwintergroen, terwijl koudere winters voor meer bladverlies kunnen zorgen. Hij groeit het best op een zonnige tot licht beschaduwde, goed doorlatende standplaats."
+  }
+}

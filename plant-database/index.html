@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio Monstera plant database</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <button id="menuBtn" aria-label="Toggle filters">☰</button>
+    <a class="logo" href="#">STUDIO MONSTERA</a>
+    <div class="right">
+      <select id="lang" aria-label="Language"><option>EN</option><option>NL</option></select>
+      <a class="contact" href="#">Contact</a>
+    </div>
+  </header>
+  <nav id="tabs"></nav>
+<aside id="side">
+  <input id="search" type="search" placeholder="Search name or family" aria-label="Search">
+  <div id="count"></div>
+  <label id="selectAllWrap" class="v">
+    <input type="checkbox" id="selectAll" title="Select all">
+    <span data-k="Select all">Select all</span>
+  </label>
+  <div id="zone"></div>
+  <div id="filters"></div>
+</aside>
+<div id="menuOverlay"></div>
+
+  <main>
+  <div id="grid"></div>
+  <div id="loadMore"></div>
+</main>
+  <div id="selBox">
+    <div id="selPanel" hidden>
+      <ul id="selList"></ul>
+      <div id="selActs">
+        <button data-a="txt" data-k="Download txt">Download txt</button>
+        <button data-a="txti" data-k="Download txt with info">Download txt with info</button>
+        <button data-a="pdf" data-k="Download pdf">Download pdf</button>
+        <button data-a="pdfi" data-k="Download pdf with info">Download pdf with info</button>
+      </div>
+    </div>
+    <button id="selBtn"></button>
+  </div>
+  <div id="pop" class="pop" role="dialog" aria-modal="true"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>

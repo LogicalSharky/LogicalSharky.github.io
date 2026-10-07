@@ -1,0 +1,39 @@
+TOOL MANUAL
+--------------------------------------------------------------
+
+cd "%USERPROFILE%\Desktop\Libruary\Studio Monstera website\website code\plant-database\tools"
+
+--------------------------------------------------------------
+
+1. Rename / fix existing folders that are dragged and dropped into the new ones.
+
+node rename-folders.js
+
+--------------------------------------------------------------
+
+2. create the json base info files for all plants excl. existing ones.
+
+node create-plant-json.js
+
+--------------------------------------------------------------
+
+3. Update the master index list
+
+node update-plant-index.js
+
+--------------------------------------------------------------
+
+4. Update the images in the json files before updating the master index list.
+
+node update-images.js
+
+--------------------------------------------------------------
+
+5. Updating the image list for which images I already have and which are missing still.
+
+npm install exceljs
+
+cd "%USERPROFILE%\Desktop\Libruary\Studio Monstera website"
+node update-plant-image-list.js
+
+

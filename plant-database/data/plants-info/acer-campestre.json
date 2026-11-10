@@ -20,7 +20,7 @@
     7,
     8
   ],
-  "base": {
+  "use": {
     "scientificName": "Acer campestre",
     "commonName": "Field maple",
     "commonNameNl": "Veldesdoorn",
@@ -78,6 +78,9 @@
       4,
       5
     ],
+    "floweringSeason": [
+      "spring (4-5)"
+    ],
     "floweringColour": [
       "green"
     ],
@@ -134,6 +137,10 @@
       9,
       10
     ],
+    "fruitingSeason": [
+      "late summer (9)",
+      "autumn (10-11)"
+    ],
     "fruitColour": [
       "green",
       "brown"
@@ -153,8 +160,7 @@
   "ecology": {
     "habitat": [
       "woodland",
-      "forest edge",
-      "shrubland"
+      "forest edge"
     ],
     "nativeTo": "Europe and western Asia",
     "nativeRange": [

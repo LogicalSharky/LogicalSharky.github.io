@@ -15,7 +15,7 @@
     7,
     8
   ],
-  "base": {
+  "use": {
     "scientificName": "Acer platanoides",
     "commonName": "Norway maple",
     "commonNameNl": "Noorse esdoorn",
@@ -66,6 +66,9 @@
     "floweringMonths": [
       4,
       5
+    ],
+    "floweringSeason": [
+      "spring (4-5)"
     ],
     "floweringColour": [
       "yellow",
@@ -123,6 +126,11 @@
       8,
       9,
       10
+    ],
+    "fruitingSeason": [
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "fruitColour": [
       "green",

@@ -13,14 +13,13 @@
     7,
     8
   ],
-  "base": {
+  "use": {
     "scientificName": "Acer palmatum 'Dissectum'",
     "commonName": "Laceleaf Japanese maple",
     "commonNameNl": "Snijbladige Japanse esdoorn",
     "family": "Sapindaceae",
     "type": [
-      "large shrub",
-      "arborescent shrub"
+      "shrub"
     ],
     "application": [
       "bonsai",
@@ -62,6 +61,9 @@
     "floweringMonths": [
       4,
       5
+    ],
+    "floweringSeason": [
+      "spring (4-5)"
     ],
     "floweringColour": [
       "red"
@@ -118,6 +120,11 @@
       8,
       9,
       10
+    ],
+    "fruitingSeason": [
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "fruitColour": [
       "red",

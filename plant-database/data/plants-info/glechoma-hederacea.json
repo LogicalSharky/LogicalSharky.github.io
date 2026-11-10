@@ -1,8 +1,16 @@
 {
   "id": "glechoma-hederacea",
-  "mainImage": "/images/plants/glechoma-hederacea/Glechoma hederacea 1.jpg",
+  "mainImage": "/images/plants/glechoma-hederacea/_Glechoma hederacea leaves (2).JPG",
   "images": [
-    "/images/plants/glechoma-hederacea/Glechoma hederacea 1.jpg"
+    "/images/plants/glechoma-hederacea/_Glechoma hederacea leaves (2).JPG",
+    "/images/plants/glechoma-hederacea/Glechoma hederacea flowers (2).JPG",
+    "/images/plants/glechoma-hederacea/Glechoma hederacea flowers.JPG",
+    "/images/plants/glechoma-hederacea/Glechoma hederacea habitus (2).JPG",
+    "/images/plants/glechoma-hederacea/Glechoma hederacea habitus (3).JPG",
+    "/images/plants/glechoma-hederacea/Glechoma hederacea habitus.JPG",
+    "/images/plants/glechoma-hederacea/Glechoma hederacea leaves.JPG",
+    "/images/plants/glechoma-hederacea/Glechoma hederacea plant.JPG",
+    "/images/plants/glechoma-hederacea/Glechoma hederacea winter.JPG"
   ],
   "hardinessZones": [
     1,
@@ -19,8 +27,8 @@
     12,
     13
   ],
-  "base": {
-    "scientificName": "Glechoma Hederacea",
+  "use": {
+    "scientificName": "Glechoma hederacea",
     "commonName": "",
     "commonNameNl": "",
     "family": "",
@@ -28,9 +36,7 @@
       "tree",
       "conifer",
       "palm tree",
-      "arborescent shrub",
-      "large shrub",
-      "small shrub",
+      "shrub",
       "bamboo",
       "climbing plant",
       "herbaceous perennial",
@@ -134,6 +140,15 @@
       "green",
       "brown",
       "black"
+    ],
+    "floweringSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "shape": [
       "umbel, pseudanthium (incl. globose)",
@@ -252,6 +267,13 @@
       11,
       12
     ],
+    "fruitType": [
+      "fleshy fruit",
+      "berries",
+      "nuts",
+      "cones",
+      "samara"
+    ],
     "fruitColour": [
       "white/grey",
       "yellow",
@@ -264,12 +286,14 @@
       "brown",
       "black"
     ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
+    "fruitingSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "edible": [
       "edible raw"

@@ -1,12 +1,20 @@
 {
   "id": "metasequoia-glyptostroboides",
-  "mainImage": "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides 1.jpg",
+  "mainImage": "/images/plants/metasequoia-glyptostroboides/_Metasequoia glyptostroboides plant (2).jpg",
   "images": [
+    "/images/plants/metasequoia-glyptostroboides/_Metasequoia glyptostroboides plant (2).jpg",
+    "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides  bark.JPG",
+    "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides  canopy.JPG",
+    "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides  leaves (2).JPG",
+    "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides  leaves (3).JPG",
+    "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides  leaves.JPG",
+    "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides  winter.JPG",
     "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides 1.jpg",
-    "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides 2.jpg",
     "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides 3.jpg",
-    "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides 4.jpg",
-    "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides 5.jpg"
+    "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides 5.jpg",
+    "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides bark.JPG",
+    "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides plant (3).JPG",
+    "/images/plants/metasequoia-glyptostroboides/Metasequoia glyptostroboides plant.JPG"
   ],
   "hardinessZones": [
     1,
@@ -23,8 +31,8 @@
     12,
     13
   ],
-  "base": {
-    "scientificName": "Metasequoia Glyptostroboides",
+  "use": {
+    "scientificName": "Metasequoia glyptostroboides",
     "commonName": "",
     "commonNameNl": "",
     "family": "",
@@ -32,9 +40,7 @@
       "tree",
       "conifer",
       "palm tree",
-      "arborescent shrub",
-      "large shrub",
-      "small shrub",
+      "shrub",
       "bamboo",
       "climbing plant",
       "herbaceous perennial",
@@ -138,6 +144,15 @@
       "green",
       "brown",
       "black"
+    ],
+    "floweringSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "shape": [
       "umbel, pseudanthium (incl. globose)",
@@ -256,6 +271,13 @@
       11,
       12
     ],
+    "fruitType": [
+      "fleshy fruit",
+      "berries",
+      "nuts",
+      "cones",
+      "samara"
+    ],
     "fruitColour": [
       "white/grey",
       "yellow",
@@ -268,12 +290,14 @@
       "brown",
       "black"
     ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
+    "fruitingSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "edible": [
       "edible raw"

@@ -3,7 +3,11 @@
   "mainImage": "/images/plants/hydrangea-quercifolia/Hydrangea quercifolia 1.jpg",
   "images": [
     "/images/plants/hydrangea-quercifolia/Hydrangea quercifolia 1.jpg",
-    "/images/plants/hydrangea-quercifolia/Hydrangea quercifolia 2.jpg"
+    "/images/plants/hydrangea-quercifolia/Hydrangea quercifolia 2.jpg",
+    "/images/plants/hydrangea-quercifolia/Hydrangea quercifolia early flower.JPG",
+    "/images/plants/hydrangea-quercifolia/Hydrangea quercifolia leaf underside.JPG",
+    "/images/plants/hydrangea-quercifolia/Hydrangea quercifolia leaves.JPG",
+    "/images/plants/hydrangea-quercifolia/Hydrangea quercifolia plant.JPG"
   ],
   "hardinessZones": [
     1,
@@ -20,8 +24,8 @@
     12,
     13
   ],
-  "base": {
-    "scientificName": "Hydrangea Quercifolia",
+  "use": {
+    "scientificName": "Hydrangea quercifolia",
     "commonName": "",
     "commonNameNl": "",
     "family": "",
@@ -29,9 +33,7 @@
       "tree",
       "conifer",
       "palm tree",
-      "arborescent shrub",
-      "large shrub",
-      "small shrub",
+      "shrub",
       "bamboo",
       "climbing plant",
       "herbaceous perennial",
@@ -135,6 +137,15 @@
       "green",
       "brown",
       "black"
+    ],
+    "floweringSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "shape": [
       "umbel, pseudanthium (incl. globose)",
@@ -253,6 +264,13 @@
       11,
       12
     ],
+    "fruitType": [
+      "fleshy fruit",
+      "berries",
+      "nuts",
+      "cones",
+      "samara"
+    ],
     "fruitColour": [
       "white/grey",
       "yellow",
@@ -265,12 +283,14 @@
       "brown",
       "black"
     ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
+    "fruitingSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "edible": [
       "edible raw"

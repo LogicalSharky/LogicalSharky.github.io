@@ -14,7 +14,7 @@
     7,
     8
   ],
-  "base": {
+  "use": {
     "scientificName": "Abies concolor",
     "commonName": "White fir",
     "commonNameNl": "Colorado-zilverspar",
@@ -112,6 +112,11 @@
       8,
       9,
       10
+    ],
+    "fruitingSeason": [
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "fruitColour": [
       "green",

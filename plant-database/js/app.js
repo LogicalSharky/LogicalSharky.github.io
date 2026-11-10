@@ -5,7 +5,7 @@ const SEASONS = ['winter', 'early spring', 'spring', 'early summer', 'summer', '
 const DEFAULT_ZONE = '8';
 let lang = 'en', NL = { t: {} };
 const tr = s => (lang === 'nl' && NL.t[s]) || s;
-const cn = p => (lang === 'nl' && p.base.commonNameNl) || p.base.commonName;
+const cn = p => (lang === 'nl' && p.use.commonNameNl) || p.use.commonName;
 
 let plants = [];
 let sel = {}, chosen = new Set(); 
@@ -19,7 +19,7 @@ const fmt = c => (c < 100 ? c + ' cm' : c / 100 + ' m');
 function vals(p, id) {
   if (id === 'zones') return p.hardinessZones;
   const [a, b] = id.split('.');
-  return b ? p[a][b] : p[a];
+  return b ? p[a]?.[b] : p[a];
 }
 
 function buildDefs(t) {
@@ -29,8 +29,6 @@ function buildDefs(t) {
       for (const [key, v] of Object.entries(obj)) {
         if (v === null) { ranges.push({ id: `${sec}.${key}`, sec: label(sec), label: label(key) }); rng[`${sec}.${key}`] = { lo: 0, hi: LAST }; }
         if (Array.isArray(v) && typeof v[0] === 'string') defs.push({ id: `${sec}.${key}`, sec: label(sec), key, label: label(key), values: v });
-        if (key === 'floweringMonths') defs.push({ id: `${sec}.floweringSeasons`, sec: label(sec), key, label: 'Flowering season', values: SEASONS });
-        if (key === 'fruitingMonths') defs.push({ id: `${sec}.fruitingSeasons`, sec: label(sec), key, label: 'Fruiting season', values: SEASONS });
       }
     }
   }
@@ -78,7 +76,7 @@ function onToggle(e) {
 function searchOk(p) {
   const q = $('#search').value.toLowerCase().trim();
   if (!q) return true;
-  const hay = [p.base.scientificName, p.base.commonName, p.base.commonNameNl, p.base.family].join(' ').toLowerCase();
+  const hay = [p.use.scientificName, p.use.commonName, p.use.commonNameNl, p.use.family].join(' ').toLowerCase();
   return q.split(',').every(t => {
     t = t.trim();
     if (!t) return true;
@@ -109,7 +107,7 @@ function render(reset = true) {
     list = plants
       .filter(p => chosen.has(p.id))
       .sort((a, b) =>
-        a.base.scientificName.localeCompare(b.base.scientificName)
+        a.use.scientificName.localeCompare(b.use.scientificName)
       );
   } else {
     list = plants.filter(matches);
@@ -130,8 +128,8 @@ function render(reset = true) {
   $('#grid').insertAdjacentHTML(
     'beforeend',
     next.map(p =>
-      `<article class="card" data-id="${esc(p.id)}"><label class="pick"><input type="checkbox" data-pick="${esc(p.id)}"${chosen.has(p.id) ? ' checked' : ''}></label><img loading="lazy" decoding="async" src="${esc(encodeURI(p.mainImage))}" alt="${esc(p.base.scientificName)}" onerror="this.style.visibility='hidden'">` +
-      `<div><h3>${esc(p.base.scientificName)}</h3><p>${esc(cn(p))}</p><small>${tr('Zone')} ${esc(p.hardinessZones.join(', '))}</small></div></article>`
+      `<article class="card" data-id="${esc(p.id)}"><label class="pick"><input type="checkbox" data-pick="${esc(p.id)}"${chosen.has(p.id) ? ' checked' : ''}></label><img loading="lazy" decoding="async" src="${esc(encodeURI(p.mainImage))}" alt="${esc(p.use.scientificName)}" onerror="this.style.visibility='hidden'">` +
+      `<div><h3>${esc(p.use.scientificName)}</h3><p>${esc(cn(p))}</p><small>${tr('Zone')} ${esc(p.hardinessZones.join(', '))}</small></div></article>`
     ).join('')
   );
 
@@ -192,7 +190,7 @@ function setupLoadMoreObserver() {
 async function init() {
   const [t, idx, nl] = await Promise.all(['data/plant-template.json', 'data/plants-index.json', 'data/nl.json'].map(u => fetch(u).then(r => r.json())));
   NL = nl;
-  plants = idx.sort((a, b) => a.base.scientificName.localeCompare(b.base.scientificName));
+  plants = idx.sort((a, b) => a.use.scientificName.localeCompare(b.use.scientificName));
   buildDefs(t);
   tabs = [newState()]; curTab = 0;
   sel = tabs[0].sel; rng = tabs[0].rng; chosen = tabs[0].chosen;
@@ -259,7 +257,7 @@ const DIAG = {
 };
 
 const GROUPS = [
-  ['🌿', '#3d6b4f', 'Type and use', ['base.type', 'base.application']],
+  ['🌿', '#3d6b4f', 'Use', ['use.type', 'use.application']],
   ['☀️', '#c8923a', 'Site conditions', ['siteConditions.sunlight', 'siteConditions.soil', 'siteConditions.moisture', 'siteConditions.ph', 'siteConditions.nutrients', 'siteConditions.extremes', 'siteConditions.humidity']],
   ['📏', '#5a7fa8', 'Size', ['size.heightExclFlowers', 'size.heightInclFlowers', 'size.climbingHeight', 'size.width']],
   ['🌸', '#b8607f', 'Flowers', ['@flowers', 'flowers.other']],
@@ -272,9 +270,15 @@ const GROUPS = [
   ['💡', '#7a6845', 'Discription', ['discription.note']],
 ];
 
+const SOFT = {
+  white: '#f6f3ec', yellow: '#f1d98f', orange: '#eab582', red: '#d9877f',
+  pink: '#ecb4c7', purple: '#b8a2cf', blue: '#9dbcdc', green: '#9ccaa3',
+  brown: '#b89d86', black: '#8c928e', grey: '#c5cac6', gray: '#c5cac6',
+  cream: '#f3e9c6', silver: '#d2d6d4', multicoloured: '#cdb9d8'
+};
 const css = c => {
   c = String(c || '').split(/[\/,]/)[0].trim().toLowerCase();
-  return CSS.supports('color', c) ? c : '#999';
+  return SOFT[c] || (CSS.supports('color', c) ? c : '#c5cac6');
 };
 
 const txt = v =>
@@ -288,9 +292,10 @@ const txt = v =>
 
 function fieldText(p, f) {
   if (f === 'discription.note') {
+    const d = p.discription || {};
     return lang === 'nl'
-      ? (p.discription.noteNL || p.discription.note || '')
-      : (p.discription.note || '');
+      ? (d.noteNL || d.note || '')
+      : (d.note || '');
   }
 
   return txt(vals(p, f));
@@ -369,7 +374,7 @@ function diag(p, k) {
 
       return `<i style="${
         on
-          ? `background:${fill(isA ? aCol : col)};border-color:#0005`
+          ? `background:${fill(isA ? aCol : col)};border-color:#0002`
           : ''
       }">${m}</i>`;
     }).join('')
@@ -400,14 +405,14 @@ function infoHtml(p) {
   }).join('');
 
   const more =
-    `<a class="more" href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(p.base.scientificName)}" target="_blank" rel="noopener">${tr('More images')}</a>`;
+    `<a class="more" href="https://www.google.com/search?tbm=isch&q=${encodeURIComponent(p.use.scientificName)}" target="_blank" rel="noopener">${tr('More images')}</a>`;
 
   return `
-    <h2>${esc(p.base.scientificName)}</h2>
+    <h2>${esc(p.use.scientificName)}</h2>
     <h3>${esc(cn(p))}</h3>
-    <p class="fam">${esc(p.base.family)} · ${tr('Zone')} ${esc(p.hardinessZones.join(', '))}</p>
+    <p class="fam">${esc(p.use.family)} · ${tr('Zone')} ${esc(p.hardinessZones.join(', '))}</p>
     <div class="ginfo">${groups}</div>
-    <p class="disclaimer">${tr('Info generated by AI and double-checked by a human, but please be aware there could be mistakes.')}</p>
+    <p class="disclaimer">${tr('AI was used, be aware of potential mistakes')}</p>
     ${more}
   `;
 }
@@ -449,7 +454,7 @@ function draw() {
         `</div>` +
 
         `<div class="bigw">` +
-          `<img class="big" src="${src(picked)}" alt="${esc(p.base.scientificName)}">` +
+          `<img class="big" src="${src(picked)}" alt="${esc(p.use.scientificName)}">` +
           `<label class="pick tl">` +
             `<input type="checkbox" data-pick="${esc(p.id)}"${chosen.has(p.id) ? ' checked' : ''}>` +
           `</label>` +
@@ -599,8 +604,15 @@ function syncMenu() {
   Object.keys(rng).forEach(rangeOut);
 }
 
+function closeSelectionView() {
+  selectionView = false;
+  $('#selPanel').hidden = true;
+  $('#selList').hidden = false;
+}
+
 function loadTab() {
   const t = tabs[curTab];
+  closeSelectionView();
   sel = t.sel; rng = t.rng; chosen = t.chosen;
   $('#search').value = t.search;
   closePop(); syncMenu(); drawTabs(); drawSel(); render();
@@ -783,7 +795,7 @@ const picks = () =>
     .map(byId)
     .filter(Boolean)
     .sort((a, b) =>
-      a.base.scientificName.localeCompare(b.base.scientificName)
+      a.use.scientificName.localeCompare(b.use.scientificName)
     );
 
 function drawSel() {
@@ -794,7 +806,7 @@ function drawSel() {
   $('#selList').innerHTML =
     picks()
       .map(p =>
-        `<li><span>${esc(p.base.scientificName)}</span><button data-unpick="${esc(p.id)}" aria-label="Remove">×</button></li>`
+        `<li><span>${esc(p.use.scientificName)}</span><button data-unpick="${esc(p.id)}" aria-label="Remove">×</button></li>`
       )
       .join('') ||
     `<li class="empty">${esc(tr('No plants selected yet'))}</li>`;
@@ -884,11 +896,12 @@ $('#selBtn').addEventListener('click', () => {
 /* ---------- Downloads ---------- */
 const MN = { en: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], nl: ['jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'] };
 const mtxt = ms => ms.map(m => MN[lang][m - 1]).join(', ');
-const head = p => `${p.base.scientificName} - ${cn(p)}`;
+const head = p => `${p.use.scientificName} - ${cn(p)}`;
 function periods(p, k) {
-  return { '@flowers': [p.flowers.floweringMonths, p.flowers.floweringColour],
-    '@leaves': [p.leaves.leafMonths, p.leaves.leafColour, p.leaves.autumnMonths, p.leaves.autumnColour],
-    '@fruit': [p.fruit.fruitingMonths, p.fruit.fruitColour] }[k];
+  const f = p.flowers || {}, l = p.leaves || {}, r = p.fruit || {};
+  return { '@flowers': [f.floweringMonths || [], f.floweringColour || []],
+    '@leaves': [l.leafMonths || [], l.leafColour || [], l.autumnMonths || [], l.autumnColour || []],
+    '@fruit': [r.fruitingMonths || [], r.fruitColour || []] }[k];
 }
 function infoRows(p) {
   return GROUPS.map(([, colour, title, fields]) => ({ title: tr(title), colour, rows: fields.map(f => {
@@ -932,7 +945,7 @@ async function pdfGrid(list) {
     if (i && !k) doc.addPage();
     const x = M + (k % 3) * (cw + G), y = M + Math.floor(k / 3) * (ch + G), p = list[i], img = await photo(p.mainImage);
     if (img) doc.addImage(img, 'JPEG', x, y, cw, cw); else doc.rect(x, y, cw, cw);
-    doc.setTextColor(30, 42, 34).setFont('helvetica', 'bolditalic').setFontSize(9).text(doc.splitTextToSize(p.base.scientificName, cw).slice(0, 2), x, y + cw + 4.5);
+    doc.setTextColor(30, 42, 34).setFont('helvetica', 'bolditalic').setFontSize(9).text(doc.splitTextToSize(p.use.scientificName, cw).slice(0, 2), x, y + cw + 4.5);
     doc.setFont('helvetica', 'normal').setFontSize(8.5).text(doc.splitTextToSize(cn(p), cw).slice(0, 2), x, y + cw + 12);
   }
   doc.save('plant-selection.pdf');
@@ -944,10 +957,10 @@ async function pdfInfo(list) {
     const p = list[i], img = await photo(p.mainImage);
     if (i) doc.addPage();
     if (img) doc.addImage(img, 'JPEG', 12, 14, 50, 50);
-    const sl = doc.splitTextToSize(p.base.scientificName, 118), ny = 22 + sl.length * 7.5;
+    const sl = doc.splitTextToSize(p.use.scientificName, 118), ny = 22 + sl.length * 7.5;
     doc.setTextColor(...ink).setFont('helvetica', 'bolditalic').setFontSize(18).text(sl, 68, 22);
     doc.setFont('helvetica', 'normal').setFontSize(12).text(cn(p), 68, ny);
-    doc.setFontSize(10).text(p.base.family, 68, ny + 6).text(`${tr('Zone')} ${p.hardinessZones.join(', ')}`, 68, ny + 12);
+    doc.setFontSize(10).text(p.use.family, 68, ny + 6).text(`${tr('Zone')} ${p.hardinessZones.join(', ')}`, 68, ny + 12);
     let y = 72;
     for (const g of infoRows(p)) {
       if (y > 262) { doc.addPage(); y = 14; }
@@ -967,11 +980,14 @@ async function pdfInfo(list) {
 $('#selActs').addEventListener('click', async e => {
   const act = e.target.dataset.a;
   if (!act || !chosen.size) return;
-  const list = picks();
   e.target.disabled = true;
   try {
+    const base = picks();
+    const list = (act === 'txti' || act === 'pdfi')
+      ? await Promise.all(base.map(p => loadPlantDetails(p).catch(() => p)))
+      : base;
     if (act === 'txt') textFile('plant-selection.txt', list.map(head).join('\n'));
-    else if (act === 'txti') textFile('plant-selection-info.txt', list.map(p => [head(p), `${p.base.family} | ${tr('Zone')} ${p.hardinessZones.join(', ')}`, '', ...infoRows(p).flatMap(g => [g.title.toUpperCase(), ...g.rows.map(([l, v]) => `  ${l}: ${v}`), ''])].join('\n')).join('\n' + '='.repeat(40) + '\n\n'));
+    else if (act === 'txti') textFile('plant-selection-info.txt', list.map(p => [head(p), `${p.use.family} | ${tr('Zone')} ${p.hardinessZones.join(', ')}`, '', ...infoRows(p).flatMap(g => [g.title.toUpperCase(), ...g.rows.map(([l, v]) => `  ${l}: ${v}`), ''])].join('\n')).join('\n' + '='.repeat(40) + '\n\n'));
     else if (act === 'pdf') await pdfGrid(list);
     else await pdfInfo(list);
   } catch (err) { alert(err.message); }

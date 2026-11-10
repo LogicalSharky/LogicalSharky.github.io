@@ -1,0 +1,190 @@
+{
+  "id": "aronia-×-prunifolia",
+  "mainImage": "/images/plants/aronia-×-prunifolia/Aronia x prunifolia 1.jpg",
+  "images": [
+    "/images/plants/aronia-×-prunifolia/Aronia x prunifolia 1.jpg",
+    "/images/plants/aronia-×-prunifolia/Aronia x prunifolia 2.jpg",
+    "/images/plants/aronia-×-prunifolia/Aronia x prunifolia 3.jpg"
+  ],
+  "hardinessZones": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "use": {
+    "scientificName": "Aronia × prunifolia",
+    "commonName": "Purple chokeberry",
+    "commonNameNl": "Appelbes",
+    "family": "Rosaceae",
+    "type": [
+      "shrub"
+    ],
+    "application": [
+      "hedge plant"
+    ]
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam",
+      "sand"
+    ],
+    "moisture": [
+      "poorly drained",
+      "moist but well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient rich",
+      "nutrient poor"
+    ],
+    "extremes": [
+      "tolerates brief flooding",
+      "tolerates wind exposure",
+      "wadi",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 250,
+    "heightInclFlowers": 250,
+    "climbingHeight": null,
+    "width": 200,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      5
+    ],
+    "floweringColour": [
+      "white"
+    ],
+    "floweringSeason": [
+      "spring (4-5)"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle",
+      "actinomorphic"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [
+      10,
+      11
+    ],
+    "autumnColour": [
+      "orange",
+      "red"
+    ],
+    "evergreen": [],
+    "texture": [
+      "glossy"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [
+      "grey",
+      "brown"
+    ],
+    "barkTexture": [
+      "smooth"
+    ]
+  },
+  "fruit": {
+    "fruitingMonths": [
+      8,
+      9,
+      10
+    ],
+    "fruitType": [
+      "berries"
+    ],
+    "fruitColour": [
+      "purple",
+      "black"
+    ],
+    "fruitingSeason": [
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
+    ],
+    "edible": [
+      "edible raw"
+    ],
+    "ediblePartsRaw": [
+      "edible fruit"
+    ]
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "forest edge",
+      "shrubland",
+      "wetland"
+    ],
+    "nativeTo": "Eastern North America",
+    "nativeRange": [
+      "cultivar or hybrid"
+    ],
+    "successionalStage": [
+      "intermediate species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)",
+      "value to birds (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "100-150 cm",
+    "plantDensity": "0.5-1 per m²",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": "Natural hybrid of Aronia arbutifolia × Aronia melanocarpa"
+  },
+  "discription": {
+    "note": "A tough, adaptable, suckering shrub with glossy dark green leaves that turn brilliant orange-red in autumn. White flowers in May attract bees, and large purple-black berries ripen from late summer and remain on the plant into winter, feeding birds. The fruit is edible and rich in antioxidants but very astringent when raw, so it is mostly used for juices, jams and syrups. Tolerates wet or dry soil, wind, and poor ground; a good choice for wildlife hedges and mixed borders.",
+    "noteNL": "Een taaie, aanpasbare, uitlopers vormende struik met glanzend donkergroen blad dat in de herfst briljant oranjerood kleurt. Witte bloemen in mei trekken bijen aan en grote paarszwarte bessen rijpen vanaf het late zomer en blijven tot in de winter aan de plant hangen als voedsel voor vogels. De vrucht is eetbaar en rijk aan antioxidanten, maar rauw erg wrang, en wordt daarom vooral gebruikt voor sap, jam en siroop. Verdraagt natte of droge grond, wind en arme bodem; een goede keuze voor wildlifehagen en gemengde borders."
+  }
+}

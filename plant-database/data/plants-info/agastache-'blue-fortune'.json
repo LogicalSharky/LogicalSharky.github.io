@@ -13,7 +13,7 @@
     8,
     9
   ],
-  "base": {
+  "use": {
     "scientificName": "Agastache 'Blue Fortune'",
     "commonName": "Giant hyssop",
     "commonNameNl": "Dropplant",
@@ -64,6 +64,11 @@
       8,
       9,
       10
+    ],
+    "floweringSeason": [
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "floweringColour": [
       "blue",

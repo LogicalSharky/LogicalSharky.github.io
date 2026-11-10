@@ -11,7 +11,7 @@
     8,
     9
   ],
-  "base": {
+  "use": {
     "scientificName": "Actinidia deliciosa",
     "commonName": "Kiwi",
     "commonNameNl": "Kiwi",
@@ -59,6 +59,10 @@
     "floweringMonths": [
       5,
       6
+    ],
+    "floweringSeason": [
+      "spring (4-5)",
+      "early summer (6)"
     ],
     "floweringColour": [
       "white",
@@ -114,6 +118,9 @@
     "fruitingMonths": [
       10,
       11
+    ],
+    "fruitingSeason": [
+      "autumn (10-11)"
     ],
     "fruitColour": [
       "brown"

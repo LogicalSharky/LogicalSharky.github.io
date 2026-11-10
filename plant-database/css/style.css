@@ -179,3 +179,9 @@ main{padding:calc(var(--head) + var(--tabs) + var(--gap)) var(--gap) var(--gap) 
   user-select:none;
   cursor:text;
 }
+
+@media (max-width: 800px) {
+  #tabs { left: 0; }
+  #menuOverlay { z-index: 17; }
+  aside { z-index: 18; }
+}

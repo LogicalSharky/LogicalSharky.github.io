@@ -18,7 +18,7 @@
     8,
     9
   ],
-  "base": {
+  "use": {
     "scientificName": "Acer saccharinum",
     "commonName": "Silver maple",
     "commonNameNl": "Zilveresdoorn",
@@ -68,6 +68,10 @@
     "floweringMonths": [
       2,
       3
+    ],
+    "floweringSeason": [
+      "winter (2-3)",
+      "early spring (3)"
     ],
     "floweringColour": [
       "red"
@@ -123,6 +127,10 @@
     "fruitingMonths": [
       5,
       6
+    ],
+    "fruitingSeason": [
+      "spring (4-5)",
+      "early summer (6)"
     ],
     "fruitColour": [
       "green",

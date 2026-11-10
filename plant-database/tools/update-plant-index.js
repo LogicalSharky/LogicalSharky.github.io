@@ -36,13 +36,10 @@ for (const file of files) {
         const content = fs.readFileSync(filePath, "utf8");
         const plant = JSON.parse(content);
 
-        // ------------------------------------------------------------
-        // Basic values
-        // ------------------------------------------------------------
-
+        
         const id = plant.id || path.basename(file, ".json");
 
-        const base = plant.base || {};
+        const use = plant.use || {};
         const siteConditions = plant.siteConditions || {};
         const size = plant.size || {};
         const flowers = plant.flowers || {};
@@ -53,9 +50,6 @@ for (const file of files) {
         const ecology = plant.ecology || {};
         const practical = plant.practical || {};
 
-        // ------------------------------------------------------------
-        // Create ONLY the fields needed by the index/sorting/filtering
-        // ------------------------------------------------------------
 
         const indexPlant = {
             id: id,
@@ -64,13 +58,13 @@ for (const file of files) {
 
             hardinessZones: getArray(plant.hardinessZones),
 
-            base: {
-                scientificName: base.scientificName || id,
-                commonName: base.commonName || "",
-                commonNameNl: base.commonNameNl || "",
-                family: base.family || "",
-                type: getArray(base.type),
-                application: getArray(base.application)
+            use: {
+                scientificName: use.scientificName || id,
+                commonName: use.commonName || "",
+                commonNameNl: use.commonNameNl || "",
+                family: use.family || "",
+                type: getArray(use.type),
+                application: getArray(use.application)
             },
 
             siteConditions: {
@@ -91,7 +85,7 @@ for (const file of files) {
             },
 
             flowers: {
-                floweringMonths: getArray(flowers.floweringMonths),
+                floweringSeason: getArray(flowers.floweringSeason),
                 floweringColour: getArray(flowers.floweringColour),
                 shape: getArray(flowers.shape),
                 orientation: getArray(flowers.orientation),
@@ -112,7 +106,7 @@ for (const file of files) {
             },
 
             fruit: {
-                fruitingMonths: getArray(fruit.fruitingMonths),
+                fruitingSeason: getArray(fruit.fruitingSeason),
                 fruitColour: getArray(fruit.fruitColour),
                 fruitType: getArray(fruit.fruitType),
                 edible: getArray(fruit.edible),
@@ -150,19 +144,11 @@ for (const file of files) {
     }
 }
 
-// ------------------------------------------------------------
-// Sort by scientific name
-// ------------------------------------------------------------
-
 plants.sort((a, b) =>
-    String(a.base.scientificName || "").localeCompare(
-        String(b.base.scientificName || "")
+    String(a.use.scientificName || "").localeCompare(
+        String(b.use.scientificName || "")
     )
 );
-
-// ------------------------------------------------------------
-// Write master index
-// ------------------------------------------------------------
 
 const output =
     "[\n" +

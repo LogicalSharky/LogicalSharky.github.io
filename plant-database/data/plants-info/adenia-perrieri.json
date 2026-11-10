@@ -9,7 +9,7 @@
     11,
     12
   ],
-  "base": {
+  "use": {
     "scientificName": "Adenia perrieri",
     "commonName": "Perrier's adenia",
     "commonNameNl": "Adenia",
@@ -56,6 +56,10 @@
       6,
       7,
       8
+    ],
+    "floweringSeason": [
+      "early summer (6)",
+      "summer (7-8)"
     ],
     "floweringColour": [
       "green",

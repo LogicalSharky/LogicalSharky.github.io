@@ -20,7 +20,7 @@
     8,
     9
   ],
-  "base": {
+  "use": {
     "scientificName": "Aegopodium podagraria",
     "commonName": "Ground elder",
     "commonNameNl": "Zevenblad",
@@ -71,6 +71,10 @@
       6,
       7,
       8
+    ],
+    "floweringSeason": [
+      "early summer (6)",
+      "summer (7-8)"
     ],
     "floweringColour": [
       "white"

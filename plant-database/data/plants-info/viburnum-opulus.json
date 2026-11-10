@@ -1,11 +1,15 @@
 {
   "id": "viburnum-opulus",
-  "mainImage": "/images/plants/viburnum-opulus/Viburnum opulus 1.jpg",
+  "mainImage": "/images/plants/viburnum-opulus/_Viburnum opulus plant.JPG",
   "images": [
-    "/images/plants/viburnum-opulus/Viburnum opulus 1.jpg",
-    "/images/plants/viburnum-opulus/Viburnum opulus 2.jpg",
+    "/images/plants/viburnum-opulus/_Viburnum opulus plant.JPG",
     "/images/plants/viburnum-opulus/Viburnum opulus 3.jpg",
-    "/images/plants/viburnum-opulus/Viburnum opulus 4.jpg"
+    "/images/plants/viburnum-opulus/Viburnum opulus flowers (2).JPG",
+    "/images/plants/viburnum-opulus/Viburnum opulus flowers.JPG",
+    "/images/plants/viburnum-opulus/Viburnum opulus fruit.JPG",
+    "/images/plants/viburnum-opulus/Viburnum opulus habitus (2).JPG",
+    "/images/plants/viburnum-opulus/Viburnum opulus habitus.JPG",
+    "/images/plants/viburnum-opulus/Viburnum opulus leaves and flowers.JPG"
   ],
   "hardinessZones": [
     1,
@@ -22,8 +26,8 @@
     12,
     13
   ],
-  "base": {
-    "scientificName": "Viburnum Opulus",
+  "use": {
+    "scientificName": "Viburnum opulus",
     "commonName": "",
     "commonNameNl": "",
     "family": "",
@@ -31,9 +35,7 @@
       "tree",
       "conifer",
       "palm tree",
-      "arborescent shrub",
-      "large shrub",
-      "small shrub",
+      "shrub",
       "bamboo",
       "climbing plant",
       "herbaceous perennial",
@@ -137,6 +139,15 @@
       "green",
       "brown",
       "black"
+    ],
+    "floweringSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "shape": [
       "umbel, pseudanthium (incl. globose)",
@@ -255,6 +266,13 @@
       11,
       12
     ],
+    "fruitType": [
+      "fleshy fruit",
+      "berries",
+      "nuts",
+      "cones",
+      "samara"
+    ],
     "fruitColour": [
       "white/grey",
       "yellow",
@@ -267,12 +285,14 @@
       "brown",
       "black"
     ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
+    "fruitingSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "edible": [
       "edible raw"

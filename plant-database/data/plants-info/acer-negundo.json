@@ -17,7 +17,7 @@
     7,
     8
   ],
-  "base": {
+  "use": {
     "scientificName": "Acer negundo",
     "commonName": "Box elder",
     "commonNameNl": "Vederesdoorn",
@@ -70,6 +70,9 @@
     "floweringMonths": [
       4,
       5
+    ],
+    "floweringSeason": [
+      "spring (4-5)"
     ],
     "floweringColour": [
       "green",
@@ -127,6 +130,10 @@
       9,
       10,
       11
+    ],
+    "fruitingSeason": [
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "fruitColour": [
       "green",

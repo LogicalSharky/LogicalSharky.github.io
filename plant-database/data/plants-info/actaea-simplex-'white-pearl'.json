@@ -12,7 +12,7 @@
     7,
     8
   ],
-  "base": {
+  "use": {
     "scientificName": "Actaea simplex 'White Pearl'",
     "commonName": "Bugbane 'White Pearl'",
     "commonNameNl": "Zilverkaars",
@@ -60,6 +60,11 @@
       8,
       9,
       10
+    ],
+    "floweringSeason": [
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "floweringColour": [
       "white"

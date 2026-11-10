@@ -15,7 +15,7 @@
     7,
     8
   ],
-  "base": {
+  "use": {
     "scientificName": "Aconitum napellus",
     "commonName": "Monkshood",
     "commonNameNl": "Gewone monnikskap",
@@ -63,6 +63,10 @@
       7,
       8,
       9
+    ],
+    "floweringSeason": [
+      "summer (7-8)",
+      "late summer (9)"
     ],
     "floweringColour": [
       "blue",

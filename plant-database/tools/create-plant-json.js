@@ -11,15 +11,17 @@ const imageWebPath = "/images/plants";
 
 const imageExtensions = [".jpg", ".jpeg", ".png", ".webp", ".gif", ".avif"];
 
+
 function formatScientificName(name) {
     return name
         .replace(/-/g, " ")
-        .replace(/\b\w/g, char => char.toUpperCase());
+        .toLowerCase()
+        .replace(/^(\s*\S)/, char => char.toUpperCase())
+        .replace(/'([^']+)'/g, (match, text) => {
+            return "'" + text.charAt(0).toUpperCase() + text.slice(1) + "'";
+        });
 }
 
-if (!fs.existsSync(outputDirectory)) {
-    fs.mkdirSync(outputDirectory, { recursive: true });
-}
 
 const plantFolders = fs
     .readdirSync(imagesDirectory, { withFileTypes: true })
@@ -50,7 +52,7 @@ for (const plantFolder of plantFolders) {
 
         hardinessZones: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
 
-        base: {
+        use: {
             scientificName: formatScientificName(plantName),
 
             commonName: "",
@@ -60,9 +62,7 @@ for (const plantFolder of plantFolders) {
                 "tree",
                 "conifer",
                 "palm tree",
-                "arborescent shrub",
-                "large shrub",
-                "small shrub",
+                "shrub",
                 "bamboo",
                 "climbing plant",
                 "herbaceous perennial",
@@ -160,6 +160,15 @@ for (const plantFolder of plantFolders) {
                 "brown",
                 "black"
             ],
+            floweringSeason: [
+                "winter (12-2)",
+                "early spring (3)",
+                "spring (4-5)",
+                "early summer (6)",
+                "summer (7-8)",
+                "late summer (9)",
+                "autumn (10-11)"
+            ],
             shape: [
                 "umbel, pseudanthium (incl. globose)",
                 "campanulate, calyx, trumpet, cup",
@@ -250,6 +259,13 @@ for (const plantFolder of plantFolders) {
                 1, 2, 3, 4, 5, 6,
                 7, 8, 9, 10, 11, 12
             ],
+            fruitType: [
+                "fleshy fruit",
+                "berries",
+                "nuts",
+                "cones",
+                "samara"
+            ],
             fruitColour: [
                 "white/grey",
                 "yellow",
@@ -262,12 +278,14 @@ for (const plantFolder of plantFolders) {
                 "brown",
                 "black"
             ],
-            fruitType: [
-                "fleshy fruit",
-                "berries",
-                "nuts",
-                "cones",
-                "samara"
+            fruitingSeason: [
+                "winter (12-2)",
+                "early spring (3)",
+                "spring (4-5)",
+                "early summer (6)",
+                "summer (7-8)",
+                "late summer (9)",
+                "autumn (10-11)"
             ],
             edible: [
                 "edible raw"

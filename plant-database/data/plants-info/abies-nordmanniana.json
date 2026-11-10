@@ -15,7 +15,7 @@
     7,
     8
   ],
-  "base": {
+  "use": {
     "scientificName": "Abies nordmanniana",
     "commonName": "Nordmann fir",
     "commonNameNl": "Nordmannspar",
@@ -116,6 +116,10 @@
     "fruitingMonths": [
       9,
       10
+    ],
+    "fruitingSeason": [
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "fruitColour": [
       "brown"

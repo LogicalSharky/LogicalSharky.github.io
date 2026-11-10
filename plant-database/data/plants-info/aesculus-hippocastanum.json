@@ -26,7 +26,7 @@
     7,
     8
   ],
-  "base": {
+  "use": {
     "scientificName": "Aesculus hippocastanum",
     "commonName": "Horse chestnut",
     "commonNameNl": "Witte paardenkastanje",
@@ -71,6 +71,9 @@
   "flowers": {
     "floweringMonths": [
       5
+    ],
+    "floweringSeason": [
+      "spring (4-5)"
     ],
     "floweringColour": [
       "white"
@@ -126,6 +129,10 @@
     "fruitingMonths": [
       9,
       10
+    ],
+    "fruitingSeason": [
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "fruitColour": [
       "green",

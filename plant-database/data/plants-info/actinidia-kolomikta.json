@@ -17,7 +17,7 @@
     7,
     8
   ],
-  "base": {
+  "use": {
     "scientificName": "Actinidia kolomikta",
     "commonName": "Kolomikta vine",
     "commonNameNl": "Sierkiwi",
@@ -66,6 +66,10 @@
     "floweringMonths": [
       5,
       6
+    ],
+    "floweringSeason": [
+      "spring (4-5)",
+      "early summer (6)"
     ],
     "floweringColour": [
       "white"
@@ -122,6 +126,10 @@
     "fruitingMonths": [
       9,
       10
+    ],
+    "fruitingSeason": [
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "fruitColour": [
       "green"

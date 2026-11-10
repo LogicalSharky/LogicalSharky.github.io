@@ -1,0 +1,160 @@
+{
+  "id": "aster-×-frikartii-'mönch'",
+  "mainImage": "/images/plants/aster-×-frikartii-'mönch'/Aster x frikartii 'Mönch' 1.jpg",
+  "images": [
+    "/images/plants/aster-×-frikartii-'mönch'/Aster x frikartii 'Mönch' 1.jpg",
+    "/images/plants/aster-×-frikartii-'mönch'/Aster x frikartii 'Mönch' 2.jpg"
+  ],
+  "hardinessZones": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "use": {
+    "scientificName": "Aster × frikartii 'Mönch'",
+    "commonName": "Frikart's aster 'Mönch'",
+    "commonNameNl": "Frikarts aster 'Mönch'",
+    "family": "Asteraceae",
+    "type": [
+      "herbaceous perennial"
+    ],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained",
+      "well drained"
+    ],
+    "ph": [
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 60,
+    "heightInclFlowers": 80,
+    "climbingHeight": null,
+    "width": 50,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "floweringColour": [
+      "blue",
+      "purple"
+    ],
+    "floweringSeason": [
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
+    ],
+    "shape": [
+      "umbel, pseudanthium (incl. globose)",
+      "actinomorphic"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": [
+      "cut flowers"
+    ]
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "texture": [
+      "smooth"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "open"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "grassland",
+      "forest edge"
+    ],
+    "nativeTo": "Garden hybrid raised in Switzerland (parents from Europe and the Himalayas)",
+    "nativeRange": [
+      "cultivar or hybrid"
+    ],
+    "successionalStage": [
+      "support species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)",
+      "value to butterflies (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "40-50 cm",
+    "plantDensity": "4 per m²",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": "Aster amellus × Aster thomsonii"
+  },
+  "discription": {
+    "note": "One of the best asters for the garden, producing a very long display of large, lavender-blue, yellow-centred daisies from July until the first frosts. It is naturally resistant to powdery mildew, stays compact and upright without staking, and makes a good cut flower. Best in full sun and well-drained, fertile soil; avoid waterlogging in winter. Bees and butterflies visit it heavily for late-season nectar. Divide every few years in spring.",
+    "noteNL": "Een van de beste asters voor de tuin, met een zeer lange bloei van grote, lavendelblauwe margrieten met geel hart van juli tot de eerste vorst. Van nature bestand tegen echte meeldauw, blijft compact en rechtop zonder steun en is een goede snijbloem. Het best in volle zon en goed doorlatende, vruchtbare grond; vermijd wateroverlast in de winter. Bijen en vlinders bezoeken de plant veelvuldig voor late nectar. Deel om de paar jaar in het voorjaar."
+  }
+}

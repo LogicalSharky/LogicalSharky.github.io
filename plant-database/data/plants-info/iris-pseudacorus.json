@@ -1,9 +1,20 @@
 {
   "id": "iris-pseudacorus",
-  "mainImage": "/images/plants/iris-pseudacorus/Iris pseudacorus 1.jpg",
+  "mainImage": "/images/plants/iris-pseudacorus/_Iris pseudacorus flowers (2).JPG",
   "images": [
-    "/images/plants/iris-pseudacorus/Iris pseudacorus 1.jpg",
-    "/images/plants/iris-pseudacorus/Iris pseudacorus 2.jpg"
+    "/images/plants/iris-pseudacorus/_Iris pseudacorus flowers (2).JPG",
+    "/images/plants/iris-pseudacorus/Iris pseudacorus flowers (3).JPG",
+    "/images/plants/iris-pseudacorus/Iris pseudacorus flowers.JPG",
+    "/images/plants/iris-pseudacorus/Iris pseudacorus fruit.JPG",
+    "/images/plants/iris-pseudacorus/Iris pseudacorus habitus (2).JPG",
+    "/images/plants/iris-pseudacorus/Iris pseudacorus habitus (3).JPG",
+    "/images/plants/iris-pseudacorus/Iris pseudacorus habitus (4).JPG",
+    "/images/plants/iris-pseudacorus/Iris pseudacorus habitus (5).JPG",
+    "/images/plants/iris-pseudacorus/Iris pseudacorus habitus.JPG",
+    "/images/plants/iris-pseudacorus/Iris pseudacorus leaves.JPG",
+    "/images/plants/iris-pseudacorus/Iris pseudacorus plant.JPG",
+    "/images/plants/iris-pseudacorus/Iris pseudacorus shoots (2).JPG",
+    "/images/plants/iris-pseudacorus/Iris pseudacorus shoots.JPG"
   ],
   "hardinessZones": [
     1,
@@ -20,8 +31,8 @@
     12,
     13
   ],
-  "base": {
-    "scientificName": "Iris Pseudacorus",
+  "use": {
+    "scientificName": "Iris pseudacorus",
     "commonName": "",
     "commonNameNl": "",
     "family": "",
@@ -29,9 +40,7 @@
       "tree",
       "conifer",
       "palm tree",
-      "arborescent shrub",
-      "large shrub",
-      "small shrub",
+      "shrub",
       "bamboo",
       "climbing plant",
       "herbaceous perennial",
@@ -135,6 +144,15 @@
       "green",
       "brown",
       "black"
+    ],
+    "floweringSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "shape": [
       "umbel, pseudanthium (incl. globose)",
@@ -253,6 +271,13 @@
       11,
       12
     ],
+    "fruitType": [
+      "fleshy fruit",
+      "berries",
+      "nuts",
+      "cones",
+      "samara"
+    ],
     "fruitColour": [
       "white/grey",
       "yellow",
@@ -265,12 +290,14 @@
       "brown",
       "black"
     ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
+    "fruitingSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "edible": [
       "edible raw"

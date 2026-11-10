@@ -1,9 +1,8 @@
 {
   "id": "salix-x-sepulcralis-'chrysocoma'",
-  "mainImage": "/images/plants/salix-x-sepulcralis-'chrysocoma'/Salix x sepulcralis 'Chrysocoma' 1.jpg",
+  "mainImage": "/images/plants/salix-x-sepulcralis-'chrysocoma'/_Salix x sepulcralis 'Chrysocoma' plant.JPG",
   "images": [
-    "/images/plants/salix-x-sepulcralis-'chrysocoma'/Salix x sepulcralis 'Chrysocoma' 1.jpg",
-    "/images/plants/salix-x-sepulcralis-'chrysocoma'/Salix x sepulcralis 'Chrysocoma' 2.jpg",
+    "/images/plants/salix-x-sepulcralis-'chrysocoma'/_Salix x sepulcralis 'Chrysocoma' plant.JPG",
     "/images/plants/salix-x-sepulcralis-'chrysocoma'/Salix x sepulcralis 'Chrysocoma' 3.jpg",
     "/images/plants/salix-x-sepulcralis-'chrysocoma'/Salix x sepulcralis 'Chrysocoma' 4.jpg"
   ],
@@ -22,8 +21,8 @@
     12,
     13
   ],
-  "base": {
-    "scientificName": "Salix X Sepulcralis 'Chrysocoma'",
+  "use": {
+    "scientificName": "Salix x sepulcralis 'Chrysocoma'",
     "commonName": "",
     "commonNameNl": "",
     "family": "",
@@ -31,9 +30,7 @@
       "tree",
       "conifer",
       "palm tree",
-      "arborescent shrub",
-      "large shrub",
-      "small shrub",
+      "shrub",
       "bamboo",
       "climbing plant",
       "herbaceous perennial",
@@ -137,6 +134,15 @@
       "green",
       "brown",
       "black"
+    ],
+    "floweringSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "shape": [
       "umbel, pseudanthium (incl. globose)",
@@ -255,6 +261,13 @@
       11,
       12
     ],
+    "fruitType": [
+      "fleshy fruit",
+      "berries",
+      "nuts",
+      "cones",
+      "samara"
+    ],
     "fruitColour": [
       "white/grey",
       "yellow",
@@ -267,12 +280,14 @@
       "brown",
       "black"
     ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
+    "fruitingSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "edible": [
       "edible raw"

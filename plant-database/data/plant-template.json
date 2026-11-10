@@ -3,7 +3,7 @@
   "mainImage": "",
   "images": [],
   "hardinessZones": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
-  "base": {
+  "use": {
     "scientificName": "",
     "commonName": "",
     "commonNameNl": "",
@@ -12,9 +12,7 @@
       "tree",
       "conifer",
       "palm tree",
-      "arborescent shrub",
-      "large shrub",
-      "small shrub",
+      "shrub",
       "bamboo",
       "climbing plant",
       "herbaceous perennial",
@@ -106,6 +104,15 @@
       "brown",
       "black"
     ],
+    "floweringSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
+    ],
     "shape": [
       "umbel, pseudanthium (incl. globose)",
       "campanulate, calyx, trumpet, cup",
@@ -184,6 +191,22 @@
   },
   "fruit": {
     "fruitingMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "fruitType": [
+      "fleshy fruit",
+      "berries",
+      "nuts",
+      "cones",
+      "samara"
+    ],
+    "fruitingSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
+    ],
     "fruitColour": [
       "white/grey",
       "yellow",
@@ -195,13 +218,6 @@
       "green",
       "brown",
       "black"
-    ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
     ],
     "edible": [
       "edible raw"

@@ -1,0 +1,155 @@
+{
+  "id": "calamagrostis-×-acutiflora-'karl-foerster'",
+  "mainImage": "/images/plants/calamagrostis-×-acutiflora-'karl-foerster'/Calamagrostis x acutiflora 'Karl Foerster' 1.jpg",
+  "images": [
+    "/images/plants/calamagrostis-×-acutiflora-'karl-foerster'/Calamagrostis x acutiflora 'Karl Foerster' 1.jpg",
+    "/images/plants/calamagrostis-×-acutiflora-'karl-foerster'/Calamagrostis x acutiflora 'Karl Foerster' 2.jpg"
+  ],
+  "hardinessZones": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "use": {
+    "scientificName": "Calamagrostis × acutiflora 'Karl foerster'",
+    "commonName": "Feather reed grass 'Karl Foerster'",
+    "commonNameNl": "Struisriet 'Karl Foerster'",
+    "family": "Poaceae",
+    "type": [
+      "ornamental grass"
+    ],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "tolerates brief flooding",
+      "tolerates wind exposure",
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 80,
+    "heightInclFlowers": 180,
+    "climbingHeight": null,
+    "width": 60,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      6,
+      7
+    ],
+    "floweringColour": [
+      "pink",
+      "brown"
+    ],
+    "floweringSeason": [
+      "early summer (6)",
+      "summer (7-8)"
+    ],
+    "shape": [
+      "whorl, corymb, spike, raceme, panicle"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [
+      10,
+      11
+    ],
+    "autumnColour": [
+      "yellow"
+    ],
+    "evergreen": [],
+    "texture": [
+      "smooth"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "dense"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [
+      "grassland",
+      "forest edge"
+    ],
+    "nativeTo": "Garden hybrid of two European species",
+    "nativeRange": [
+      "cultivar or hybrid"
+    ],
+    "successionalStage": [],
+    "valueToAnimals": []
+  },
+  "practical": {
+    "spacing": "50-60 cm",
+    "plantDensity": "3-4 per m²",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": "Calamagrostis arundinacea × Calamagrostis epigejos"
+  },
+  "discription": {
+    "note": "A highly popular, strictly upright, sterile hybrid grass forming a neat clump of arching green leaves, from which stiff flower stems rise in June to 1.5-1.8 m, with feathery purple-bronze plumes that fade to buff and stand through winter. It tolerates heavy and wet soils, wind and partial shade, and never needs staking. A key plant in prairie and naturalistic planting. Cut back in late winter before new growth.",
+    "noteNL": "Een zeer populair, strak rechtopstaand, steriel hybride gras dat een nette pol van boogvormige groene bladeren vormt, waaruit in juni stijve bloemstengels tot 1,5-1,8 m oprijzen met veerachtige paarsbronskleurige pluimen die vervagen tot beige en de hele winter blijven staan. Verdraagt zware en natte gronden, wind en halfschaduw, en hoeft nooit opgebonden te worden. Een sleutelplant in prairie- en natuurlijke beplanting. Snoei in het late winter terug vóór de nieuwe groei."
+  }
+}

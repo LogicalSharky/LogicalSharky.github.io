@@ -12,7 +12,7 @@
     8,
     9
   ],
-  "base": {
+  "use": {
     "scientificName": "Acaena microphylla",
     "commonName": "New Zealand burr",
     "commonNameNl": "Kleine stekelnoot",
@@ -65,6 +65,10 @@
     "floweringMonths": [
       6,
       7
+    ],
+    "floweringSeason": [
+      "early summer (6)",
+      "summer (7-8)"
     ],
     "floweringColour": [
       "red"

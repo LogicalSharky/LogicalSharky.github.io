@@ -4,7 +4,9 @@
   "images": [
     "/images/plants/quercus-frainetto/Quercus frainetto 1.jpg",
     "/images/plants/quercus-frainetto/Quercus frainetto 2.jpg",
-    "/images/plants/quercus-frainetto/Quercus frainetto 3.jpg"
+    "/images/plants/quercus-frainetto/Quercus frainetto 3.jpg",
+    "/images/plants/quercus-frainetto/Quercus frainetto bark.JPG",
+    "/images/plants/quercus-frainetto/Quercus frainetto canopy.JPG"
   ],
   "hardinessZones": [
     1,
@@ -21,8 +23,8 @@
     12,
     13
   ],
-  "base": {
-    "scientificName": "Quercus Frainetto",
+  "use": {
+    "scientificName": "Quercus frainetto",
     "commonName": "",
     "commonNameNl": "",
     "family": "",
@@ -30,9 +32,7 @@
       "tree",
       "conifer",
       "palm tree",
-      "arborescent shrub",
-      "large shrub",
-      "small shrub",
+      "shrub",
       "bamboo",
       "climbing plant",
       "herbaceous perennial",
@@ -136,6 +136,15 @@
       "green",
       "brown",
       "black"
+    ],
+    "floweringSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "shape": [
       "umbel, pseudanthium (incl. globose)",
@@ -254,6 +263,13 @@
       11,
       12
     ],
+    "fruitType": [
+      "fleshy fruit",
+      "berries",
+      "nuts",
+      "cones",
+      "samara"
+    ],
     "fruitColour": [
       "white/grey",
       "yellow",
@@ -266,12 +282,14 @@
       "brown",
       "black"
     ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
+    "fruitingSeason": [
+      "winter (12-2)",
+      "early spring (3)",
+      "spring (4-5)",
+      "early summer (6)",
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
     ],
     "edible": [
       "edible raw"

@@ -1,0 +1,162 @@
+/* Aanvullende styling voor het fotokeuzescherm; laat css/style.css verder ongemoeid. */
+#selActs button[data-a="pse-single"],
+#selActs button[data-a="pse-elements"] {
+  background: #e7efe5;
+  border-color: var(--leaf, #3d6b4f);
+  color: var(--ink, #1d2a22);
+}
+
+.pse-lock { overflow: hidden; }
+.pse-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: none;
+  flex-direction: column;
+  min-height: 0;
+  background: #f3f6f1;
+  color: var(--ink, #1d2a22);
+  font: 15px/1.4 system-ui, sans-serif;
+}
+.pse-modal.on { display: flex; }
+.pse-head {
+  position: relative;
+  inset: auto;
+  z-index: 1;
+  display: flex;
+  flex: none;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 18px 24px 14px;
+  background: #fff;
+  border-bottom: 1px solid var(--line, #cfd8cd);
+  color: var(--ink, #1d2a22);
+}
+.pse-head h2 { margin: 0; font-size: 1.25rem; }
+.pse-head p { margin: 4px 0 0; color: #5b6b60; }
+.pse-close {
+  flex: none;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--line, #cfd8cd);
+  border-radius: 50%;
+  background: #fff;
+  color: var(--ink, #1d2a22);
+  font-size: 1.7rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.pse-status {
+  flex: none;
+  padding: 8px 24px;
+  background: #e7efe5;
+  border-bottom: 1px solid var(--line, #cfd8cd);
+  color: var(--leaf, #3d6b4f);
+  font-size: .9rem;
+  font-weight: 650;
+}
+.pse-list {
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  padding: 16px 20px 24px;
+}
+.pse-plant {
+  margin: 0 auto 14px;
+  max-width: 1500px;
+  padding: 14px;
+  background: #fff;
+  border: 1px solid var(--line, #cfd8cd);
+  border-radius: 10px;
+}
+.pse-plant-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 6px 16px;
+  margin-bottom: 12px;
+}
+.pse-plant-title strong { font-style: italic; }
+.pse-picked { color: #5b6b60; font-size: .85rem; }
+.pse-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  gap: 12px;
+}
+.pse-photo-option {
+  min-width: 0;
+  padding: 8px;
+  border: 1px solid var(--line, #cfd8cd);
+  border-radius: 8px;
+  background: #fafbf9;
+}
+.pse-photo-option img {
+  display: block;
+  width: 100%;
+  height: 112px;
+  object-fit: cover;
+  background: #d5ddd1;
+  border-radius: 5px;
+}
+.pse-photo-option small {
+  display: block;
+  margin: 5px 0 7px;
+  color: #5b6b60;
+}
+.pse-choice {
+  display: block;
+  width: 100%;
+  min-height: 34px;
+  margin-top: 6px;
+  padding: 6px 8px;
+  border: 1px solid var(--leaf, #3d6b4f);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--leaf, #3d6b4f);
+  font: inherit;
+  font-size: .82rem;
+  cursor: pointer;
+}
+.pse-choice.selected {
+  background: var(--leaf, #3d6b4f);
+  color: #fff;
+  box-shadow: inset 0 0 0 1px #fff;
+}
+.pse-role-buttons { display: grid; gap: 5px; }
+.pse-role-buttons .pse-choice { margin-top: 0; }
+.pse-foot {
+  display: flex;
+  flex: none;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 12px 20px calc(12px + env(safe-area-inset-bottom, 0px));
+  background: #fff;
+  border-top: 1px solid var(--line, #cfd8cd);
+}
+.pse-foot button {
+  min-height: 42px;
+  padding: 9px 18px;
+  border-radius: 22px;
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+.pse-secondary { border: 1px solid var(--line, #cfd8cd); background: #fff; color: var(--ink, #1d2a22); }
+.pse-primary { border: 1px solid var(--leaf, #3d6b4f); background: var(--leaf, #3d6b4f); color: #fff; }
+.pse-primary:disabled { opacity: .42; cursor: not-allowed; }
+.pse-loading, .pse-error { max-width: 760px; margin: 24px auto; padding: 18px; background: #fff; border-radius: 8px; }
+.pse-error { color: #9b3026; border: 1px solid #d8a8a2; }
+
+@media (max-width: 700px) {
+  .pse-head { padding: 14px 14px 12px; }
+  .pse-head h2 { font-size: 1.05rem; }
+  .pse-status { padding: 7px 14px; }
+  .pse-list { padding: 10px; }
+  .pse-plant { padding: 10px; }
+  .pse-photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .pse-photo-option img { height: 95px; }
+  .pse-foot { padding-left: 10px; padding-right: 10px; }
+  .pse-foot button { padding: 8px 13px; font-size: .9rem; }
+}

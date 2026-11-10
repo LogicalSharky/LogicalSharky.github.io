@@ -1,0 +1,160 @@
+{
+  "id": "anemone-×-hybrida-'honorine-jobert'",
+  "mainImage": "/images/plants/anemone-×-hybrida-'honorine-jobert'/Anemone x hybrida 'Honorine Jobert' 1.jpg",
+  "images": [
+    "/images/plants/anemone-×-hybrida-'honorine-jobert'/Anemone x hybrida 'Honorine Jobert' 1.jpg",
+    "/images/plants/anemone-×-hybrida-'honorine-jobert'/Anemone x hybrida 'Honorine Jobert' leaves.JPG"
+  ],
+  "hardinessZones": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "use": {
+    "scientificName": "Anemone × hybrida 'Honorine jobert'",
+    "commonName": "Japanese anemone 'Honorine Jobert'",
+    "commonNameNl": "Herfstanemoon 'Honorine Jobert'",
+    "family": "Ranunculaceae",
+    "type": [
+      "herbaceous perennial"
+    ],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": [
+      "full sun",
+      "half shade"
+    ],
+    "soil": [
+      "clay",
+      "loam",
+      "sandy loam"
+    ],
+    "moisture": [
+      "moist but well drained"
+    ],
+    "ph": [
+      "acidic",
+      "neutral",
+      "alkaline"
+    ],
+    "nutrients": [
+      "nutrient rich"
+    ],
+    "extremes": [
+      "climate adaptive (zone 8 BE)"
+    ],
+    "humidity": ""
+  },
+  "size": {
+    "heightExclFlowers": 60,
+    "heightInclFlowers": 120,
+    "climbingHeight": null,
+    "width": 60,
+    "largeLeaves": []
+  },
+  "flowers": {
+    "floweringMonths": [
+      8,
+      9,
+      10
+    ],
+    "floweringColour": [
+      "white"
+    ],
+    "floweringSeason": [
+      "summer (7-8)",
+      "late summer (9)",
+      "autumn (10-11)"
+    ],
+    "shape": [
+      "campanulate, calyx, trumpet, cup",
+      "actinomorphic"
+    ],
+    "orientation": [
+      "upright"
+    ],
+    "other": [
+      "cut flowers"
+    ]
+  },
+  "leaves": {
+    "leafMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "leafColour": [
+      "green"
+    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "texture": [
+      "smooth"
+    ],
+    "fenestrations": "",
+    "structure": [
+      "open"
+    ]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
+  },
+  "warnings": [
+    "toxic",
+    "skin irritant"
+  ],
+  "ecology": {
+    "habitat": [
+      "woodland",
+      "forest edge"
+    ],
+    "nativeTo": "China (parent species), garden origin in France",
+    "nativeRange": [
+      "cultivar or hybrid"
+    ],
+    "successionalStage": [
+      "support species"
+    ],
+    "valueToAnimals": [
+      "value to bees (BE)"
+    ]
+  },
+  "practical": {
+    "spacing": "50 cm",
+    "plantDensity": "3-4 per m²",
+    "rarity": [
+      "accessible (BE)"
+    ],
+    "obtainability": [
+      "obtainable from BE growers"
+    ],
+    "parentage": "Selection of Anemone × hybrida (A. hupehensis × A. vitifolia); white-flowered seedling found in France in 1858"
+  },
+  "discription": {
+    "note": "A classic late-flowering perennial bearing graceful, single, pure white flowers with a golden centre on tall, wiry stems from late summer into October. It forms a slowly spreading clump of lobed dark green leaves and thrives in humus-rich soil in sun or partial shade, but dislikes drying out. Plant it in spring and be patient, since it takes a couple of years to settle in. Bees visit the flowers. All parts are toxic and the sap may irritate skin.",
+    "noteNL": "Een klassieke laatbloeiende vaste plant met sierlijke, enkele, zuiver witte bloemen met een gouden hart op hoge, rijzige stelen van laat in de zomer tot oktober. Vormt een langzaam uitbreidende pol van gelobd, donkergroen blad en groeit goed in humusrijke grond in zon of halfschaduw, maar houdt niet van uitdrogen. Plant in het voorjaar en heb geduld, want het duurt een paar jaar voor ze goed gevestigd is. Bijen bezoeken de bloemen. Alle delen zijn giftig en het sap kan de huid irriteren."
+  }
+}

@@ -8,61 +8,29 @@
     "/images/plants/ginkgo-biloba/Ginkgo biloba 4.jpg"
   ],
   "hardinessZones": [
-    1,
-    2,
-    3,
     4,
     5,
     6,
     7,
     8,
-    9,
-    10,
-    11,
-    12,
-    13
+    9
   ],
   "use": {
     "scientificName": "Ginkgo biloba",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "Maidenhair tree",
+    "commonNameNl": "Japanse notenboom",
+    "family": "Ginkgoaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "tree"
     ],
     "application": [
       "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
-      "stinzen plants (historic estate plants BE)"
+      "oriental garden"
     ]
   },
   "siteConditions": {
     "sunlight": [
-      "full sun",
-      "half shade",
-      "shade"
+      "full sun"
     ],
     "soil": [
       "clay",
@@ -71,7 +39,6 @@
       "sand"
     ],
     "moisture": [
-      "poorly drained",
       "moist but well drained",
       "well drained"
     ],
@@ -85,87 +52,28 @@
       "nutrient poor"
     ],
     "extremes": [
-      "coastal area",
-      "crevice and wall",
-      "green joints",
       "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
       "climate adaptive (zone 8 BE)"
     ],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 2000,
+    "heightInclFlowers": 2000,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 1000,
+    "largeLeaves": []
   },
   "flowers": {
-    "floweringMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "floweringColour": [
-      "white",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
-    ],
-    "floweringSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
-    ],
-    "shape": [
-      "umbel, pseudanthium (incl. globose)",
-      "campanulate, calyx, trumpet, cup",
-      "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
-      "zygomorphic"
-    ],
-    "orientation": [
-      "upright",
-      "pendant"
-    ],
-    "other": [
-      "cut flowers",
-      "fragrant flowers"
-    ]
+    "floweringMonths": [],
+    "floweringColour": [],
+    "floweringSeason": [],
+    "shape": [],
+    "orientation": [],
+    "other": []
   },
   "leaves": {
     "leafMonths": [
-      1,
-      2,
-      3,
       4,
       5,
       6,
@@ -173,214 +81,78 @@
       8,
       9,
       10,
-      11,
-      12
+      11
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "green"
     ],
     "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
       10,
-      11,
-      12
+      11
     ],
     "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
+      "yellow"
     ],
-    "evergreen": [
-      "evergreen",
-      "semi-evergreen"
-    ],
+    "evergreen": [],
     "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
-      "delicate"
+      "smooth"
     ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "fenestrations": "",
     "structure": [
-      "open",
-      "dense"
+      "open"
     ]
   },
   "stemAndBark": {
     "barkColour": [
-      "white",
       "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
+      "brown"
     ],
     "barkTexture": [
-      "smooth",
-      "peeling",
-      "fissured",
-      "plated",
-      "fibrous",
-      "spiny"
+      "fissured"
     ]
   },
   "fruit": {
     "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
       10,
-      11,
-      12
+      11
     ],
     "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
+      "fleshy fruit"
     ],
     "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
-    ],
-    "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
-    ],
-    "edible": [
-      "edible raw"
-    ],
-    "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
-    ]
-  },
-  "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
       "yellow"
     ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "fruitingSeason": [
+      "autumn (10-11)"
+    ],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "variegation": {
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
   "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
-    "toxic",
     "skin irritant"
   ],
   "ecology": {
     "habitat": [
-      "woodland",
-      "rainforest",
-      "forest edge",
-      "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
-      "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "woodland"
     ],
-    "nativeTo": "",
+    "nativeTo": "Southwestern China",
     "nativeRange": [
       "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "endangered in native country"
     ],
-    "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
-    ],
-    "valueToAnimals": [
-      "value to bees (BE)",
-      "value to butterflies (BE)",
-      "value to birds (BE)"
-    ]
+    "successionalStage": [],
+    "valueToAnimals": []
   },
   "practical": {
-    "spacing": "",
+    "spacing": "600-800 cm",
     "plantDensity": "",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -388,7 +160,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "A 'living fossil', the only surviving species of an ancient group of trees, with unique fan-shaped, two-lobed leaves that turn a clear butter-yellow in autumn and drop almost all at once. Slow-growing at first, it eventually forms a large, often irregular tree. Extremely tough and tolerant of pollution, paving and urban heat, which makes it an excellent street and park tree. Choose male cultivars: the fleshy seeds of female trees smell rancid when they fall, and their coating can irritate the skin.",
+    "noteNL": "Een 'levend fossiel', de enige overgebleven soort van een oeroude groep bomen, met unieke waaiervormige, tweelobbige bladeren die in de herfst helder botergeel kleuren en bijna allemaal tegelijk vallen. Groeit aanvankelijk traag en vormt uiteindelijk een grote, vaak grillige boom. Uiterst sterk en bestand tegen luchtvervuiling, verharding en stedelijke hitte, wat hem een uitstekende straat- en parkboom maakt. Kies mannelijke cultivars: de vlezige zaden van vrouwelijke bomen ruiken ranzig als ze vallen, en hun zaadhuid kan de huid irriteren."
   }
 }

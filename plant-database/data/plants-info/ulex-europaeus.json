@@ -7,156 +7,80 @@
     "/images/plants/ulex-europaeus/Ulex europaeus 3.jpg"
   ],
   "hardinessZones": [
-    1,
-    2,
-    3,
-    4,
-    5,
     6,
     7,
     8,
-    9,
-    10,
-    11,
-    12,
-    13
+    9
   ],
   "use": {
     "scientificName": "Ulex europaeus",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "Gorse",
+    "commonNameNl": "Gaspeldoorn",
+    "family": "Fabaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "shrub"
     ],
     "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
       "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
-      "stinzen plants (historic estate plants BE)"
+      "hedge plant"
     ]
   },
   "siteConditions": {
     "sunlight": [
-      "full sun",
-      "half shade",
-      "shade"
+      "full sun"
     ],
     "soil": [
-      "clay",
-      "loam",
       "sandy loam",
       "sand"
     ],
     "moisture": [
-      "poorly drained",
-      "moist but well drained",
       "well drained"
     ],
     "ph": [
       "acidic",
-      "neutral",
-      "alkaline"
+      "neutral"
     ],
     "nutrients": [
-      "nutrient rich",
       "nutrient poor"
     ],
     "extremes": [
       "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
       "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
       "climate adaptive (zone 8 BE)"
     ],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 200,
+    "heightInclFlowers": 200,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 200,
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
       2,
       3,
       4,
       5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      6
     ],
     "floweringColour": [
-      "white",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "yellow"
     ],
     "floweringSeason": [
       "winter (12-2)",
       "early spring (3)",
       "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "early summer (6)"
     ],
     "shape": [
-      "umbel, pseudanthium (incl. globose)",
-      "campanulate, calyx, trumpet, cup",
-      "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
       "zygomorphic"
     ],
     "orientation": [
-      "upright",
-      "pendant"
+      "upright"
     ],
     "other": [
-      "cut flowers",
       "fragrant flowers"
     ]
   },
@@ -176,210 +100,83 @@
       12
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "green"
     ],
-    "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
-    ],
+    "autumnMonths": [],
+    "autumnColour": [],
     "evergreen": [
-      "evergreen",
-      "semi-evergreen"
+      "evergreen"
     ],
-    "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
-      "delicate"
-    ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "texture": [],
+    "fenestrations": "",
     "structure": [
-      "open",
       "dense"
     ]
   },
   "stemAndBark": {
     "barkColour": [
-      "white",
-      "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
       "green",
-      "yellow",
-      "multicoloured"
+      "brown"
     ],
     "barkTexture": [
-      "smooth",
-      "peeling",
-      "fissured",
-      "plated",
-      "fibrous",
       "spiny"
     ]
   },
   "fruit": {
     "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
       7,
       8,
-      9,
-      10,
-      11,
-      12
+      9
     ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
-    ],
+    "fruitType": [],
     "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "black",
+      "brown"
     ],
     "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
       "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "late summer (9)"
     ],
     "edible": [
       "edible raw"
     ],
     "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
+      "edible flowers"
     ]
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
   "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
-    "toxic",
-    "skin irritant"
+    "toxic"
   ],
   "ecology": {
     "habitat": [
-      "woodland",
-      "rainforest",
-      "forest edge",
       "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
       "dune habitat",
-      "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "forest edge",
+      "grassland"
     ],
-    "nativeTo": "",
+    "nativeTo": "Western Europe (Atlantic coast)",
     "nativeRange": [
       "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "native (BE)"
     ],
     "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
+      "pioneer species"
     ],
     "valueToAnimals": [
       "value to bees (BE)",
-      "value to butterflies (BE)",
       "value to birds (BE)"
     ]
   },
   "practical": {
-    "spacing": "",
-    "plantDensity": "",
+    "spacing": "1 m (hedge 2-3/m)",
+    "plantDensity": "1/m²",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -387,7 +184,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "Dense, very spiny evergreen shrub of heaths and coastal dunes, covered with coconut-scented golden-yellow pea flowers in spring and sporadically almost year-round. Fixes nitrogen and thrives on poor, acidic sand in wind. The flowers are edible; the seeds contain toxic alkaloids. Sensitive to hard frost.",
+    "noteNL": "Dichte, zeer stekelige wintergroene struik van heides en kustduinen, in de lente bedekt met naar kokos geurende goudgele vlinderbloemen en sporadisch bijna het hele jaar. Bindt stikstof en gedijt op arm, zuur zand in de wind. De bloemen zijn eetbaar; de zaden bevatten giftige alkaloïden. Gevoelig voor strenge vorst."
   }
 }

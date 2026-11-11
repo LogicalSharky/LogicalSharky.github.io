@@ -9,70 +9,32 @@
     "/images/plants/diospyros-lotus/Diospyros lotus 5.jpg"
   ],
   "hardinessZones": [
-    1,
-    2,
-    3,
-    4,
-    5,
     6,
     7,
     8,
-    9,
-    10,
-    11,
-    12,
-    13
+    9
   ],
   "use": {
     "scientificName": "Diospyros lotus",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "Date-plum",
+    "commonNameNl": "Dadelpruim",
+    "family": "Ebenaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "tree"
     ],
-    "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
-      "stinzen plants (historic estate plants BE)"
-    ]
+    "application": []
   },
   "siteConditions": {
     "sunlight": [
       "full sun",
-      "half shade",
-      "shade"
+      "half shade"
     ],
     "soil": [
       "clay",
       "loam",
-      "sandy loam",
-      "sand"
+      "sandy loam"
     ],
     "moisture": [
-      "poorly drained",
       "moist but well drained",
       "well drained"
     ],
@@ -86,87 +48,41 @@
       "nutrient poor"
     ],
     "extremes": [
-      "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
       "climate adaptive (zone 8 BE)"
     ],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 800,
+    "heightInclFlowers": 800,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 600,
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
-      2,
-      3,
-      4,
       5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      6
     ],
     "floweringColour": [
-      "white",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
       "green",
-      "brown",
-      "black"
+      "pink"
     ],
     "floweringSeason": [
-      "winter (12-2)",
-      "early spring (3)",
       "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "early summer (6)"
     ],
     "shape": [
-      "umbel, pseudanthium (incl. globose)",
       "campanulate, calyx, trumpet, cup",
-      "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
-      "zygomorphic"
+      "actinomorphic"
     ],
     "orientation": [
-      "upright",
       "pendant"
     ],
-    "other": [
-      "cut flowers",
-      "fragrant flowers"
-    ]
+    "other": []
   },
   "leaves": {
     "leafMonths": [
-      1,
-      2,
-      3,
       4,
       5,
       6,
@@ -174,214 +90,84 @@
       8,
       9,
       10,
-      11,
-      12
+      11
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "green"
     ],
     "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
       10,
-      11,
-      12
+      11
     ],
     "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
+      "yellow"
     ],
-    "evergreen": [
-      "evergreen",
-      "semi-evergreen"
-    ],
+    "evergreen": [],
     "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
-      "delicate"
+      "glossy"
     ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "fenestrations": "",
     "structure": [
-      "open",
       "dense"
     ]
   },
   "stemAndBark": {
     "barkColour": [
-      "white",
       "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
+      "black"
     ],
     "barkTexture": [
-      "smooth",
-      "peeling",
-      "fissured",
-      "plated",
-      "fibrous",
-      "spiny"
+      "plated"
     ]
   },
   "fruit": {
     "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
       10,
-      11,
-      12
+      11
     ],
     "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
+      "fleshy fruit"
     ],
     "fruitColour": [
-      "white/grey",
       "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
       "black"
     ],
     "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
       "autumn (10-11)"
     ],
     "edible": [
       "edible raw"
     ],
     "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
+      "edible fruit"
     ]
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
-  "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
-    "toxic",
-    "skin irritant"
-  ],
+  "warnings": [],
   "ecology": {
     "habitat": [
       "woodland",
-      "rainforest",
-      "forest edge",
-      "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
-      "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "forest edge"
     ],
-    "nativeTo": "",
+    "nativeTo": "Southwestern Asia to China and Korea",
     "nativeRange": [
-      "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "native species"
     ],
-    "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
-    ],
+    "successionalStage": [],
     "valueToAnimals": [
       "value to bees (BE)",
-      "value to butterflies (BE)",
       "value to birds (BE)"
     ]
   },
   "practical": {
-    "spacing": "",
+    "spacing": "500-600 cm",
     "plantDensity": "",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -389,7 +175,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "A hardy, medium-sized relative of the persimmon with glossy, dark green leaves and dark, blocky bark. Small, inconspicuous flowers in late spring are followed on female trees by cherry-sized fruits that ripen from yellow to blue-black and taste like dates once they are fully soft after frost. Male and female flowers grow on separate trees, so plant both for fruit. Tolerant of heat, drought and various soils; often used as rootstock for kaki.",
+    "noteNL": "Een winterharde, middelgrote verwant van de kaki met glanzend donkergroen blad en een donkere, blokvormige schors. Kleine, onopvallende bloemen in het late voorjaar worden bij vrouwelijke bomen gevolgd door kersgrote vruchten die van geel naar blauwzwart rijpen en naar dadels smaken als ze na vorst helemaal zacht zijn. Mannelijke en vrouwelijke bloemen staan op aparte bomen, plant dus beide voor vruchten. Verdraagt hitte, droogte en uiteenlopende grondsoorten; vaak gebruikt als onderstam voor kaki."
   }
 }

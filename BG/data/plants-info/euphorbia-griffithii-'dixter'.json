@@ -1,0 +1,66 @@
+{
+  "id": "euphorbia-griffithii-'dixter'",
+  "mainImage": "/images/plants/euphorbia-griffithii-'dixter'/_Euphorbia griffithii 'Dixter' 1.jpg",
+  "images": [
+    "/images/plants/euphorbia-griffithii-'dixter'/_Euphorbia griffithii 'Dixter' 1.jpg",
+    "/images/plants/euphorbia-griffithii-'dixter'/euphorbia-griffithii-'dixter'-bloem.jpg"
+  ],
+  "hardinessZones": [5, 6, 7, 8],
+  "use": {
+    "scientificName": "Euphorbia griffithii 'Dixter'",
+    "commonName": "Griffith's spurge",
+    "commonNameNl": "Wolfsmelk",
+    "family": "Euphorbiaceae",
+    "type": ["herbaceous perennial"],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": ["full sun", "half shade"],
+    "soil": ["clay", "loam", "sandy loam"],
+    "moisture": ["moist"],
+    "ph": ["neutral"],
+    "extremes": []
+  },
+  "size": {
+    "heightExclFlowers": 80,
+    "heightInclFlowers": 90,
+    "climbingHeight": null,
+    "width": 60
+  },
+  "flowers": {
+    "floweringMonths": [5, 6, 7],
+    "floweringColour": ["orange", "red"],
+    "floweringSeason": ["spring (4-5)", "early summer (6)", "summer (7-8)"],
+    "shape": ["umbel, pseudanthium (incl. globose)"],
+    "orientation": ["upright"],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [4, 5, 6, 7, 8, 9, 10],
+    "leafColour": ["green", "purple"],
+    "autumnMonths": [10],
+    "autumnColour": ["orange", "red"],
+    "evergreen": [],
+    "structure": ["dense"]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": ["toxic to humans", "skin irritant"],
+  "ecology": {
+    "habitat": ["grassland"],
+    "nativeRange": [],
+    "successionalStage": [],
+    "valueToAnimals": ["value to bees (BE)"]
+  },
+  "projects": []
+}

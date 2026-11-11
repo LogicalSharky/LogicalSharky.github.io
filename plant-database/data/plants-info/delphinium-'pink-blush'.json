@@ -5,387 +5,145 @@
     "/images/plants/delphinium-'pink-blush'/Delphinium 'Pink Blush' 1.jpg"
   ],
   "hardinessZones": [
-    1,
-    2,
     3,
     4,
     5,
     6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13
+    7
   ],
   "use": {
-    "scientificName": "Delphinium 'Pink blush'",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "scientificName": "Delphinium 'Pink Blush'",
+    "commonName": "Larkspur 'Pink Blush'",
+    "commonNameNl": "Ridderspoor 'Pink Blush'",
+    "family": "Ranunculaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "herbaceous perennial"
     ],
-    "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
-      "stinzen plants (historic estate plants BE)"
-    ]
+    "application": []
   },
   "siteConditions": {
     "sunlight": [
-      "full sun",
-      "half shade",
-      "shade"
+      "full sun"
     ],
     "soil": [
       "clay",
       "loam",
-      "sandy loam",
-      "sand"
+      "sandy loam"
     ],
     "moisture": [
-      "poorly drained",
-      "moist but well drained",
-      "well drained"
+      "moist but well drained"
     ],
     "ph": [
-      "acidic",
       "neutral",
       "alkaline"
     ],
     "nutrients": [
-      "nutrient rich",
-      "nutrient poor"
+      "nutrient rich"
     ],
     "extremes": [
-      "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
-      "climate adaptive (zone 8 BE)"
+      "needs to be windsheltered"
     ],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 50,
+    "heightInclFlowers": 150,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 60,
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
       6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      7
     ],
     "floweringColour": [
-      "white",
-      "yellow",
-      "orange",
-      "red",
       "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "white"
     ],
     "floweringSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
       "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "summer (7-8)"
     ],
     "shape": [
-      "umbel, pseudanthium (incl. globose)",
-      "campanulate, calyx, trumpet, cup",
       "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
       "zygomorphic"
     ],
     "orientation": [
-      "upright",
-      "pendant"
+      "upright"
     ],
     "other": [
-      "cut flowers",
-      "fragrant flowers"
+      "cut flowers"
     ]
   },
   "leaves": {
     "leafMonths": [
-      1,
-      2,
-      3,
       4,
       5,
       6,
       7,
       8,
       9,
-      10,
-      11,
-      12
+      10
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "green"
     ],
-    "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
-    ],
-    "evergreen": [
-      "evergreen",
-      "semi-evergreen"
-    ],
-    "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
-      "delicate"
-    ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "texture": [],
+    "fenestrations": "",
     "structure": [
-      "open",
       "dense"
     ]
   },
   "stemAndBark": {
-    "barkColour": [
-      "white",
-      "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
-    ],
-    "barkTexture": [
-      "smooth",
-      "peeling",
-      "fissured",
-      "plated",
-      "fibrous",
-      "spiny"
-    ]
+    "barkColour": [],
+    "barkTexture": []
   },
   "fruit": {
-    "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
-    ],
-    "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
-    ],
-    "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
-    ],
-    "edible": [
-      "edible raw"
-    ],
-    "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
-    ]
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
   "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
     "toxic",
-    "skin irritant"
+    "pest sensitive (outdoor)"
   ],
   "ecology": {
-    "habitat": [
-      "woodland",
-      "rainforest",
-      "forest edge",
-      "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
-      "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
-    ],
-    "nativeTo": "",
+    "habitat": [],
+    "nativeTo": "Garden hybrid (parent species native to Europe and Asia)",
     "nativeRange": [
-      "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "cultivar or hybrid"
     ],
-    "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
-    ],
+    "successionalStage": [],
     "valueToAnimals": [
       "value to bees (BE)",
-      "value to butterflies (BE)",
-      "value to birds (BE)"
+      "value to butterflies (BE)"
     ]
   },
   "practical": {
-    "spacing": "",
-    "plantDensity": "",
+    "spacing": "50-60 cm",
+    "plantDensity": "3-4/m²",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
     ],
-    "parentage": ""
+    "parentage": "Delphinium elatum hybrid"
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "A delphinium with sturdy spikes of semi-double, soft blush-pink flowers with a white to pale 'bee' in the centre, a rare colour among delphiniums. Needs full sun, a deep, fertile, moist but well-drained soil and a sheltered spot; stake the tall spikes early. Cutting back after the first flush often gives a second flowering in late summer. Protect young shoots from slugs. All parts are poisonous.",
+    "noteNL": "Een ridderspoor met stevige aren van halfgevulde, zacht poederroze bloemen met een witte tot bleke 'bij' in het hart, een zeldzame kleur binnen de ridderspoor. Heeft volle zon, een diepe, voedselrijke, vochtige maar goed doorlatende grond en een beschutte plek nodig; steun de hoge aren tijdig. Na de eerste bloei terugsnoeien geeft vaak een tweede bloei in de nazomer. Bescherm de jonge scheuten tegen slakken. Alle delen zijn giftig."
   }
 }

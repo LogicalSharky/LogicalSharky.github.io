@@ -8,70 +8,35 @@
     "/images/plants/malus-sylvestris/Malus sylvestris 4.jpg"
   ],
   "hardinessZones": [
-    1,
-    2,
-    3,
     4,
     5,
     6,
     7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13
+    8
   ],
   "use": {
     "scientificName": "Malus sylvestris",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "European crab apple",
+    "commonNameNl": "Wilde appel",
+    "family": "Rosaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "tree"
     ],
     "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
-      "stinzen plants (historic estate plants BE)"
+      "hedge plant"
     ]
   },
   "siteConditions": {
     "sunlight": [
       "full sun",
-      "half shade",
-      "shade"
+      "half shade"
     ],
     "soil": [
       "clay",
       "loam",
-      "sandy loam",
-      "sand"
+      "sandy loam"
     ],
     "moisture": [
-      "poorly drained",
       "moist but well drained",
       "well drained"
     ],
@@ -85,87 +50,41 @@
       "nutrient poor"
     ],
     "extremes": [
-      "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
-      "climate adaptive (zone 8 BE)"
+      "tolerates wind exposure"
     ],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 800,
+    "heightInclFlowers": 800,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 600,
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
-      2,
-      3,
       4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      5
     ],
     "floweringColour": [
       "white",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "pink"
     ],
     "floweringSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "spring (4-5)"
     ],
     "shape": [
-      "umbel, pseudanthium (incl. globose)",
-      "campanulate, calyx, trumpet, cup",
-      "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
-      "zygomorphic"
+      "actinomorphic"
     ],
     "orientation": [
-      "upright",
-      "pendant"
+      "upright"
     ],
     "other": [
-      "cut flowers",
       "fragrant flowers"
     ]
   },
   "leaves": {
     "leafMonths": [
-      1,
-      2,
-      3,
       4,
       5,
       6,
@@ -173,120 +92,51 @@
       8,
       9,
       10,
-      11,
-      12
+      11
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "green"
     ],
     "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
       10,
-      11,
-      12
+      11
     ],
     "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
+      "yellow"
     ],
-    "evergreen": [
-      "evergreen",
-      "semi-evergreen"
-    ],
-    "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
-      "delicate"
-    ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "evergreen": [],
+    "texture": [],
+    "fenestrations": "",
     "structure": [
-      "open",
       "dense"
     ]
   },
   "stemAndBark": {
     "barkColour": [
-      "white",
       "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
+      "brown"
     ],
     "barkTexture": [
-      "smooth",
-      "peeling",
       "fissured",
       "plated",
-      "fibrous",
       "spiny"
     ]
   },
   "fruit": {
     "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
       9,
       10,
-      11,
-      12
+      11
     ],
     "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
+      "fleshy fruit"
     ],
     "fruitColour": [
-      "white/grey",
       "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
       "green",
-      "brown",
-      "black"
+      "red"
     ],
     "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
       "late summer (9)",
       "autumn (10-11)"
     ],
@@ -294,79 +144,28 @@
       "edible raw"
     ],
     "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
+      "edible fruit"
     ]
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
-  "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
-    "toxic",
-    "skin irritant"
-  ],
+  "warnings": [],
   "ecology": {
     "habitat": [
-      "woodland",
-      "rainforest",
       "forest edge",
-      "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
-      "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "woodland",
+      "shrubland"
     ],
-    "nativeTo": "",
+    "nativeTo": "Europe",
     "nativeRange": [
       "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "native (BE)"
     ],
     "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
+      "pioneer species"
     ],
     "valueToAnimals": [
       "value to bees (BE)",
@@ -375,12 +174,10 @@
     ]
   },
   "practical": {
-    "spacing": "",
+    "spacing": "600-800 cm",
     "plantDensity": "",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -388,7 +185,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "The native wild apple, a small, often somewhat thorny tree of forest edges and hedgerows, with white to pink blossom in spring and small, hard, sour, yellow-green apples in autumn. Rare in the wild in Belgium and threatened by hybridisation with cultivated apples, so choose plants of certified native origin. Grows in sun or light shade on most soils. Excellent in native mixed hedges and woodland edges and a great pollinator for orchard apples. The fruits are edible but very sour; they are best used cooked, for jelly. Valuable for bees, birds and many insects.",
+    "noteNL": "De inheemse wilde appel, een kleine, vaak wat doornige boom van bosranden en houtkanten, met witte tot roze bloesem in het voorjaar en kleine, harde, zure geelgroene appeltjes in de herfst. Zeldzaam in het wild in België en bedreigd door kruising met gekweekte appels, kies dus planten van gecertificeerde inheemse herkomst. Groeit in zon of lichte schaduw op de meeste gronden. Uitstekend in inheemse gemengde hagen en bosranden en een goede bestuiver voor fruitappels. De vruchten zijn eetbaar maar zeer zuur; ze worden best gekookt gebruikt, voor gelei. Waardevol voor bijen, vogels en veel insecten."
   }
 }

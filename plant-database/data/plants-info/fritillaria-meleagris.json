@@ -5,72 +5,36 @@
     "/images/plants/fritillaria-meleagris/Fritillaria meleagris 1.jpg"
   ],
   "hardinessZones": [
-    1,
-    2,
-    3,
     4,
     5,
     6,
     7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13
+    8
   ],
   "use": {
     "scientificName": "Fritillaria meleagris",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "Snake's head fritillary",
+    "commonNameNl": "Kievitsbloem",
+    "family": "Liliaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "bulb"
     ],
     "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
       "stinzen plants (historic estate plants BE)"
     ]
   },
   "siteConditions": {
     "sunlight": [
       "full sun",
-      "half shade",
-      "shade"
+      "half shade"
     ],
     "soil": [
       "clay",
-      "loam",
-      "sandy loam",
-      "sand"
+      "loam"
     ],
     "moisture": [
       "poorly drained",
-      "moist but well drained",
-      "well drained"
+      "moist but well drained"
     ],
     "ph": [
       "acidic",
@@ -78,306 +42,103 @@
       "alkaline"
     ],
     "nutrients": [
-      "nutrient rich",
-      "nutrient poor"
+      "nutrient rich"
     ],
     "extremes": [
-      "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
-      "climate adaptive (zone 8 BE)"
+      "tolerates brief flooding"
     ],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 20,
+    "heightInclFlowers": 30,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 5,
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
-      2,
-      3,
       4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      5
     ],
     "floweringColour": [
-      "white",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
       "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "white"
     ],
     "floweringSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "spring (4-5)"
     ],
     "shape": [
-      "umbel, pseudanthium (incl. globose)",
       "campanulate, calyx, trumpet, cup",
-      "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
-      "zygomorphic"
+      "actinomorphic"
     ],
     "orientation": [
-      "upright",
       "pendant"
     ],
-    "other": [
-      "cut flowers",
-      "fragrant flowers"
-    ]
+    "other": []
   },
   "leaves": {
     "leafMonths": [
-      1,
-      2,
       3,
       4,
       5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      6
     ],
     "leafColour": [
-      "white",
       "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "green"
     ],
-    "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
-    ],
-    "evergreen": [
-      "evergreen",
-      "semi-evergreen"
-    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
     "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
       "delicate"
     ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "fenestrations": "",
     "structure": [
-      "open",
-      "dense"
+      "open"
     ]
   },
   "stemAndBark": {
-    "barkColour": [
-      "white",
-      "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
-    ],
-    "barkTexture": [
-      "smooth",
-      "peeling",
-      "fissured",
-      "plated",
-      "fibrous",
-      "spiny"
-    ]
+    "barkColour": [],
+    "barkTexture": []
   },
   "fruit": {
-    "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
-    ],
-    "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
-    ],
-    "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
-    ],
-    "edible": [
-      "edible raw"
-    ],
-    "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
-    ]
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
   "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
-    "toxic",
-    "skin irritant"
+    "toxic"
   ],
   "ecology": {
     "habitat": [
-      "woodland",
-      "rainforest",
-      "forest edge",
-      "shrubland",
       "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
       "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "riverbank"
     ],
-    "nativeTo": "",
+    "nativeTo": "Europe",
     "nativeRange": [
-      "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "native species"
     ],
-    "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
-    ],
+    "successionalStage": [],
     "valueToAnimals": [
-      "value to bees (BE)",
-      "value to butterflies (BE)",
-      "value to birds (BE)"
+      "value to bees (BE)"
     ]
   },
   "practical": {
-    "spacing": "",
-    "plantDensity": "",
+    "spacing": "8-10 cm",
+    "plantDensity": "50-80/m²",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -385,7 +146,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "A beautiful spring bulb with slender, grey-green leaves and nodding, bell-shaped flowers with a striking chequered pattern in purple and white, or pure white. Naturally found in damp, winter-flooded river meadows, where it can form large colonies; in Belgium it is very rare in the wild. Naturalises well in moist grass, pond edges and wet meadows that are mown only after the seed has ripened. A classic stinzen plant. All parts are poisonous.",
+    "noteNL": "Een prachtige voorjaarsbol met slanke, grijsgroene bladeren en knikkende, klokvormige bloemen met een opvallend geblokt patroon in paars en wit, of zuiver wit. Komt van nature voor in vochtige, 's winters overstroomde rivierhooilanden, waar hij grote kolonies kan vormen; in België is hij in het wild zeer zeldzaam. Verwildert goed in vochtig gras, aan vijverranden en in natte hooilanden die pas gemaaid worden nadat het zaad rijp is. Een klassieke stinzenplant. Alle delen zijn giftig."
   }
 }

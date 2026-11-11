@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Studio Monstera plant database</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/plant-sheet-exports.css">
-  <link rel="stylesheet" href="css/beplantingsgrid.css">
+  <link rel="stylesheet" href="css/export.css">
 </head>
 <body>
   <header>
@@ -37,18 +36,14 @@
   <div id="selBox">
     <div id="selPanel" hidden>
       <ul id="selList"></ul>
-      <div id="selActs">
-        <button data-a="txt" data-k="Download txt">Download txt</button>
-        <button data-a="txti" data-k="Download txt with info">Download txt with info</button>
-        <button data-a="pdf" data-k="Download pdf">Download pdf</button>
-        <button data-a="pdfi" data-k="Download pdf with info">Download pdf with info</button>
-      </div>
+      <div id="selActs"></div>
     </div>
     <button id="selBtn"></button>
   </div>
   <div id="pop" class="pop" role="dialog" aria-modal="true"></div>
   <script src="js/app.js"></script>
-  <script src="js/plant-sheet-exports.js"></script>
-  <script src="js/beplantingsgrid.js"></script>
+  <script src="js/export-core.js"></script>
+  <script src="js/export-grid.js"></script>
+  <script src="js/export-info.js"></script>
 </body>
 </html>

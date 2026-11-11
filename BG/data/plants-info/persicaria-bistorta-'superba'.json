@@ -1,0 +1,66 @@
+{
+  "id": "persicaria-bistorta-'superba'",
+  "mainImage": "/images/plants/persicaria-bistorta-'superba'/_persicaria-bistorta-'superba'.webp",
+  "images": [
+    "/images/plants/persicaria-bistorta-'superba'/_persicaria-bistorta-'superba'.webp",
+    "/images/plants/persicaria-bistorta-'superba'/persicaria-bistorta-'superba'-bloem.jpg"
+  ],
+  "hardinessZones": [3, 4, 5, 6, 7, 8],
+  "use": {
+    "scientificName": "Persicaria bistorta 'Superba'",
+    "commonName": "Bistort",
+    "commonNameNl": "Adderwortel",
+    "family": "Polygonaceae",
+    "type": ["herbaceous perennial"],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": ["full sun", "half shade"],
+    "soil": ["clay", "loam", "sandy loam"],
+    "moisture": ["wet", "moist"],
+    "ph": ["acidic", "neutral"],
+    "extremes": ["tolerates brief flooding", "wadi"]
+  },
+  "size": {
+    "heightExclFlowers": 80,
+    "heightInclFlowers": 90,
+    "climbingHeight": null,
+    "width": 80
+  },
+  "flowers": {
+    "floweringMonths": [5, 6, 7, 8, 9],
+    "floweringColour": ["pink"],
+    "floweringSeason": ["spring (4-5)", "early summer (6)", "summer (7-8)", "late summer (9)"],
+    "shape": ["whorl, corymb, spike, raceme, panicle"],
+    "orientation": ["upright"],
+    "other": ["cut flowers"]
+  },
+  "leaves": {
+    "leafMonths": [4, 5, 6, 7, 8, 9, 10],
+    "leafColour": ["green"],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "structure": ["dense"]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": ["invasive roots (macho)"],
+  "ecology": {
+    "habitat": ["grassland", "riverbank"],
+    "nativeRange": [],
+    "successionalStage": [],
+    "valueToAnimals": ["value to bees (BE)", "value to butterflies (BE)"]
+  },
+  "projects": []
+}

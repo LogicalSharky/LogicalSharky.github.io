@@ -7,379 +7,140 @@
     "/images/plants/narcissus-pseudonarcissus/Narcissus pseudonarcissus 3.jpg"
   ],
   "hardinessZones": [
-    1,
-    2,
-    3,
     4,
     5,
     6,
     7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13
+    8
   ],
   "use": {
     "scientificName": "Narcissus pseudonarcissus",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "Wild daffodil",
+    "commonNameNl": "Wilde narcis",
+    "family": "Amaryllidaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "bulb"
     ],
     "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
       "stinzen plants (historic estate plants BE)"
     ]
   },
   "siteConditions": {
     "sunlight": [
       "full sun",
-      "half shade",
-      "shade"
+      "half shade"
     ],
     "soil": [
       "clay",
       "loam",
-      "sandy loam",
-      "sand"
+      "sandy loam"
     ],
     "moisture": [
-      "poorly drained",
-      "moist but well drained",
-      "well drained"
+      "moist but well drained"
     ],
     "ph": [
       "acidic",
-      "neutral",
-      "alkaline"
+      "neutral"
     ],
     "nutrients": [
       "nutrient rich",
       "nutrient poor"
     ],
-    "extremes": [
-      "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
-      "climate adaptive (zone 8 BE)"
-    ],
+    "extremes": [],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 20,
+    "heightInclFlowers": 35,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 10,
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
-      2,
       3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      4
     ],
     "floweringColour": [
-      "white",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "yellow"
     ],
     "floweringSeason": [
-      "winter (12-2)",
       "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "spring (4-5)"
     ],
     "shape": [
-      "umbel, pseudanthium (incl. globose)",
       "campanulate, calyx, trumpet, cup",
-      "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
-      "zygomorphic"
+      "actinomorphic"
     ],
     "orientation": [
-      "upright",
-      "pendant"
+      "upright"
     ],
     "other": [
-      "cut flowers",
-      "fragrant flowers"
+      "cut flowers"
     ]
   },
   "leaves": {
     "leafMonths": [
-      1,
       2,
       3,
       4,
       5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      6
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
       "green",
-      "brown",
-      "black"
+      "grey"
     ],
-    "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
-    ],
-    "evergreen": [
-      "evergreen",
-      "semi-evergreen"
-    ],
-    "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
-      "delicate"
-    ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "texture": [],
+    "fenestrations": "",
     "structure": [
-      "open",
-      "dense"
+      "open"
     ]
   },
   "stemAndBark": {
-    "barkColour": [
-      "white",
-      "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
-    ],
-    "barkTexture": [
-      "smooth",
-      "peeling",
-      "fissured",
-      "plated",
-      "fibrous",
-      "spiny"
-    ]
+    "barkColour": [],
+    "barkTexture": []
   },
   "fruit": {
-    "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
-    ],
-    "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
-    ],
-    "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
-    ],
-    "edible": [
-      "edible raw"
-    ],
-    "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
-    ]
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
   "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
-    "toxic",
-    "skin irritant"
+    "toxic"
   ],
   "ecology": {
     "habitat": [
       "woodland",
-      "rainforest",
-      "forest edge",
-      "shrubland",
       "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
-      "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "forest edge"
     ],
-    "nativeTo": "",
+    "nativeTo": "Western Europe",
     "nativeRange": [
       "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "native (BE)"
     ],
-    "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
-    ],
+    "successionalStage": [],
     "valueToAnimals": [
-      "value to bees (BE)",
-      "value to butterflies (BE)",
-      "value to birds (BE)"
+      "value to bees (BE)"
     ]
   },
   "practical": {
-    "spacing": "",
-    "plantDensity": "",
+    "spacing": "10-15 cm",
+    "plantDensity": "25-50/m²",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -387,7 +148,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "The native wild daffodil, a graceful, small daffodil with pale lemon-yellow petals around a deeper yellow trumpet, nodding slightly, in early spring. Grows wild in deciduous woods and meadows in the south of Belgium, where it is protected, and is a classic stinzen plant. Grows in light shade or sun on soil that stays moist in spring. Naturalises slowly in grass and under deciduous trees. Mow only after the leaves have died back. Buy only nursery-propagated bulbs. All parts are poisonous.",
+    "noteNL": "De inheemse wilde narcis, een sierlijke, kleine narcis met bleke citroengele bloemblaadjes rond een dieper gele trompet, licht knikkend, in het vroege voorjaar. Groeit wild in loofbossen en hooilanden in het zuiden van België, waar hij beschermd is, en is een klassieke stinsenplant. Groeit in lichte schaduw of zon op grond die in het voorjaar vochtig blijft. Verwildert langzaam in gras en onder bladverliezende bomen. Maai pas als het blad is afgestorven. Koop enkel gekweekte bollen. Alle delen zijn giftig."
   }
 }

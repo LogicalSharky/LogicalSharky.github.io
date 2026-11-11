@@ -5,379 +5,128 @@
     "/images/plants/colocasia-esculenta-'black-magic'/Colocasia esculenta 'Black Magic' 1.jpg"
   ],
   "hardinessZones": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
     8,
     9,
     10,
-    11,
-    12,
-    13
+    11
   ],
   "use": {
-    "scientificName": "Colocasia esculenta 'Black magic'",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "scientificName": "Colocasia esculenta 'Black Magic'",
+    "commonName": "Taro 'Black Magic'",
+    "commonNameNl": "Taro 'Black Magic'",
+    "family": "Araceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "herbaceous perennial"
     ],
     "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
       "tropical look",
-      "stinzen plants (historic estate plants BE)"
+      "house plant"
     ]
   },
   "siteConditions": {
     "sunlight": [
       "full sun",
-      "half shade",
-      "shade"
+      "half shade"
     ],
     "soil": [
       "clay",
-      "loam",
-      "sandy loam",
-      "sand"
+      "loam"
     ],
     "moisture": [
       "poorly drained",
-      "moist but well drained",
-      "well drained"
+      "moist but well drained"
     ],
     "ph": [
       "acidic",
-      "neutral",
-      "alkaline"
+      "neutral"
     ],
     "nutrients": [
-      "nutrient rich",
-      "nutrient poor"
+      "nutrient rich"
     ],
     "extremes": [
-      "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
-      "climate adaptive (zone 8 BE)"
+      "needs to be windsheltered"
     ],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 120,
+    "heightInclFlowers": 120,
     "climbingHeight": null,
-    "width": null,
+    "width": 90,
     "largeLeaves": [
       "large leaves (+50cm)"
     ]
   },
   "flowers": {
-    "floweringMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "floweringColour": [
-      "white",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
-    ],
-    "floweringSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
-    ],
-    "shape": [
-      "umbel, pseudanthium (incl. globose)",
-      "campanulate, calyx, trumpet, cup",
-      "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
-      "zygomorphic"
-    ],
-    "orientation": [
-      "upright",
-      "pendant"
-    ],
-    "other": [
-      "cut flowers",
-      "fragrant flowers"
-    ]
+    "floweringMonths": [],
+    "floweringColour": [],
+    "floweringSeason": [],
+    "shape": [],
+    "orientation": [],
+    "other": []
   },
   "leaves": {
     "leafMonths": [
-      1,
-      2,
-      3,
-      4,
       5,
       6,
       7,
       8,
       9,
-      10,
-      11,
-      12
+      10
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "black",
+      "purple"
     ],
-    "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
-    ],
-    "evergreen": [
-      "evergreen",
-      "semi-evergreen"
-    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
     "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
-      "delicate"
+      "velvet"
     ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "fenestrations": "",
     "structure": [
-      "open",
-      "dense"
+      "open"
     ]
   },
   "stemAndBark": {
-    "barkColour": [
-      "white",
-      "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
-    ],
-    "barkTexture": [
-      "smooth",
-      "peeling",
-      "fissured",
-      "plated",
-      "fibrous",
-      "spiny"
-    ]
+    "barkColour": [],
+    "barkTexture": []
   },
   "fruit": {
-    "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
-    ],
-    "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
-    ],
-    "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
-    ],
-    "edible": [
-      "edible raw"
-    ],
-    "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
-    ]
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
   "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
     "toxic",
     "skin irritant"
   ],
   "ecology": {
     "habitat": [
-      "woodland",
-      "rainforest",
-      "forest edge",
-      "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
       "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "riverbank"
     ],
-    "nativeTo": "",
+    "nativeTo": "Garden cultivar (species native to tropical Asia)",
     "nativeRange": [
-      "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "cultivar or hybrid"
     ],
-    "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
-    ],
-    "valueToAnimals": [
-      "value to bees (BE)",
-      "value to butterflies (BE)",
-      "value to birds (BE)"
-    ]
+    "successionalStage": [],
+    "valueToAnimals": []
   },
   "practical": {
-    "spacing": "",
-    "plantDensity": "",
+    "spacing": "60-90 cm",
+    "plantDensity": "1-2/m²",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -385,7 +134,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "A dramatic foliage plant with huge, heart-shaped, matt black-purple leaves on tall stems, giving an instant tropical look. Ideal at a pond edge, in wet borders or in large pots. Needs a warm, sheltered spot, constantly moist to wet, rich soil and plenty of water and feeding in summer. Not frost hardy in Belgium: lift the tubers before the first frost and store them frost-free, or overwinter the plant indoors. All parts are irritating and toxic when raw.",
+    "noteNL": "Een opvallende bladplant met enorme, hartvormige, matte zwartpaarse bladeren op hoge stelen, die meteen een tropische sfeer geeft. Ideaal aan een vijverrand, in natte borders of in grote potten. Heeft een warme, beschutte plek nodig, voortdurend vochtige tot natte, voedselrijke grond en in de zomer veel water en voeding. Niet winterhard in België: rooi de knollen voor de eerste vorst en bewaar ze vorstvrij, of overwinter de plant binnen. Alle delen zijn rauw irriterend en giftig."
   }
 }

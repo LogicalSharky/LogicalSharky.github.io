@@ -7,8 +7,6 @@
     "/images/plants/ceratophyllum-demersum/Ceratophyllum demersum 3.jpg"
   ],
   "hardinessZones": [
-    1,
-    2,
     3,
     4,
     5,
@@ -16,46 +14,17 @@
     7,
     8,
     9,
-    10,
-    11,
-    12,
-    13
+    10
   ],
   "use": {
     "scientificName": "Ceratophyllum demersum",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "Rigid hornwort",
+    "commonNameNl": "Grof hoornblad",
+    "family": "Ceratophyllaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "aquatic plant"
     ],
-    "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
-      "stinzen plants (historic estate plants BE)"
-    ]
+    "application": []
   },
   "siteConditions": {
     "sunlight": [
@@ -63,40 +32,18 @@
       "half shade",
       "shade"
     ],
-    "soil": [
-      "clay",
-      "loam",
-      "sandy loam",
-      "sand"
-    ],
+    "soil": [],
     "moisture": [
-      "poorly drained",
-      "moist but well drained",
-      "well drained"
+      "poorly drained"
     ],
     "ph": [
-      "acidic",
       "neutral",
       "alkaline"
     ],
     "nutrients": [
-      "nutrient rich",
-      "nutrient poor"
+      "nutrient rich"
     ],
-    "extremes": [
-      "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
-      "climate adaptive (zone 8 BE)"
-    ],
+    "extremes": [],
     "humidity": ""
   },
   "size": {
@@ -104,61 +51,24 @@
     "heightInclFlowers": null,
     "climbingHeight": null,
     "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
       7,
       8,
-      9,
-      10,
-      11,
-      12
+      9
     ],
     "floweringColour": [
-      "white",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "green"
     ],
     "floweringSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
       "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "late summer (9)"
     ],
-    "shape": [
-      "umbel, pseudanthium (incl. globose)",
-      "campanulate, calyx, trumpet, cup",
-      "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
-      "zygomorphic"
-    ],
-    "orientation": [
-      "upright",
-      "pendant"
-    ],
-    "other": [
-      "cut flowers",
-      "fragrant flowers"
-    ]
+    "shape": [],
+    "orientation": [],
+    "other": []
   },
   "leaves": {
     "leafMonths": [
@@ -176,210 +86,56 @@
       12
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "green"
     ],
-    "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
-    ],
+    "autumnMonths": [],
+    "autumnColour": [],
     "evergreen": [
-      "evergreen",
-      "semi-evergreen"
+      "evergreen"
     ],
     "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
       "delicate"
     ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "fenestrations": "",
     "structure": [
-      "open",
       "dense"
     ]
   },
   "stemAndBark": {
-    "barkColour": [
-      "white",
-      "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
-    ],
-    "barkTexture": [
-      "smooth",
-      "peeling",
-      "fissured",
-      "plated",
-      "fibrous",
-      "spiny"
-    ]
+    "barkColour": [],
+    "barkTexture": []
   },
   "fruit": {
-    "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
-    ],
-    "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
-    ],
-    "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
-    ],
-    "edible": [
-      "edible raw"
-    ],
-    "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
-    ]
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
-  "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
-    "toxic",
-    "skin irritant"
-  ],
+  "warnings": [],
   "ecology": {
     "habitat": [
-      "woodland",
-      "rainforest",
-      "forest edge",
-      "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
-      "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "freshwater aquatic"
     ],
-    "nativeTo": "",
+    "nativeTo": "Almost worldwide",
     "nativeRange": [
       "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "native (BE)"
     ],
-    "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
-    ],
-    "valueToAnimals": [
-      "value to bees (BE)",
-      "value to butterflies (BE)",
-      "value to birds (BE)"
-    ]
+    "successionalStage": [],
+    "valueToAnimals": []
   },
   "practical": {
     "spacing": "",
-    "plantDensity": "",
+    "plantDensity": "5-10 bunches/m²",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -387,7 +143,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "A rootless, submerged oxygenating plant that floats just below the water surface, with brittle stems carrying whorls of forked, dark green leaves. It takes up nutrients directly from the water, which helps against algae, and gives shelter to fish, amphibians and aquatic insects. Simply drop bunches into the pond. It can grow very vigorously in nutrient-rich water, so thin it out regularly.",
+    "noteNL": "Een wortelloze, ondergedoken zuurstofplant die net onder het wateroppervlak zweeft, met brosse stengels met kransen van gevorkte, donkergroene blaadjes. Neemt voedingsstoffen rechtstreeks uit het water op, wat helpt tegen algen, en biedt schuilplaats aan vissen, amfibieën en waterinsecten. Gooi de bosjes gewoon in de vijver. Kan in voedselrijk water zeer sterk groeien, dus regelmatig uitdunnen."
   }
 }

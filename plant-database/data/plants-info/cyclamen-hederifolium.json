@@ -5,71 +5,33 @@
     "/images/plants/cyclamen-hederifolium/Cyclamen hederifolium 1.jpg"
   ],
   "hardinessZones": [
-    1,
-    2,
-    3,
-    4,
     5,
     6,
     7,
     8,
-    9,
-    10,
-    11,
-    12,
-    13
+    9
   ],
   "use": {
     "scientificName": "Cyclamen hederifolium",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "Ivy-leaved cyclamen",
+    "commonNameNl": "Herfstcyclaam",
+    "family": "Primulaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
       "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "ground cover"
     ],
-    "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
-      "stinzen plants (historic estate plants BE)"
-    ]
+    "application": []
   },
   "siteConditions": {
     "sunlight": [
-      "full sun",
       "half shade",
       "shade"
     ],
     "soil": [
-      "clay",
       "loam",
-      "sandy loam",
-      "sand"
+      "sandy loam"
     ],
     "moisture": [
-      "poorly drained",
-      "moist but well drained",
       "well drained"
     ],
     "ph": [
@@ -81,303 +43,112 @@
       "nutrient rich",
       "nutrient poor"
     ],
-    "extremes": [
-      "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
-      "climate adaptive (zone 8 BE)"
-    ],
+    "extremes": [],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 8,
+    "heightInclFlowers": 10,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 15,
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
       8,
       9,
-      10,
-      11,
-      12
+      10
     ],
     "floweringColour": [
-      "white",
-      "yellow",
-      "orange",
-      "red",
       "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "white",
+      "purple"
     ],
     "floweringSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
       "summer (7-8)",
       "late summer (9)",
       "autumn (10-11)"
     ],
     "shape": [
-      "umbel, pseudanthium (incl. globose)",
-      "campanulate, calyx, trumpet, cup",
-      "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
-      "zygomorphic"
+      "actinomorphic"
     ],
     "orientation": [
-      "upright",
       "pendant"
     ],
-    "other": [
-      "cut flowers",
-      "fragrant flowers"
-    ]
+    "other": []
   },
   "leaves": {
     "leafMonths": [
+      9,
+      10,
+      11,
+      12,
       1,
       2,
       3,
       4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      5
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
       "green",
-      "brown",
-      "black"
+      "grey"
     ],
-    "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
-    ],
-    "evergreen": [
-      "evergreen",
-      "semi-evergreen"
-    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
     "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
-      "delicate"
+      "smooth"
     ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "fenestrations": "",
     "structure": [
-      "open",
       "dense"
     ]
   },
   "stemAndBark": {
-    "barkColour": [
-      "white",
-      "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
-    ],
-    "barkTexture": [
-      "smooth",
-      "peeling",
-      "fissured",
-      "plated",
-      "fibrous",
-      "spiny"
-    ]
+    "barkColour": [],
+    "barkTexture": []
   },
   "fruit": {
-    "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
-    ],
-    "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
-    ],
-    "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
-    ],
-    "edible": [
-      "edible raw"
-    ],
-    "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
-    ]
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
   },
   "variegation": {
     "variegated": [
       "variegated"
     ],
     "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
+      "silver"
     ],
     "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
+      "marbled"
     ]
   },
   "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
-    "toxic",
-    "skin irritant"
+    "toxic"
   ],
   "ecology": {
     "habitat": [
       "woodland",
-      "rainforest",
-      "forest edge",
-      "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
-      "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "rocky slopes"
     ],
-    "nativeTo": "",
+    "nativeTo": "Mediterranean region (southern France to Turkey)",
     "nativeRange": [
-      "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "native species"
     ],
-    "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
-    ],
+    "successionalStage": [],
     "valueToAnimals": [
-      "value to bees (BE)",
-      "value to butterflies (BE)",
-      "value to birds (BE)"
+      "value to bees (BE)"
     ]
   },
   "practical": {
-    "spacing": "",
-    "plantDensity": "",
+    "spacing": "10-20 cm",
+    "plantDensity": "25-60/m²",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -385,7 +156,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "A hardy cyclamen that flowers from late summer into autumn with pink or white flowers, followed by beautiful ivy-shaped, silver-marbled leaves that stay decorative all winter until late spring. Thrives in dry shade under deciduous trees and shrubs, where little else grows, and spreads by seed into carpets over the years. Plant the tubers shallowly. The tubers are poisonous.",
+    "noteNL": "Een winterharde cyclaam die van de nazomer tot in de herfst bloeit met roze of witte bloemen, gevolgd door prachtige, klimopvormige, zilver gemarmerde bladeren die de hele winter tot het late voorjaar sierwaarde hebben. Gedijt in droge schaduw onder bladverliezende bomen en struiken, waar weinig anders groeit, en breidt zich met de jaren via zaad uit tot tapijten. Plant de knollen ondiep. De knollen zijn giftig."
   }
 }

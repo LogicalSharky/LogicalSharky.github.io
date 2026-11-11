@@ -7,61 +7,29 @@
     "/images/plants/robinia-pseudoacacia/Robinia pseudoacacia 3.jpg"
   ],
   "hardinessZones": [
-    1,
-    2,
-    3,
     4,
     5,
     6,
     7,
     8,
-    9,
-    10,
-    11,
-    12,
-    13
+    9
   ],
   "use": {
     "scientificName": "Robinia pseudoacacia",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "Black locust",
+    "commonNameNl": "Robinia, valse acacia",
+    "family": "Fabaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "tree"
     ],
     "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
       "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
-      "stinzen plants (historic estate plants BE)"
+      "pollard"
     ]
   },
   "siteConditions": {
     "sunlight": [
-      "full sun",
-      "half shade",
-      "shade"
+      "full sun"
     ],
     "soil": [
       "clay",
@@ -70,7 +38,6 @@
       "sand"
     ],
     "moisture": [
-      "poorly drained",
       "moist but well drained",
       "well drained"
     ],
@@ -80,306 +47,136 @@
       "alkaline"
     ],
     "nutrients": [
-      "nutrient rich",
-      "nutrient poor"
+      "nutrient poor",
+      "nutrient rich"
     ],
     "extremes": [
-      "coastal area",
-      "crevice and wall",
-      "green joints",
       "street/paving",
-      "tolerates brief flooding",
       "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
       "climate adaptive (zone 8 BE)"
     ],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 2000,
+    "heightInclFlowers": 2000,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 1200,
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
-      2,
-      3,
-      4,
       5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      6
     ],
     "floweringColour": [
-      "white",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "white"
     ],
     "floweringSeason": [
-      "winter (12-2)",
-      "early spring (3)",
       "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "early summer (6)"
     ],
     "shape": [
-      "umbel, pseudanthium (incl. globose)",
-      "campanulate, calyx, trumpet, cup",
       "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
       "zygomorphic"
     ],
     "orientation": [
-      "upright",
       "pendant"
     ],
     "other": [
-      "cut flowers",
       "fragrant flowers"
     ]
   },
   "leaves": {
     "leafMonths": [
-      1,
-      2,
-      3,
-      4,
       5,
       6,
       7,
       8,
       9,
-      10,
-      11,
-      12
+      10
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "green"
     ],
     "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      10
     ],
     "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
+      "yellow"
     ],
-    "evergreen": [
-      "evergreen",
-      "semi-evergreen"
-    ],
+    "evergreen": [],
     "texture": [
       "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
       "delicate"
     ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "fenestrations": "",
     "structure": [
-      "open",
-      "dense"
+      "open"
     ]
   },
   "stemAndBark": {
     "barkColour": [
-      "white",
       "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
+      "brown"
     ],
     "barkTexture": [
-      "smooth",
-      "peeling",
       "fissured",
-      "plated",
-      "fibrous",
       "spiny"
     ]
   },
   "fruit": {
     "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
       9,
       10,
       11,
       12
     ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
-    ],
+    "fruitType": [],
     "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "brown"
     ],
     "fruitingSeason": [
       "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
       "late summer (9)",
       "autumn (10-11)"
     ],
-    "edible": [
-      "edible raw"
-    ],
-    "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
-    ]
+    "edible": [],
+    "ediblePartsRaw": []
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
   "warnings": [
-    "allergenic",
     "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
-    "toxic",
-    "skin irritant"
+    "toxic"
   ],
   "ecology": {
     "habitat": [
-      "woodland",
-      "rainforest",
       "forest edge",
-      "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
-      "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "woodland",
+      "shrubland"
     ],
-    "nativeTo": "",
+    "nativeTo": "Eastern USA (Appalachians, Ozarks)",
     "nativeRange": [
       "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "naturalized (BE)"
     ],
     "successionalStage": [
       "pioneer species",
-      "intermediate species",
-      "climax species",
       "support species"
     ],
     "valueToAnimals": [
-      "value to bees (BE)",
-      "value to butterflies (BE)",
-      "value to birds (BE)"
+      "value to bees (BE)"
     ]
   },
   "practical": {
-    "spacing": "",
-    "plantDensity": "",
+    "spacing": "8-10 m",
+    "plantDensity": "1 per 64-100 m²",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -387,7 +184,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "Fast, light-crowned pioneer tree with fragrant white flower racemes in late May and deeply furrowed bark. Fixes nitrogen and tolerates heat, drought and poor soils. Suckers strongly and spreads on sandy soils. Bark, seeds and leaves toxic. Brown pods (no matching fruit type).",
+    "noteNL": "Snelgroeiende pionierboom met lichte kroon, geurende witte bloemtrossen eind mei en diep gegroefde schors. Bindt stikstof en verdraagt hitte, droogte en arme grond. Vormt veel wortelopslag en verspreidt zich op zandgrond. Schors, zaden en blad giftig. Bruine peulen (geen passend vruchttype)."
   }
 }

@@ -6,158 +6,77 @@
     "/images/plants/euphorbia-characias-subsp.-wulfenii/Euphorbia characias subsp. wulfenii plant.JPG"
   ],
   "hardinessZones": [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
     7,
     8,
     9,
-    10,
-    11,
-    12,
-    13
+    10
   ],
   "use": {
     "scientificName": "Euphorbia characias subsp. wulfenii",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "Mediterranean spurge",
+    "commonNameNl": "Struikwolfsmelk",
+    "family": "Euphorbiaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
       "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "shrub"
     ],
-    "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
-      "stinzen plants (historic estate plants BE)"
-    ]
+    "application": []
   },
   "siteConditions": {
     "sunlight": [
-      "full sun",
-      "half shade",
-      "shade"
+      "full sun"
     ],
     "soil": [
-      "clay",
       "loam",
       "sandy loam",
       "sand"
     ],
     "moisture": [
-      "poorly drained",
-      "moist but well drained",
       "well drained"
     ],
     "ph": [
-      "acidic",
       "neutral",
       "alkaline"
     ],
     "nutrients": [
-      "nutrient rich",
       "nutrient poor"
     ],
     "extremes": [
       "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
       "climate adaptive (zone 8 BE)"
     ],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 80,
+    "heightInclFlowers": 120,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 100,
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
-      2,
       3,
       4,
       5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      6
     ],
     "floweringColour": [
-      "white",
       "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "green"
     ],
     "floweringSeason": [
-      "winter (12-2)",
       "early spring (3)",
       "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "early summer (6)"
     ],
     "shape": [
-      "umbel, pseudanthium (incl. globose)",
-      "campanulate, calyx, trumpet, cup",
-      "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
-      "zygomorphic"
+      "umbel, pseudanthium (incl. globose)"
     ],
     "orientation": [
-      "upright",
-      "pendant"
+      "upright"
     ],
-    "other": [
-      "cut flowers",
-      "fragrant flowers"
-    ]
+    "other": []
   },
   "leaves": {
     "leafMonths": [
@@ -175,210 +94,60 @@
       12
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
       "blue",
-      "green",
-      "brown",
-      "black"
+      "grey"
     ],
-    "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
-    ],
+    "autumnMonths": [],
+    "autumnColour": [],
     "evergreen": [
-      "evergreen",
-      "semi-evergreen"
+      "evergreen"
     ],
-    "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
-      "delicate"
-    ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "texture": [],
+    "fenestrations": "",
     "structure": [
-      "open",
       "dense"
     ]
   },
   "stemAndBark": {
-    "barkColour": [
-      "white",
-      "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
-    ],
-    "barkTexture": [
-      "smooth",
-      "peeling",
-      "fissured",
-      "plated",
-      "fibrous",
-      "spiny"
-    ]
+    "barkColour": [],
+    "barkTexture": []
   },
   "fruit": {
-    "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
-    ],
-    "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
-    ],
-    "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
-    ],
-    "edible": [
-      "edible raw"
-    ],
-    "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
-    ]
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
   "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
     "toxic",
     "skin irritant"
   ],
   "ecology": {
     "habitat": [
-      "woodland",
-      "rainforest",
-      "forest edge",
       "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
-      "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "rocky slopes"
     ],
-    "nativeTo": "",
+    "nativeTo": "Eastern Mediterranean (Balkans to Turkey)",
     "nativeRange": [
-      "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "native species"
     ],
-    "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
-    ],
+    "successionalStage": [],
     "valueToAnimals": [
-      "value to bees (BE)",
-      "value to butterflies (BE)",
-      "value to birds (BE)"
+      "value to bees (BE)"
     ]
   },
   "practical": {
-    "spacing": "",
-    "plantDensity": "",
+    "spacing": "80-100 cm",
+    "plantDensity": "1-1.5/m²",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -386,7 +155,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "A bold, evergreen sub-shrub with upright stems densely clothed in narrow, blue-grey leaves, topped from early spring by large, cylindrical heads of acid yellow-green bracts. A strong architectural plant for sunny, dry gravel gardens and Mediterranean-style planting. Cut the flowered stems back to the base after flowering; new shoots will flower the following year. The milky sap is poisonous and irritates the skin and eyes; wear gloves when cutting.",
+    "noteNL": "Een forse, wintergroene halfheester met rechtopstaande stengels dicht bezet met smalle, blauwgrijze bladeren, vanaf het vroege voorjaar bekroond met grote, cilindrische hoofden zuurgeel-groene schutbladeren. Een sterke architecturale plant voor zonnige, droge grindtuinen en mediterrane beplanting. Knip de uitgebloeide stengels na de bloei tot aan de basis terug; de nieuwe scheuten bloeien het volgende jaar. Het melksap is giftig en irriteert huid en ogen; draag handschoenen bij het snoeien."
   }
 }

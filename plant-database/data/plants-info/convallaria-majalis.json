@@ -8,72 +8,38 @@
     "/images/plants/convallaria-majalis/Convallaria majalis plnts retake.JPG"
   ],
   "hardinessZones": [
-    1,
-    2,
     3,
     4,
     5,
     6,
     7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13
+    8
   ],
   "use": {
     "scientificName": "Convallaria majalis",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "Lily of the valley",
+    "commonNameNl": "Lelietje-van-dalen",
+    "family": "Asparagaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
       "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "ground cover"
     ],
     "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
       "stinzen plants (historic estate plants BE)"
     ]
   },
   "siteConditions": {
     "sunlight": [
-      "full sun",
       "half shade",
       "shade"
     ],
     "soil": [
       "clay",
       "loam",
-      "sandy loam",
-      "sand"
+      "sandy loam"
     ],
     "moisture": [
-      "poorly drained",
-      "moist but well drained",
-      "well drained"
+      "moist but well drained"
     ],
     "ph": [
       "acidic",
@@ -84,76 +50,32 @@
       "nutrient rich",
       "nutrient poor"
     ],
-    "extremes": [
-      "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
-      "climate adaptive (zone 8 BE)"
-    ],
+    "extremes": [],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 15,
+    "heightInclFlowers": 20,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 30,
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
-      2,
-      3,
       4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      5
     ],
     "floweringColour": [
-      "white",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "white"
     ],
     "floweringSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "spring (4-5)"
     ],
     "shape": [
-      "umbel, pseudanthium (incl. globose)",
       "campanulate, calyx, trumpet, cup",
-      "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
-      "zygomorphic"
+      "whorl, corymb, spike, raceme, panicle"
     ],
     "orientation": [
-      "upright",
       "pendant"
     ],
     "other": [
@@ -163,224 +85,76 @@
   },
   "leaves": {
     "leafMonths": [
-      1,
-      2,
-      3,
       4,
       5,
       6,
       7,
       8,
-      9,
-      10,
-      11,
-      12
+      9
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "green"
     ],
-    "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
-    ],
-    "evergreen": [
-      "evergreen",
-      "semi-evergreen"
-    ],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
     "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
-      "delicate"
+      "glossy"
     ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "fenestrations": "",
     "structure": [
-      "open",
       "dense"
     ]
   },
   "stemAndBark": {
-    "barkColour": [
-      "white",
-      "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
-    ],
-    "barkTexture": [
-      "smooth",
-      "peeling",
-      "fissured",
-      "plated",
-      "fibrous",
-      "spiny"
-    ]
+    "barkColour": [],
+    "barkTexture": []
   },
   "fruit": {
     "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
       8,
-      9,
-      10,
-      11,
-      12
+      9
     ],
     "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
+      "berries"
     ],
     "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "red"
     ],
     "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
       "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "late summer (9)"
     ],
-    "edible": [
-      "edible raw"
-    ],
-    "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
-    ]
+    "edible": [],
+    "ediblePartsRaw": []
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
   "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
-    "toxic",
-    "skin irritant"
+    "toxic"
   ],
   "ecology": {
     "habitat": [
-      "woodland",
-      "rainforest",
-      "forest edge",
-      "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
-      "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "woodland"
     ],
-    "nativeTo": "",
+    "nativeTo": "Europe and temperate Asia",
     "nativeRange": [
       "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "native (BE)"
     ],
-    "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
-    ],
+    "successionalStage": [],
     "valueToAnimals": [
-      "value to bees (BE)",
-      "value to butterflies (BE)",
-      "value to birds (BE)"
+      "value to bees (BE)"
     ]
   },
   "practical": {
-    "spacing": "",
-    "plantDensity": "",
+    "spacing": "15-20 cm",
+    "plantDensity": "25-40/m²",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -388,7 +162,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "A classic woodland plant and stinzen plant with broad, glossy leaves and arching stems of small, white, intensely fragrant bells in spring, followed by red berries. Spreads by creeping rhizomes into a dense ground cover in light to deep shade on humus-rich soil. All parts, including the berries and the water in the vase, are highly poisonous.",
+    "noteNL": "Een klassieke bosplant en stinzenplant met brede, glanzende bladeren en gebogen stengels met kleine, witte, sterk geurende klokjes in het voorjaar, gevolgd door rode bessen. Breidt zich via kruipende wortelstokken uit tot een dichte bodembedekker in lichte tot diepe schaduw op humusrijke grond. Alle delen, ook de bessen en het vaaswater, zijn zeer giftig."
   }
 }

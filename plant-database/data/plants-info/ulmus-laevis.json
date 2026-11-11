@@ -8,72 +8,37 @@
     "/images/plants/ulmus-laevis/Ulmus laevis 4.jpg"
   ],
   "hardinessZones": [
-    1,
-    2,
-    3,
     4,
     5,
     6,
     7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13
+    8
   ],
   "use": {
     "scientificName": "Ulmus laevis",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "European white elm",
+    "commonNameNl": "Fladderiep",
+    "family": "Ulmaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "tree"
     ],
     "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
-      "stinzen plants (historic estate plants BE)"
+      "pollard"
     ]
   },
   "siteConditions": {
     "sunlight": [
       "full sun",
-      "half shade",
-      "shade"
+      "half shade"
     ],
     "soil": [
       "clay",
       "loam",
-      "sandy loam",
-      "sand"
+      "sandy loam"
     ],
     "moisture": [
       "poorly drained",
-      "moist but well drained",
-      "well drained"
+      "moist but well drained"
     ],
     "ph": [
       "acidic",
@@ -81,306 +46,137 @@
       "alkaline"
     ],
     "nutrients": [
-      "nutrient rich",
-      "nutrient poor"
+      "nutrient rich"
     ],
     "extremes": [
-      "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
       "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
       "wadi",
+      "tolerates wind exposure",
       "climate adaptive (zone 8 BE)"
     ],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 2500,
+    "heightInclFlowers": 2500,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 1500,
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
-      2,
       3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      4
     ],
     "floweringColour": [
-      "white",
-      "yellow",
-      "orange",
       "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "purple"
     ],
     "floweringSeason": [
-      "winter (12-2)",
       "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "spring (4-5)"
     ],
     "shape": [
-      "umbel, pseudanthium (incl. globose)",
-      "campanulate, calyx, trumpet, cup",
-      "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
-      "zygomorphic"
+      "umbel, pseudanthium (incl. globose)"
     ],
     "orientation": [
-      "upright",
       "pendant"
     ],
-    "other": [
-      "cut flowers",
-      "fragrant flowers"
-    ]
+    "other": []
   },
   "leaves": {
     "leafMonths": [
-      1,
-      2,
-      3,
       4,
       5,
       6,
       7,
       8,
       9,
-      10,
-      11,
-      12
+      10
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "green"
     ],
     "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
       10,
-      11,
-      12
+      11
     ],
     "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
+      "yellow"
     ],
-    "evergreen": [
-      "evergreen",
-      "semi-evergreen"
-    ],
+    "evergreen": [],
     "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
-      "delicate"
+      "smooth"
     ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "fenestrations": "",
     "structure": [
-      "open",
-      "dense"
+      "open"
     ]
   },
   "stemAndBark": {
     "barkColour": [
-      "white",
       "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
+      "brown"
     ],
     "barkTexture": [
-      "smooth",
-      "peeling",
       "fissured",
-      "plated",
-      "fibrous",
-      "spiny"
+      "plated"
     ]
   },
   "fruit": {
     "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
       5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      6
     ],
     "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
       "samara"
     ],
     "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
       "green",
-      "brown",
-      "black"
+      "brown"
     ],
     "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
       "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "early summer (6)"
     ],
     "edible": [
       "edible raw"
     ],
     "ediblePartsRaw": [
       "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
+      "edible leaves"
     ]
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
-  "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
-    "toxic",
-    "skin irritant"
-  ],
+  "warnings": [],
   "ecology": {
     "habitat": [
       "woodland",
-      "rainforest",
-      "forest edge",
-      "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
-      "wetland",
       "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "wetland"
     ],
-    "nativeTo": "",
+    "nativeTo": "Central and eastern Europe",
     "nativeRange": [
       "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "native (BE)"
     ],
     "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
+      "climax species"
     ],
     "valueToAnimals": [
-      "value to bees (BE)",
       "value to butterflies (BE)",
       "value to birds (BE)"
     ]
   },
   "practical": {
-    "spacing": "",
-    "plantDensity": "",
+    "spacing": "10-12 m",
+    "plantDensity": "1 per 100-144 m²",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -388,7 +184,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "Native elm of floodplain forests, with asymmetric leaves and tassels of long-stalked, fluttering flowers and fringed samaras in spring. Develops buttress roots on wet sites and tolerates prolonged flooding. Considerably less susceptible to Dutch elm disease than other elms. Young samaras and leaves are edible raw.",
+    "noteNL": "Inheemse iep van ooibossen, met scheve bladvoet en trosjes langgesteelde, 'fladderende' bloemen en gewimperde gevleugelde nootjes in de lente. Vormt plankwortels op natte plaatsen en verdraagt langdurige overstroming. Duidelijk minder gevoelig voor iepziekte dan andere iepen. Jonge vruchtjes en blad zijn rauw eetbaar."
   }
 }

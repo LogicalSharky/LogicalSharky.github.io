@@ -6,72 +6,37 @@
     "/images/plants/mentha-×-piperita/Mentha x piperita 2.jpg"
   ],
   "hardinessZones": [
-    1,
-    2,
     3,
     4,
     5,
     6,
     7,
     8,
-    9,
-    10,
-    11,
-    12,
-    13
+    9
   ],
   "use": {
     "scientificName": "Mentha × piperita",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "Peppermint",
+    "commonNameNl": "Pepermunt",
+    "family": "Lamiaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
-      "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "herbaceous perennial"
     ],
-    "application": [
-      "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
-      "stinzen plants (historic estate plants BE)"
-    ]
+    "application": []
   },
   "siteConditions": {
     "sunlight": [
       "full sun",
-      "half shade",
-      "shade"
+      "half shade"
     ],
     "soil": [
       "clay",
       "loam",
-      "sandy loam",
-      "sand"
+      "sandy loam"
     ],
     "moisture": [
-      "poorly drained",
       "moist but well drained",
-      "well drained"
+      "poorly drained"
     ],
     "ph": [
       "acidic",
@@ -79,314 +44,120 @@
       "alkaline"
     ],
     "nutrients": [
-      "nutrient rich",
-      "nutrient poor"
+      "nutrient rich"
     ],
     "extremes": [
-      "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
-      "climate adaptive (zone 8 BE)"
+      "tolerates brief flooding"
     ],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 40,
+    "heightInclFlowers": 70,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 60,
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
       7,
       8,
-      9,
-      10,
-      11,
-      12
+      9
     ],
     "floweringColour": [
-      "white",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
       "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "pink"
     ],
     "floweringSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
       "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "late summer (9)"
     ],
     "shape": [
-      "umbel, pseudanthium (incl. globose)",
-      "campanulate, calyx, trumpet, cup",
       "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
       "zygomorphic"
     ],
     "orientation": [
-      "upright",
-      "pendant"
+      "upright"
     ],
     "other": [
-      "cut flowers",
       "fragrant flowers"
     ]
   },
   "leaves": {
     "leafMonths": [
-      1,
-      2,
-      3,
       4,
       5,
       6,
       7,
       8,
       9,
-      10,
-      11,
-      12
+      10
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
       "green",
-      "brown",
-      "black"
+      "purple"
     ],
-    "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
-    ],
-    "evergreen": [
-      "evergreen",
-      "semi-evergreen"
-    ],
-    "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
-      "delicate"
-    ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "texture": [],
+    "fenestrations": "",
     "structure": [
-      "open",
       "dense"
     ]
   },
   "stemAndBark": {
-    "barkColour": [
-      "white",
-      "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
-    ],
-    "barkTexture": [
-      "smooth",
-      "peeling",
-      "fissured",
-      "plated",
-      "fibrous",
-      "spiny"
-    ]
+    "barkColour": [],
+    "barkTexture": []
   },
   "fruit": {
-    "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
-    ],
-    "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
-    ],
-    "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
-    ],
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
     "edible": [
       "edible raw"
     ],
     "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
+      "edible leaves"
     ]
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
   "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
-    "toxic",
-    "skin irritant"
+    "invasive roots (macho)"
   ],
   "ecology": {
     "habitat": [
-      "woodland",
-      "rainforest",
-      "forest edge",
-      "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
-      "alpine",
-      "rocky slopes",
-      "dune habitat",
       "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "riverbank"
     ],
-    "nativeTo": "",
+    "nativeTo": "Natural hybrid of European origin",
     "nativeRange": [
-      "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "cultivar or hybrid"
     ],
-    "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
-    ],
+    "successionalStage": [],
     "valueToAnimals": [
       "value to bees (BE)",
-      "value to butterflies (BE)",
-      "value to birds (BE)"
+      "value to butterflies (BE)"
     ]
   },
   "practical": {
-    "spacing": "",
-    "plantDensity": "",
+    "spacing": "30-40 cm",
+    "plantDensity": "6-9/m²",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
     ],
-    "parentage": ""
+    "parentage": "Mentha aquatica × Mentha spicata"
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "The well-known peppermint, with dark green, often purple-tinged leaves on reddish stems with a strong, cool menthol scent, and spikes of small lilac flowers in summer that attract bees and butterflies. A sterile hybrid that spreads only by runners. Grows in sun or light shade on moist, fertile soil. Spreads aggressively, so plant it in a container or with a root barrier. The leaves are used fresh or dried in tea, desserts and drinks.",
+    "noteNL": "De bekende pepermunt, met donkergroene, vaak paars getinte bladeren op roodachtige stengels met een sterke, frisse mentholgeur, en in de zomer aren kleine lila bloempjes die bijen en vlinders aantrekken. Een steriele kruising die zich enkel via uitlopers uitbreidt. Groeit in zon of lichte schaduw op vochtige, voedselrijke grond. Woekert sterk, plant hem dus in een pot of met een wortelbegrenzing. De bladeren worden vers of gedroogd gebruikt in thee, desserts en dranken."
   }
 }

@@ -1,0 +1,67 @@
+{
+  "id": "knautia-macedonica",
+  "mainImage": "/images/plants/knautia-macedonica/_knautia-macedonica-plantenborder2.jpg",
+  "images": [
+    "/images/plants/knautia-macedonica/_knautia-macedonica-plantenborder2.jpg",
+    "/images/plants/knautia-macedonica/knautia-macedonica-bloemen.webp",
+    "/images/plants/knautia-macedonica/knautia-macedonica-plantenborder.jpg"
+  ],
+  "hardinessZones": [5, 6, 7, 8],
+  "use": {
+    "scientificName": "Knautia macedonica",
+    "commonName": "Macedonian scabious",
+    "commonNameNl": "Macedonische beemdkroon",
+    "family": "Caprifoliaceae",
+    "type": ["herbaceous perennial"],
+    "application": ["pet safe"]
+  },
+  "siteConditions": {
+    "sunlight": ["full sun"],
+    "soil": ["loam", "sandy loam", "sand"],
+    "moisture": ["dry"],
+    "ph": ["neutral", "alkaline"],
+    "extremes": ["climate adaptive"]
+  },
+  "size": {
+    "heightExclFlowers": 70,
+    "heightInclFlowers": 80,
+    "climbingHeight": null,
+    "width": 50
+  },
+  "flowers": {
+    "floweringMonths": [6, 7, 8, 9],
+    "floweringColour": ["red"],
+    "floweringSeason": ["early summer (6)", "summer (7-8)", "late summer (9)"],
+    "shape": ["umbel, pseudanthium (incl. globose)"],
+    "orientation": ["upright"],
+    "other": ["cut flowers"]
+  },
+  "leaves": {
+    "leafMonths": [4, 5, 6, 7, 8, 9, 10],
+    "leafColour": ["green"],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "structure": ["open"]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": ["grassland"],
+    "nativeRange": [],
+    "successionalStage": [],
+    "valueToAnimals": ["value to bees (BE)", "value to butterflies (BE)"]
+  },
+  "projects": []
+}

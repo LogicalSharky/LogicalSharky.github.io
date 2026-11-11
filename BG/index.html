@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio Monstera plant database</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/beplantingsgrid.css">
+</head>
+<body>
+  <header>
+    <button id="menuBtn" aria-label="Toggle filters">☰</button>
+    <a class="logo" href="#"><img src="images/6528a693e4171f39a0b61027_Logo Cropped.svg" alt="Buro Groen plant database"></a>    <div class="right">
+    </div>
+  </header>
+  <nav id="tabs"></nav>
+  <aside id="side">
+    <input id="search" type="search" placeholder="Search name or family" aria-label="Search">
+    <div id="count"></div>
+    <label id="selectAllWrap" class="v">
+      <input type="checkbox" id="selectAll" title="Select all">
+      <span data-k="Select all">Select all</span>
+    </label>
+    <div id="zone"></div>
+    <div id="filters"></div>
+  </aside>
+  <div id="menuOverlay"></div>
+
+  <main>
+    <div id="grid"></div>
+    <div id="loadMore"></div>
+  </main>
+  <div id="selBox">
+    <div id="selPanel" hidden>
+      <ul id="selList"></ul>
+      <div id="selActs">
+      </div>
+    </div>
+    <button id="selBtn"></button>
+  </div>
+  <div id="pop" class="pop" role="dialog" aria-modal="true"></div>
+  <script src="js/app.js"></script>
+  <script src="js/plant-sheet-exports.js"></script>
+  <script src="js/beplantingsgrid.js"></script>
+</body>
+</html>

@@ -9,71 +9,36 @@
     "/images/plants/pinus-mugo/Pinus mugo plant.JPG"
   ],
   "hardinessZones": [
-    1,
-    2,
     3,
     4,
     5,
     6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13
+    7
   ],
   "use": {
     "scientificName": "Pinus mugo",
-    "commonName": "",
-    "commonNameNl": "",
-    "family": "",
+    "commonName": "Mountain pine",
+    "commonNameNl": "Bergden",
+    "family": "Pinaceae",
     "type": [
-      "tree",
-      "conifer",
-      "palm tree",
       "shrub",
-      "bamboo",
-      "climbing plant",
-      "herbaceous perennial",
-      "ornamental grass",
-      "fern",
-      "ground cover",
-      "bulb",
-      "aquatic plant",
-      "carnivorous plant",
-      "epiphyte",
-      "succulent",
-      "cacti"
+      "conifer"
     ],
     "application": [
       "bonsai",
-      "hedge plant",
-      "house plant",
-      "nitrogen-fixing",
-      "oriental garden",
-      "pet safe",
-      "pollard",
-      "topiary tree",
-      "tropical look",
-      "stinzen plants (historic estate plants BE)"
+      "oriental garden"
     ]
   },
   "siteConditions": {
     "sunlight": [
-      "full sun",
-      "half shade",
-      "shade"
+      "full sun"
     ],
     "soil": [
-      "clay",
       "loam",
       "sandy loam",
       "sand"
     ],
     "moisture": [
-      "poorly drained",
-      "moist but well drained",
       "well drained"
     ],
     "ph": [
@@ -82,85 +47,39 @@
       "alkaline"
     ],
     "nutrients": [
-      "nutrient rich",
       "nutrient poor"
     ],
     "extremes": [
       "coastal area",
-      "crevice and wall",
-      "green joints",
-      "street/paving",
-      "tolerates brief flooding",
-      "tolerates de-icing salt",
-      "tolerates foot traffic and play",
-      "tolerates wind exposure",
-      "needs to be windsheltered",
-      "vertical green & roof garden",
-      "wadi",
-      "climate adaptive (zone 8 BE)"
+      "tolerates wind exposure"
     ],
     "humidity": ""
   },
   "size": {
-    "heightExclFlowers": null,
-    "heightInclFlowers": null,
+    "heightExclFlowers": 300,
+    "heightInclFlowers": 300,
     "climbingHeight": null,
-    "width": null,
-    "largeLeaves": [
-      "large leaves (+50cm)"
-    ]
+    "width": 300,
+    "largeLeaves": []
   },
   "flowers": {
     "floweringMonths": [
-      1,
-      2,
-      3,
-      4,
       5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
+      6
     ],
     "floweringColour": [
-      "white",
       "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "red"
     ],
     "floweringSeason": [
-      "winter (12-2)",
-      "early spring (3)",
       "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
-      "late summer (9)",
-      "autumn (10-11)"
+      "early summer (6)"
     ],
-    "shape": [
-      "umbel, pseudanthium (incl. globose)",
-      "campanulate, calyx, trumpet, cup",
-      "whorl, corymb, spike, raceme, panicle",
-      "actinomorphic",
-      "zygomorphic"
-    ],
+    "shape": [],
     "orientation": [
-      "upright",
-      "pendant"
+      "upright"
     ],
-    "other": [
-      "cut flowers",
-      "fragrant flowers"
-    ]
+    "other": []
   },
   "leaves": {
     "leafMonths": [
@@ -178,210 +97,75 @@
       12
     ],
     "leafColour": [
-      "white",
-      "grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "green"
     ],
-    "autumnMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      11,
-      12
-    ],
-    "autumnColour": [
-      "yellow",
-      "orange",
-      "red"
-    ],
+    "autumnMonths": [],
+    "autumnColour": [],
     "evergreen": [
-      "evergreen",
-      "semi-evergreen"
+      "evergreen"
     ],
-    "texture": [
-      "smooth",
-      "glossy",
-      "velvet",
-      "corrugated",
-      "thick",
-      "delicate"
-    ],
-    "fenestrations": "Gets fenestrations when sizing up",
+    "texture": [],
+    "fenestrations": "",
     "structure": [
-      "open",
       "dense"
     ]
   },
   "stemAndBark": {
     "barkColour": [
-      "white",
       "grey",
-      "brown",
-      "black",
-      "red",
-      "orange",
-      "green",
-      "yellow",
-      "multicoloured"
+      "brown"
     ],
     "barkTexture": [
-      "smooth",
-      "peeling",
-      "fissured",
-      "plated",
-      "fibrous",
-      "spiny"
+      "plated"
     ]
   },
   "fruit": {
     "fruitingMonths": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
       9,
       10,
-      11,
-      12
+      11
     ],
     "fruitType": [
-      "fleshy fruit",
-      "berries",
-      "nuts",
-      "cones",
-      "samara"
+      "cones"
     ],
     "fruitColour": [
-      "white/grey",
-      "yellow",
-      "orange",
-      "red",
-      "pink",
-      "purple",
-      "blue",
-      "green",
-      "brown",
-      "black"
+      "brown"
     ],
     "fruitingSeason": [
-      "winter (12-2)",
-      "early spring (3)",
-      "spring (4-5)",
-      "early summer (6)",
-      "summer (7-8)",
       "late summer (9)",
       "autumn (10-11)"
     ],
-    "edible": [
-      "edible raw"
-    ],
-    "ediblePartsRaw": [
-      "edible fruit",
-      "edible leaves",
-      "edible flowers",
-      "edible stem",
-      "edible young shoots"
-    ]
+    "edible": [],
+    "ediblePartsRaw": []
   },
   "variegation": {
-    "variegated": [
-      "variegated"
-    ],
-    "variegationColour": [
-      "cream",
-      "green on green",
-      "orange",
-      "pink",
-      "purple",
-      "red",
-      "silver",
-      "white",
-      "yellow"
-    ],
-    "variegationType": [
-      "central",
-      "marbled",
-      "marginata",
-      "mosaic",
-      "mint",
-      "mottled",
-      "sectoral",
-      "splash",
-      "striped"
-    ]
+    "variegated": [],
+    "variegationColour": [],
+    "variegationType": []
   },
-  "warnings": [
-    "allergenic",
-    "invasive roots (macho)",
-    "pest sensitive (outdoor)",
-    "pest sensitive (indoor)",
-    "toxic",
-    "skin irritant"
-  ],
+  "warnings": [],
   "ecology": {
     "habitat": [
-      "woodland",
-      "rainforest",
-      "forest edge",
-      "shrubland",
-      "grassland",
-      "tundra",
-      "arid land",
       "alpine",
       "rocky slopes",
-      "dune habitat",
-      "wetland",
-      "riverbank",
-      "freshwater aquatic",
-      "saline habitat"
+      "shrubland"
     ],
-    "nativeTo": "",
+    "nativeTo": "Mountains of central and southern Europe",
     "nativeRange": [
-      "native species",
-      "cultivar or hybrid",
-      "endangered in native country",
-      "native (BE)",
-      "naturalized (BE)",
-      "invasive (BE)"
+      "native species"
     ],
     "successionalStage": [
-      "pioneer species",
-      "intermediate species",
-      "climax species",
-      "support species"
+      "pioneer species"
     ],
     "valueToAnimals": [
-      "value to bees (BE)",
-      "value to butterflies (BE)",
       "value to birds (BE)"
     ]
   },
   "practical": {
-    "spacing": "",
-    "plantDensity": "",
+    "spacing": "100-150 cm",
+    "plantDensity": "0.5-1/m²",
     "rarity": [
-      "accessible (BE)",
-      "rare (BE)",
-      "unobtainable (BE)"
+      "accessible (BE)"
     ],
     "obtainability": [
       "obtainable from BE growers"
@@ -389,7 +173,7 @@
     "parentage": ""
   },
   "discription": {
-    "note": "",
-    "noteNL": ""
+    "note": "A slow-growing, often multi-stemmed, rounded to spreading pine with dense, dark green paired needles, yellow male catkins and small reddish female cones in late spring, followed by small brown cones. Size varies greatly: from dwarf cultivars of 50 cm to shrubby forms of several metres. Needs full sun and well-drained soil; very hardy and tolerant of wind, cold, poor soil and coastal conditions. Ideal for rock gardens, Japanese-style gardens and as a bonsai. Prune by shortening the young candles in spring.",
+    "noteNL": "Een traag groeiende, vaak meerstammige, ronde tot uitgespreide den met dichte, donkergroene naalden per twee, gele mannelijke katjes en kleine roodachtige vrouwelijke kegeltjes in het late voorjaar, gevolgd door kleine bruine kegels. De grootte varieert sterk: van dwergcultivars van 50 cm tot struikvormen van enkele meters. Heeft volle zon en goed doorlatende grond nodig; zeer winterhard en bestand tegen wind, kou, schrale grond en kustomstandigheden. Ideaal voor rotstuinen, Japanse tuinen en als bonsai. Snoei door in het voorjaar de jonge 'kaarsen' in te korten."
   }
 }

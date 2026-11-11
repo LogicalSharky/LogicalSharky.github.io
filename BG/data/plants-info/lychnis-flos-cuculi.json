@@ -1,0 +1,66 @@
+{
+  "id": "lychnis-flos-cuculi",
+  "mainImage": "/images/plants/lychnis-flos-cuculi/_lychnis-flos-cuculi.JPG",
+  "images": [
+    "/images/plants/lychnis-flos-cuculi/_lychnis-flos-cuculi.JPG",
+    "/images/plants/lychnis-flos-cuculi/lychnis-flos-cuculi-situ.JPG"
+  ],
+  "hardinessZones": [4, 5, 6, 7, 8],
+  "use": {
+    "scientificName": "Lychnis flos cuculi",
+    "commonName": "Ragged robin",
+    "commonNameNl": "Echte koekoeksbloem",
+    "family": "Caryophyllaceae",
+    "type": ["herbaceous perennial"],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": ["full sun", "half shade"],
+    "soil": ["clay", "loam", "sandy loam"],
+    "moisture": ["wet", "moist"],
+    "ph": ["acidic", "neutral"],
+    "extremes": ["tolerates brief flooding", "wadi"]
+  },
+  "size": {
+    "heightExclFlowers": 60,
+    "heightInclFlowers": 70,
+    "climbingHeight": null,
+    "width": 30
+  },
+  "flowers": {
+    "floweringMonths": [5, 6, 7],
+    "floweringColour": ["pink"],
+    "floweringSeason": ["spring (4-5)", "early summer (6)", "summer (7-8)"],
+    "shape": ["whorl, corymb, spike, raceme, panicle"],
+    "orientation": ["upright"],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [3, 4, 5, 6, 7, 8, 9, 10],
+    "leafColour": ["green"],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "structure": ["open"]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": ["grassland", "wetland", "riverbank"],
+    "nativeRange": ["native species"],
+    "successionalStage": ["intermediate species"],
+    "valueToAnimals": ["value to bees (BE)", "value to butterflies (BE)"]
+  },
+  "projects": []
+}

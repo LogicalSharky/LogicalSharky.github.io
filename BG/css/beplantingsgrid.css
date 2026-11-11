@@ -1,6 +1,8 @@
 @font-face{font-family:"Work Sans BG";font-weight:300;src:url("../fonts/WorkSans-Light.ttf") format("truetype")}
 @font-face{font-family:"Work Sans BG";font-weight:600;src:url("../fonts/WorkSans-SemiBold.ttf") format("truetype")}
 
+.bg-lock{overflow:hidden}
+
 .bg-modal{position:fixed;inset:0;z-index:1100;display:none;flex-direction:column;min-height:0;background:#e9eee6;color:var(--ink,#1d2a22);font:15px/1.4 system-ui,sans-serif}
 .bg-modal.on{display:flex}
 .bg-modal.bg-dragging,.bg-modal.bg-dragging *{cursor:grabbing!important;user-select:none}
@@ -30,6 +32,7 @@
 .bg-wrap{container-type:inline-size;width:min(100%,1400px,max(560px,calc((100vh - 200px) * 1.4142)));margin:0 auto}
 .bg-page{--mm:calc(100cqw / 420);position:relative;width:100%;aspect-ratio:420/297;background:#fff;box-shadow:0 2px 14px rgba(0,0,0,.2);font-family:"Work Sans BG","Work Sans",system-ui,sans-serif;overflow:hidden}
 .bg-title{position:absolute;box-sizing:border-box;padding:0 calc(var(--mm)*1);border:0;border-bottom:1px dashed #b7c4b4;background:transparent;color:#000;font:600 calc(var(--mm)*4.59)/1.2 "Work Sans BG","Work Sans",system-ui,sans-serif;outline:none}
+.bg-cell,.bg-title{transition:left .12s ease-out}
 .bg-title:hover,.bg-title:focus{background:#f3f7f1;border-bottom-color:var(--leaf,#3d6b4f)}
 .bg-title::placeholder{color:#a7b5a5;font-weight:400}
 .bg-cell{position:absolute;box-sizing:border-box;cursor:pointer;touch-action:pan-y;user-select:none;-webkit-user-select:none}
@@ -39,9 +42,20 @@
 .bg-ph img{display:block;width:100%;height:100%;object-fit:cover;pointer-events:none}
 .bg-plus{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:calc(var(--mm)*12);height:calc(var(--mm)*12);border-radius:50%;background:var(--leaf,#3d6b4f);color:#fff;font-size:calc(var(--mm)*8);line-height:1;opacity:.85;pointer-events:none}
 .bg-cell:hover .bg-plus{opacity:1}
-.bg-text{position:absolute;left:0;right:0;font-size:calc(var(--mm)*3.88);line-height:calc(var(--mm)*4.657);font-weight:300;color:#000;pointer-events:none}
-.bg-text b{display:block;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.bg-text span{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bg-over{margin-top:calc(var(--mm)*.8);padding:calc(var(--mm)*.3) calc(var(--mm)*1.2);border-radius:3px;background:#fdecea;color:#9b3026;font-size:calc(var(--mm)*2.6);line-height:1.3;font-weight:600}
+.bg-text{z-index:2;position:absolute;left:0;right:0;font-size:calc(var(--mm)*3.88);line-height:calc(var(--mm)*4.657);font-weight:300;color:#000;cursor:auto}
+.bg-row{position:relative}
+.bg-line{display:block;box-sizing:border-box;width:100%;height:calc(var(--mm)*4.657);margin:0;padding:0;border:0;border-radius:2px;background:transparent;color:#000;font:inherit;line-height:inherit;outline:none;text-overflow:ellipsis;cursor:text;user-select:text;-webkit-user-select:text}
+.bg-line.bg-name{font-weight:600}
+.bg-line.edited{box-shadow:inset 0 -1px 0 #c79a3a}
+.bg-line:hover{background:#f3f7f1}
+.bg-line:focus{background:#eaf3e6;box-shadow:inset 0 -1px 0 var(--leaf,#3d6b4f);text-overflow:clip}
+.bg-row .bg-line{padding-right:calc(var(--mm)*4)}
+.bg-del{position:absolute;right:0;top:0;width:calc(var(--mm)*4.6);height:calc(var(--mm)*4.6);padding:0;border:0;border-radius:50%;background:#e2e9df;color:#5b6b60;font-size:calc(var(--mm)*3.6);line-height:1;cursor:pointer;opacity:0}
+.bg-row:hover .bg-del,.bg-row:focus-within .bg-del{opacity:1}
+.bg-del:hover{background:#b3402f;color:#fff}
+.bg-reset{position:absolute;right:0;bottom:100%;margin-bottom:calc(var(--mm)*.6);padding:calc(var(--mm)*.4) calc(var(--mm)*1.6);border:1px solid #c79a3a;border-radius:20px;background:#fff8e8;color:#7a5a17;font-size:calc(var(--mm)*2.7);line-height:1.2;white-space:nowrap;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.15)}
+.bg-reset:hover{background:#c79a3a;color:#fff}
 .bg-cell.filled:hover{outline:2px solid var(--leaf,#3d6b4f);outline-offset:calc(var(--mm)*.8)}
 
 .bg-dialog{position:absolute;inset:0;z-index:5;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(20,30,24,.55)}
@@ -67,6 +81,27 @@
 .bg-dfoot{flex:none;display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;padding:10px 16px;background:#fff;border-top:1px solid var(--line,#cfd8cd)}
 .bg-dmsg{padding:34px;text-align:center;color:var(--leaf,#3d6b4f);font-weight:600}
 .bg-dmsg.err{color:#9b3026}
+
+.bg-note{margin:6px 0 12px;color:#3f4d44;font-size:.92rem}
+.bg-slots{display:grid;gap:8px}
+.bg-slot{display:grid;grid-template-columns:70px minmax(0,1fr);align-items:center;gap:4px 10px}
+.bg-slot span{font-size:.85rem;font-weight:600;color:#5b6b60}
+.bg-slot select{min-height:36px;padding:6px 8px;border:1px solid var(--line,#cfd8cd);border-radius:6px;background:#fff;font:inherit}
+.bg-slot em{grid-column:2;font-size:.8rem;font-style:normal;color:#7a8a7f;min-height:1em}
+
+.bg-mini{position:fixed;inset:0;z-index:1200;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(20,30,24,.55);color:var(--ink,#1d2a22);font:15px/1.4 system-ui,sans-serif}
+.bg-mini[hidden]{display:none}
+.bg-mini .bg-dbox{width:min(560px,100%);max-height:calc(100vh - 32px)}
+.bg-mini button{font:inherit}
+.bg-prow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:10px 0}
+.bg-prow span{color:#5b6b60;font-size:.9rem}
+label.bg-prow span{font-weight:600;color:var(--ink,#1d2a22)}
+.bg-pnum{flex:1;min-width:140px;padding:9px 10px;border:1px solid var(--line,#cfd8cd);border-radius:6px;font:inherit}
+.bg-pfound{max-height:180px;overflow-y:auto;margin:0;padding:6px 10px 6px 26px;background:#fff;border:1px solid var(--line,#cfd8cd);border-radius:6px;font-size:.9rem}
+.bg-hint{font-size:.8rem;color:#5b6b60}
+.bg-hint code,.bg-hint.err code{display:inline-block;margin-top:4px;padding:2px 6px;background:#fff;border-radius:4px;user-select:all}
+.bg-hint.err,.bg-pmsg.err{color:#9b3026}
+.bg-pmsg{min-height:1.2em;margin:8px 0 0;color:var(--leaf,#3d6b4f);font-weight:600;font-size:.9rem}
 
 @media(max-width:700px){
   .bg-head{padding:10px 12px}.bg-body{padding:10px}.bg-foot{padding-left:10px;padding-right:10px}

@@ -1,0 +1,66 @@
+{
+  "id": "sanguisorba-officinalis",
+  "mainImage": "/images/plants/sanguisorba-officinalis/_sanguisorba-officinalis.jpg",
+  "images": [
+    "/images/plants/sanguisorba-officinalis/_sanguisorba-officinalis.jpg",
+    "/images/plants/sanguisorba-officinalis/sanguisorba-officinalis-bloemen.jpg"
+  ],
+  "hardinessZones": [3, 4, 5, 6, 7, 8],
+  "use": {
+    "scientificName": "Sanguisorba officinalis",
+    "commonName": "Great burnet",
+    "commonNameNl": "Grote pimpernel",
+    "family": "Rosaceae",
+    "type": ["herbaceous perennial"],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": ["full sun", "half shade"],
+    "soil": ["clay", "loam", "sandy loam"],
+    "moisture": ["wet", "moist"],
+    "ph": ["neutral"],
+    "extremes": ["tolerates brief flooding", "wadi"]
+  },
+  "size": {
+    "heightExclFlowers": 100,
+    "heightInclFlowers": 120,
+    "climbingHeight": null,
+    "width": 50
+  },
+  "flowers": {
+    "floweringMonths": [7, 8, 9],
+    "floweringColour": ["red"],
+    "floweringSeason": ["summer (7-8)", "late summer (9)"],
+    "shape": ["whorl, corymb, spike, raceme, panicle"],
+    "orientation": ["upright"],
+    "other": ["cut flowers"]
+  },
+  "leaves": {
+    "leafMonths": [4, 5, 6, 7, 8, 9, 10],
+    "leafColour": ["green"],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "structure": ["open"]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": ["edible raw"],
+    "ediblePartsRaw": ["edible leaves"]
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": ["grassland", "wetland"],
+    "nativeRange": ["native species"],
+    "successionalStage": ["intermediate species"],
+    "valueToAnimals": ["value to bees (BE)", "value to butterflies (BE)"]
+  },
+  "projects": []
+}

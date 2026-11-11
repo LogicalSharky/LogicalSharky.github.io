@@ -267,7 +267,7 @@ const GROUPS = [
   ['⚠️', '#c0392b', 'Warnings', ['warnings']],
   ['🦋', '#6a5acd', 'Ecology', ['ecology.habitat', 'ecology.nativeTo', 'ecology.nativeRange', 'ecology.successionalStage', 'ecology.valueToAnimals']],
   ['📋', '#6b7a70', 'Practical', ['practical.spacing', 'practical.plantDensity', 'practical.rarity', 'practical.parentage']],
-  ['💡', '#7a6845', 'Discription', ['discription.note']],
+  ['💡', '#7a6845', 'Description', ['discription.note']],
 ];
 
 const SOFT = {
@@ -811,9 +811,7 @@ function drawSel() {
       .join('') ||
     `<li class="empty">${esc(tr('No plants selected yet'))}</li>`;
 
-  document
-    .querySelectorAll('#selActs button')
-    .forEach(b => (b.disabled = !n));
+  if (window.SMX) SMX.refreshMenu();
 }
 
 const setPick = (id, on) => {
@@ -827,8 +825,9 @@ const setPick = (id, on) => {
 
   if (selectionView) {
     if (chosen.size === 0) {
+      // keep the panel open (import stays available), show the empty message
       selectionView = false;
-      $('#selPanel').hidden = true;
+      $('#selList').hidden = false;
     }
 
     render();
@@ -856,6 +855,11 @@ $('#selectAll').addEventListener('change', e => {
       .forEach(i => (i.checked = on));
   });
 
+  if (selectionView && chosen.size === 0) {
+    selectionView = false;
+    $('#selList').hidden = false;
+  }
+
   drawSel();
   render();
 });
@@ -869,127 +873,31 @@ $('#selList').addEventListener('click', e => {
   }
 });
 
+function openSelectionPanel() {
+  $('#selPanel').hidden = false;
+  selectionView = chosen.size > 0;
+  $('#selList').hidden = selectionView;
+  if (window.SMX) SMX.resetMenu();
+  render();
+}
+
 $('#selBtn').addEventListener('click', () => {
-  if (chosen.size === 0) {
-    return;
-  }
-
-  selectionView = !selectionView;
-
-  const panel = $('#selPanel');
-
-  if (selectionView) {
-    panel.hidden = false;
-
-    $('#selList').hidden = true;
-
-    render();
+  if ($('#selPanel').hidden) {
+    openSelectionPanel();
   } else {
-    panel.hidden = true;
-
-    $('#selList').hidden = false;
-
+    closeSelectionView();
     render();
   }
 });
 
-/* ---------- Downloads ---------- */
-const MN = { en: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], nl: ['jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'] };
-const mtxt = ms => ms.map(m => MN[lang][m - 1]).join(', ');
-const head = p => `${p.use.scientificName} - ${cn(p)}`;
+/* ---------- Year diagrams (popup + exports) ---------- */
 function periods(p, k) {
   const f = p.flowers || {}, l = p.leaves || {}, r = p.fruit || {};
-  return { '@flowers': [f.floweringMonths || [], f.floweringColour || []],
+  return {
+    '@flowers': [f.floweringMonths || [], f.floweringColour || []],
     '@leaves': [l.leafMonths || [], l.leafColour || [], l.autumnMonths || [], l.autumnColour || []],
-    '@fruit': [r.fruitingMonths || [], r.fruitColour || []] }[k];
+    '@fruit': [r.fruitingMonths || [], r.fruitColour || []]
+  }[k];
 }
-function infoRows(p) {
-  return GROUPS.map(([, colour, title, fields]) => ({ title: tr(title), colour, rows: fields.map(f => {
-    if (f[0] === '@') {
-      const [m, c, am = [], ac = []] = periods(p, f);
-      const v = [m.length ? `${mtxt(m)} (${c.map(tr).join('/')})` : '', am.length ? `${tr('autumn')}: ${mtxt(am)} (${ac.map(tr).join('/')})` : ''].filter(Boolean).join('; ');
-      return [tr(DIAG[f]), v];
-    }
-    return [tr(label(f.split('.').pop())), fieldText(p, f)];
-  }).filter(r => r[1]) })).filter(g => g.rows.length);
-}
-function save(name, blob) {
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob); a.download = name; a.click();
-  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
-}
-const textFile = (name, s) => save(name, new Blob(['\ufeff' + s], { type: 'text/plain;charset=utf-8' }));
-const loadPdf = () => window.jspdf ? Promise.resolve() : new Promise((ok, no) => {
-  const s = document.createElement('script');
-  s.src = 'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js';
-  s.onload = ok; s.onerror = () => no(new Error('Could not load the PDF library (internet connection needed).'));
-  document.head.appendChild(s);
-});
-const photo = src => new Promise(ok => {
-  const i = new Image();
-  i.onload = () => {
-    const s = Math.min(i.naturalWidth, i.naturalHeight), c = document.createElement('canvas');
-    c.width = c.height = Math.min(s, 900);
-    c.getContext('2d').drawImage(i, (i.naturalWidth - s) / 2, (i.naturalHeight - s) / 2, s, s, 0, 0, c.width, c.height);
-    ok(c.toDataURL('image/jpeg', 0.92));
-  };
-  i.onerror = () => ok(null);
-  i.src = encodeURI(src);
-});
-async function pdfGrid(list) {
-  await loadPdf();
-  const doc = new window.jspdf.jsPDF({ unit: 'mm', format: 'a4' });
-  const M = 12, G = 6, cw = (210 - 2 * M - 2 * G) / 3, ch = cw + 16, rows = Math.floor((297 - 2 * M + G) / (ch + G));
-  for (let i = 0; i < list.length; i++) {
-    const k = i % (3 * rows);
-    if (i && !k) doc.addPage();
-    const x = M + (k % 3) * (cw + G), y = M + Math.floor(k / 3) * (ch + G), p = list[i], img = await photo(p.mainImage);
-    if (img) doc.addImage(img, 'JPEG', x, y, cw, cw); else doc.rect(x, y, cw, cw);
-    doc.setTextColor(30, 42, 34).setFont('helvetica', 'bolditalic').setFontSize(9).text(doc.splitTextToSize(p.use.scientificName, cw).slice(0, 2), x, y + cw + 4.5);
-    doc.setFont('helvetica', 'normal').setFontSize(8.5).text(doc.splitTextToSize(cn(p), cw).slice(0, 2), x, y + cw + 12);
-  }
-  doc.save('plant-selection.pdf');
-}
-async function pdfInfo(list) {
-  await loadPdf();
-  const doc = new window.jspdf.jsPDF({ unit: 'mm', format: 'a4' }), ink = [30, 42, 34];
-  for (let i = 0; i < list.length; i++) {
-    const p = list[i], img = await photo(p.mainImage);
-    if (i) doc.addPage();
-    if (img) doc.addImage(img, 'JPEG', 12, 14, 50, 50);
-    const sl = doc.splitTextToSize(p.use.scientificName, 118), ny = 22 + sl.length * 7.5;
-    doc.setTextColor(...ink).setFont('helvetica', 'bolditalic').setFontSize(18).text(sl, 68, 22);
-    doc.setFont('helvetica', 'normal').setFontSize(12).text(cn(p), 68, ny);
-    doc.setFontSize(10).text(p.use.family, 68, ny + 6).text(`${tr('Zone')} ${p.hardinessZones.join(', ')}`, 68, ny + 12);
-    let y = 72;
-    for (const g of infoRows(p)) {
-      if (y > 262) { doc.addPage(); y = 14; }
-      doc.setTextColor(g.colour).setFont('helvetica', 'bold').setFontSize(11).text(g.title, 12, y);
-      y += 5.5;
-      doc.setTextColor(...ink).setFont('helvetica', 'normal').setFontSize(9.5);
-      for (const [l, v] of g.rows) {
-        const ls = doc.splitTextToSize(`${l}: ${v}`, 182);
-        if (y + ls.length * 4.6 > 284) { doc.addPage(); y = 14; }
-        doc.text(ls, 16, y); y += ls.length * 4.6 + 1;
-      }
-      y += 3;
-    }
-  }
-  doc.save('plant-selection-info.pdf');
-}
-$('#selActs').addEventListener('click', async e => {
-  const act = e.target.dataset.a;
-  if (!act || !chosen.size) return;
-  e.target.disabled = true;
-  try {
-    const base = picks();
-    const list = (act === 'txti' || act === 'pdfi')
-      ? await Promise.all(base.map(p => loadPlantDetails(p).catch(() => p)))
-      : base;
-    if (act === 'txt') textFile('plant-selection.txt', list.map(head).join('\n'));
-    else if (act === 'txti') textFile('plant-selection-info.txt', list.map(p => [head(p), `${p.use.family} | ${tr('Zone')} ${p.hardinessZones.join(', ')}`, '', ...infoRows(p).flatMap(g => [g.title.toUpperCase(), ...g.rows.map(([l, v]) => `  ${l}: ${v}`), ''])].join('\n')).join('\n' + '='.repeat(40) + '\n\n'));
-    else if (act === 'pdf') await pdfGrid(list);
-    else await pdfInfo(list);
-  } catch (err) { alert(err.message); }
-  drawSel();
-});
+
+/* Export & import live in js/export-core.js, js/export-grid.js and js/export-info.js */

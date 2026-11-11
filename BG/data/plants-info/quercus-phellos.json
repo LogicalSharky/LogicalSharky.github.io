@@ -1,0 +1,68 @@
+{
+  "id": "quercus-phellos",
+  "mainImage": "/images/plants/quercus-phellos/_quercus-phellos-meerstam.jpg",
+  "images": [
+    "/images/plants/quercus-phellos/_quercus-phellos-meerstam.jpg",
+    "/images/plants/quercus-phellos/quercus-phellos-herfst.jpg",
+    "/images/plants/quercus-phellos/quercus-phellos-herfstblad.jpg",
+    "/images/plants/quercus-phellos/quercus-phellos.jpg"
+  ],
+  "hardinessZones": [5, 6, 7, 8, 9],
+  "use": {
+    "scientificName": "Quercus phellos",
+    "commonName": "Willow oak",
+    "commonNameNl": "Wilgeik",
+    "family": "Fagaceae",
+    "type": ["tree"],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": ["full sun", "half shade"],
+    "soil": ["clay", "loam", "sandy loam"],
+    "moisture": ["wet", "moist"],
+    "ph": ["acidic", "neutral"],
+    "extremes": ["street/paving", "tolerates brief flooding"]
+  },
+  "size": {
+    "heightExclFlowers": 2000,
+    "heightInclFlowers": 2000,
+    "climbingHeight": null,
+    "width": 1200
+  },
+  "flowers": {
+    "floweringMonths": [4],
+    "floweringColour": ["yellow", "green"],
+    "floweringSeason": ["spring (4-5)"],
+    "shape": ["whorl, corymb, spike, raceme, panicle"],
+    "orientation": ["pendant"],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [4, 5, 6, 7, 8, 9, 10, 11],
+    "leafColour": ["green"],
+    "autumnMonths": [10, 11],
+    "autumnColour": ["yellow", "orange"],
+    "evergreen": [],
+    "structure": ["open"]
+  },
+  "stemAndBark": {
+    "barkColour": ["grey", "brown"],
+    "barkTexture": ["fissured"]
+  },
+  "fruit": {
+    "fruitingMonths": [9, 10, 11],
+    "fruitType": ["nuts"],
+    "fruitColour": ["brown"],
+    "fruitingSeason": ["late summer (9)", "autumn (10-11)"],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": ["allergenic"],
+  "ecology": {
+    "habitat": ["woodland", "riverbank"],
+    "nativeRange": [],
+    "successionalStage": ["climax species"],
+    "valueToAnimals": ["value to butterflies (BE)", "value to birds (BE)"]
+  },
+  "projects": ["722"]
+}

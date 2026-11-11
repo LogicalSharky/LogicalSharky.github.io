@@ -1,0 +1,67 @@
+{
+  "id": "petasites-hybridus",
+  "mainImage": "/images/plants/petasites-hybridus/_petasites-hybridus.jpeg",
+  "images": [
+    "/images/plants/petasites-hybridus/_petasites-hybridus.jpeg",
+    "/images/plants/petasites-hybridus/petasites-hybridus-bloem.jpg",
+    "/images/plants/petasites-hybridus/petasites-hybridus-situ.JPG"
+  ],
+  "hardinessZones": [4, 5, 6, 7, 8],
+  "use": {
+    "scientificName": "Petasites hybridus",
+    "commonName": "Butterbur",
+    "commonNameNl": "Groot hoefblad",
+    "family": "Asteraceae",
+    "type": ["herbaceous perennial"],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": ["half shade", "shade"],
+    "soil": ["clay", "loam", "sandy loam"],
+    "moisture": ["wet", "moist"],
+    "ph": ["neutral", "alkaline"],
+    "extremes": ["tolerates brief flooding", "wadi"]
+  },
+  "size": {
+    "heightExclFlowers": 100,
+    "heightInclFlowers": 100,
+    "climbingHeight": null,
+    "width": 120
+  },
+  "flowers": {
+    "floweringMonths": [3, 4],
+    "floweringColour": ["pink"],
+    "floweringSeason": ["early spring (3)", "spring (4-5)"],
+    "shape": ["whorl, corymb, spike, raceme, panicle"],
+    "orientation": ["upright"],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [5, 6, 7, 8, 9, 10],
+    "leafColour": ["green"],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "structure": ["dense"]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": ["toxic to humans", "invasive roots (macho)"],
+  "ecology": {
+    "habitat": ["woodland", "wetland", "riverbank"],
+    "nativeRange": ["native species"],
+    "successionalStage": ["pioneer species"],
+    "valueToAnimals": ["value to bees (BE)"]
+  },
+  "projects": []
+}

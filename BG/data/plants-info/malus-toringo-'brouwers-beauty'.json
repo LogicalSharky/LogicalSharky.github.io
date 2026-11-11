@@ -1,0 +1,67 @@
+{
+  "id": "malus-toringo-'brouwers-beauty'",
+  "mainImage": "/images/plants/malus-toringo-'brouwers-beauty'/_malus-toringo-'brouwers-beauty'.jpg",
+  "images": [
+    "/images/plants/malus-toringo-'brouwers-beauty'/_malus-toringo-'brouwers-beauty'.jpg",
+    "/images/plants/malus-toringo-'brouwers-beauty'/malus-toringo-'brouwers-beauty'-bloemen.jpg",
+    "/images/plants/malus-toringo-'brouwers-beauty'/malus-toringo-'brouwers-beauty'-vruchten.jpg"
+  ],
+  "hardinessZones": [4, 5, 6, 7, 8],
+  "use": {
+    "scientificName": "Malus toringo 'Brouwers beauty'",
+    "commonName": "Toringo crabapple",
+    "commonNameNl": "Sierappel",
+    "family": "Rosaceae",
+    "type": ["tree"],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": ["full sun", "half shade"],
+    "soil": ["clay", "loam", "sandy loam"],
+    "moisture": ["moist"],
+    "ph": ["neutral"],
+    "extremes": ["street/paving"]
+  },
+  "size": {
+    "heightExclFlowers": 450,
+    "heightInclFlowers": 450,
+    "climbingHeight": null,
+    "width": 450
+  },
+  "flowers": {
+    "floweringMonths": [4, 5],
+    "floweringColour": ["white", "pink"],
+    "floweringSeason": ["spring (4-5)"],
+    "shape": ["actinomorphic"],
+    "orientation": ["upright"],
+    "other": ["fragrant flowers"]
+  },
+  "leaves": {
+    "leafMonths": [4, 5, 6, 7, 8, 9, 10],
+    "leafColour": ["green"],
+    "autumnMonths": [10, 11],
+    "autumnColour": ["yellow", "orange"],
+    "evergreen": [],
+    "structure": ["open"]
+  },
+  "stemAndBark": {
+    "barkColour": ["grey", "brown"],
+    "barkTexture": ["fissured"]
+  },
+  "fruit": {
+    "fruitingMonths": [9, 10, 11, 12],
+    "fruitType": ["fleshy fruit"],
+    "fruitColour": ["orange", "yellow"],
+    "fruitingSeason": ["late summer (9)", "autumn (10-11)", "winter (12-2)"],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": [],
+    "nativeRange": [],
+    "successionalStage": [],
+    "valueToAnimals": ["value to bees (BE)", "value to birds (BE)"]
+  },
+  "projects": ["722"]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "acer-campestre",
+  "mainImage": "/images/plants/acer-campestre/_acer-campestre-solitair-groot.jpg",
+  "images": [
+    "/images/plants/acer-campestre/_acer-campestre-solitair-groot.jpg",
+    "/images/plants/acer-campestre/acer-campestre-blad-herfst.jpg",
+    "/images/plants/acer-campestre/acer-campestre-blad.webp",
+    "/images/plants/acer-campestre/acer-campestre-haag.webp",
+    "/images/plants/acer-campestre/acer-campestre-herfst.jpg",
+    "/images/plants/acer-campestre/acer-campestre-solitair-wild.jpg",
+    "/images/plants/acer-campestre/acer-campestre-solitair.jpg",
+    "/images/plants/acer-campestre/acer-campestre-struweel.jpg"
+  ],
+  "hardinessZones": [5, 6, 7, 8],
+  "use": {
+    "scientificName": "Acer campestre",
+    "commonName": "Field maple",
+    "commonNameNl": "Spaanse aak",
+    "family": "Sapindaceae",
+    "type": ["tree"],
+    "application": ["hedge plant", "pet safe"]
+  },
+  "siteConditions": {
+    "sunlight": ["full sun", "half shade", "shade"],
+    "soil": ["clay", "loam", "sandy loam", "sand"],
+    "moisture": ["moist", "dry"],
+    "ph": ["neutral", "alkaline"],
+    "extremes": ["street/paving", "tolerates de-icing salt", "tolerates wind exposure", "climate adaptive"]
+  },
+  "size": {
+    "heightExclFlowers": 1200,
+    "heightInclFlowers": 1200,
+    "climbingHeight": null,
+    "width": 800
+  },
+  "flowers": {
+    "floweringMonths": [4, 5],
+    "floweringColour": ["yellow", "green"],
+    "floweringSeason": ["spring (4-5)"],
+    "shape": ["whorl, corymb, spike, raceme, panicle"],
+    "orientation": ["upright"],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [4, 5, 6, 7, 8, 9, 10],
+    "leafColour": ["green"],
+    "autumnMonths": [10, 11],
+    "autumnColour": ["yellow", "orange"],
+    "evergreen": [],
+    "structure": ["dense"]
+  },
+  "stemAndBark": {
+    "barkColour": ["grey", "brown"],
+    "barkTexture": ["fissured"]
+  },
+  "fruit": {
+    "fruitingMonths": [9, 10],
+    "fruitType": ["samara"],
+    "fruitColour": ["green", "brown"],
+    "fruitingSeason": ["late summer (9)", "autumn (10-11)"],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": ["allergenic"],
+  "ecology": {
+    "habitat": ["woodland", "forest edge", "shrubland"],
+    "nativeRange": ["native species"],
+    "successionalStage": ["intermediate species"],
+    "valueToAnimals": ["value to bees (BE)", "value to birds (BE)"]
+  },
+  "projects": ["722"]
+}

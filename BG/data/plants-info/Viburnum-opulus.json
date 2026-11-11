@@ -1,0 +1,67 @@
+{
+  "id": "Viburnum-opulus",
+  "mainImage": "/images/plants/Viburnum-opulus/_Viburnum-opulus-bloemen.JPG",
+  "images": [
+    "/images/plants/Viburnum-opulus/Viburnum-opulus-situ.JPG",
+    "/images/plants/Viburnum-opulus/Viburnum-opulus-struweel.JPG",
+    "/images/plants/Viburnum-opulus/_Viburnum-opulus-bloemen.JPG"
+  ],
+  "hardinessZones": [3, 4, 5, 6, 7, 8],
+  "use": {
+    "scientificName": "Viburnum opulus",
+    "commonName": "Guelder rose",
+    "commonNameNl": "Gelderse roos",
+    "family": "Adoxaceae",
+    "type": ["shrub"],
+    "application": ["hedge plant"]
+  },
+  "siteConditions": {
+    "sunlight": ["full sun", "half shade", "shade"],
+    "soil": ["clay", "loam", "sandy loam"],
+    "moisture": ["wet", "moist"],
+    "ph": ["neutral", "alkaline"],
+    "extremes": ["tolerates brief flooding", "wadi"]
+  },
+  "size": {
+    "heightExclFlowers": 400,
+    "heightInclFlowers": 400,
+    "climbingHeight": null,
+    "width": 300
+  },
+  "flowers": {
+    "floweringMonths": [5, 6],
+    "floweringColour": ["white"],
+    "floweringSeason": ["spring (4-5)", "early summer (6)"],
+    "shape": ["umbel, pseudanthium (incl. globose)"],
+    "orientation": ["upright"],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [4, 5, 6, 7, 8, 9, 10],
+    "leafColour": ["green"],
+    "autumnMonths": [10, 11],
+    "autumnColour": ["red"],
+    "evergreen": [],
+    "structure": ["dense"]
+  },
+  "stemAndBark": {
+    "barkColour": ["grey"],
+    "barkTexture": ["smooth"]
+  },
+  "fruit": {
+    "fruitingMonths": [9, 10, 11, 12, 1],
+    "fruitType": ["berries"],
+    "fruitColour": ["red"],
+    "fruitingSeason": ["late summer (9)", "autumn (10-11)", "winter (12-2)"],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": ["toxic to humans"],
+  "ecology": {
+    "habitat": ["woodland", "forest edge", "wetland", "riverbank"],
+    "nativeRange": ["native species"],
+    "successionalStage": ["intermediate species"],
+    "valueToAnimals": ["value to bees (BE)", "value to butterflies (BE)", "value to birds (BE)"]
+  },
+  "projects": []
+}

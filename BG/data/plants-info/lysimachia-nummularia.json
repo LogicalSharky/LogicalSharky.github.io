@@ -1,0 +1,63 @@
+{
+  "id": "lysimachia-nummularia",
+  "mainImage": "/images/plants/lysimachia-nummularia/_lysimachia-nummularia.jpeg",
+  "images": ["/images/plants/lysimachia-nummularia/_lysimachia-nummularia.jpeg"],
+  "hardinessZones": [4, 5, 6, 7, 8],
+  "use": {
+    "scientificName": "Lysimachia nummularia",
+    "commonName": "Creeping jenny",
+    "commonNameNl": "Penningkruid",
+    "family": "Primulaceae",
+    "type": ["ground cover"],
+    "application": ["pet safe"]
+  },
+  "siteConditions": {
+    "sunlight": ["full sun", "half shade", "shade"],
+    "soil": ["clay", "loam", "sandy loam"],
+    "moisture": ["wet", "moist"],
+    "ph": ["acidic", "neutral", "alkaline"],
+    "extremes": ["tolerates brief flooding", "tolerates foot traffic and play", "wadi"]
+  },
+  "size": {
+    "heightExclFlowers": 5,
+    "heightInclFlowers": 10,
+    "climbingHeight": null,
+    "width": 60
+  },
+  "flowers": {
+    "floweringMonths": [6, 7, 8],
+    "floweringColour": ["yellow"],
+    "floweringSeason": ["early summer (6)", "summer (7-8)"],
+    "shape": ["campanulate, calyx, trumpet, cup"],
+    "orientation": ["upright"],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "leafColour": ["green"],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": ["semi-evergreen"],
+    "structure": ["dense"]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": ["invasive roots (macho)"],
+  "ecology": {
+    "habitat": ["woodland", "forest edge", "wetland", "riverbank"],
+    "nativeRange": ["native species"],
+    "successionalStage": ["intermediate species"],
+    "valueToAnimals": ["value to bees (BE)"]
+  },
+  "projects": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "sesleria-autumnalis",
+  "mainImage": "/images/plants/sesleria-autumnalis/_sesleria-autumnalis-border2.jpg",
+  "images": [
+    "/images/plants/sesleria-autumnalis/_sesleria-autumnalis-border2.jpg",
+    "/images/plants/sesleria-autumnalis/sesleria-autumnalis-border.jpg",
+    "/images/plants/sesleria-autumnalis/sesleria-autumnalis-situ.jpg",
+    "/images/plants/sesleria-autumnalis/sesleria-autumnalis.jpg"
+  ],
+  "hardinessZones": [5, 6, 7, 8],
+  "use": {
+    "scientificName": "Sesleria autumnalis",
+    "commonName": "Autumn moor grass",
+    "commonNameNl": "Herfstblauwgras",
+    "family": "Poaceae",
+    "type": ["ornamental grass"],
+    "application": ["pet safe"]
+  },
+  "siteConditions": {
+    "sunlight": ["full sun", "half shade"],
+    "soil": ["loam", "sandy loam"],
+    "moisture": ["moist", "dry"],
+    "ph": ["neutral", "alkaline"],
+    "extremes": ["climate adaptive"]
+  },
+  "size": {
+    "heightExclFlowers": 40,
+    "heightInclFlowers": 50,
+    "climbingHeight": null,
+    "width": 40
+  },
+  "flowers": {
+    "floweringMonths": [9, 10],
+    "floweringColour": ["green"],
+    "floweringSeason": ["late summer (9)", "autumn (10-11)"],
+    "shape": ["whorl, corymb, spike, raceme, panicle"],
+    "orientation": ["upright"],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "leafColour": ["green", "yellow"],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": ["semi-evergreen"],
+    "structure": ["dense"]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": ["grassland", "rocky slopes"],
+    "nativeRange": [],
+    "successionalStage": [],
+    "valueToAnimals": []
+  },
+  "projects": []
+}

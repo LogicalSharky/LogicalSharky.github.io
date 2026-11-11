@@ -1,0 +1,67 @@
+{
+  "id": "gaura-lindheimeri-'whirling-butterflies'",
+  "mainImage": "/images/plants/gaura-lindheimeri-'whirling-butterflies'/_gaura-lindheimeri-'whirling-butterflies'-bloemen.webp",
+  "images": [
+    "/images/plants/gaura-lindheimeri-'whirling-butterflies'/_gaura-lindheimeri-'whirling-butterflies'-bloemen.webp",
+    "/images/plants/gaura-lindheimeri-'whirling-butterflies'/gaura-lindheimeri-'whirling-butterflies'-plantenborder.jpg",
+    "/images/plants/gaura-lindheimeri-'whirling-butterflies'/gaura-lindheimeri-'whirling-butterflies'.jpg"
+  ],
+  "hardinessZones": [6, 7, 8, 9],
+  "use": {
+    "scientificName": "Gaura lindheimeri 'Whirling butterflies'",
+    "commonName": "Whirling butterflies (white gaura)",
+    "commonNameNl": "Prachtkaars",
+    "family": "Onagraceae",
+    "type": ["herbaceous perennial"],
+    "application": ["pet safe"]
+  },
+  "siteConditions": {
+    "sunlight": ["full sun"],
+    "soil": ["loam", "sandy loam", "sand"],
+    "moisture": ["dry"],
+    "ph": ["neutral"],
+    "extremes": ["climate adaptive"]
+  },
+  "size": {
+    "heightExclFlowers": 90,
+    "heightInclFlowers": 100,
+    "climbingHeight": null,
+    "width": 60
+  },
+  "flowers": {
+    "floweringMonths": [6, 7, 8, 9, 10],
+    "floweringColour": ["white", "pink"],
+    "floweringSeason": ["early summer (6)", "summer (7-8)", "late summer (9)", "autumn (10-11)"],
+    "shape": ["whorl, corymb, spike, raceme, panicle", "zygomorphic"],
+    "orientation": ["upright"],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [4, 5, 6, 7, 8, 9, 10],
+    "leafColour": ["green"],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "structure": ["open"]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": ["grassland"],
+    "nativeRange": [],
+    "successionalStage": [],
+    "valueToAnimals": ["value to bees (BE)", "value to butterflies (BE)"]
+  },
+  "projects": []
+}

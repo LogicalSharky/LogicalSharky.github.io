@@ -1,0 +1,67 @@
+{
+  "id": "galanthus-nivalis",
+  "mainImage": "/images/plants/galanthus-nivalis/_galanthus-nivalis.jpg",
+  "images": [
+    "/images/plants/galanthus-nivalis/_galanthus-nivalis.jpg",
+    "/images/plants/galanthus-nivalis/galanthus-nivalis-situ.jpg",
+    "/images/plants/galanthus-nivalis/galanthus-nivalis-situ2.webp"
+  ],
+  "hardinessZones": [3, 4, 5, 6, 7, 8],
+  "use": {
+    "scientificName": "Galanthus nivalis",
+    "commonName": "Snowdrop",
+    "commonNameNl": "Sneeuwklokje",
+    "family": "Amaryllidaceae",
+    "type": ["bulb"],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": ["half shade", "shade"],
+    "soil": ["clay", "loam", "sandy loam"],
+    "moisture": ["moist"],
+    "ph": ["neutral", "alkaline"],
+    "extremes": []
+  },
+  "size": {
+    "heightExclFlowers": 15,
+    "heightInclFlowers": 15,
+    "climbingHeight": null,
+    "width": 10
+  },
+  "flowers": {
+    "floweringMonths": [1, 2, 3],
+    "floweringColour": ["white"],
+    "floweringSeason": ["winter (12-2)", "early spring (3)"],
+    "shape": ["campanulate, calyx, trumpet, cup"],
+    "orientation": ["pendant"],
+    "other": ["fragrant flowers"]
+  },
+  "leaves": {
+    "leafMonths": [1, 2, 3, 4, 5],
+    "leafColour": ["green", "grey"],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": [],
+    "structure": ["open"]
+  },
+  "stemAndBark": {
+    "barkColour": [],
+    "barkTexture": []
+  },
+  "fruit": {
+    "fruitingMonths": [],
+    "fruitType": [],
+    "fruitColour": [],
+    "fruitingSeason": [],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": ["toxic to humans"],
+  "ecology": {
+    "habitat": ["woodland", "forest edge", "riverbank"],
+    "nativeRange": ["naturalized"],
+    "successionalStage": [],
+    "valueToAnimals": ["value to bees (BE)"]
+  },
+  "projects": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "pinus-sylvestris",
+  "mainImage": "/images/plants/pinus-sylvestris/_pinus-sylvestris.jpg",
+  "images": [
+    "/images/plants/pinus-sylvestris/_pinus-sylvestris.jpg",
+    "/images/plants/pinus-sylvestris/pinus-sylvestris-blad-en-vrucht.jpg",
+    "/images/plants/pinus-sylvestris/pinus-sylvestris-situ.JPG",
+    "/images/plants/pinus-sylvestris/pinus-sylvestris-situ2.jpg"
+  ],
+  "hardinessZones": [3, 4, 5, 6, 7, 8],
+  "use": {
+    "scientificName": "Pinus sylvestris",
+    "commonName": "Scots pine",
+    "commonNameNl": "Grove den",
+    "family": "Pinaceae",
+    "type": ["conifer"],
+    "application": []
+  },
+  "siteConditions": {
+    "sunlight": ["full sun"],
+    "soil": ["loam", "sandy loam", "sand"],
+    "moisture": ["moist", "dry"],
+    "ph": ["acidic", "neutral"],
+    "extremes": ["coastal area", "tolerates wind exposure", "climate adaptive"]
+  },
+  "size": {
+    "heightExclFlowers": 2500,
+    "heightInclFlowers": 2500,
+    "climbingHeight": null,
+    "width": 800
+  },
+  "flowers": {
+    "floweringMonths": [],
+    "floweringColour": [],
+    "floweringSeason": [],
+    "shape": [],
+    "orientation": [],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "leafColour": ["green", "grey"],
+    "autumnMonths": [],
+    "autumnColour": [],
+    "evergreen": ["evergreen"],
+    "structure": ["open"]
+  },
+  "stemAndBark": {
+    "barkColour": ["grey", "brown", "orange"],
+    "barkTexture": ["peeling", "fissured", "plated"]
+  },
+  "fruit": {
+    "fruitingMonths": [10, 11, 12, 1, 2, 3],
+    "fruitType": ["cones"],
+    "fruitColour": ["green", "brown"],
+    "fruitingSeason": ["autumn (10-11)", "winter (12-2)", "early spring (3)"],
+    "edible": [],
+    "ediblePartsRaw": []
+  },
+  "warnings": ["allergenic"],
+  "ecology": {
+    "habitat": ["woodland", "forest edge", "dune habitat"],
+    "nativeRange": ["native species"],
+    "successionalStage": ["pioneer species"],
+    "valueToAnimals": ["value to birds (BE)"]
+  },
+  "projects": []
+}

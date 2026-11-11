@@ -1,0 +1,67 @@
+{
+  "id": "amelanchier-lamarckii",
+  "mainImage": "/images/plants/amelanchier-lamarckii/_amelanchier-lamarckii-herfst.jpg",
+  "images": [
+    "/images/plants/amelanchier-lamarckii/_amelanchier-lamarckii-herfst.jpg",
+    "/images/plants/amelanchier-lamarckii/amelanchier-lamarckii-bloei.jpg",
+    "/images/plants/amelanchier-lamarckii/amelanchier-lamarckii-bloemen.jpg"
+  ],
+  "hardinessZones": [4, 5, 6, 7, 8],
+  "use": {
+    "scientificName": "Amelanchier lamarckii",
+    "commonName": "Juneberry (snowy mespilus)",
+    "commonNameNl": "Krentenboompje",
+    "family": "Rosaceae",
+    "type": ["shrub"],
+    "application": ["hedge plant", "pet safe"]
+  },
+  "siteConditions": {
+    "sunlight": ["full sun", "half shade"],
+    "soil": ["loam", "sandy loam", "sand"],
+    "moisture": ["moist", "dry"],
+    "ph": ["acidic", "neutral"],
+    "extremes": ["street/paving", "climate adaptive"]
+  },
+  "size": {
+    "heightExclFlowers": 600,
+    "heightInclFlowers": 600,
+    "climbingHeight": null,
+    "width": 400
+  },
+  "flowers": {
+    "floweringMonths": [4, 5],
+    "floweringColour": ["white"],
+    "floweringSeason": ["spring (4-5)"],
+    "shape": ["whorl, corymb, spike, raceme, panicle"],
+    "orientation": ["pendant"],
+    "other": []
+  },
+  "leaves": {
+    "leafMonths": [4, 5, 6, 7, 8, 9, 10],
+    "leafColour": ["green"],
+    "autumnMonths": [10, 11],
+    "autumnColour": ["orange", "red"],
+    "evergreen": [],
+    "structure": ["open"]
+  },
+  "stemAndBark": {
+    "barkColour": ["grey"],
+    "barkTexture": ["smooth"]
+  },
+  "fruit": {
+    "fruitingMonths": [6, 7],
+    "fruitType": ["berries"],
+    "fruitColour": ["red", "purple", "black"],
+    "fruitingSeason": ["early summer (6)", "summer (7-8)"],
+    "edible": ["edible raw"],
+    "ediblePartsRaw": ["edible fruit"]
+  },
+  "warnings": [],
+  "ecology": {
+    "habitat": ["woodland", "forest edge", "shrubland"],
+    "nativeRange": ["naturalized"],
+    "successionalStage": ["intermediate species"],
+    "valueToAnimals": ["value to bees (BE)", "value to birds (BE)"]
+  },
+  "projects": []
+}
